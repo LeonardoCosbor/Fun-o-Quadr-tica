@@ -1,0 +1,305 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+
+<!--********************************************************************
+Copyright 2015 Robert A. Beezer
+
+This file is part of MathBook XML.
+
+MathBook XML is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 2 or version 3 of the
+License (at your option).
+
+MathBook XML is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
+*********************************************************************-->
+
+<!-- To process this file do                                                                      -->
+<!--                                                                                              -->
+<!-- (1) LaTeX/PDF:                                                                               -->
+<!--     xsltproc -o minimal.tex mathbook/xsl/mathbook-latex.xsl minimal.xml                      -->
+<!--     pdflatex minimal.tex                                                                     -->
+<!--     xelatex minimal.tex                                                                      -->
+<!--                                                                                              -->
+<!-- (2) HTML:                                                                                    -->
+<!--xsltproc ../xsl/pretext-html.xsl minimal.xml-->
+<!--     <browser>  minimal.html                                                                  -->
+<!--                                                                                              -->
+<!-- (3) CoCalc worksheet (parameter causes a single file for output)                             -->
+<!--     REMOVE the "X" in the double dash (which is not legal in an XML comment)                 -->
+<!--     xsltproc -X-stringparam chunk.level 0 mathbook/xsl/mathbook-smc.xsl minimal.xml          -->
+<!--     <CoCalc> minimal.sagews                                                                  -->
+<!--                                                                                              -->
+<!-- (4) Sage doctesting                                                                          -->
+<!--     REMOVE the "X" in the double dash (which is not legal in an XML comment)                 -->
+<!--     xsltproc -X-stringparam chunk.level 0 mathbook/xsl/mathbook-sage-doctest.xsl minimal.xml -->
+<!--     <read further instructions in> minimal.py                                                -->
+
+<pretext>
+
+    <docinfo>
+        <latex-image-preamble>
+            \usepackage{tikz}
+        </latex-image-preamble>
+        <macros>
+            \newcommand{\doubler}[1]{2#1}
+        </macros>
+    </docinfo>
+
+    <article xml:id="minimal">
+        <title>Função Quadrática</title>
+
+        <frontmatter>
+
+            <titlepage>
+                <author>
+                    <personname>Leonardo Costa de Borba</personname>
+                    <institution>Universidade Technológica Federal do Paraná</institution>
+                </author>
+                <date><today/></date>
+            </titlepage>
+
+            <abstract>
+                <p>Notas de aula de um curso de função quadrática. Trabalho em progresso...</p>
+                <p>Todos os direitos reservados. All rights reserved.</p>
+            </abstract>
+
+        </frontmatter>
+            <section>
+                    <title>Situações realísticas</title>
+                <subsection>
+                    <title>Comportamento de uma Função Quadrática</title>
+                <p>
+                Para estudarmos um novo tipo de padrão de função, vamos considerar
+                um experimento físico chamado queda livre, um movimento vertical que 
+                consiste na queda dos corpos sem o efeito da força de atrito.
+                </p>
+                <p>
+                Observe a imagem:
+                </p>
+                
+                    <figure>
+                    <caption> Queda livre de uma bola de tênis</caption>
+                    <image source="queda.png">
+                    </figure>
+                
+                <p>
+                Observamos que na imagem acima observada, a cada
+                segundo que passa a bola de tênis percorre uma distância
+                maior em direção ao solo. Podemos observar através de uma 
+                tabela, que estes valores não seguem uma linearidade.
+                </p>
+                
+                <table>
+                    <title>Queda Livre</title>
+                    <tabular halign="center">
+                    <row header="yes" bottom="minor">
+                    <cell>Tempo<m>(s)</m></cell>
+                    <cell>Distância<m>(m)</m></cell>
+                    </row>
+                    <row>
+                        <cell>1</cell>
+                        <cell>1</cell>
+                    </row>
+                    <row>
+                        <cell>2</cell>
+                        <cell>4</cell>
+                    </row>
+                    <row>
+                        <cell>3</cell>
+                        <cell>9</cell>
+                    </row>
+                    </tabular>
+                </table>               
+                
+                <p> 
+                Se conseguíssemos continuar observando a queda da bola
+                no decorrer do tempo, poderiámos continuar a escrever a 
+                tabela colocando novas linhas. Vamos fazer isto?
+                </p>
+                
+                <table>
+                    <title>Queda Livre</title>
+                    <tabular halign="center">
+                    <row header="yes" bottom="minor">
+                    <cell>Tempo<m>(s)</m></cell>
+                    <cell>Distância<m>(m)</m></cell>
+                    </row>
+                    <row>
+                        <cell>1</cell>
+                        <cell>1</cell>
+                    </row>
+                    <row>
+                        <cell>2</cell>
+                        <cell>4</cell>
+                    </row>
+                    <row>
+                        <cell>3</cell>
+                        <cell>9</cell>
+                    </row>
+                    <row>
+                        <cell>4</cell>
+                        <cell>16</cell>
+                    </row>
+                    <row>
+                        <cell>5</cell>
+                        <cell>25</cell>
+                    </row>
+                    <row>
+                        <cell>6</cell>
+                        <cell>36</cell>
+                    </row>
+                    <row>
+                        <cell>...</cell>
+                        <cell>...</cell>
+                    </row>
+                    </tabular>
+                </table> 
+                
+                <p>
+                Observe que enquanto o tempo aumenta linearmente, ou seja, de um 
+                em um segundo, a distância aumenta de forma diferente.
+                </p>
+
+                </subsection>
+               
+                <subsection>
+                    <title>Análise e conjectura</title>
+                <p>
+                Analisando a situação mostrada no subcapítulo anterior da
+                queda livre, vamos obsevar que a tabela pode ser aumentada
+                em uma coluna usando potênciação. Veja:
+                </p>
+                
+                <table>
+                    <title>Queda Livre</title>
+                    <tabular halign="center">
+                    <row header="yes" bottom="minor" >
+                    <cell>Tempo<m>(s)</m></cell>
+                    <cell>Distância<m>(m)</m></cell>
+                    <cell>Distância</cell>
+                    </row>
+                    <row>
+                        <cell>1</cell>
+                        <cell>1</cell>
+                        <cell>1²</cell>
+                    </row>
+                    <row>
+                        <cell>2</cell>
+                        <cell>4</cell>
+                        <cell>2²</cell>
+                    </row>
+                    <row>
+                        <cell>3</cell>
+                        <cell>9</cell>
+                        <cell>3²</cell>
+                    </row>
+                    <row>
+                        <cell>4</cell>
+                        <cell>16</cell>
+                        <cell>4²</cell>
+                    </row>
+                    <row>
+                        <cell>5</cell>
+                        <cell>25</cell>
+                        <cell>5²</cell>
+                    </row>
+                    <row>
+                        <cell>6</cell>
+                        <cell>36</cell>
+                        <cell>6²</cell>
+                    </row>
+                    <row>
+                        <cell>...</cell>
+                        <cell>...</cell>
+                        <cell>...</cell>
+                    </row>
+                    </tabular>
+                </table>
+                
+                <p>
+                Conseguiu perceber a relação existente entre tempo e distãncia?
+
+                Caso não tenha conseguido perceber, a distância percorrida pela
+                bola é igual ao quadrado do tempo (ou tempo elevado ao quadrado).
+                </p>
+                <p>
+                Outro exemplo que podemos citar tem a ver com formas geometricas. 
+                Observe a ilustração.
+                </p>
+                
+                <figure>
+                <caption>Sequência Especial</caption>
+                <image source="padrao.png"/>
+                </figure>
+                
+                <p>
+                Podemos notar que existe uma relação com a base e a altura 
+                das figuras. O primeiro desenho tem 2 quadrados, enquanto o 
+                segundo desenho tem 6 quadrados, o terceiro tem 12 quadrados.
+                Vamos construir uma tabela para enxergar melhor a situação e 
+                tentar perceber o que está acontecento.
+                </p>
+                
+                <table>
+                    <title>Sequência especial</title>
+                    <tabular halign="center">
+                    <row header="yes" bottom="minor" >
+                    <cell>Figura</cell>
+                    <cell>Quadrados</cell>
+                    </row>
+                    <row>
+                        <cell>1</cell>
+                        <cell>1</cell>
+                    </row>
+                    <row>
+                        <cell>2</cell>
+                        <cell>6</cell>
+                    </row>
+                    <row>
+                        <cell>3</cell>
+                        <cell>12</cell>
+                    </row>
+                    </tabular>
+                </table>
+                
+                <p>
+                <alert>Que tal escrever novas linhas nessa tabela?</alert>
+                </p>
+
+            </subsection>
+
+            <subsection>
+                <title>Conjectura na geometria</title>
+            </subsection>
+
+            <subsection>
+                <title>Calculando áreas em diversos cenários</title>
+            </subsection>
+
+            <subsection>
+                <title>Reconhecendo funções quadráticas</title>
+            </subsection>
+
+            <subsection>
+                <title>Situações lineares e não lineares do mundo real</title>
+            </subsection>
+
+            <subsection>
+                <title>Investigar e elaborar</title>
+            </subsection>
+
+            <subsection>
+                <title>Exercícios</title>
+            </subsection>
+
+        </section>
+
+    </article>
+</pretext>
+
