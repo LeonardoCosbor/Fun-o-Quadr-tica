@@ -4002,7 +4002,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                 Escrevendo o produto notável quadrado da soma, temos:
                     <me>f(x)=a\cdot\left[\left(x+\dfrac{b}{2a}\right)^2+\dfrac{c}{a}-\dfrac{b^2}{4a^2}\right]</me>
                 Operando os dois últimos termos, temos:
-                    <me></me>
+                    <me>f(x)</me>
                 </p>
 
             </subsection>
