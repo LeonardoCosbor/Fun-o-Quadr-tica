@@ -4021,7 +4021,10 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                             <ol marker="a">
                                 <li><m>f(x)=x^2-4x+3</m></li>
                                     <solution>
-                                        
+                                        <p>Como <m>a=1</m>, <m>b=-4</m> e <m>c=3</m>, então</p>
+                                        <p><m>m=-\dfrac{b}{2a}=-dfrac{-4}{2\cdot1}=2</m> e </p>
+                                        <p><m>k=-\dfrac{\Delta}{4a}=-\dfrac{(-4)^2-4\cdot1\cdot3}{4\cdot1}=-1</m></p>
+                                        <p>Portanto, <m>f(x)=(x-2)^2-1</m>.</p>
                                     </solution>
                             </ol>
                     </ol>
