@@ -3986,6 +3986,26 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
 
             <subsection>
                 <title>Escrevendo a Função Quadrática na Forma Canônica</title>
+
+                <p>A função quadrática pode ser escrita de duas formas: a forma padrão, 
+                <m>f(x)=ax^2+bx+c</m> e a a forma canônica <m>f(x)=a(x-m)^2+k</m>.
+                </p>
+
+                <p>Contudo, podemos fazer algumas manipulações algébricas na forma padrão
+                e escrevê-la de outra maneira. Veja quando colocamos o coeficiente <m>a</m>
+                em evidência:
+                    <me>f(x)=ax^2+bx+c \Rightarrow</me>
+                    <me>f(x)=a\cdot\left[x^2+\dfrac{b}{a}x+\dfrac{c}{a}\right]</me>
+                Completando quadrados teremos:
+                    <me>f(x)=a\cdot\left[\left(x^2+\dfrac{b}{a}x+\dfrac{b^2}{4a^2}-\dfrac{b^2}{4a^2}+\dfrac{c}{a}\right)\right]</me>
+                Reorganizando os termos, temos:
+                    <me>f(x)=a\cdot\left[\left(x^2+\dfrac{b}{a}x+\dfrac{b^2}{4a^2}\right)+\dfrac{c}{a}-\dfrac{b^2}{4a^2}\right]</me>
+                Escrevendo o produto notável quadrado da soma, temos:
+                    <me>f(x)=a\cdot\left[\left(x+\dfrac{b}{2a}\right)^2+\dfrac{c}{a}-\dfrac{b^2}{4a^2}\right]</me>
+                Operando os dois últimos termos, temos:
+                    <me></me>
+                </p>
+
             </subsection>
 
             <subsection>
