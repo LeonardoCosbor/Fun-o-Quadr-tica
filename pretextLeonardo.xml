@@ -3994,7 +3994,6 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                 <p>Contudo, podemos fazer algumas manipulações algébricas na forma padrão
                 e escrevê-la de outra maneira. Veja quando colocamos o coeficiente <m>a</m>
                 em evidência:
-                    <me>f(x)=ax^2+bx+c \Rightarrow</me>
                     <me>f(x)=a\cdot\left[x^2+\dfrac{b}{a}x+\dfrac{c}{a}\right]</me>
                 Completando quadrados teremos:
                     <me>f(x)=a\cdot\left[\left(x^2+\dfrac{b}{a}x+\dfrac{b^2}{4a^2}-\dfrac{b^2}{4a^2}+\dfrac{c}{a}\right)\right]</me>
