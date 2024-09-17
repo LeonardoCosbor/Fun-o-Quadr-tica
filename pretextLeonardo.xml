@@ -4009,10 +4009,23 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
 
                 <p>Comparando as funções escritas acima <m>f(x)=a(x-m)^2+k</m> e <m>f(x)=a\cdot\left(x+\dfrac{b}{2a}\right)^2+\dfrac{4ac-b^2}{4a}</m>
                 temos que <m>m=-\dfrac{b}{2a}</m> e <m>k=-\dfrac{\Delta}{4a}</m>.</p>
+
+                <p>Estes valores de <m>m</m> e <m>k</m> nos ajudam a escrever funções quadráticas sem precisar completar quadrados 
+                todas as vezes. Assim, torna mais simples o processo de resolução de exercícios de funções.</p>
                 
                 <p><alert>Veja alguns exemplos:</alert></p>
 
-                <p></p>
+                <example>
+                    <ol>
+                        <li>Escreva as funções na forma canônica:</li>
+                            <ol marker="a">
+                                <li><m>f(x)=x^2-4x+3</m></li>
+                                    <solution>
+                                        
+                                    </solution>
+                            </ol>
+                    </ol>
+                </example>
             </subsection>
 
             <subsection>
