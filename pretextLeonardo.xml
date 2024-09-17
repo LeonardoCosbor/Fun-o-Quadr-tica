@@ -4001,10 +4001,18 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                     <me>f(x)=a\cdot\left[\left(x^2+\dfrac{b}{a}x+\dfrac{b^2}{4a^2}\right)+\dfrac{c}{a}-\dfrac{b^2}{4a^2}\right]</me>
                 Escrevendo o produto notável quadrado da soma, temos:
                     <me>f(x)=a\cdot\left[\left(x+\dfrac{b}{2a}\right)^2+\dfrac{c}{a}-\dfrac{b^2}{4a^2}\right]</me>
-                Operando os dois últimos termos, temos:
-                    <me>f(x)=</me>
+                Operacionando os dois últimos termos, temos:
+                    <me>f(x)=a\cdot\left[\left(x+\dfrac{b}{2a}\right)^2+\dfrac{4ac-b^2}{4a^2}\right]</me>
+                Simplificando o coeficiente de fora dos colchetes como o segundo termo dos colchetes, temos:
+                    <me>f(x)=a\cdot\left(x+\dfrac{b}{2a}\right)^2+\dfrac{4ac-b^2}{4a}</me>, temos a forma canônica da função quadrática.
                 </p>
 
+                <p>Comparando as funções escritas acima <m>f(x)=a(x-m)^2+k</m> e <m>f(x)=a\cdot\left(x+\dfrac{b}{2a}\right)^2+\dfrac{4ac-b^2}{4a}</m>
+                temos que <m>m=-\dfrac{b}{2a}</m> e <m>k=-\dfrac{\Delta}{4a}</m>.</p>
+                
+                <p><alert>Veja alguns exemplos:</alert></p>
+
+                <p></p>
             </subsection>
 
             <subsection>
