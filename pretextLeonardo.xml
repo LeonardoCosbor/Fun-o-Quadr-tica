@@ -4065,6 +4065,67 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
             </subsection>
 
             <subsection>
+                <title>Escrevendo a Função Quadrática na Forma Padrão</title>
+
+                <p>Na subseção anterior, passamos uma função quadrática da forma padrão para a 
+                forma canônica. Agora, veremos como fazer o inverso.
+                </p>
+                <p>Seja f uma função quadrática na forma <m>fx)=a(x-m)^2+k</m>, com <m>a</m>,<m>m</m>,
+                <m>k</m> <m>\in\mathbb{R}</m>, substituiremos os valores de <m>m</m> e <m>k</m>. Logo,</p>
+
+                <me>f(x)=a\left(x+\dfrac{b}{2a}\right)^2+\left(\dfrac{-\Delta}{4a}\right)</me>
+
+                <p>Substituindo o valor de <m>\Delta</m> e operacionando o produto notável 
+                quadrado da diferença, temos:</p>
+
+                <me>f(x)=a\left[x^2+2\cdot x \cdot \dfrac{b}{2a}+\left(\dfrac{b}{2a}\right)^2\right]+\left(\dfrac{4ac-b^2}{4a}\right)</me>
+
+                <p>Simplificando o segundo termo do colchete e elevando ao quadrado o terceiro temos:</p>
+                <me>f(x)=a\left[x^2+x \cdot \dfrac{b}{a}+\dfrac{b^2}{4a^2}\right]+\left(\dfrac{4ac-b^2}{4a}\right)</me>
+
+                <p>Distribuindo <m>a</m> nos termos do colchete, temos:</p>
+                <me>f(x)=ax^2+bx+\dfrac{b^2}{4a}+\dfrac{4ac-b^2}{4a}</me>
+
+                <p>Operacionado os dois últimos termos, temos a função quadrática na forma padrão:</p>
+                <me>f(x)=ax^2+bx+c</me>
+
+                <p><alert>Veja alguns exemplos:</alert></p>
+
+                <p>
+                    <ol>
+                        <li><p>Escreva as funções a seguir na forma padrão:</p>
+                            <ol marker="a">        
+                                <li><m>f(x)=(x-2)^2-1</m>
+                                        <solution>
+                                            <p><m>f(x)=x^2 -2\cdot x \cdot2 + 2^2 - 1 = x^2-4x+3</m></p>
+                                            <p>Portanto, <m>f(x)=x^2-4x+3</m>.</p>
+                                        </solution>
+                                </li>
+
+                                <li>
+                                    <m>f(x)=-\left(x-\dfrac{5}{2}\right)^2+\dfrac{1}{4}</m>
+                                        <solution>
+                                            <p><m>f(x)=-x^2+2\cdot x\cdot \dfrac{5}{2}+\left(\dfrac{5}{2}\right)^2=-x^2+5x-6</m></p>
+                                            <p>Portanto, <m>f(x)=-x^2+5x-6</m> .</p>
+                                        </solution>
+                                </li>
+
+                                <li>
+                                    <m>f(x)=\dfrac{1}{2}(x-4)^2-8</m>
+                                        <solution>
+                                            <p><m>f(x)=\dfrac{1}{4}(x²-2\cdotx\cdot4+4^2-8)=\dfrac{x^2}{4}-2x-4</m></p>
+                                            <p>Portanto, <m>f(x)=\dfrac{x^2}{2}-4x</m>.</p>
+                                        </solution>
+                                </li>
+                            </ol>
+                        </li>
+                    </ol>
+                </p>
+                
+
+            </subsection>
+
+            <subsection>
                 <title>Parábola</title>
                 <p>A parábola é uma curva desenhada pelo gráfico da função quadrática, indenpendente em qual
                 forma, padrão ou canônica, ela está escrito. Como já sabemos escrever uma função na forma canônica,
