@@ -4049,12 +4049,12 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                 </li>
 
                                 <li>
-                                    <m>f(x)=5x^2-25</m>
+                                    <m>f(x)=\dfrac{x^2}{2}-4x</m>
                                         <solution>
-                                            Como <m>a=5</m>, <m>b=0</m> e <m>c=-25</m>, então
-                                            <p><m>m=-\dfrac{b}{2a}=-\dfrac{0}{2\cdot(5)}=0</m> e</p>
-                                            <p><m>k=-\dfrac{\Delta}{4a}=-\dfrac{(0)^2-4\cdot(5)\cdot(-25)}{4\cdot(5)}=25</m></p>
-                                            <p>Portanto, <m>f(x)=5(x-0)^2+25</m>.</p>
+                                            Como <m>a=\dfrac{1}{2}</m>, <m>b=-4</m> e <m>c=0</m>, então
+                                            <p><m>m=-\dfrac{b}{2a}=-\dfrac{-4}{2\cdot\dfrac{1}{2}}=4</m> e</p>
+                                            <p><m>k=-\dfrac{\Delta}{4a}=-\dfrac{(-4)^2-4\cdot\left(\dfrac{1}{2}\right)\cdot0}{4\cdot\dfrac{1}{2}}=-8</m></p>
+                                            <p>Portanto, <m>f(x)=\dfrac{1}{2}(x-4)^2-8</m>.</p>
                                         </solution>
                                 </li>
                             </ol>
@@ -4065,7 +4065,16 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
             </subsection>
 
             <subsection>
-                <title>Vértice da Função Quadrática</title>
+                <title>Parábola</title>
+                <p>A parábola é uma curva desenhada pelo gráfico da função quadrática, indenpendente em qual
+                forma, padrão ou canônica, ela está escrito. Como já sabemos escrever uma função na forma canônica,
+                observaremos se estes dados são de fácil percepção quando usamos um software gráfico para
+                desenhar as parábolas.
+                </p>
+
+                <p>Veja no gráfico a seguir a função quadrática <m>f(x)=(x-2)^2+3</m>:</p>
+
+                <interactive desmos="jeytyh3ra5"/>
             </subsection>
 
             <subsection>
