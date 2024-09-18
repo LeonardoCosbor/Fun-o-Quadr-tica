@@ -4075,6 +4075,33 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                 <p>Veja no gráfico a seguir a função quadrática <m>f(x)=(x-2)^2+3</m>:</p>
 
                 <interactive desmos="jeytyh3ra5"/>
+
+                <p>Na função <m>f(x)=(x-2)^2+3</m> temos os valores de <m>m=2</m> e <m>k=3</m>. Note que 
+                    o vértice da parábola possui os mesmos valores. Ou seja, as coordenadas do ponto mais
+                    baixo da parábola, ponto de mínimo, são V=(2,3). Logo, sejam <m>x_v</m> e <m>y_v</m>
+                    a coordenadas do vértice da parábola, vemos que <m>m=x_v=2</m> e <m>k=y_v=3</m>.
+                </p>
+
+                <p>Outros exemplos</p>
+                
+                <example>
+                    <figure>
+                        <image width="100%" source="Exemplo1.png"/>
+                    </figure>
+                </example>
+
+                <example>
+                    <figure>
+                        <image width="100%" source="Exemplo5.png"/>
+                    </figure>
+                </example>
+
+                <example>
+                    <figure>
+                        <image width="100%" source="Exemplo6.png"/>
+                    </figure>
+                </example>
+               
             </subsection>
 
             <subsection>
