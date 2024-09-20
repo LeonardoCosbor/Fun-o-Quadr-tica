@@ -4215,9 +4215,35 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
 
                 <ol>
                     <li>
+                        <p>Identifique qual gráfico a seguir representa uma função quadrática.</p>
+                        <ol marker="a">
+                            <li>
+                                <image width="50%" source="can01.png"/>
+                            </li>
 
+                            <li>
+                                <image width="50%" source="can02.png"/>
+                            </li>
+
+                            <li>
+                                <image width="50%" source="can03.png"/>
+                            </li>
+
+                            <li>
+                                <image width="50%" source="can04.png"/>
+                            </li>
+
+                            <li>
+                                <image width="50%" source="can05.png"/>
+                            </li>
+
+                                <solution>
+                                    <p>Alternativa d</p>
+                                </solution>
+                        </ol>
                     </li>
                 </ol>
+                
                 <ol>
                 <li>
                             <p>Em alguns casos as curvas que passam pelos pontos determinados pela fórmula
