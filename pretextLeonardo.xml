@@ -4106,7 +4106,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                     <m>f(x)=-\left(x-\dfrac{5}{2}\right)^2+\dfrac{1}{4}</m>
                                         <solution>
                                             <p><m>f(x)=-x^2+2\cdot x\cdot \dfrac{5}{2}-\left(\dfrac{5}{2}\right)^2=-x^2+5x-6</m></p>
-                                            <p>Portanto, <m>f(x)=-x^2+5x-6</m> .</p>
+                                            <p>Portanto, <m>f(x)=-x^2+5x-6</m>.</p>
                                         </solution>
                                 </li>
 
