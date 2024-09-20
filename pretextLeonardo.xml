@@ -4105,7 +4105,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                 <li>
                                     <m>f(x)=-\left(x-\dfrac{5}{2}\right)^2+\dfrac{1}{4}</m>
                                         <solution>
-                                            <p><m>f(x)=-x^2+2\cdot x\cdot \dfrac{5}{2}+\left(\dfrac{5}{2}\right)^2=-x^2+5x-6</m></p>
+                                            <p><m>f(x)=-x^2+2\cdot x\cdot \dfrac{5}{2}-\left(\dfrac{5}{2}\right)^2=-x^2+5x-6</m></p>
                                             <p>Portanto, <m>f(x)=-x^2+5x-6</m> .</p>
                                         </solution>
                                 </li>
@@ -4114,7 +4114,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                     <m>f(x)=\dfrac{1}{2}(x-4)^2-8</m>
                                         <solution>
                                             <p><m>f(x)=\dfrac{1}{4}(x²-2\cdotx\cdot4+4^2-8)=\dfrac{x^2}{4}-2x-4</m></p>
-                                            <p>Portanto, <m>f(x)=\dfrac{x^2}{2}-4x</m>.</p>
+                                            <p>Portanto, <m>f(x)=\dfrac{x^2}{                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    2}-4x</m>.</p>
                                         </solution>
                                 </li>
                             </ol>
@@ -4126,9 +4126,13 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
             </subsection>
 
             <subsection>
+                
+            </subsection>
+
+            <subsection>
                 <title>Parábola</title>
-                <p>A parábola é uma curva desenhada pelo gráfico da função quadrática, indenpendente em qual
-                forma, padrão ou canônica, ela está escrito. Como já sabemos escrever uma função na forma canônica,
+                <p>A parábola é uma curva desenhada pelo gráfico da função quadrática, indenpendente de qual
+                forma ela está escrita, seja a padrão ou a canônica. Como já sabemos escrever uma função na forma canônica,
                 observaremos se estes dados são de fácil percepção quando usamos um software gráfico para
                 desenhar as parábolas.
                 </p>
@@ -4162,11 +4166,17 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                         <image width="100%" source="Exemplo6.png"/>
                     </figure>
                 </example>
-               
+
             </subsection>
 
             <subsection>
-                <title>Gŕafico da Função Quadrática</title>
+                <title>Exercícios</title>
+
+                <ol>
+                    <li>
+
+                    </li>
+                </ol>
                 <ol>
                 <li>
                             <p>Em alguns casos as curvas que passam pelos pontos determinados pela fórmula
