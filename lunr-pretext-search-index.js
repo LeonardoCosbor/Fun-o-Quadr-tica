@@ -1105,7 +1105,7 @@ var ptx_lunr_docs = [
   "type": "Seção",
   "number": "2",
   "title": "Gráfico de Funções Quadráticas",
-  "body": " Gráfico de Funções Quadráticas   Função Quadrática do tipo   O gráfico de uma função quadrática é uma curva chamada Parábola , cuja concavidade é determinada pelo valor do coeficiente a, obtendo um eixo de simetria que passa pelo seu ponto mais alto ou mais baixo, chamado vértice da parábola.     Faremos algumas simulações com um software matemático para tal percepção.    Note que ao mexer no botão deslizante do aplicativo, cuja representação são valores do coeficiente a, notamos que:   Se o valor de a é positivo, ou seja, , então a concavidade fica virada para cima  Quanto maior o valor de a, mais fechada esta parábola fica. Quanto menor o valor e a, mais aberta ela será.  Se o valor de a é negativa, ou seja, , então a concavidade fica virada para baixo  Quanto menor o valor e a, mais fechada a parábola fica. Quanto maior o valor de a, mais aberta ela será.  Se a é nulo, ou seja a=0, temos uma função constante passando por zero.   Veja algumas imagens em que comparamos as funções, analisando o valor de a.   Quando a é positivo   Quando a é negativo      Função do tipo  A função quadrática é uma função que possui apenas um parâmetro multiplicando o termo e é responsável por mudar a abertura da concavidade da parábola. Vamos inserir mais um parâmetro somando o termo . Ou seja, analisaremos um gráfico interativo para a função .    Note que ao aumentar ou diminuir os valor do parâmetro no gráfico interativo, o ponto mais alto ou mais baixo da parábola (vértice da parábola) é deslocada verticalmente no seu eixo de simetria. Para temos que a parábola passa por valores positivos do eixo de simetria. Para temos que a parábola passa na origem do sistema cartesiano. E para temos que a parábola passa por valores negativos do eixo de simetria.  Observe as funções no gráfico a seguir e compara os sinais dos parâmetros e .   Portanto, a função do tipo é uma função quadrática cujos parâmetros reais e são responsáveis por alterar a concavidade da parábola e movê-la verticalmente em eixo de simetria, respectivamente.    Função Quadrática do tipo  Quando a função quadrática é do tipo um número real m é subtraído do termo x, ao se comparar à função . Vamos observar no gráfico interativo o que acontece com a parábola quando mudamos o valor de m.    Este parâmetro desloca o eixo de simetria da parábola horizontalmente, no sentido positivo ou negativo do eixo x. Ou seja, se , então a parábola está à direita do eixo y. Por outro lado, se , então a parábola estará à esquerda do eixo y. E se , então a parábola estará com seu eixo de simetria coincidindo com o eixo y. Veja uma imagem ilustrativa.   Note que possui a=1 e m=2,fazendo com que o eixo de simetria da parábola esteja coincidindo com a reta x=2.  Analogamente, em que também pode ser escrito como , possui o eixo de simetria da parábola coincidindo com a reta x=0.  E a função que também pode ser escrito como , possui o seu eixo de simetria coincidindo com a reta x=-2.  Portanto, o parâmetro m é reponsável por deslocar a parábola horizontalmente .    Função Quarática do tipo  Relembrando das funções quadráticas anteriores, os parâmetros a e m são responsáveis pelo sentido da concavidade da parábola e pelo seu deslocamento horizontal, respectivamente. Vamos inserir um terceiro parâmetro, um valor real k, responsável pelo deslocamento vertical da parábola. Teste estes valores no gráfico interativo a seguir.    Analisando três casos para o valor de k, ou seja, k=-2, k=0 e k=2, vamos observar graficamente o que acontece com a parábola no plano cartesiano.      Escrevendo a Função Quadrática na Forma Canônica  A função quadrática pode ser escrita de duas formas: a forma padrão, e a a forma canônica .  Contudo, podemos fazer algumas manipulações algébricas na forma padrão e escrevê-la de outra maneira. Veja quando colocamos o coeficiente em evidência: Completando quadrados teremos: Reorganizando os termos, temos: Escrevendo o produto notável quadrado da soma, temos: Operacionando os dois últimos termos, temos: Simplificando o coeficiente de fora dos colchetes como o segundo termo dos colchetes, temos: , temos a forma canônica da função quadrática.  Comparando as funções escritas acima e temos que e .  Estes valores de e nos ajudam a escrever funções quadráticas sem precisar completar quadrados todas as vezes. Assim, torna mais simples o processo de resolução de exercícios de funções.  Veja alguns exemplos:    Escreva as funções a seguir na forma canônica:    Como , e , então e   Portanto, .      Como , e , então e   Portanto, .      Como , e , então e   Portanto, .      Como , e , então e   Portanto, .          Escrevendo a Função Quadrática na Forma Padrão  Na subseção anterior, passamos uma função quadrática da forma padrão para a forma canônica. Agora, veremos como fazer o inverso.  Seja f uma função quadrática na forma , com , ,  , substituiremos os valores de e . Logo,   Substituindo o valor de e operacionando o produto notável quadrado da diferença, temos:   Simplificando o segundo termo do colchete e elevando ao quadrado o terceiro temos:   Distribuindo nos termos do colchete, temos:   Operacionado os dois últimos termos, temos a função quadrática na forma padrão:   Veja alguns exemplos:    Escreva as funções a seguir na forma padrão:      Portanto, .        Portanto, .        Portanto, .          Parábola  A parábola é uma curva desenhada pelo gráfico da função quadrática, indenpendente de qual forma ela está escrita, seja a padrão ou a canônica. Como já sabemos escrever uma função na forma canônica, observaremos se estes dados são de fácil percepção quando usamos um software gráfico para desenhar as parábolas.  Veja no gráfico a seguir a função quadrática :   Na função temos os valores de e . Note que o vértice da parábola possui os mesmos valores. Ou seja, as coordenadas do ponto mais baixo da parábola, ponto de mínimo, são V=(2,3). Logo, sejam e a coordenadas do vértice da parábola, vemos que e .  Outros exemplos                   Exercícios        Em alguns casos as curvas que passam pelos pontos determinados pela fórmula da função quadrática possuem valores máximos e mínimos. Veja um exemplo na imagem:     Dada duas funções quadráticas cujas fórmulas são e . Investigue qual delas têm valor máximo e valor mínimo.  Use   Para a função , vamos investigar se ela possui valor máximo ou valor mínimo para os valores de x iguais a -4, -3, -2, -1, 0, 1, 2, 3 e 4. Assim:  A=(-4,35)  B=(-3,24)  C=(-2,15)  D=(-1,8)  E=(0,3)  F=(1,0)  G=(2,-1)  H=(3,0)  I=(4,3)     Observe que temos, em x=2 (ponto G), um valor mínimo para y. Todos os outros são menores.  Agora, para a função , vamos investigar se ela possui valor máximo ou valor mínimo para os valores de x iguais a -4, -3, -2, -1, 0, 1, 2, 3 e 4. Assim:  A=(-4,-3)  B=(-3,0)  C=(-2,1)  D=(-1,0)  E=(0,-3)  F=(1,-8)  G=(2,-15)  H=(3,-24)  I=(4,-35)     Observe que temos, em x=-2 (ponto C), um valor máximo para y. Todos os outros são menores.    Pesquise e produza uma situação semelhante ao exercício anterior em que você possa determinar o maior ou o menor valor de uma curva determinada pela fórmula da função quadrática no plano cartesiano.   Trace uma linha que passe por todos os pontos no quadro a seguir, apenas usando os botões deslizantes a, b e c.          Selecione qual gráfico representa a função quadrática                         Alternativa b        Explique como encontrar a lei de formação da função quadrática do gráfico a seguir.            Alternativa c     Toda Função Quadrática tem como gráfico uma curva chamada Parábola , com a seguintes características:  Quando a é positivo a concavidade é virada para cima e quando a é negativo, a concavidade é virada para baixo.  A intersecção da parábola com o eixo x são as raízes da função.  A intersecção da parábola com o eixo y é o valor do coeficiente c.  O vértice da parábola é o ponto de máximo, se a concavidade é virada para baixo, e o vértice da parábola é ponto de mínimo, se a concavidade é virada para cima.    Exemplo  Uma função quadrática, cuja lei de formação é , é representada no gráfico a seguir.       Note que:  A concavidade é virada para cima pois o coeficiente a é positivo.  Os pontos B e D são raízes da função  O ponto C é vértice (ponto de mínimo) da função  O ponto A é coeficiente linear da função    Veja mais exemplos a seguir.     y=-x²+5x-6      y=-6 é o coeficiente linear da função  x=2 e x=3 são as raízes da função  O ponto C=(2,5;0,25) é o vértice da parábola e ponto de máximo da função  A concavidade da parábola é virada para baixo.       y=x²-5x+6      y=6 é o coeficiente linear da função  x=2 e x=3 são as raízes da função  O ponto C=(2,5;-0,25) é o vértice da parábola e ponto de mínimo da função  A concavidade da parábola é virada para cima.       "
+  "body": " Gráfico de Funções Quadráticas   Função Quadrática do tipo   O gráfico de uma função quadrática é uma curva chamada Parábola , cuja concavidade é determinada pelo valor do coeficiente a, obtendo um eixo de simetria que passa pelo seu ponto mais alto ou mais baixo, chamado vértice da parábola.     Faremos algumas simulações com um software matemático para tal percepção.    Note que ao mexer no botão deslizante do aplicativo, cuja representação são valores do coeficiente a, notamos que:   Se o valor de a é positivo, ou seja, , então a concavidade fica virada para cima  Quanto maior o valor de a, mais fechada esta parábola fica. Quanto menor o valor e a, mais aberta ela será.  Se o valor de a é negativa, ou seja, , então a concavidade fica virada para baixo  Quanto menor o valor e a, mais fechada a parábola fica. Quanto maior o valor de a, mais aberta ela será.  Se a é nulo, ou seja a=0, temos uma função constante passando por zero.   Veja algumas imagens em que comparamos as funções, analisando o valor de a.   Quando a é positivo   Quando a é negativo      Função do tipo  A função quadrática é uma função que possui apenas um parâmetro multiplicando o termo e é responsável por mudar a abertura da concavidade da parábola. Vamos inserir mais um parâmetro somando o termo . Ou seja, analisaremos um gráfico interativo para a função .    Note que ao aumentar ou diminuir os valor do parâmetro no gráfico interativo, o ponto mais alto ou mais baixo da parábola (vértice da parábola) é deslocada verticalmente no seu eixo de simetria. Para temos que a parábola passa por valores positivos do eixo de simetria. Para temos que a parábola passa na origem do sistema cartesiano. E para temos que a parábola passa por valores negativos do eixo de simetria.  Observe as funções no gráfico a seguir e compara os sinais dos parâmetros e .   Portanto, a função do tipo é uma função quadrática cujos parâmetros reais e são responsáveis por alterar a concavidade da parábola e movê-la verticalmente em eixo de simetria, respectivamente.    Função Quadrática do tipo  Quando a função quadrática é do tipo um número real m é subtraído do termo x, ao se comparar à função . Vamos observar no gráfico interativo o que acontece com a parábola quando mudamos o valor de m.    Este parâmetro desloca o eixo de simetria da parábola horizontalmente, no sentido positivo ou negativo do eixo x. Ou seja, se , então a parábola está à direita do eixo y. Por outro lado, se , então a parábola estará à esquerda do eixo y. E se , então a parábola estará com seu eixo de simetria coincidindo com o eixo y. Veja uma imagem ilustrativa.   Note que possui a=1 e m=2,fazendo com que o eixo de simetria da parábola esteja coincidindo com a reta x=2.  Analogamente, em que também pode ser escrito como , possui o eixo de simetria da parábola coincidindo com a reta x=0.  E a função que também pode ser escrito como , possui o seu eixo de simetria coincidindo com a reta x=-2.  Portanto, o parâmetro m é reponsável por deslocar a parábola horizontalmente .    Função Quarática do tipo  Relembrando das funções quadráticas anteriores, os parâmetros a e m são responsáveis pelo sentido da concavidade da parábola e pelo seu deslocamento horizontal, respectivamente. Vamos inserir um terceiro parâmetro, um valor real k, responsável pelo deslocamento vertical da parábola. Teste estes valores no gráfico interativo a seguir.    Analisando três casos para o valor de k, ou seja, k=-2, k=0 e k=2, vamos observar graficamente o que acontece com a parábola no plano cartesiano.      Escrevendo a Função Quadrática na Forma Canônica  A função quadrática pode ser escrita de duas formas: a forma padrão, e a a forma canônica .  Contudo, podemos fazer algumas manipulações algébricas na forma padrão e escrevê-la de outra maneira. Veja quando colocamos o coeficiente em evidência: Completando quadrados teremos: Reorganizando os termos, temos: Escrevendo o produto notável quadrado da soma, temos: Operacionando os dois últimos termos, temos: Simplificando o coeficiente de fora dos colchetes como o segundo termo dos colchetes, temos: , temos a forma canônica da função quadrática.  Comparando as funções escritas acima e temos que e .  Estes valores de e nos ajudam a escrever funções quadráticas sem precisar completar quadrados todas as vezes. Assim, torna mais simples o processo de resolução de exercícios de funções.  Veja alguns exemplos:    Escreva as funções a seguir na forma canônica:    Como , e , então e   Portanto, .      Como , e , então e   Portanto, .      Como , e , então e   Portanto, .      Como , e , então e   Portanto, .          Escrevendo a Função Quadrática na Forma Padrão  Na subseção anterior, passamos uma função quadrática da forma padrão para a forma canônica. Agora, veremos como fazer o inverso.  Seja f uma função quadrática na forma , com , ,  , substituiremos os valores de e . Logo,   Substituindo o valor de e operacionando o produto notável quadrado da diferença, temos:   Simplificando o segundo termo do colchete e elevando ao quadrado o terceiro temos:   Distribuindo nos termos do colchete, temos:   Operacionado os dois últimos termos, temos a função quadrática na forma padrão:   Veja alguns exemplos:    Escreva as funções a seguir na forma padrão:      Portanto, .        Portanto, .        Portanto, .          Valor Numérico da Função Quadrática  Usando a função quadrática na forma canônica, podemos determinar valores numéricos quando conhecemos o valor de x. Veja alguns exemplos:   Determine os valores numéricos da função , quando:                           Parábola  A parábola é uma curva desenhada pelo gráfico da função quadrática, indenpendente de qual forma ela está escrita, seja a padrão ou a canônica. Como já sabemos escrever uma função na forma canônica, observaremos se estes dados são de fácil percepção quando usamos um software gráfico para desenhar as parábolas.  Veja no gráfico a seguir a função quadrática :   Na função temos os valores de e . Note que o vértice da parábola possui os mesmos valores. Ou seja, as coordenadas do ponto mais baixo da parábola, ponto de mínimo, são V=(2,3). Logo, sejam e a coordenadas do vértice da parábola, vemos que e .  Outros exemplos                   Exercícios        Em alguns casos as curvas que passam pelos pontos determinados pela fórmula da função quadrática possuem valores máximos e mínimos. Veja um exemplo na imagem:     Dada duas funções quadráticas cujas fórmulas são e . Investigue qual delas têm valor máximo e valor mínimo.  Use   Para a função , vamos investigar se ela possui valor máximo ou valor mínimo para os valores de x iguais a -4, -3, -2, -1, 0, 1, 2, 3 e 4. Assim:  A=(-4,35)  B=(-3,24)  C=(-2,15)  D=(-1,8)  E=(0,3)  F=(1,0)  G=(2,-1)  H=(3,0)  I=(4,3)     Observe que temos, em x=2 (ponto G), um valor mínimo para y. Todos os outros são menores.  Agora, para a função , vamos investigar se ela possui valor máximo ou valor mínimo para os valores de x iguais a -4, -3, -2, -1, 0, 1, 2, 3 e 4. Assim:  A=(-4,-3)  B=(-3,0)  C=(-2,1)  D=(-1,0)  E=(0,-3)  F=(1,-8)  G=(2,-15)  H=(3,-24)  I=(4,-35)     Observe que temos, em x=-2 (ponto C), um valor máximo para y. Todos os outros são menores.    Pesquise e produza uma situação semelhante ao exercício anterior em que você possa determinar o maior ou o menor valor de uma curva determinada pela fórmula da função quadrática no plano cartesiano.   Trace uma linha que passe por todos os pontos no quadro a seguir, apenas usando os botões deslizantes a, b e c.          Selecione qual gráfico representa a função quadrática                         Alternativa b        Explique como encontrar a lei de formação da função quadrática do gráfico a seguir.            Alternativa c     Toda Função Quadrática tem como gráfico uma curva chamada Parábola , com a seguintes características:  Quando a é positivo a concavidade é virada para cima e quando a é negativo, a concavidade é virada para baixo.  A intersecção da parábola com o eixo x são as raízes da função.  A intersecção da parábola com o eixo y é o valor do coeficiente c.  O vértice da parábola é o ponto de máximo, se a concavidade é virada para baixo, e o vértice da parábola é ponto de mínimo, se a concavidade é virada para cima.    Exemplo  Uma função quadrática, cuja lei de formação é , é representada no gráfico a seguir.       Note que:  A concavidade é virada para cima pois o coeficiente a é positivo.  Os pontos B e D são raízes da função  O ponto C é vértice (ponto de mínimo) da função  O ponto A é coeficiente linear da função    Veja mais exemplos a seguir.     y=-x²+5x-6      y=-6 é o coeficiente linear da função  x=2 e x=3 são as raízes da função  O ponto C=(2,5;0,25) é o vértice da parábola e ponto de máximo da função  A concavidade da parábola é virada para baixo.       y=x²-5x+6      y=6 é o coeficiente linear da função  x=2 e x=3 são as raízes da função  O ponto C=(2,5;-0,25) é o vértice da parábola e ponto de mínimo da função  A concavidade da parábola é virada para cima.       "
 },
 {
   "id": "minimal-4-2-4",
@@ -1117,108 +1117,108 @@ var ptx_lunr_docs = [
   "body": "  "
 },
 {
-  "id": "minimal-4-8-7",
+  "id": "minimal-4-9-7",
   "level": "2",
-  "url": "minimal-4.html#minimal-4-8-7",
+  "url": "minimal-4.html#minimal-4-9-7",
   "type": "Exemplo",
   "number": "2.2",
   "title": "",
   "body": "    "
 },
 {
-  "id": "minimal-4-8-8",
+  "id": "minimal-4-9-8",
   "level": "2",
-  "url": "minimal-4.html#minimal-4-8-8",
+  "url": "minimal-4.html#minimal-4-9-8",
   "type": "Exemplo",
   "number": "2.4",
   "title": "",
   "body": "    "
 },
 {
-  "id": "minimal-4-8-9",
+  "id": "minimal-4-9-9",
   "level": "2",
-  "url": "minimal-4.html#minimal-4-8-9",
+  "url": "minimal-4.html#minimal-4-9-9",
   "type": "Exemplo",
   "number": "2.6",
   "title": "",
   "body": "    "
 },
 {
-  "id": "minimal-4-9-3-1-2",
+  "id": "minimal-4-10-3-1-2",
   "level": "2",
-  "url": "minimal-4.html#minimal-4-9-3-1-2",
+  "url": "minimal-4.html#minimal-4-10-3-1-2",
   "type": "Figura",
   "number": "2.8",
   "title": "",
   "body": "  "
 },
 {
-  "id": "minimal-4-9-3-1-5-11",
+  "id": "minimal-4-10-3-1-5-11",
   "level": "2",
-  "url": "minimal-4.html#minimal-4-9-3-1-5-11",
+  "url": "minimal-4.html#minimal-4-10-3-1-5-11",
   "type": "Figura",
   "number": "2.9",
   "title": "",
   "body": "  "
 },
 {
-  "id": "minimal-4-9-3-1-5-23",
+  "id": "minimal-4-10-3-1-5-23",
   "level": "2",
-  "url": "minimal-4.html#minimal-4-9-3-1-5-23",
+  "url": "minimal-4.html#minimal-4-10-3-1-5-23",
   "type": "Figura",
   "number": "2.10",
   "title": "",
   "body": "  "
 },
 {
-  "id": "minimal-4-9-3-3-3-1",
+  "id": "minimal-4-10-3-3-3-1",
   "level": "2",
-  "url": "minimal-4.html#minimal-4-9-3-3-3-1",
+  "url": "minimal-4.html#minimal-4-10-3-3-3-1",
   "type": "Figura",
   "number": "2.11",
   "title": "",
   "body": "  "
 },
 {
-  "id": "minimal-4-9-3-4-3-2",
+  "id": "minimal-4-10-3-4-3-2",
   "level": "2",
-  "url": "minimal-4.html#minimal-4-9-3-4-3-2",
+  "url": "minimal-4.html#minimal-4-10-3-4-3-2",
   "type": "Figura",
   "number": "2.12",
   "title": "",
   "body": "  "
 },
 {
-  "id": "minimal-4-9-3-5-2",
+  "id": "minimal-4-10-3-5-2",
   "level": "2",
-  "url": "minimal-4.html#minimal-4-9-3-5-2",
+  "url": "minimal-4.html#minimal-4-10-3-5-2",
   "type": "Figura",
   "number": "2.13",
   "title": "",
   "body": "  "
 },
 {
-  "id": "minimal-4-9-7-1",
+  "id": "minimal-4-10-7-1",
   "level": "2",
-  "url": "minimal-4.html#minimal-4-9-7-1",
+  "url": "minimal-4.html#minimal-4-10-7-1",
   "type": "Figura",
   "number": "2.14",
   "title": "",
   "body": "  "
 },
 {
-  "id": "minimal-4-9-10-1-1",
+  "id": "minimal-4-10-10-1-1",
   "level": "2",
-  "url": "minimal-4.html#minimal-4-9-10-1-1",
+  "url": "minimal-4.html#minimal-4-10-10-1-1",
   "type": "Exemplo",
   "number": "2.15",
   "title": "y=-x²+5x-6.",
   "body": " y=-x²+5x-6      y=-6 é o coeficiente linear da função  x=2 e x=3 são as raízes da função  O ponto C=(2,5;0,25) é o vértice da parábola e ponto de máximo da função  A concavidade da parábola é virada para baixo.   "
 },
 {
-  "id": "minimal-4-9-10-2-1",
+  "id": "minimal-4-10-10-2-1",
   "level": "2",
-  "url": "minimal-4.html#minimal-4-9-10-2-1",
+  "url": "minimal-4.html#minimal-4-10-10-2-1",
   "type": "Exemplo",
   "number": "2.17",
   "title": "y=x²-5x+6.",

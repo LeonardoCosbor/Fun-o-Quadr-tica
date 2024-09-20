@@ -4126,7 +4126,43 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
             </subsection>
 
             <subsection>
-                
+                <title>Valor Numérico da Função Quadrática</title>
+
+                <p>Usando a função quadrática na forma canônica, podemos determinar valores 
+                numéricos quando conhecemos o valor de x. Veja alguns exemplos:</p>
+
+                <ol>
+                    <li>
+                        Determine os valores numéricos da função <m>f(x)=(x+4)^2-1</m>, quando:
+                        <ol marker="a">
+                            <li><m>x=-5</m>
+                                <solution>
+                                    <me>f(x)=(-5+4)^2-1=(-1)^2-1=1-1=0</me>
+                                </solution>
+                            </li>
+                            <li><m>x=0</m>
+                                <solution>
+                                    <me>f(x)=(0+4)^2-1=4^2-1=16-1=15</me>
+                                </solution>
+                            </li>
+                            <li><m>x=\dfrac{1}{2}</m>
+                                <solution>
+                                    <me>f(x)=\left(\dfrac{1}{2}+4\right)^2-1
+                                            =\left(\dfrac{9}{4}\right)^2-1
+                                            =\dfrac{91}{16}-1
+                                            =\dfrac{75}{16}</me>
+                                </solution>
+                            </li>
+                            <li><m>x=-\sqrt2</m>
+                                <solution>
+                                    <me></me>
+                                </solution>
+                            </li>
+                        </ol>
+                    </li>
+                </ol>
+
+
             </subsection>
 
             <subsection>
