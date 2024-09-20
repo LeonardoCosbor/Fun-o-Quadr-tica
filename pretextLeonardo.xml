@@ -4113,9 +4113,12 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                 <li>
                                     <m>f(x)=\dfrac{1}{2}(x-4)^2-8</m>
                                         <solution>
-                                            <p><m>f(x)=\dfrac{1}{4}(x²-2\cdot x\cdot4+4^2)-8=\dfrac{x^2}{4}-2x+8-8=\dfrac{x^2}{4}-2x</m></p>
-                                            <p>Portanto, <m>f(x)=\dfrac{x^2}{4}-2x</m>.</p>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    2}-4x</m>.</p>
+                                            <p><m>f(x)=\dfrac{1}{2}\cdot (x^2-2\cdot x\cdot4+4^2)-8
+                                                =\dfrac{x^2}{2}-4x+8-8
+                                                =\dfrac{x^2}{2}-4x</m></p>
+                                            <p>Portanto, <m>f(x)=\dfrac{x^2}{2}-4x</m>.</p> 
                                         </solution>
+                                                                                                                                                                                                                                                                                                                                                                                                                    
                                 </li>
                             </ol>
                         </li>
