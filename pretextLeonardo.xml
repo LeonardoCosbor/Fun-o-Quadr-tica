@@ -4113,8 +4113,8 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                 <li>
                                     <m>f(x)=\dfrac{1}{2}(x-4)^2-8</m>
                                         <solution>
-                                            <p><m>f(x)=\dfrac{1}{4}(x²-2\cdotx\cdot4+4^2-8)=\dfrac{x^2}{4}-2x-4</m></p>
-                                            <p>Portanto, <m>f(x)=\dfrac{x^2}{                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    2}-4x</m>.</p>
+                                            <p><m>f(x)=\dfrac{1}{4}(x²-2\cdotx\cdot4+4^2)-8=\dfrac{x^2}{4}-2x+8-8=\dfrac{x^2}{4}-2x</m></p>
+                                            <p>Portanto, <m>f(x)=\dfrac{x^2}{4}-2x</m>.</p>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    2}-4x</m>.</p>
                                         </solution>
                                 </li>
                             </ol>
@@ -4133,21 +4133,21 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
 
                 <ol>
                     <li>
-                        Determine os valores numéricos da função <m>f(x)=(x+4)^2-1</m>, quando:
+                        <p>Determine os valores numéricos da função <m>f(x)=(x+4)^2-1</m>, quando:</p>
                         <ol marker="a">
                             <li><m>x=-5</m>
                                 <solution>
-                                    <me>f(x)=(-5+4)^2-1=(-1)^2-1=1-1=0</me>
+                                    <me>f(-5)=(-5+4)^2-1=(-1)^2-1=1-1=0</me>
                                 </solution>
                             </li>
                             <li><m>x=0</m>
                                 <solution>
-                                    <me>f(x)=(0+4)^2-1=4^2-1=16-1=15</me>
+                                    <me>f(0)=(0+4)^2-1=4^2-1=16-1=15</me>
                                 </solution>
                             </li>
                             <li><m>x=\dfrac{1}{2}</m>
                                 <solution>
-                                    <me>f(x)=\left(\dfrac{1}{2}+4\right)^2-1
+                                    <me>f(\dfrac{1}{2})=\left(\dfrac{1}{2}+4\right)^2-1
                                             =\left(\dfrac{9}{4}\right)^2-1
                                             =\dfrac{91}{16}-1
                                             =\dfrac{75}{16}</me>
@@ -4155,7 +4155,9 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                             </li>
                             <li><m>x=-\sqrt2</m>
                                 <solution>
-                                    <me></me>
+                                    <me>f(-\sqrt2)=(-\sqrt2+4)^2-1
+                                                  =2+8\sqrt2+16-1
+                                                  =17+8\sqrt2</me>
                                 </solution>
                             </li>
                         </ol>
