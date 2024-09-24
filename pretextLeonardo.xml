@@ -4353,20 +4353,19 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                 <li><m>y=-x^2+25x</m>
                                     <solution>
                                         <p>Seja <m>m=-\dfrac{b}{2a}</m>,  <m>k=\dfrac{4ac-b^2}{4a}</m> 
-                                            e <m>a=1</m>, <m>b=-5</m> e <m>c=6</m>, então</p>
-                                            <m>y=1\left(x-\dfrac{-5}{2\cdot1}\right)^2+\dfrac{4\cdot1\cdot6-(-5)^2}{4\cdot1}
-                                                =\left(x+\dfrac{5}{2}\right)^2+\dfrac{(24-25)}{4}
-                                                =\left(x+\dfrac{5}{2}\right)^2-\dfrac{1}{4}</m>
+                                            e <m>a=-1</m>, <m>b=25</m> e <m>c=0</m>, então</p>
+                                            <m>y=-1\left(x-\dfrac{25}{2\cdot(-1)}\right)^2+\dfrac{4\cdot(-1)\cdot0-(25)^2}{4\cdot(-1)}
+                                                =-\left(x-\dfrac{25}{2}\right)^2+\dfrac{625}{4}</m>
                                     </solution>
                                 </li>
 
                                 <li><m>y=2x^2-4x+2</m>
                                     <solution>
                                         <p>Seja <m>m=-\dfrac{b}{2a}</m>,  <m>k=\dfrac{4ac-b^2}{4a}</m> 
-                                            e <m>a=1</m>, <m>b=-5</m> e <m>c=6</m>, então</p>
-                                            <m>y=1\left(x-\dfrac{-5}{2\cdot1}\right)^2+\dfrac{4\cdot1\cdot6-(-5)^2}{4\cdot1}
-                                                =\left(x+\dfrac{5}{2}\right)^2+\dfrac{(24-25)}{4}
-                                                =\left(x+\dfrac{5}{2}\right)^2-\dfrac{1}{4}</m>
+                                            e <m>a=2</m>, <m>b=-4</m> e <m>c=2</m>, então</p>
+                                            <m>y=2\left(x-\dfrac{-4}{2\cdot2}\right)^2+\dfrac{4\cdot2\cdot2-(-4)^2}{4\cdot2}
+                                                =2\left(x+\dfrac{4}{4}\right)^2+\dfrac{(16-16)}{8}
+                                                =2(x+1)^2</m>
                                     </solution>
                                 </li>
                             </ol>
