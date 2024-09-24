@@ -4276,22 +4276,51 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                 </figure>
 
                                 <solution>
-                                    <p></p>
+                                    <p><image width="100%" source="4e.png"/></p>
                                 </solution>
                     </li>
 
                     <li>
                         <p>Associe as funções quadráticas na forma <m>f(x)=ax^2+k</m> com os gráficos a seguir:</p>
                             <ol marker="a">
-                                <li><m>f(x)=-x^2+3</m></li>
+                                <li><m>f(x)=-\sqrt7x^2+\dfrac{5}{3}</m></li>
                                 <li><m>f(x)=2x^2-3</m></li>
                                 <li><m>f(x)=\dfrac{x^2}{4}-1</m></li>
-                                <li><m>f(x)=-\sqrt7x^2+\dfrac{5}{3}</m></li>
+                                <li><m>f(x)=-x^2+3</m></li>
+                                
                             </ol>
                             
                             <figure>
-                                <image width="50%" source="associe.png"/>
+                                <image width="100%" source="associe.png"/>
                             </figure>
+
+                            <solution>
+                                <p>dI ; bII ; cIII; aIV</p>
+                            </solution>
+                    </li>
+
+                    <li>
+                        <p>Calcule</p>
+                    </li>
+
+                    <li>
+                        <p>Classifique</p>
+                    </li>
+
+                    <li>
+                        <p>Resolva</p>
+                    </li>
+
+                    <li>
+                        <p>Investigue</p>
+                    </li>
+
+                    <li>
+                        <p>Selecione</p>
+                    </li>
+
+                    <li>
+                        <p>Justifique</p>
                     </li>
                 </ol>
 
