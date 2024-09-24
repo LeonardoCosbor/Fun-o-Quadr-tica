@@ -4242,8 +4242,59 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                 </solution>
                         </ol>
                     </li>
+
+                    <li>
+                        <p>Localize qual das retas representam o eixo de simetria da função 
+                        quadrática desenhada no gráfico.</p>
+                        <figure>
+                            <image width="50%" source="eixo.png"/>
+                        </figure>
+                            <ol marker="a">
+                                <li>x=0</li>
+                                <li>x=2</li>
+                                <li><m>x=\dfrac{5}{2}</m></li>
+                                <li>x=3</li>
+                                <li><m>x=\dfrac{7}{2}</m></li>
+                            </ol>
+                        <solution>
+                            Alternativa c.
+                            <figure>
+                                <image width="50%" source="eixoII.png"/>
+                            </figure>
+                        </solution>
+                    </li>
+
+                    <li>
+                        <p>Relacione os valores de <m>a</m> da função <m>f(x)=ax^2</m> com seus respectivos gráficos:</p>
+                            <ol marker="a">
+                                <li><m>0>a</m></li>
+                                <li><m>a=0</m></li>
+                                <li><m>a>0</m></li>
+                            </ol>
+                                <figure>
+                                    <image width="100%" source="parabola3d.png"/>
+                                </figure>
+
+                                <solution>
+                                    <p></p>
+                                </solution>
+                    </li>
+
+                    <li>
+                        <p>Associe as funções quadráticas na forma <m>f(x)=ax^2+k</m> com os gráficos a seguir:</p>
+                            <ol marker="a">
+                                <li><m>f(x)=-x^2+3</m></li>
+                                <li><m>f(x)=2x^2-3</m></li>
+                                <li><m>f(x)=\dfrac{x^2}{4}-1</m></li>
+                                <li><m>f(x)=-\sqrt7x^2+\dfrac{5}{3}</m></li>
+                            </ol>
+                            
+                            <figure>
+                                <image width="50%" source="associe.png"/>
+                            </figure>
+                    </li>
                 </ol>
-                
+
                 <ol>
                 <li>
                             <p>Em alguns casos as curvas que passam pelos pontos determinados pela fórmula
