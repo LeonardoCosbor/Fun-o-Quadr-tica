@@ -4300,11 +4300,76 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                     </li>
 
                     <li>
-                        <p>Calcule</p>
+                        <p>Dada a função <m>f(x)=2(x-3)^2-3</m>, calcule:</p>
+                            <ol>
+                                <li><m>f(-2)</m>
+                                    <solution>
+                                        <m>f(-2)=2\cdot(-2-3)^2-3=2\cdot(-5)^2-3=2\cdot25-3=50-3=47</m>
+                                    </solution>
+                                </li>
+
+                                <li><m>f(0)</m>
+                                    <solution>
+                                        <m>f(0)=2\cdot(0-3)^2-3=2\cdot(-3)^2-3=2\cdot9-3=18-3=15</m>
+                                    </solution>
+                                </li>
+
+                                <li><m>f\left(\dfrac{1}{2}\right)</m>
+                                    <solution>
+                                        <m>f\left(\dfrac{1}{2}\right)=2\cdot\left(\dfrac{1}{2}-3\right)^2-3=2\cdot\left(\dfrac{-5}{2}\right)^2-3=2\cdot\left(\dfrac{25}{4}\right)-3=\left(\dfrac{25}{2}\right)-3=\dfrac{19}{2}</m>
+                                    </solution>
+                                </li>
+                                <li><m>f(-\sqrt2)</m>
+                                    <solution>
+                                        <m>f(-\sqrt2)=2(-\sqrt2-3)^2-3=2(2+3\sqrt2+3\sqrt2+9)-3=4+12\sqrt2+18-3=12\sqrt2+19</m>
+                                    </solution>
+                                </li>
+                            </ol>
                     </li>
 
                     <li>
-                        <p>Classifique</p>
+                        <p>Demonstre como escrever as funções quadráticas a seguir na forma canônima</p>
+                            <ol>
+                                <li><m>y=x^2-5x+6</m>
+                                    <solution>
+                                        <p>Seja <m>m=-\dfrac{b}{2a}</m>,  <m>k=\dfrac{4ac-b^2}{4a}</m> 
+                                        e <m>a=1</m>, <m>b=-5</m> e <m>c=6</m>, então</p>
+                                        <m>y=1\left(x-\dfrac{-5}{2\cdot1}\right)^2+\dfrac{4\cdot1\cdot6-(-5)^2}{4\cdot1}
+                                            =\left(x+\dfrac{5}{2}\right)^2+\dfrac{(24-25)}{4}
+                                            =\left(x+\dfrac{5}{2}\right)^2-\dfrac{1}{4}</m>
+                                    </solution>
+                                </li>
+
+                                <li><m>y=x^2-4x+3</m>
+                                    <solution>
+                                        <p>Seja <m>m=-\dfrac{b}{2a}</m>,  <m>k=\dfrac{4ac-b^2}{4a}</m> 
+                                            e <m>a=1</m>, <m>b=-4</m> e <m>c=3</m>, então</p>
+                                            <m>y=1\left(x-\dfrac{-4}{2\cdot1}\right)^2+\dfrac{4\cdot1\cdot3-(-4)^2}{4\cdot1}
+                                                =\left(x+\dfrac{4}{2}\right)^2+\dfrac{(12-16)}{4}
+                                                =(x+2)^2-1</m>
+                                    </solution>
+                                </li>
+
+                                <li><m>y=-x^2+25x</m>
+                                    <solution>
+                                        <p>Seja <m>m=-\dfrac{b}{2a}</m>,  <m>k=\dfrac{4ac-b^2}{4a}</m> 
+                                            e <m>a=1</m>, <m>b=-5</m> e <m>c=6</m>, então</p>
+                                            <m>y=1\left(x-\dfrac{-5}{2\cdot1}\right)^2+\dfrac{4\cdot1\cdot6-(-5)^2}{4\cdot1}
+                                                =\left(x+\dfrac{5}{2}\right)^2+\dfrac{(24-25)}{4}
+                                                =\left(x+\dfrac{5}{2}\right)^2-\dfrac{1}{4}</m>
+                                    </solution>
+                                </li>
+
+                                <li><m>y=2x^2-4x+2</m>
+                                    <solution>
+                                        <p>Seja <m>m=-\dfrac{b}{2a}</m>,  <m>k=\dfrac{4ac-b^2}{4a}</m> 
+                                            e <m>a=1</m>, <m>b=-5</m> e <m>c=6</m>, então</p>
+                                            <m>y=1\left(x-\dfrac{-5}{2\cdot1}\right)^2+\dfrac{4\cdot1\cdot6-(-5)^2}{4\cdot1}
+                                                =\left(x+\dfrac{5}{2}\right)^2+\dfrac{(24-25)}{4}
+                                                =\left(x+\dfrac{5}{2}\right)^2-\dfrac{1}{4}</m>
+                                    </solution>
+                                </li>
+                            </ol>
                     </li>
 
                     <li>
