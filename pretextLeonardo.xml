@@ -4475,10 +4475,10 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                         <p>Passando a função da forma padrão para a canônica, temos:</p>
                         <me>f(x)=2\left(x-\dfrac{(-28)}{2\cdot2}\right)^2+\dfrac{4\cdot2\cdot98-28^2}{4\cdot2}</me>
                         <me>f(x)=2\left(x-\dfrac{(-28)}{4}\right)^2+\dfrac{784-784}{8}</me>
-                        <me>f(x)=2(x-7)^2+0</me>
-                        <me>f(x)=2(x-7)^2</me>
+                        <me>f(x)=2(x+7)^2+0</me>
+                        <me>f(x)=2(x+7)^2</me>
                         <p>Note que função possui <m>k=0</m>. Isto quer dizer que o vértice da função não está nem acima
-                        nem abaixo do eixo x. Portanto, a função quadrática <m>f(x)=2(x-7)^2</m> possui seu ponto de mínimo
+                        nem abaixo do eixo x. Portanto, a função quadrática <m>f(x)=2(x+7)^2</m> possui seu ponto de mínimo
                         sobre o eixo x.</p>
 
                     </solution>
