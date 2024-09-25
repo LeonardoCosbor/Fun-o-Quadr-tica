@@ -4426,7 +4426,11 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                     </li>
 
                     <li>
-                        <p>Investigue</p>
+                        <p>Investigue os valores de <m>a</m>, <m>m</m> e <m>k</m>, e com os botões deslizantes
+                        do gráfico, faça uma parábola que passe pelos pontos assinalados.</p>
+
+                        <interactive geogebra="mdrws35x"/>
+                        
                     </li>
 
                     <li>
