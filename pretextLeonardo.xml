@@ -4372,7 +4372,57 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                     </li>
 
                     <li>
-                        <p>Resolva</p>
+                        <p>Resolva o seguinte problema:</p>
+                        <p>(Enem Digital 2020) Em um ano, uma prefeitura apresentou o relatório de gastos públicos 
+                        realizados pelo município. O documento mostra que foram gastos 72 mil reais no mês de janeiro
+                        (mês 1), que o maior gasto mensal ocorreu no mês de agosto (mês 8) e que a prefeitura gastou 
+                        105 mil reais no mês de dezembro (mês 12). A curva que modela esses gastos é a parábola y=T(x),
+                        com x sendo o número correspondente ao mês e T(x) em milhar de real. A expressão da função 
+                        cujo gráfico é o da parábola descrita é:</p>
+                            <ol marker="a">
+                                <li><m>T(x)=(x-8)^2+120</m></li>
+                                <li><m>T(x)=-(x-8)^2+121</m></li>
+                                <li><m>T(x)=3(x-16)^2+57</m></li>
+                                <li><m>T(x)=-3(x-16)^2+25</m></li>
+                            </ol>
+                                <solution>
+                                    <p>Usaremos a função quadrática na forma canônica para encontrar a solução 
+                                    do exercício.</p>
+                                    <p>Note que como o máximo ocorre no mês 8, então T(4)=105=T(12) em função da
+                                        parábola ser simétrica ao vértice. Além disso, se T(1)=72, então, substituindo
+                                        esses valores, temos
+                                        <me>a(4-8)^2+k=105</me>
+                                        <me>a(-4)^2+k=105</me>
+                                        <me>16a+k=105</me>
+                                    </p>
+                                    <p>
+                                        Analogamente, 
+                                        <me>a(1-8)^2+k=72</me>
+                                        <me>a(-7)^2+k=72</me>
+                                        <me>49a+k=72</me>
+                                    </p>
+                                    <p>
+                                        Isolando <m>k</m> na segunda  equação, temos que:
+                                        <me>k=72-49a</me>
+                                    </p>
+                                    <p>
+                                        Substituindo na primeira equação, temos:
+                                        <me>16a+72-49a=105</me>
+                                        <me>-33a=33</me>
+                                        <me>a=\dfrac{33}{-33}</me>
+                                        <me>a=-1</me>
+                                    </p>
+                                    <p>
+                                        Encontrando o valor de <m>k</m>, temos então:
+                                        <me>k=72-49\cdot(-1)</me>
+                                        <me>k=72+49</me>
+                                        <me>k=121</me>
+                                    </p>
+                                    <p>
+                                        Portanto, <m>T(x)=-(x-8)^2+121</m>, <alert>alternativa b</alert>.
+                                    </p>
+
+                                </solution>
                     </li>
 
                     <li>
