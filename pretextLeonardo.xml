@@ -4434,13 +4434,54 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                     </li>
 
                     <li>
-                        <p>Selecione</p>
+                        <p>Selecione qual dos gráficos a seguir representa a função <m>f(x)=-3(x-1)^2+2</m>.
+                        </p>
+                            <ol marker="a">
+                                <li>
+                                    <image width="50%" source="canonica1.png"/>
+                                </li>
+                                <li>
+                                    <image width="50%" source="canonica2.png"/>
+                                </li>
+                                <li>
+                                    <image width="50%" source="canonica3.png"/>
+                                </li>
+                                <li>
+                                    <image width="50%" source="canonica4.png"/>
+                                </li>
+                            </ol>
+                                <solution>
+                                    <p>Como o parâmentro <m>a</m> é negativo, temos que a parábola
+                                    tem a concavidade virada para baixo. Logo, vamos analisar apenas as 
+                                    alternativas b e d. 
+                                    </p>
+                                    <p>O parâmentro <m>m</m> é positivo, assim a parábola está à direita do 
+                                    eixo y.
+                                    </p>
+                                    <p>
+                                        Por fim, o parâmetro <m>k</m> é positivo, fazendo a parábola estar com seu
+                                        vértice acima do eixo x, passando no ponto <m>V=(m,k)=(1,2)</m>.
+                                    </p>
+                                    <p>Portanto, alternativa b.</p>
+                                </solution>
                     </li>
 
                     <li>
-                        <p>Justifique</p>
+                        <p>Justifique por quê a função quadrática <m>f(x)=2x^2+28x+98</m>
+                        possui seu ponto de mínimo no eixo x.</p>
                     </li>
                 </ol>
+                    <solution>
+                        <p>Passando a função da forma padrão para a canônica, temos:</p>
+                        <me>f(x)=2\left(x-\dfrac{(-28)}{2\cdot2}\right)^2+\dfrac{4\cdot2\cdot98-28^2}{4\cdot2}</me>
+                        <me>f(x)=2\left(x-\dfrac{(-28)}{4}\right)^2+\dfrac{784-784}{8}</me>
+                        <me>f(x)=2(x-7)^2+0</me>
+                        <me>f(x)=2(x-7)^2</me>
+                        <p>Note que função possui <m>k=0</m>. Isto quer dizer que o vértice da função não está nem acima
+                        nem abaixo do eixo x. Portanto, a função quadrática <m>f(x)=2(x-7)^2</m> possui seu ponto de mínimo
+                        sobre o eixo x.</p>
+
+                    </solution>
 
                 <ol>
                 <li>
