@@ -3852,7 +3852,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
         </section>
         
         <section>
-            <title>Gráfico de Funções Quadráticas</title>
+            <title>Gráfico de Funções Quadráticas I: Forma Canônica</title>
 
             <subsection>
                 <title>Função Quadrática do tipo <m>y=ax^2</m></title>
@@ -4482,14 +4482,99 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                         sobre o eixo x.</p>
 
                     </solution>
+            </subsection>
+        </section>
+
+        <section>
+            <title>Gráfico de Funções Quadráticas II: Forma Padrão</title>
+            <subsection>
+                <title>Função Quadrática do tipo <m>f(x)=ax^2</m></title>
+
+                <p>
+                    Uma Função Quadrática na forma padrão é do tipo <m>f(x)=ax^2</m> quando
+                    apresenta apenas o termo cuja parte literal tem a incógnita x elevado ao 
+                    quadrado e o coeficiente <m>a</m> diferente de zero. 
+                </p>
+
+                <p>
+                    Exemplos: <m>f(x)=3x^2</m>, <m>f(x)=-\dfrac{3}{5}x^2</m>, <m>f(x)=\dfrac{x^2}{2}</m>, 
+                    <m>f(x)=\sqrt7x^2, ...</m>
+                </p>
+
+                <p>Veja como funciona esta função graficamente:
+                    <interactive desmos="w58jug6r17?"/>
+                </p>
+
+                <p>
+                    Note que ao mexer no botão dos valores do coeficiente <m>a</m>,
+                    a concavidade da parábola é alterada. Ou seja, se <m>a</m> é 
+                    negativo, então a concavidade é virada para baixo, se <m>a</m> é
+                    nulo, a concavidade não existe e o gráfico é uma reta constante
+                    passando por zero e se <m>a</m> é positivo, a concavidade fica 
+                    virada para cima.
+                </p>
+            </subsection>
+
+            <subsection>
+                <title>Função Quadrática na Forma <m>f(x)=ax^2+bx</m></title>
+
+                <p>
+                    Uma Função Quadrática na forma padrão é do tipo <m>f(x)=ax^2+bx</m> quando
+                    apresenta um binômio de grau 2, com partes literais iguais a <m>x^2</m> e <m>x</m>
+                    e e coeficientes reais, sendo <m>a</m> diferente de zero.
+                </p>
+
+                <p>
+                    Exemplos: <m>f(x)=5x^2+x</m>, <m>f(x)=-0,5x^2-0,25x</m>, <m>f(x)=\dfrac{x^2-3x}{2}</m>,...
+                </p>
+
+                <p>
+                    Vamos observar o comportamento da função no gráfico interativo.
+                    <interactive desmos="bakqyiyjmj?"/>
+                </p>
+                
+                <p>
+                    Observe que precisamenos analisar os coeficientes <m>a</m> e <m>b</m> e 
+                    os seus sinais no plano cartesiano pois não tão simples quanto o primeiro 
+                    tipo <m>f(x)=ax^2</m>.
+                </p>
+                <ul>
+                    <li>Se <m>a>0</m> e <m>b>0</m>, então a concavidade da parábola é virada 
+                        para cima e seu eixo de simetria está à esquerda do eixo y.
+                        <image width="50%" source="es1.png"/>
+                    </li>
+                        
+                    <li>Se <m>a>0</m> e <m>0>b</m>, então a concavidade da parábola é virada 
+                        para cima e seu eixo de simetria está à direita do eixo y.
+                        <image width="50%" source="es2.png"/>
+                    </li>
+
+                    <li>Se <m>0>a</m> e <m>b>0</m>, então a concavidade da parábola é virada 
+                        para baixo e seu eixo de simetria está à direita do eixo y.
+                        <image width="50%" source="es3.png"/>
+                    </li>
+                    <li>Se <m>0>a</m> e <m>0>b</m>, então a concavidade da parábola é virada 
+                        para baixo e seu eixo de simetria está à esquerda do eixo y.
+                        <image width="50%" source="es4.png"/>
+                    </li>
+                </ul>
+
+            </subsection>
+
+            <subsection>
+                <p>
+
+                </p>
+
+
+
+
+
+
+
 
                 <ol>
-                <li>
-                            <p>Em alguns casos as curvas que passam pelos pontos determinados pela fórmula
-                            da função quadrática possuem valores máximos e mínimos. Veja um exemplo na imagem:</p>
-                                <figure>
-                                    <image width="50%" source="maximominimo.png"/>
-                                </figure>
+                    <li>
                             <p>Dada duas funções quadráticas cujas fórmulas são <m>y_1=x^2-4x+3</m> e <m>y_ 2=-x^2-4x-3</m>. 
                             Investigue qual delas têm valor máximo e valor mínimo.</p>
                                 <hint>Use <m>x\in \{-4,-3,-2,-1,0,1,2,3,4\}</m></hint>
