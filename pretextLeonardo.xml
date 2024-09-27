@@ -4070,7 +4070,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                 <p>Na subseção anterior, passamos uma função quadrática da forma padrão para a 
                 forma canônica. Agora, veremos como fazer o inverso.
                 </p>
-                <p>Seja f uma função quadrática na forma <m>fx)=a(x-m)^2+k</m>, com <m>a</m>,<m>m</m>,
+                <p>Seja f uma função quadrática na forma <m>f(x)=a(x-m)^2+k</m>, com <m>a</m>,<m>m</m>,
                 <m>k</m> <m>\in\mathbb{R}</m>, substituiremos os valores de <m>m</m> e <m>k</m>. Logo,</p>
 
                 <me>f(x)=a\left(x+\dfrac{b}{2a}\right)^2+\left(\dfrac{-\Delta}{4a}\right)</me>
