@@ -3877,11 +3877,11 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                 <p>Note que ao mexer no botão deslizante do aplicativo, cuja representação são valores do
                 coeficiente a, notamos que:</p>
                     <ul>
-                        <li>Se o valor de a é positivo, ou seja, <m>a>0</m>, então a concavidade fica virada
+                        <li>Se o valor de a é positivo, ou seja, <m>a&gt;0</m>, então a concavidade fica virada
                         para cima</li>
                         <li>Quanto maior o valor de a, mais fechada esta parábola fica. Quanto menor o valor e a, mais
                         aberta ela será.</li>
-                        <li>Se o valor de a é negativa, ou seja, <m>0>a</m>, então a concavidade fica virada 
+                        <li>Se o valor de a é negativa, ou seja, <m>a&lt;0</m>, então a concavidade fica virada 
                         para baixo</li>
                         <li>Quanto menor o valor e a, mais fechada a parábola fica. Quanto maior o valor de a,
                         mais aberta ela será.</li>
@@ -3917,9 +3917,9 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                 o ponto mais alto ou mais baixo da parábola (vértice da parábola) é deslocada verticalmente
                 no seu eixo de simetria.
 
-                Para <m>k>0</m> temos que a parábola passa por valores positivos do eixo de simetria.
+                Para <m>k&gt;0</m> temos que a parábola passa por valores positivos do eixo de simetria.
                 Para <m>k=0</m> temos que a parábola passa na origem do sistema cartesiano. E
-                para <m>0>k</m> temos que a parábola passa por valores negativos do eixo de simetria.</p>
+                para <m>k&lt;</m> temos que a parábola passa por valores negativos do eixo de simetria.</p>
                 <p>Observe as funções no gráfico a seguir e compara os sinais dos parâmetros <m>a</m> e <m>k</m>.</p>
 
                 <interactive desmos="vx49zfblx8"/>
@@ -3943,8 +3943,8 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                     <interactive desmos="vzirokf6fu"/>
 
                 <p>Este parâmetro <m>m</m> desloca o eixo de simetria da parábola horizontalmente, 
-                no sentido positivo ou negativo do eixo x. Ou seja, se <m>m>o</m>, então a parábola está à direita do eixo
-                y. Por outro lado, se <m>0>m</m>, então a parábola estará à esquerda do eixo y. E se <m>m=0</m>, então a parábola
+                no sentido positivo ou negativo do eixo x. Ou seja, se <m>m&gt;0</m>, então a parábola está à direita do eixo
+                y. Por outro lado, se <m>m&lt;</m>, então a parábola estará à esquerda do eixo y. E se <m>m=0</m>, então a parábola
                 estará com seu eixo de simetria coincidindo com o eixo y. Veja uma imagem
                 ilustrativa.</p>
 
@@ -4267,9 +4267,9 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                     <li>
                         <p>Relacione os valores de <m>a</m> da função <m>f(x)=ax^2</m> com seus respectivos gráficos:</p>
                             <ol marker="a">
-                                <li><m>0>a</m></li>
+                                <li><m>a&lt;0</m></li>
                                 <li><m>a=0</m></li>
-                                <li><m>a>0</m></li>
+                                <li><m>a&gt;0</m></li>
                             </ol>
                                 <figure>
                                     <image width="100%" source="parabola3d.png"/>
@@ -4521,7 +4521,8 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                 <p>
                     Uma Função Quadrática na forma padrão é do tipo <m>f(x)=ax^2+bx</m> quando
                     apresenta um binômio de grau 2, com partes literais iguais a <m>x^2</m> e <m>x</m>
-                    e e coeficientes reais, sendo <m>a</m> diferente de zero.
+                    e e coeficientes reais, sendo <m>a</m> diferente de zero. Também conhecida como Função
+                    Quadrática Incompleta com <m>c=0</m>.
                 </p>
 
                 <p>
@@ -4535,25 +4536,25 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                 
                 <p>
                     Observe que precisamenos analisar os coeficientes <m>a</m> e <m>b</m> e 
-                    os seus sinais no plano cartesiano pois não tão simples quanto o primeiro 
+                    os seus sinais no plano cartesiano pois não é tão simples quanto o primeiro 
                     tipo <m>f(x)=ax^2</m>.
                 </p>
                 <ul>
-                    <li>Se <m>a>0</m> e <m>b>0</m>, então a concavidade da parábola é virada 
+                    <li>Se <m>a&gt;0</m> e <m>b&gt;0</m>, então a concavidade da parábola é virada 
                         para cima e seu eixo de simetria está à esquerda do eixo y.
                         <image width="50%" source="es1.png"/>
                     </li>
                         
-                    <li>Se <m>a>0</m> e <m>0>b</m>, então a concavidade da parábola é virada 
+                    <li>Se <m>a&gt;</m> e <m>b&lt;</m>, então a concavidade da parábola é virada 
                         para cima e seu eixo de simetria está à direita do eixo y.
                         <image width="50%" source="es2.png"/>
                     </li>
 
-                    <li>Se <m>0>a</m> e <m>b>0</m>, então a concavidade da parábola é virada 
+                    <li>Se <m>a&lt;0</m> e <m>b&gt;0</m>, então a concavidade da parábola é virada 
                         para baixo e seu eixo de simetria está à direita do eixo y.
                         <image width="50%" source="es3.png"/>
                     </li>
-                    <li>Se <m>0>a</m> e <m>0>b</m>, então a concavidade da parábola é virada 
+                    <li>Se <m>a&lt;0</m> e <m>b&lt;0</m>, então a concavidade da parábola é virada 
                         para baixo e seu eixo de simetria está à esquerda do eixo y.
                         <image width="50%" source="es4.png"/>
                     </li>
@@ -4562,10 +4563,93 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
             </subsection>
 
             <subsection>
+                <title>Função Quadrática do Tipo <m>f(x)=ax^2+c</m></title>
+                
                 <p>
-
+                    Uma Função Quadrática na forma padrão é do tipo <m>f(x)=ax^2+c</m>  quando
+                    apresenta um binômio de grau 2, com um termo cuja parte literal é <m>x^2</m> 
+                    e o outro termo é uma constante <m>c</m>, com <m>a</m> e <m>c</m> coeficientes
+                    reais, sendo <m>a</m> diferente de zero. É também conhecida como Função Quadrática
+                    Incompleta com <m>b=0</m>
                 </p>
 
+                <p>
+                    Vamos observar o que acontece com o gráfico desta função quando alteramos seus 
+                    coeficientes no gráfico interativo.
+                </p>
+
+                <interactive desmos="rqczgmboio?"/>
+
+                <p>
+                    Podemos observar com o gráfico interativo que <m>a</m> é o valor que interfere 
+                    na concavidade da parábola e <m>c</m> é valor onde a parábola intersecta o eixo y.
+                </p>
+                <p>
+                    Veremos algumas imagigens combinando os sinais dos coeficientes <m>a</m> e <m>c</m>:
+                </p>
+                    <ul>
+                        <li>
+                            <m>a&gt;0</m> e <m>c&gt;0</m>;
+                            <image width="50%" source="ac1.png"/>
+                        </li>
+                        <li>
+                            <m>a&gt;0</m> e <m>c=0</m>;
+                            <image width="50%" source="ac2.png"/>
+                        </li>
+                        <li>
+                            <m>a&gt;0</m> e <m>c&lt;0</m>;
+                            <image width="50%" source="ac3.png"/>
+                        </li>
+                        <li>
+                            <m>a&lt;0</m> e <m>c&gt;0</m>;
+                            <image width="50%" source="ac4.png"/>
+                        </li>
+                        <li>
+                            <m>a&lt;</m> e <m>c=0</m>;
+                            <image width="50%" source="ac5.png"/>
+                        </li>
+                        <li>
+                            <m>a&lt;0</m> e <m>c&lt;0</m>
+                            <image width="50%" source="ac6.png"/>
+                        </li> 
+                    </ul>
+                
+                <p>
+                    Assim, observamos que a variação da função quadrática padrão do tipo
+                    <m>f(x)=ax^2+c</m> trabalha a parábola verticalmente,
+                    mantendo o eixo de simetria coincidindo com o eixo y, diferentemente da
+                    função do tipo <m>f(x)=ax^2+bx</m> que desloca o eixo de simetria pelo eixo
+                    x e mantendo a parábola com algum ponto de intesecção na origem do sistema.
+                </p>
+            </subsection>
+
+            <subsection>
+                <title>Função Quadrática do Tipo <m>f(x)=ax^2+bx+c</m></title>
+                <p></p>
+                <p>
+                    Uma Função Quadrática na forma padrão é do tipo <m>f(x)=ax^2+bx+c</m>  quando
+                    apresenta um trinômio de grau 2, com coeficientes reais <m>a</m>, <m>b</m> e 
+                    <m>c</m> e partes literais cuja incógnita é a variável <m>x</m>. É também 
+                    conhecida como Função Quadrática Completa.
+                </p>
+
+                <p>
+                    Analisaremos uma função quadrática completa num gráfico interativo, investigando
+                    a variação de seus coeficientes <m>a</m>, <m>b</m> e <m>c</m> e sua influência na 
+                    parábola gerada.
+                </p>
+
+                <interactive desmos="cnoyjaf9ru?"/>
+
+                <p>
+                    Note que agora temos os três coeficientes influenciando no desenho da parábola. Ou
+                    seja, <m>a</m> altera a concavidade da parábola, <m>b</m> altera o eixo de simetria 
+                    da parábola em relação ao eixo x e por fim, <m>c</m> altera a intersecção da parábola
+                    com o eixo y.
+                </p>
+            </subsection>
+            
+            <subsection>
 
 
 
