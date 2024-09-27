@@ -4760,6 +4760,40 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
 
             <subsection>
                 <title>Zero da Função Quadrática</title>
+
+                <p>
+                    O zero da função quadrática é calculado através da igualdade <m>f(x)=0</m>, resolvendo
+                    a equação do segundo grau e encontrando valores reais para x, que podem ou não existir.
+                    Graficamente, o zero da função quadrática representa o(s) ponto(s) de intersecção da 
+                    parábola com o eixo x. Isto é, <m>(x_1,0)</m> e <m>(x_2,0)</m>.
+                </p>
+
+                <p>
+                    Exemplo 1: Encontre os zeros da função quadrática <m>f(x)=x^2-5x+6</m>.
+                </p>
+                <p>
+                    Resolvendo pela fórmula de Bhaskara, temos que:
+                </p>
+                    <me>\Delta=b^2-4ac=(-5)^2-4\cdot1\cdot6=25-24=1</me>
+                <p>
+                    Determinando os valores de x, temos que:
+                </p>
+                    <me>x=\dfrac{-b\pm\sqrt{\Delta}}{2a}</me>
+                    <me>=\dfrac{-(-5)\pm\sqrt1}{2\cdot1}</me>
+                    <me>=\dfrac{5\pm1}{2}</me>
+                <p>
+                    Separando em dois casos:
+                </p>
+                    <me>x_1=\dfrac{5-1}{2}=\dfrac{4}{2}=2</me>
+                    <me>x_2=\dfrac{5+1}{2}=\dfrac{6}{2}=3</me>
+                <p>
+                    Portanto, os zeros da função quarática são <m>x_1=2</m> e <m>x_2=3</m>.
+                </p>
+
+                <p>
+                    Note como podemos observar os zeros na parábola.
+                    <image width="50%" source="seta.png"/>
+                </p>
             </subsection>
 
             <subsection>
