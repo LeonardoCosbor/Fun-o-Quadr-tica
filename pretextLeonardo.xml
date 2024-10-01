@@ -4065,6 +4065,39 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
 
                 <interactive desmos="ncs2oka3vg"/>
 
+                <p>
+                    Após análise dos parâmetros <m>a</m>, <m>m</m> e <m>k</m>, faremos algumas
+                    atividades para compreender e assimilar melhor o conteúdo.
+                </p>
+
+                <p>
+                    <alert>Atividades</alert>
+                </p>
+
+                <p>
+                    <ol>
+                        <li>
+                            Use os botões deslizantes do gráfico para coincidir as parábolas.
+                            <interactive geogebra="mpcpuhzm"/> 
+                        </li>
+
+                        <li>
+                            Dados os três pontos A, B e C no gráfico interativo, altere os parâmetros
+                            <m>a</m>, <m>m</m> e <m>k</m>, de modo que a parábola passe pelos pontos 
+                            determinados.
+                            <interactive geogebra="bgnjw65b"/>
+                        </li>
+
+                        <li>
+                            Observe os pontos P, Q, R e S. Um deles representa a chegada de um dardo 
+                            lançado por um atleta em treinamento. Utilize os botões deslizantes para 
+                            encontrar a parábola que representa a trajetória aproximada e em qual ponto
+                            este dardo acerta.
+                            <interactive geogebra="rrmmjfmp"/>
+                        </li>
+                    </ol>
+                </p>
+
                 
             </subsection>
 
