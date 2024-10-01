@@ -3960,6 +3960,33 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                 <m>a</m> e <m>k</m> são responsáveis por alterar a concavidade da parábola e movê-la verticalmente
                 em eixo de simetria, respectivamente.
                 </p> 
+
+                <p>
+                    <alert>Atividade</alert>
+                </p>
+
+                <ol>
+                    <li>
+                        Usando o botão deslizante que representa os valores dos parâmentros
+                        <m>a</m> e <m>k</m> determine a parábola que coincide com a parábola verde. 
+                        <interactive geogebra=""/>
+                    </li>
+
+                    <li>
+                        Mexa no botão deslizante do gráfico a seguir e determine a parábola
+                        que passe pelos três pontos. Observe as coordenadas dos pontos e compare
+                        com o coeficiente da função quadrática.
+                        <interactive geogebra=""/>
+                    </li>
+
+                    <li>
+                        Um homem está treinando lançamentos com uma bola de futebol. O desenho da trajetória
+                        da bola é uma função quadrática. Com o auxílio do botão deslizante, encontre a 
+                        parábola que mais se aproxima da trajetória da bola.
+                        <interactive geogebra=""/>
+                    </li>
+            </ol>       
+
             </subsection>
 
             <subsection>
