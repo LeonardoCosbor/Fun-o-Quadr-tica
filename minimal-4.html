@@ -8,7 +8,7 @@
 <html lang="pt-BR" dir="ltr">
 <head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Gráfico de Funções Quadráticas I: Forma Canônica</title>
+<title>Gráfico de Funções Quadráticas</title>
 <meta name="Keywords" content="Authored in PreTeXt">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta property="og:type" content="article">
@@ -125,11 +125,11 @@ window.MathJax = {
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="minimal-3.html#cc" class="internal"><span class="codenumber">1.3</span> <span class="title">Conjectura na geometria</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="minimal-3.html#dd" class="internal"><span class="codenumber">1.4</span> <span class="title">Calculando áreas em diversos cenários</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="minimal-3.html#ee" class="internal"><span class="codenumber">1.5</span> <span class="title">Reconhecendo funções quadráticas</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="minimal-3.html#ff" class="internal"><span class="codenumber">1.6</span> <span class="title">Elaborando a Função Quadrática</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="minimal-3.html#ff" class="internal"><span class="codenumber">1.6</span> <span class="title">Definindo a Função Quadrática</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-section active">
-<div class="toc-title-box"><a href="minimal-4.html" class="internal"><span class="codenumber">2</span> <span class="title">Gráfico de Funções Quadráticas I: Forma Canônica</span></a></div>
+<div class="toc-title-box"><a href="minimal-4.html" class="internal"><span class="codenumber">2</span> <span class="title">Gráfico de Funções Quadráticas</span></a></div>
 <ul class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="minimal-4.html#minimal-4-2" class="internal"><span class="codenumber">2.1</span> <span class="title">Função Quadrática do tipo <span class="process-math">\(y=ax^2\)</span></span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="minimal-4.html#minimal-4-3" class="internal"><span class="codenumber">2.2</span> <span class="title">Função do tipo <span class="process-math">\(y=ax^2+k\)</span></span></a></div></li>
@@ -138,7 +138,7 @@ window.MathJax = {
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="minimal-4.html#minimal-4-6" class="internal"><span class="codenumber">2.5</span> <span class="title">Escrevendo a Função Quadrática na Forma Canônica</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="minimal-4.html#minimal-4-7" class="internal"><span class="codenumber">2.6</span> <span class="title">Escrevendo a Função Quadrática na Forma Padrão</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="minimal-4.html#minimal-4-8" class="internal"><span class="codenumber">2.7</span> <span class="title">Valor Numérico da Função Quadrática</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="minimal-4.html#minimal-4-9" class="internal"><span class="codenumber">2.8</span> <span class="title">Parábola</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="minimal-4.html#minimal-4-9" class="internal"><span class="codenumber">2.8</span> <span class="title">Vértice da Parábola</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="minimal-4.html#minimal-4-10" class="internal"><span class="codenumber">2.9</span> <span class="title">Exercícios</span></a></div></li>
 </ul>
 </li>
@@ -158,31 +158,40 @@ window.MathJax = {
 </li>
 </ul></nav></div>
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="minimal-4"><h2 class="heading hide-type">
-<span class="type">Seção</span><span class="space"> </span><span class="codenumber">2</span><span class="space"> </span><span class="title">Gráfico de Funções Quadráticas I: Forma Canônica</span>
+<span class="type">Seção</span><span class="space"> </span><span class="codenumber">2</span><span class="space"> </span><span class="title">Gráfico de Funções Quadráticas</span>
 </h2>
 <section class="subsection" id="minimal-4-2"><h3 class="heading hide-type">
 <span class="type">Subseção</span><span class="space"> </span><span class="codenumber">2.1</span><span class="space"> </span><span class="title">Função Quadrática do tipo <span class="process-math">\(y=ax^2\)</span></span>
 </h3>
 <div class="para" id="minimal-4-2-2"></div>
-<div class="para" id="minimal-4-2-3">O gráfico de uma função quadrática é uma curva chamada <em class="alert">Parábola</em>, cuja concavidade é determinada pelo valor do coeficiente a, obtendo um eixo de simetria que passa pelo seu ponto mais alto ou mais baixo, chamado vértice da parábola.</div>
-<figure class="figure figure-like" id="minimal-4-2-4"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="parabola.png" class="contained"></div>
-<figcaption><span class="type">Figura</span><span class="space"> </span><span class="codenumber">2.1<span class="period">.</span></span><span class="space"> </span></figcaption></figure><div class="para" id="minimal-4-2-5">Faremos algumas simulações com um software matemático para tal percepção.</div>
-<div class="para" id="minimal-4-2-6"></div>
-<iframe src="https://www.desmos.com/calculator/7iphdyinqf" id="minimal-4-2-7" width="600" height="600"></iframe><div class="para" id="minimal-4-2-8">Note que ao mexer no botão deslizante do aplicativo, cuja representação são valores do coeficiente a, notamos que:</div>
+<div class="para" id="minimal-4-2-3">O gráfico de uma função quadrática é uma curva chamada <em class="alert">Parábola</em>, cuja concavidade é determinada pelo valor do coeficiente a, obtendo um eixo de simetria, e que passa pelo seu ponto mais alto ou mais baixo, chamado vértice da parábola.</div>
+<div class="para" id="minimal-4-2-4">Observe a imagem a seguir mostrando estes três elementos importantes para a análise do gráfico da função quadrática.</div>
+<figure class="figure figure-like" id="minimal-4-2-5"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="parabola.png" class="contained"></div>
+<figcaption><span class="type">Figura</span><span class="space"> </span><span class="codenumber">2.1<span class="period">.</span></span><span class="space"> </span></figcaption></figure><div class="para" id="minimal-4-2-6">Faremos algumas simulações com um software matemático para tal percepção.</div>
+<div class="para" id="minimal-4-2-7"></div>
+<iframe src="https://www.desmos.com/calculator/7iphdyinqf" id="minimal-4-2-8" width="600" height="600"></iframe><div class="para" id="minimal-4-2-9">Note que ao mexer no botão deslizante do aplicativo, cuja representação são valores do coeficiente a, notamos que:</div>
 <ul class="disc">
-<li id="minimal-4-2-9-1"><div class="para" id="p-derived-minimal-4-2-9-1">Se o valor de a é positivo, ou seja, <span class="process-math">\(a&gt;0\text{,}\)</span> então a concavidade fica virada para cima</div></li>
-<li id="minimal-4-2-9-2"><div class="para" id="p-derived-minimal-4-2-9-2">Quanto maior o valor de a, mais fechada esta parábola fica. Quanto menor o valor e a, mais aberta ela será.</div></li>
-<li id="minimal-4-2-9-3"><div class="para" id="p-derived-minimal-4-2-9-3">Se o valor de a é negativa, ou seja, <span class="process-math">\(a&lt;0\text{,}\)</span> então a concavidade fica virada para baixo</div></li>
-<li id="minimal-4-2-9-4"><div class="para" id="p-derived-minimal-4-2-9-4">Quanto menor o valor e a, mais fechada a parábola fica. Quanto maior o valor de a, mais aberta ela será.</div></li>
-<li id="minimal-4-2-9-5"><div class="para" id="p-derived-minimal-4-2-9-5">Se a é nulo, ou seja a=0, temos uma função constante passando por zero.</div></li>
+<li id="minimal-4-2-10-1"><div class="para" id="p-derived-minimal-4-2-10-1">Se o valor de a é positivo, ou seja, <span class="process-math">\(a&gt;0\text{,}\)</span> então a concavidade fica virada para cima</div></li>
+<li id="minimal-4-2-10-2"><div class="para" id="p-derived-minimal-4-2-10-2">Quanto maior o valor de a, mais fechada esta parábola fica. Quanto menor o valor e a, mais aberta ela será.</div></li>
+<li id="minimal-4-2-10-3"><div class="para" id="p-derived-minimal-4-2-10-3">Se o valor de a é negativa, ou seja, <span class="process-math">\(a&lt;0\text{,}\)</span> então a concavidade fica virada para baixo</div></li>
+<li id="minimal-4-2-10-4"><div class="para" id="p-derived-minimal-4-2-10-4">Quanto menor o valor e a, mais fechada a parábola fica. Quanto maior o valor de a, mais aberta ela será.</div></li>
+<li id="minimal-4-2-10-5"><div class="para" id="p-derived-minimal-4-2-10-5">Se a é nulo, ou seja <span class="process-math">\(a=0\text{,}\)</span> temos uma função constante passando por zero.</div></li>
 </ul>
-<div class="para" id="minimal-4-2-10">Veja algumas imagens em que comparamos as funções, analisando o valor de a.</div>
+<div class="para" id="minimal-4-2-11">Veja algumas imagens em que comparamos as funções, analisando o valor de a.</div>
 <ul class="disc">
-<li id="minimal-4-2-11-1"><div class="para" id="p-derived-minimal-4-2-11-1">Quando a é positivo <iframe src="https://www.desmos.com/calculator/retyq6ggwl" id="minimal-4-2-11-1-1" width="600" height="600"></iframe>
+<li id="minimal-4-2-12-1"><div class="para" id="p-derived-minimal-4-2-12-1">Quando a é positivo (<span class="process-math">\(a&gt;0\)</span>). <iframe src="https://www.desmos.com/calculator/retyq6ggwl" id="minimal-4-2-12-1-2" width="600" height="600"></iframe>
 </div></li>
-<li id="minimal-4-2-11-2"><div class="para" id="p-derived-minimal-4-2-11-2">Quando a é negativo <iframe src="https://www.desmos.com/calculator/biyrgmvmfn" id="minimal-4-2-11-2-1" width="600" height="600"></iframe>
+<li id="minimal-4-2-12-2"><div class="para" id="p-derived-minimal-4-2-12-2">Quando a é negativo (<span class="process-math">\(a&lt;0\)</span>). <iframe src="https://www.desmos.com/calculator/biyrgmvmfn" id="minimal-4-2-12-2-2" width="600" height="600"></iframe>
 </div></li>
-</ul></section><section class="subsection" id="minimal-4-3"><h3 class="heading hide-type">
+</ul>
+<div class="para" id="minimal-4-2-13"><em class="alert">Atividade</em></div>
+<ol class="decimal">
+<li id="minimal-4-2-14-1"><div class="para" id="p-derived-minimal-4-2-14-1">Usando o botão deslizante que representa os valores do coeficiente <span class="process-math">\(a\text{,}\)</span> determine a parábola que coincide com a parábola vermelha. <iframe src="https://www.geogebra.org/material/iframe/id/typfstqw/width/800/height/800/border/888888/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false" id="minimal-4-2-14-1-2" width="600" height="600"></iframe>
+</div></li>
+<li id="minimal-4-2-14-2"><div class="para" id="p-derived-minimal-4-2-14-2">Mexa no botão deslizante do gráfico a seguir e determine a parábola que passe pelos três pontos. Observe as coordenadas dos pontos e compare com o coeficiente da função quadrática. <iframe src="https://www.geogebra.org/material/iframe/id/y7xhduhp/width/800/height/800/border/888888/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false" id="minimal-4-2-14-2-1" width="600" height="600"></iframe>
+</div></li>
+<li id="minimal-4-2-14-3"><div class="para" id="p-derived-minimal-4-2-14-3"></div></li>
+</ol></section><section class="subsection" id="minimal-4-3"><h3 class="heading hide-type">
 <span class="type">Subseção</span><span class="space"> </span><span class="codenumber">2.2</span><span class="space"> </span><span class="title">Função do tipo <span class="process-math">\(y=ax^2+k\)</span></span>
 </h3>
 <div class="para" id="minimal-4-3-2">A função quadrática <span class="process-math">\(y=ax^2\)</span> é uma função que possui apenas um parâmetro multiplicando o termo <span class="process-math">\(x^2\)</span> e é responsável por mudar a abertura da concavidade da parábola. Vamos inserir mais um parâmetro <span class="process-math">\(k\)</span> somando o termo <span class="process-math">\(ax^2\text{.}\)</span> Ou seja, analisaremos um gráfico interativo para a função <span class="process-math">\(y=ax^2+k\text{.}\)</span>
@@ -374,17 +383,27 @@ f(\dfrac{1}{2})=\left(\dfrac{1}{2}+4\right)^2-1
 </div></div></details>
 </div></li>
 <li id="minimal-4-8-3-1-2-4"><div class="para" id="p-derived-minimal-4-8-3-1-2-4">
-<span class="process-math">\(x=-\sqrt2\)</span> <details id="minimal-4-8-3-1-2-4-2" class="solution solution-like born-hidden-knowl"><summary><span class="type">Solução</span><span class="period">.</span></summary><div class="solution solution-like"><div class="displaymath process-math">
+<span class="process-math">\(x=-\sqrt2\)</span> <details id="minimal-4-8-3-1-2-4-2" class="solution solution-like born-hidden-knowl"><summary><span class="type">Solução</span><span class="period">.</span></summary><div class="solution solution-like">
+<div class="displaymath process-math">
 \begin{equation*}
 f(-\sqrt2)=(-\sqrt2+4)^2-1
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
 =2+8\sqrt2+16-1
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
 =17+8\sqrt2
 \end{equation*}
-</div></div></details>
+</div>
+</div></details>
 </div></li>
 </ol>
 </li></ol></section><section class="subsection" id="minimal-4-9"><h3 class="heading hide-type">
-<span class="type">Subseção</span><span class="space"> </span><span class="codenumber">2.8</span><span class="space"> </span><span class="title">Parábola</span>
+<span class="type">Subseção</span><span class="space"> </span><span class="codenumber">2.8</span><span class="space"> </span><span class="title">Vértice da Parábola</span>
 </h3>
 <div class="para" id="minimal-4-9-2">A parábola é uma curva desenhada pelo gráfico da função quadrática, indenpendente de qual forma ela está escrita, seja a padrão ou a canônica. Como já sabemos escrever uma função na forma canônica, observaremos se estes dados são de fácil percepção quando usamos um software gráfico para desenhar as parábolas.</div>
 <div class="para" id="minimal-4-9-3">Veja no gráfico a seguir a função quadrática <span class="process-math">\(f(x)=(x-2)^2+3\text{:}\)</span>

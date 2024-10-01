@@ -3534,7 +3534,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
             </subsection>
                 
             <subsection xml:id="ff">
-                <title>Elaborando a Função Quadrática</title>
+                <title>Definindo a Função Quadrática</title>
                 
                 <p>Nesta subseção, faremos uma definição baseada nas informações das subseções anterioes,
                 que trazem características importantes sobre função quadrática.
@@ -3562,7 +3562,6 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                         <li><m>f(x)=-\frac{1}{2}x^2+9</m>, sendo a=<m>-\frac{1}{2}</m>, b=0 e c=9</li>                        
                         <li><m>f(x)=\sqrt3x^2-2x+8</m>, sendo a=<m>\sqrt3</m>, b=-2 e c=8</li>
                     </ul>
-               
                 
                 <p>
                     Estas funções podem ser classificadas como completas e incompletas, dependendo dos valores
@@ -3852,7 +3851,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
         </section>
         
         <section>
-            <title>Gráfico de Funções Quadráticas I: Forma Canônica</title>
+            <title>Gráfico de Funções Quadráticas</title>
 
             <subsection>
                 <title>Função Quadrática do tipo <m>y=ax^2</m></title>
@@ -3861,8 +3860,13 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                 
                 <p>O gráfico de uma função quadrática é uma curva chamada 
                 <alert>Parábola</alert>, cuja concavidade é determinada pelo 
-                valor do coeficiente a, obtendo um eixo de simetria que passa 
+                valor do coeficiente a, obtendo um eixo de simetria, e que passa 
                 pelo seu ponto mais alto ou mais baixo, chamado vértice da parábola.</p>
+                
+                <p>
+                    Observe a imagem a seguir mostrando estes três elementos importantes
+                    para a análise do gráfico da função quadrática.
+                </p>
 
                 <figure>
                     <image with="50%" source="parabola.png"/>
@@ -3871,6 +3875,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                 <p>Faremos algumas simulações com um software matemático para tal
                 percepção.
                 </p>
+
                 <p></p>
 
                     <interactive desmos="7iphdyinqf"/>
@@ -3885,18 +3890,42 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                         para baixo</li>
                         <li>Quanto menor o valor e a, mais fechada a parábola fica. Quanto maior o valor de a,
                         mais aberta ela será.</li>
-                        <li>Se a é nulo, ou seja a=0, temos uma função constante passando por zero.</li>
+                        <li>Se a é nulo, ou seja <m>a=0</m>, temos uma função constante passando por zero.</li>
                     </ul>
                 <p>Veja algumas imagens em que comparamos as funções, analisando o valor de a.</p> 
 
                 <ul>
-                    <li>Quando a é positivo
+                    <li>Quando a é positivo (<m>a&gt;0</m>).
                         <interactive desmos="retyq6ggwl"/>
                     </li>
-                    <li>Quando a é negativo
+                    <li>Quando a é negativo (<m>a&lt;0</m>).
                         <interactive desmos="biyrgmvmfn"/>
                     </li>
                 </ul>
+
+                <p>
+                    <alert>Atividade</alert>
+                </p>
+
+                <ol>
+                    <li>
+                        Usando o botão deslizante que representa os valores do coeficiente
+                        <m>a</m>, determine a parábola que coincide com a parábola vermelha. 
+                        <interactive geogebra="typfstqw"/>
+                    </li>
+
+                    <li>
+                        Mexa no botão deslizante do gráfico a seguir e determine a parábola
+                        que passe pelos três pontos. Observe as coordenadas dos pontos e compare
+                        com o coeficiente da função quadrática.
+                        <interactive geogebra="s5zbzr9y"/>
+                    </li>
+
+                    <li>
+
+                    </li>
+            </ol>
+
             
             
             </subsection>
@@ -4158,9 +4187,9 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                             </li>
                             <li><m>x=-\sqrt2</m>
                                 <solution>
-                                    <me>f(-\sqrt2)=(-\sqrt2+4)^2-1
-                                                  =2+8\sqrt2+16-1
-                                                  =17+8\sqrt2</me>
+                                    <me>f(-\sqrt2)=(-\sqrt2+4)^2-1</me>
+                                    <me>=2+8\sqrt2+16-1</me>
+                                    <me>=17+8\sqrt2</me>
                                 </solution>
                             </li>
                         </ol>
@@ -4171,7 +4200,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
             </subsection>
 
             <subsection>
-                <title>Parábola</title>
+                <title>Vértice da Parábola</title>
                 <p>A parábola é uma curva desenhada pelo gráfico da função quadrática, indenpendente de qual
                 forma ela está escrita, seja a padrão ou a canônica. Como já sabemos escrever uma função na forma canônica,
                 observaremos se estes dados são de fácil percepção quando usamos um software gráfico para
