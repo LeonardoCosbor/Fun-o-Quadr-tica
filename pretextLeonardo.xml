@@ -4016,7 +4016,32 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                 <p>E a função <m>y=2(x-(-2))^2</m> que também pode ser escrito como <m>y=2(x+2)^2</m>, possui o seu eixo
                 de simetria coincidindo com a reta x=-2.</p>
                 <p>Portanto, o parâmetro m é reponsável por deslocar a parábola <alert>horizontalmente</alert>.</p>
+                
+                <p>
+                    <alert>Atividade</alert>
+                </p>
 
+                <p>
+                    <ol>
+                        <li>
+                            Utilize os botões delizantes para coincidir as parábolas.
+                            <interactive geogebra="pycmjguc"/>
+                        </li>
+
+                        <li>
+                            Dados os pontos A, B e C do gráfico interativo, use os botões deslizantes
+                            dos parâmetros <m>a</m> e <m>m</m>, e encontre uma parábola que passe por 
+                            esses pontos.
+                            <interactive geogebra="nzh9eftz"/>
+                        </li>
+
+                        <li>
+                            Observe o desenho no gráfico interativo e trace uma parábola que coincida 
+                            com a trajetória do salto do atleta.
+                            <interactive geogebra="gkeg9swx"/>
+                        </li>
+                    </ol>
+                </p>
 
             </subsection>
 
