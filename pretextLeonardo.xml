@@ -3918,13 +3918,16 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                         Mexa no botão deslizante do gráfico a seguir e determine a parábola
                         que passe pelos três pontos. Observe as coordenadas dos pontos e compare
                         com o coeficiente da função quadrática.
-                        <interactive geogebra="s5zbzr9y"/>
+                        <interactive geogebra="g8nhvwxa"/>
                     </li>
 
                     <li>
-
+                        Um homem está treinando lançamentos com uma bola de futebol. O desenho da trajetória
+                        da bola é uma função quadrática. Com o auxílio do botão deslizante, encontre a 
+                        parábola que mais se aproxima da trajetória da bola.
+                        <interactive geogebra="zkemqjdc"/>
                     </li>
-            </ol>
+            </ol>       
 
             
             
