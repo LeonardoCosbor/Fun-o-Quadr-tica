@@ -4104,11 +4104,20 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
             <subsection>
                 <title>Escrevendo a Função Quadrática na Forma Canônica</title>
 
-                <p>A função quadrática pode ser escrita de duas formas: a forma padrão, 
-                <m>f(x)=ax^2+bx+c</m> e a a forma canônica <m>f(x)=a(x-m)^2+k</m>.
+                <p>A função quadrática pode ser escrita de duas formas: na forma padrão, 
+                <m>f(x)=ax^2+bx+c</m> e na forma canônica <m>f(x)=a(x-m)^2+k</m>.
                 </p>
 
-                <p>Contudo, podemos fazer algumas manipulações algébricas na forma padrão
+                <p>Contudo, podemos usar as formas para transcrever uma função quadrática
+                que está na forma padrão e escrevê-la na forma quadrática e vice-versa.
+                Veja em <alert>Demonstração</alert> como fazer esta transição entre as duas
+                formas de escrever a função quadrática. 
+                </p>
+                <p>
+                <theorem>
+                    <title>Função Quadrática da Forma Padrão para a Forma Canônica</title>
+                        <proof color="blue">
+                    Vamos fazer algumas manipulações algébricas na forma padrão
                 e escrevê-la de outra maneira. Veja quando colocamos o coeficiente <m>a</m>
                 em evidência:
                     <me>f(x)=a\cdot\left[x^2+\dfrac{b}{a}x+\dfrac{c}{a}\right]</me>
@@ -4122,11 +4131,16 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                     <me>f(x)=a\cdot\left[\left(x+\dfrac{b}{2a}\right)^2+\dfrac{4ac-b^2}{4a^2}\right]</me>
                 Simplificando o coeficiente de fora dos colchetes como o segundo termo dos colchetes, temos:
                     <me>f(x)=a\cdot\left(x+\dfrac{b}{2a}\right)^2+\dfrac{4ac-b^2}{4a}</me>, temos a forma canônica da função quadrática.
-                </p>
 
                 <p>Comparando as funções escritas acima <m>f(x)=a(x-m)^2+k</m> e <m>f(x)=a\cdot\left(x+\dfrac{b}{2a}\right)^2+\dfrac{4ac-b^2}{4a}</m>
-                temos que <m>m=-\dfrac{b}{2a}</m> e <m>k=-\dfrac{\Delta}{4a}</m>.</p>
+                temos que <m>m=-\dfrac{b}{2a}</m> e <m>k=\dfrac{4ac-b^2}{4a}</m>.</p>
 
+                <p>Adotando <m>\Delta</m> como <m>b^2-4ac</m>, temos que <m>k=\dfrac{\Delta}{4a}</m></p>
+                    </proof>
+                </theorem>
+            
+                <p>Para facilitar este processo de completar quadrados, utilizaremos o final das </p>
+            </p>
                 <p>Estes valores de <m>m</m> e <m>k</m> nos ajudam a escrever funções quadráticas sem precisar completar quadrados 
                 todas as vezes. Assim, torna mais simples o processo de resolução de exercícios de funções.</p>
                 
