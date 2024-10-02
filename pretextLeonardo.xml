@@ -4134,15 +4134,16 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
 
                 <p>Comparando as funções escritas acima <m>f(x)=a(x-m)^2+k</m> e <m>f(x)=a\cdot\left(x+\dfrac{b}{2a}\right)^2+\dfrac{4ac-b^2}{4a}</m>
                 temos que <m>m=-\dfrac{b}{2a}</m> e <m>k=\dfrac{4ac-b^2}{4a}</m>.</p>
-
-                <p>Adotando <m>\Delta</m> como <m>b^2-4ac</m>, temos que <m>k=\dfrac{\Delta}{4a}</m></p>
                     </proof>
                 </theorem>
-            
-                <p>Para facilitar este processo de completar quadrados, utilizaremos o final das </p>
-            </p>
-                <p>Estes valores de <m>m</m> e <m>k</m> nos ajudam a escrever funções quadráticas sem precisar completar quadrados 
-                todas as vezes. Assim, torna mais simples o processo de resolução de exercícios de funções.</p>
+                </p>
+
+                <p>
+                    Após a demonstração de completar quadrados, usaremos estas constantes <m>m=-\dfrac{b}{2a}</m> e <m>k=\dfrac{4ac-b^2}{4a}</m>
+                    para facilitar os cálculos. Para a constante <m>k</m>, chamaremos a constante <m>b^2-4ac</m> de discriminante e denotaremos como
+                    <m>\Delta</m>, de modo que <m>k=-\dfrac{\Delta}{4a}</m>.
+                </p>
+
                 
                 <p><alert>Veja alguns exemplos:</alert></p>
                 
@@ -4199,27 +4200,27 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                 <title>Escrevendo a Função Quadrática na Forma Padrão</title>
 
                 <p>Na subseção anterior, passamos uma função quadrática da forma padrão para a 
-                forma canônica. Agora, veremos como fazer o inverso.
+                forma canônica. Agora, veremos como fazer o inverso, ou seja, passar a função quadrática
+                escrita na forma canônica para a forma padrão.
                 </p>
                 <p>Seja f uma função quadrática na forma <m>f(x)=a(x-m)^2+k</m>, com <m>a</m>,<m>m</m>,
-                <m>k</m> <m>\in\mathbb{R}</m>, substituiremos os valores de <m>m</m> e <m>k</m>. Logo,</p>
+                <m>k</m> <m>\in\mathbb{R}</m>, abriremos o produto da diferença primeiro. Logo,</p>
 
-                <me>f(x)=a\left(x+\dfrac{b}{2a}\right)^2+\left(\dfrac{-\Delta}{4a}\right)</me>
+                    <me>f(x)=a\cdot(x^2-2mx+m^2)+k</me>
+                    <me>f(x)=ax^2-2amx+am^2+k</me>
+                    <me>f(x)=ax^2+(-2am)x+(am^2+k)</me>
+                <p>Portanto, segue que os coeficientes da forma padrão são <m>a</m>, <m>b=-2am</m> e 
+                <m>c=am^2+k</m>.</p>
 
-                <p>Substituindo o valor de <m>\Delta</m> e operacionando o produto notável 
-                quadrado da diferença, temos:</p>
+                <p>
+                    Note que não é muito complexo abrir o produto notável e muitas vezes poderemos
+                    optar por este método para resolver alguns exercícios em vez de decorar mais fórmulas
+                    para determinar coeficientes da forma padrão. 
+                </p>
 
-                <me>f(x)=a\left[x^2+2\cdot x \cdot \dfrac{b}{2a}+\left(\dfrac{b}{2a}\right)^2\right]+\left(\dfrac{4ac-b^2}{4a}\right)</me>
+                <p>Para esta percepção, analise as soluções a seguir resolvidas por estes dois métodos.</p>
 
-                <p>Simplificando o segundo termo do colchete e elevando ao quadrado o terceiro temos:</p>
-                <me>f(x)=a\left[x^2+x \cdot \dfrac{b}{a}+\dfrac{b^2}{4a^2}\right]+\left(\dfrac{4ac-b^2}{4a}\right)</me>
-
-                <p>Distribuindo <m>a</m> nos termos do colchete, temos:</p>
-                <me>f(x)=ax^2+bx+\dfrac{b^2}{4a}+\dfrac{4ac-b^2}{4a}</me>
-
-                <p>Operacionado os dois últimos termos, temos a função quadrática na forma padrão:</p>
-                <me>f(x)=ax^2+bx+c</me>
-
+               
                 <p><alert>Veja alguns exemplos:</alert></p>
 
                 <p>
@@ -4228,16 +4229,27 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                             <ol marker="a">        
                                 <li><m>f(x)=(x-2)^2-1</m>
                                         <solution>
+                                            <p>Abrindo o produto notável:</p>
                                             <p><m>f(x)=x^2 -2\cdot x \cdot2 + 2^2 - 1 = x^2-4x+3</m></p>
                                             <p>Portanto, <m>f(x)=x^2-4x+3</m>.</p>
+                                            <p></p>
+                                            <p>Usando <m>f(x)=ax^2-2amx+am^2+k</m>, temos que <m>a=1</m>,
+                                            <m>m=2</m> e <m>k=-1</m>.  Logo</p>
+                                            <p><m>f(x)=1\cdotx^2-2\cdot1\cdot2\cdotx+1\cdot2^2+(-1)</m></p>
+                                            <p>Portanto, <m>f(x)=f(x)=x^2-4x+3</m></p>
                                         </solution>
                                 </li>
 
                                 <li>
                                     <m>f(x)=-\left(x-\dfrac{5}{2}\right)^2+\dfrac{1}{4}</m>
                                         <solution>
-                                            <p><m>f(x)=-x^2+2\cdot x\cdot \dfrac{5}{2}-\left(\dfrac{5}{2}\right)^2=-x^2+5x-6</m></p>
+                                            <p><m>f(x)=-x^2+2\cdot x\cdot \dfrac{5}{2}-\left(\dfrac{5}{2}\right)^2+\dfrac{1}{4}=-x^2+5x-6</m></p>
                                             <p>Portanto, <m>f(x)=-x^2+5x-6</m>.</p>
+                                            <p></p>
+                                            <p>Usando <m>f(x)=ax^2-2amx+am^2+k</m>, temos que <m>a=-1</m>,
+                                            <m>m=\dfrac{5}{2}</m> e <m>k=\dfrac{1}{4}</m>.  Logo</p>
+                                            <p><m>f(x)=-1\cdot x^2-2\cdot (-1)\cdot \dfrac{5}{2}\cdot x+ (-1)\cdot \left(\dfrac{5}{2}\right)^2+\dfrac{1}{4}</m></p>
+                                            <p>Portanto, <m>f(x)=-x^2+5x-6</m></p>
                                         </solution>
                                 </li>
 
@@ -4247,7 +4259,12 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                             <p><m>f(x)=\dfrac{1}{2}\cdot (x^2-2\cdot x\cdot4+4^2)-8
                                                 =\dfrac{x^2}{2}-4x+8-8
                                                 =\dfrac{x^2}{2}-4x</m></p>
-                                            <p>Portanto, <m>f(x)=\dfrac{x^2}{2}-4x</m>.</p> 
+                                            <p>Portanto, <m>f(x)=\dfrac{x^2}{2}-4x</m>.</p>
+                                            <p></p>
+                                            <p>Usando <m>f(x)=ax^2-2amx+am^2+k</m>, temos que <m>a=\dfrac{1}{2}</m>,
+                                            <m>m=4</m> e <m>k=-8</m>. Logo</p>
+                                            <p><m>f(x)=\dfrac{1}{2}\cdot x^2-2\cdot \dfrac{1}{2}\cdot 4\cdot x + \dfrac{1}{2}\cdot 4^2-8</m></p>
+                                            <p>Portanto, <m>f(x)=\dfrac{x^2}{2}-4x</m>.</p>
                                         </solution>
                                                                                                                                                                                                                                                                                                                                                                                                                     
                                 </li>
@@ -4255,92 +4272,92 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                         </li>
                     </ol>
                 </p>
-                
 
-            </subsection>
-
-            <subsection>
-                <title>Valor Numérico da Função Quadrática</title>
-
-                <p>Usando a função quadrática na forma canônica, podemos determinar valores 
-                numéricos quando conhecemos o valor de x. Veja alguns exemplos:</p>
-
-                <ol>
-                    <li>
-                        <p>Determine os valores numéricos da função <m>f(x)=(x+4)^2-1</m>, quando:</p>
-                        <ol marker="a">
-                            <li><m>x=-5</m>
-                                <solution>
-                                    <me>f(-5)=(-5+4)^2-1=(-1)^2-1=1-1=0</me>
-                                </solution>
-                            </li>
-                            <li><m>x=0</m>
-                                <solution>
-                                    <me>f(0)=(0+4)^2-1=4^2-1=16-1=15</me>
-                                </solution>
-                            </li>
-                            <li><m>x=\dfrac{1}{2}</m>
-                                <solution>
-                                    <me>f(\dfrac{1}{2})=\left(\dfrac{1}{2}+4\right)^2-1
-                                            =\left(\dfrac{9}{4}\right)^2-1
-                                            =\dfrac{91}{16}-1
-                                            =\dfrac{75}{16}</me>
-                                </solution>
-                            </li>
-                            <li><m>x=-\sqrt2</m>
-                                <solution>
-                                    <me>f(-\sqrt2)=(-\sqrt2+4)^2-1</me>
-                                    <me>=2+8\sqrt2+16-1</me>
-                                    <me>=17+8\sqrt2</me>
-                                </solution>
-                            </li>
-                        </ol>
-                    </li>
-                </ol>
-
-
-            </subsection>
-
-            <subsection>
-                <title>Vértice da Parábola</title>
-                <p>A parábola é uma curva desenhada pelo gráfico da função quadrática, indenpendente de qual
-                forma ela está escrita, seja a padrão ou a canônica. Como já sabemos escrever uma função na forma canônica,
-                observaremos se estes dados são de fácil percepção quando usamos um software gráfico para
-                desenhar as parábolas.
-                </p>
-
-                <p>Veja no gráfico a seguir a função quadrática <m>f(x)=(x-2)^2+3</m>:</p>
-
-                <interactive desmos="jeytyh3ra5"/>
-
-                <p>Na função <m>f(x)=(x-2)^2+3</m> temos os valores de <m>m=2</m> e <m>k=3</m>. Note que 
-                    o vértice da parábola possui os mesmos valores. Ou seja, as coordenadas do ponto mais
-                    baixo da parábola, ponto de mínimo, são V=(2,3). Logo, sejam <m>x_v</m> e <m>y_v</m>
-                    a coordenadas do vértice da parábola, vemos que <m>m=x_v=2</m> e <m>k=y_v=3</m>.
-                </p>
-
-                <p>Outros exemplos</p>
-                
-                <example>
-                    <figure>
+                <subsection>
+                    <title>Vértice da Parábola</title>
+                    <p>A parábola é uma curva desenhada pelo gráfico da função quadrática, indenpendente de qual
+                    forma ela está escrita, seja a padrão ou a canônica. Como já sabemos escrever uma função na forma canônica,
+                    observaremos se estes dados são de fácil percepção quando usamos um software gráfico para
+                    desenhar as parábolas.
+                    </p>
+    
+                    <p>Veja no gráfico a seguir a função quadrática <m>f(x)=(x-2)^2+3</m>:</p>
+    
+                    <interactive desmos="jeytyh3ra5"/>
+    
+                    <p>Na função <m>f(x)=(x-2)^2+3</m> os valores de <m>m=2</m> e <m>k=3</m> representam as 
+                        coordenadas do ponto de mínimo da parábola, ou seja, <m>V=(m,k)=(2,3)</m>. E como
+                        já sabemos, <m>m</m> representa a equação do eixo de simetria da parábola. Ou seja, nessa
+                        função, <m>x=2</m> representa a lei de formação do eixo de simetria da parábola. 
+                    </p>
+    
+                    <p>Outros exemplos</p>
+                    
+                    <example>
                         <image width="100%" source="Exemplo1.png"/>
-                    </figure>
-                </example>
-
-                <example>
-                    <figure>
+                            <p>
+                                Note que o vértice tem coordenadas <m>V=(m,k)=(0,-1)</m>, localizado no eixo de simetria de equação
+                                <m>x=0</m> e a concavidade virada para cima deve-se ao fato de <m>a=1</m>, valor positivo.
+                            </p>
+                    </example>
+    
+                    <example>
                         <image width="100%" source="Exemplo5.png"/>
-                    </figure>
-                </example>
-
-                <example>
-                    <figure>
+                            <p>
+                                Note que o vértice tem coordenadas <m>V=(m,k)=(-3,1)</m>, localizado no eixo de simetria de equação
+                                <m>x=-3</m> e a concavidade virada para baixo deve-se ao fato de <m>a=-1</m>, valor positivo.
+                            </p>
+                    </example>
+    
+                    <example>
                         <image width="100%" source="Exemplo6.png"/>
-                    </figure>
-                </example>
+                            <p>
+                                Note que o vértice tem coordenadas <m>V=(m,k)=\left(-1,-\dfrac{1}{2}\right)</m>, localizado no eixo de simetria de equação
+                                <m>x=-1</m> e a concavidade virada para baixo deve-se ao fato de <m>a=2</m>, valor positivo.
+                            </p>
+                    </example>
+    
+                </subsection>
 
+                <subsection>
+                    <title>Esboçando o Gráfico da Função Quadrática</title>
+
+                    <p>
+                        Vamos construir o esboço de dois gráficos de função quadrática.
+                    </p>
+                    <ol>
+                        <li>
+                            Esboce o gráfico das funções quadráticas:
+                            <ol marker="a">
+                                <li>
+                                    <m>f(x)=-(x-2)^2+4</m>
+                                        <solution>
+                                            Esta é uma função quadrática escrita na forma canônica, cujos valores 
+                                            de <m>a=-1</m> indica a concavidade virada para baixo, <m>m=2</m> indica
+                                            o eixo de simetria coincidindo com a reta <m>x=2</m> e <m>V=(2,4)</m> o 
+                                            vértice da função indicando o ponto de máximo da parábola. Podemos utilizar 
+                                            ainda mais um valor numérico da função para ajudar no desenho da parábola. 
+                                            Já sabemos que <m>f(2)=3</m>, é o vértice da paŕabola. Então, como x=2 é o 
+                                            eixo de simetria da parábola, então <m>f(1)=f(3)</m> e <m>f(0)=f(4)</m>.
+                                        </solution>
+                                </li>
+                                <li>
+                                    <m>g(x)=x^2+6x+5</m>
+                                        <solution>
+                                            
+                                        </solution>
+                                </li>
+                            </ol>
+                        </li>
+                    </ol>
+                        
+
+                </subsection>
+    
             </subsection>
 
+            
+            
             <subsection>
                 <title>Exercícios</title>
 
