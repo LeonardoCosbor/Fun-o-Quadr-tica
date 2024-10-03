@@ -4386,14 +4386,27 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
             
             <subsection>
                 <title>Foco da Parábola</title>
-                    Formalmente, parábola é o conjunto de pontos equidistantes a um reta <m>d</m>
+                    <p>Formalmente, parábola é o conjunto de pontos equidistantes a uma reta <m>d</m>
                     chamada diretriz e um ponto fixo <m>F</m> chamado de foco que não esteja na reta.
                     Observando a imagem, temos uma parábola de concavidade positiva. Dentro da concavidade
-                    e situado no eixo de simetria da parábola está localizado o ponto <m>F</m>. Ná parábola, 
-                    localizamos um ponto <m>A</m> e na reta diretriz um ponto <m>B</m>. Note que a distância
-                    do ponto <m>A</m> ao ponto foco <m>F</m> tem a mesma medida que a distância do ponto <m>B</m>
-                    ao foco <m>F</m>. Ou seja, <m>AF=AB</m>.
-                    <image width="100%" source="Parabola4.png"/>
+                    e situado no eixo de simetria da parábola está localizado o ponto <m>F</m>, assim, colinear
+                    com o vértice da parábola. Nesta, localizamos um ponto <m>A</m> e na reta diretriz um ponto
+                    <m>B</m>. Note que a distância do ponto <m>A</m> ao foco <m>F</m> tem a mesma medida que a 
+                    distância do ponto <m>B</m> ao foco <m>F</m>. Ou seja, <m>AF=AB</m>.</p>
+
+                    <image width="80%" source="Parabola4.png"/>
+
+                    <p>Para encontrar as coordenadas do foco, clique em <alert>Demonstração</alert>, pois vamos
+                    usar apenas a fórmula direta para os cálculos e aplicações em exercícios.
+                    .</p> 
+                        
+                    <p>
+                        <proof>
+                            O foco de uma parábola precisamos observar que este ponto
+                    está no eixo de simetria da parábola. Logo, a sua abscissa tem o mesmo valor da abscissa do
+                    vértice da parábola. Chamando de a distância de
+                        </proof> 
+                    </p>
 
             </subsection>
             
