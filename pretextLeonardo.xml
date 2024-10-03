@@ -4393,7 +4393,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                     localizamos um ponto <m>A</m> e na reta diretriz um ponto <m>B</m>. Note que a distância
                     do ponto <m>A</m> ao ponto foco <m>F</m> tem a mesma medida que a distância do ponto <m>B</m>
                     ao foco <m>F</m>. Ou seja, <m>AF=AB</m>.
-                    <image width="50%" source="Parabola4.png"/>
+                    <image width="100%" source="Parabola4.png"/>
 
             </subsection>
             
