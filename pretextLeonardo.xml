@@ -4504,9 +4504,52 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                 <image width="50%" source="fspo.png"/>
                             </li>
                         </ul>
-
                     </p>
-
+                    <p>
+                        Vantagens e desvantagens do fogão solar:
+                        <p>Vantagens:</p>
+                            <ul>
+                                <li>
+                                    Sustentabilidade ambiental
+                                </li>
+                                <li>
+                                    Economia de recursos
+                                </li>
+                                <li>
+                                    Custo efetivo a longo prazo
+                                </li>
+                                <li>
+                                    Versatilidade
+                                </li>
+                                <li>
+                                    Segurança
+                                </li>
+                                <li>
+                                    Facilidade de uso
+                                </li>
+                            </ul>
+                        <p>Desvantagens:</p>
+                            <ul>
+                                <li>
+                                    Dependência das condições climáticas
+                                </li>
+                                <li>
+                                    Tempo longo de cozimento
+                                </li>
+                                <li>
+                                    Limitações de capacidade
+                                </li>
+                                <li>
+                                    Necessodade de ajustes de posição
+                                </li>
+                                <li>
+                                    Custo inicial elevado
+                                </li>
+                                <li>
+                                    Sensibilidade a danos
+                                </li>
+                            </ul>
+                    </p>
             </subsection>
             
             
