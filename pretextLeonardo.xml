@@ -4437,7 +4437,11 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                 </li>
                             </ul>
                             <p>
-                                Seja uma função quadrática cuja lei de formação é <m>y=x^2-4x</m>
+                                <alert>Exemplo:</alert> Seja uma função quadrática cuja lei de formação é <m>y=2x^2</m>
+                                temos que o vértice da função é o ponto <m>V=(0,0)</m>. Como o parâmetro da função é  
+                                <m>p=\dfrac{1}{8}</m>, então o foco da parábola é o ponto <m>F=\left(0,\dfrac{1}{8}\right)</m>
+                                e a diretriz é a reta <m>d:y=\dfrac{-1}{8}</m>. Portanto, segue o gráfico.
+                                <image width="50%" source="foco1.png"/> 
                             </p>
                         </proof> 
                     </p>
