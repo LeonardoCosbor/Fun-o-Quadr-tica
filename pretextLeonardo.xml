@@ -4437,13 +4437,74 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                 </li>
                             </ul>
                             <p>
-                                <alert>Exemplo:</alert> Seja uma função quadrática cuja lei de formação é <m>y=2x^2</m>
+                                <alert>Exemplo 1:</alert> Seja uma função quadrática cuja lei de formação é <m>y=2x^2</m>
                                 temos que o vértice da função é o ponto <m>V=(0,0)</m>. Como o parâmetro da função é  
                                 <m>p=\dfrac{1}{8}</m>, então o foco da parábola é o ponto <m>F=\left(0,\dfrac{1}{8}\right)</m>
                                 e a diretriz é a reta <m>d:y=\dfrac{-1}{8}</m>. Portanto, segue o gráfico.
-                                <image width="50%" source="foco1.png"/> 
+                                <image width="100%" source="foco1.png"/> 
+                            </p>
+                            <p>
+                                <alert>Exemplo 2:</alert> Seja uma função quadrática cuja lei de formação é <m>y=\dfrac{x^2}{8}</m>
+                                temos que o veŕtice da função é o ponto <m>V=(0,0)</m>. Como o parâmetro da função é 
+                                <m>p=4</m>, então o foco da parábola é o ponto <m>F=(0,2)</m> e a diretriz é a reta
+                                <m>d:y=-2</m>. Portanto segue o gráfico da função:
+                                <image width="100%" source="foco2.png"/>
+                            </p>
+                            <p>
+                                <alert>Exemplo 3:</alert> Seja uma função quadrática cuja lei de formação é <m>y=-\dfrac{1}{4}(x-3)^2+2</m>
+                                temos que o vértice da função é o ponto <m>V=(3,2)</m>. Como o parâmetro da função é <m>p=1</m>
+                                então o foco da parábola é o ponto <m>F=(3,1)</m> e a reta diretriz tem lei de formação
+                                <m>d:y=3</m>. Portanto, segue o gráfico da função:
+                                <image width="100%" source="foco3.png"/>
                             </p>
                         </proof> 
+                    </p>
+                    <p>
+                        Uma aplicação deste elemento importante da parábola é o <alert>fogão solar</alert>, um dispositivo
+                        sustentável que usa a energia térmica do sol para cozinhar alimentos, substituindo o uso de combustíveis como lenha,
+                        carvão, gás e eletricidade.  
+                    </p>
+                    <p>
+                        Alguns princípios básicos dos fogões solares são: 
+                        <ul>
+                            <li>
+                                O fogão solar possui um coletor que captura a luz solar e a converte em calor. Este coletor pode ser 
+                                feito de materiais como vidro ou plástico transparente, que permitem a passagem da luz solar enquanto retêm o calor.
+                            </li>
+                            <li>
+                                Alguns modelos de fogões solares incluem refletores que direcionam e concentram a luz solar no coletor, aumentando 
+                                assim a eficiência do aquecimento.
+                            </li>
+                            <li>
+                                Para maximizar a retenção de calor, o fogão solar geralmente é projetado com isolamento ao redor do recipiente de 
+                                cozimento, reduzindo a perda de calor para o ambiente.
+                            </li>
+                            <li>
+                                A panela ou recipiente de cozimento é colocado no coletor solar, onde absorve o calor gerado pela luz solar 
+                                concentrada. Os alimentos são então cozidos lentamente pela transferência de calor do recipiente para os ingredientes.
+                            </li>
+                        </ul>
+                    Tipos de Fogões Solares:
+                        <ul>
+                            <li>
+                                <alert>Fogões Solares de Caixa:</alert> é o tipo mais comum de fogão solar, composto de caixa isolada, tampa transparente e um refletor dentro da 
+                                caixa para refletir a luz do sol, mantendo dentro do recipiente um ambiente propício para cozimento. 
+                                <image width="50%" source="fsc.png"/>
+                            </li>
+                            <li>
+                                <alert>Fogões Solares Parabólicos:</alert> usam refletores parabólicos para refletir a luz num único ponto (foco da parábola).  
+                                <image width="50%" source="fspr.png"/>
+                            </li>
+                            <li>
+                                <alert>Fogões Solares Híbridos:</alert> combinam diversos tipos de tecnologia de aquecimento.       
+                                <image width="50%" source="fsh.png"/>
+                            </li>
+                            <li>
+                                <alert>Fogões Solares Portáteis:</alert> projetados para serem compactos e fáceis de transportar.
+                                <image width="50%" source="fspo.png"/>
+                            </li>
+                        </ul>
+
                     </p>
 
             </subsection>
