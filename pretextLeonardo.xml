@@ -4392,7 +4392,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                     e situado no eixo de simetria da parábola está localizado o ponto <m>F</m>, assim, colinear
                     com o vértice da parábola. Nesta, localizamos um ponto <m>A</m> e na reta diretriz um ponto
                     <m>B</m>. Note que a distância do ponto <m>A</m> ao foco <m>F</m> tem a mesma medida que a 
-                    distância do ponto <m>B</m> ao foco <m>F</m>. Ou seja, <m>AF=AB</m>.</p>
+                    distância do ponto <m>A</m> ao foco <m>B</m>. Ou seja, <m>AF=AB</m>.</p>
 
                     <image width="80%" source="Parabola4.png"/>
 
@@ -4402,9 +4402,43 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                         
                     <p>
                         <proof>
-                            O foco de uma parábola precisamos observar que este ponto
-                    está no eixo de simetria da parábola. Logo, a sua abscissa tem o mesmo valor da abscissa do
-                    vértice da parábola. Chamando de a distância de
+                            <alert>Elementos da Parábola</alert>
+                            <ul>
+                                <li>
+                                    <alert>FOCO:</alert> ponto fora da diretriz que se encontra no eixo de simetria
+                                    da parábola e fora da diretriz.
+                                </li>
+                                <li>
+                                    <alert>DIRETRIZ:</alert> reta cuja distância de qualquer ponto da parábola e o foco
+                                    é igual à distância destes pontos da parábola à reta diretriz. Será adotada a notação
+                                    <m>d</m>
+                                </li>
+                                <li>
+                                    <alert>PARÂMETRO:</alert> é a distância do foco e a reta diretriz e será adotada a notação
+                                    <m>2p</m>.
+                                </li>
+                                <li>
+                                    <alert>VÉRTICE:</alert> é o ponto da parábola mais próximo da diretriz. Está na metade
+                                    da distância do foco à reta diretriz.
+                                </li>
+                                <li>
+                                    <alert>CÁLCULO DA EQUAÇÃO DA PARÁBOLA:</alert> para determinar a equação da parábola 
+                                    utilizaremos o vértice localizado na origem do sistema de eixos 
+                                    ortogonais <m>V=(0,0)</m>, o eixo de simetria da parábola coincidente com o 
+                                    eixo y, um ponto na parábola cujas coordenadas são <m>A=(x,y)</m>, um ponto na reta diretriz
+                                    e de mesma abscissa que o ponto <m>A</m> que denotaremos <m>B=(x,-p)</m>
+                                    e o foco de coordenadas <m>F=(0,p)</m>. Assim, usando a fórmula da 
+                                    distância entre dois pontos, temos que:
+                                    <me>\sqrt{(x-0)^2+(y-p)^2}=\sqrt{(x-x)^2+(y+p)^2}</me>
+                                    <me>x^2+y^2-2\cdot y\cdot p+p^2=0+y^2+2\cdot y\cdot p+p^2</me>
+                                    <me>x^2-2yp=2yp</me>
+                                    <me>4yp=x^2</me>
+                                    <me>y=\dfrac{x^2}{4p}</me>
+                                </li>
+                            </ul>
+                            <p>
+
+                            </p>
                         </proof> 
                     </p>
 
