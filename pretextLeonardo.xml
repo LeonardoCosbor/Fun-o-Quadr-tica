@@ -4550,6 +4550,32 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                 </li>
                             </ul>
                     </p>
+                <alert>Atividades</alert>
+
+                <p>
+                    <ol>
+                        <li>
+                            Utilize os botões deslizantes para coincidir parábolas, focos e retas diretrizes, observando
+                            a fórmula da função quadrática no gráfico.
+                            <interactive geogebra="yxrmgnjk"/>
+                        </li>
+                        <li>
+                            Observe que no gráfico interativo a seguir, o segmento desenhado representa o parâmetro da parábola
+                            <m>f</m>. Use os botões deslizantes para mostrar as possibilidade de lei de formação da parábola cujo
+                            parâmetro é o segmento AB.
+                            <interactive geogebra="wbdtqmwz"/>
+                        </li>
+                        <li>
+                            Nos fogões solares, para que haja um cozimento efetivo dos alimentos e um bom
+                            aquecimento das panelas, é necessário que estas estejam localizadas no <alert>foco</alert>
+                            da parábola. No gráfico a seguir, as linhas em laranja representam a incidência dos raios
+                            solares refletindo no foco. Utilize os botões deslizantes do gráfico interativo para
+                            colocar o foco no centro da panela, observando a fórmula da função quadrática desenhada.
+                            <interactive geogebra="mmm3drap"/>
+                        </li>
+                        
+                    </ol>
+                </p>
             </subsection>
             
             
