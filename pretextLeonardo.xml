@@ -4855,6 +4855,54 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
         </section>
 
         <section>
+            <title>Zero da Função Quadrática</title>
+            <subsection>
+                <title>Discriminante</title>
+
+                <p>
+                    Como já foi comentado no capítulo <alert>Escrevendo a Função Quadrática na Forma Canônica</alert>,
+                    em Demonstração, Discriminante é o nome dado ao símbolo <m>\Delta</m>, uma constante cujo valor é <m>b^2-4ac</m>, 
+                    ou seja, <m>\Delta=b^2-4ac</m>. 
+                </p>
+                <p>
+                    No estudo de funções quadráticas, o discriminante da função quadrática indica quantas raízes reais 
+                    a função possui. Graficamente, isto indica o número de vezes que a parábola intersecta o eixo das abscissas (eixo x).
+                    Ou seja:
+                </p>
+                <p>
+                    <ul>
+                        <li>
+                            Se <m>\Delta&gt;0</m>, então a função possui duas raízes ou dois zeros da função. Logo, a parábola intersecta 
+                            duas vezes o eixo x.
+                        </li>
+                        <li>
+                            Se <m>\Delta=0</m>, então a função possui uma raíz ou um zero da função. Logo, a parábola intersecta uma vez o eixo x.
+                        </li>
+                        <li>
+                            Se <m>\Delta&lt;0</m>, então a função não possui raízes ou zeros da função reais. Logo, a parábola não intersecta
+                            o eixo x.
+                        </li>
+                    </ul>
+                </p>
+                <p>
+                    Observe o gráfico interativo em que o valor de <m>\Delta</m> é destacado tanto na função quadrática na forma canônica quanto
+                    na forma padrão. 
+                    <interactive geogebra="czgdhvhm"/>
+                </p>
+                <p>
+                    Veja alguns exemplos:
+                </p>
+                <p>
+                    <ol>
+                        <li>
+                            Determine o valor do discriminante
+                        </li>
+                    </ol>
+                </p>
+            </subsection>
+        </section>
+
+        <section>
             <title>Gráfico de Funções Quadráticas II: Forma Padrão</title>
             <subsection>
                 <title>Função Quadrática do tipo <m>f(x)=ax^2</m></title>
