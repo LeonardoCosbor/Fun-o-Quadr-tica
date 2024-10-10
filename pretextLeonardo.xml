@@ -4885,17 +4885,57 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                     </ul>
                 </p>
                 <p>
-                    Observe o gráfico interativo em que o valor de <m>\Delta</m> é destacado tanto na função quadrática na forma canônica quanto
-                    na forma padrão. 
+                    Observe o gráfico interativo em que o valor de <m>\Delta</m> está destacado em amarelo, a fórmula da função quadrática
+                    está destacado em azul e os zeros da função aparecem em vermelho. Mude os valores
+                    dos coeficientes <m>a</m>, <m>b</m> e <m>c</m>, utilizando os controles deslizantes, atentando ao valor de <m>\Delta</m> e a quantidade de zeros da função.
                     <interactive geogebra="czgdhvhm"/>
                 </p>
                 <p>
-                    Veja alguns exemplos:
+                    Veja alguns exemplos de como determinar o valor do discriminante em funções quadráicas:
                 </p>
                 <p>
                     <ol>
                         <li>
-                            Determine o valor do discriminante
+                            Determine o valor do discriminante nas funções a seguir:
+                            <ol marker="a">
+                                <li>
+                                    <m>f(x)=x^2-6x+5</m>
+                                    <solution>
+                                        <me>\Delta=b^2-4ac=(-6)^2-4\cdot 1\cdot 5 = 36-20 = 16</me>
+                                    </solution>
+                                </li>
+                                <li>
+                                    <m>g(x)=-x^2+4x-4</m>
+                                    <solution>
+                                        <me>\Delta=b^2-4ac=4^2-4\cdot (-1)\cdot (-4)= 16 - 16 = 0</me>
+                                    </solution>
+                                </li>
+                                <li>
+                                    <m>h(x)=x^2+4x+5</m>
+                                    <solution>
+                                        <me>\Delta=b^2-4ac=4^2-4\cdot 1\cdot 5 = 16 - 20 = -4</me>
+                                    </solution>
+                                </li>
+                            </ol>
+                        </li>
+                        <li>
+                            Determine quantas raízes reais as funções quadráticas a seguir possuem.
+                            <ol marker="a">
+                                <li>
+                                    <m>y=(x-2)^2+1</m>
+                                    <solution>
+                                        <me>y=x^2-4x+4+1=x^2-4x+5</me>, onde <m>a=1</m>, <m>b=-4</m> e <m>c=5</m>. Logo
+                                        <me>\Delta=b^2-4ac=(-4)^2-4\cdot 1\cdot 5 = 16 - 20 = -4</me>. 
+                                        <p>Portanto a função não possui raízes pois <m>\Delta&gt;0</m>.</p>
+                                    </solution>
+                                </li>
+                                <li>
+                                    <m>y=25-x^2</m>
+                                    <solution>
+                                        <p>Como <m>a=-1</m>, <m>b=0</m> e <m>c=25</m></p>
+                                    </solution>
+                                </li>
+                            </ol>
                         </li>
                     </ol>
                 </p>
