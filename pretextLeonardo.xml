@@ -4116,7 +4116,12 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                 <p>
                 <theorem>
                     <title>Função Quadrática da Forma Padrão para a Forma Canônica</title>
-                        <proof color="blue">
+                        <statement>
+                            <p>
+
+                            </p>
+                        </statement>
+                        <proof>
                     Vamos fazer algumas manipulações algébricas na forma padrão
                 e escrevê-la de outra maneira. Veja quando colocamos o coeficiente <m>a</m>
                 em evidência:
@@ -4193,7 +4198,51 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                         </li>
                     </ol>
                 </p>
-                
+                <subsection>
+                    <title>Vértice da Parábola</title>
+                    <p>A parábola é uma curva desenhada pelo gráfico da função quadrática, indenpendente de qual
+                    forma ela está escrita, seja a padrão ou a canônica. Como já sabemos escrever uma função na forma canônica,
+                    observaremos se estes dados são de fácil percepção quando usamos um software gráfico para
+                    desenhar as parábolas.
+                    </p>
+    
+                    <p>Veja no gráfico a seguir a função quadrática <m>f(x)=(x-2)^2+3</m>:</p>
+    
+                    <interactive desmos="jeytyh3ra5"/>
+    
+                    <p>Na função <m>f(x)=(x-2)^2+3</m> os valores de <m>m=2</m> e <m>k=3</m> representam as 
+                        coordenadas do ponto de mínimo da parábola, ou seja, <m>V=(m,k)=(2,3)</m>. E como
+                        já sabemos, <m>m</m> representa a equação do eixo de simetria da parábola. Ou seja, nessa
+                        função, <m>x=2</m> representa a lei de formação do eixo de simetria da parábola. 
+                    </p>
+    
+                    <p>Outros exemplos</p>
+                    
+                    <example>
+                        <image width="100%" source="Exemplo1.png"/>
+                            <p>
+                                Note que o vértice tem coordenadas <m>V=(m,k)=(0,-1)</m>, localizado no eixo de simetria de equação
+                                <m>x=0</m> e a concavidade virada para cima deve-se ao fato de <m>a=1</m>, valor positivo.
+                            </p>
+                    </example>
+    
+                    <example>
+                        <image width="100%" source="Exemplo5.png"/>
+                            <p>
+                                Note que o vértice tem coordenadas <m>V=(m,k)=(-3,1)</m>, localizado no eixo de simetria de equação
+                                <m>x=-3</m> e a concavidade virada para baixo deve-se ao fato de <m>a=-1</m>, valor positivo.
+                            </p>
+                    </example>
+    
+                    <example>
+                        <image width="100%" source="Exemplo6.png"/>
+                            <p>
+                                Note que o vértice tem coordenadas <m>V=(m,k)=\left(-1,-\dfrac{1}{2}\right)</m>, localizado no eixo de simetria de equação
+                                <m>x=-1</m> e a concavidade virada para baixo deve-se ao fato de <m>a=2</m>, valor positivo.
+                            </p>
+                    </example>
+    
+                </subsection>
             </subsection>
 
             <subsection>
@@ -4273,51 +4322,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                     </ol>
                 </p>
 
-                <subsection>
-                    <title>Vértice da Parábola</title>
-                    <p>A parábola é uma curva desenhada pelo gráfico da função quadrática, indenpendente de qual
-                    forma ela está escrita, seja a padrão ou a canônica. Como já sabemos escrever uma função na forma canônica,
-                    observaremos se estes dados são de fácil percepção quando usamos um software gráfico para
-                    desenhar as parábolas.
-                    </p>
-    
-                    <p>Veja no gráfico a seguir a função quadrática <m>f(x)=(x-2)^2+3</m>:</p>
-    
-                    <interactive desmos="jeytyh3ra5"/>
-    
-                    <p>Na função <m>f(x)=(x-2)^2+3</m> os valores de <m>m=2</m> e <m>k=3</m> representam as 
-                        coordenadas do ponto de mínimo da parábola, ou seja, <m>V=(m,k)=(2,3)</m>. E como
-                        já sabemos, <m>m</m> representa a equação do eixo de simetria da parábola. Ou seja, nessa
-                        função, <m>x=2</m> representa a lei de formação do eixo de simetria da parábola. 
-                    </p>
-    
-                    <p>Outros exemplos</p>
-                    
-                    <example>
-                        <image width="100%" source="Exemplo1.png"/>
-                            <p>
-                                Note que o vértice tem coordenadas <m>V=(m,k)=(0,-1)</m>, localizado no eixo de simetria de equação
-                                <m>x=0</m> e a concavidade virada para cima deve-se ao fato de <m>a=1</m>, valor positivo.
-                            </p>
-                    </example>
-    
-                    <example>
-                        <image width="100%" source="Exemplo5.png"/>
-                            <p>
-                                Note que o vértice tem coordenadas <m>V=(m,k)=(-3,1)</m>, localizado no eixo de simetria de equação
-                                <m>x=-3</m> e a concavidade virada para baixo deve-se ao fato de <m>a=-1</m>, valor positivo.
-                            </p>
-                    </example>
-    
-                    <example>
-                        <image width="100%" source="Exemplo6.png"/>
-                            <p>
-                                Note que o vértice tem coordenadas <m>V=(m,k)=\left(-1,-\dfrac{1}{2}\right)</m>, localizado no eixo de simetria de equação
-                                <m>x=-1</m> e a concavidade virada para baixo deve-se ao fato de <m>a=2</m>, valor positivo.
-                            </p>
-                    </example>
-    
-                </subsection>
+                
 
                 <subsection>
                     <title>Esboçando o Gráfico da Função Quadrática</title>
