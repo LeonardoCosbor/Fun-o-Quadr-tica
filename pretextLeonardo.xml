@@ -4919,11 +4919,12 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                             </ol>
                         </li>
                         <li>
-                            Determine quantas raízes reais as funções quadráticas a seguir possuem.
+                            <p>Determine quantas raízes reais as funções quadráticas a seguir possuem.</p>
                             <ol marker="a">
                                 <li>
                                     <m>y=(x-2)^2+1</m>
                                     <solution>
+                                        <p>Escrevendo a função quadrática na forma padrão, temos que:</p>
                                         <me>y=x^2-4x+4+1=x^2-4x+5</me>, onde <m>a=1</m>, <m>b=-4</m> e <m>c=5</m>. Logo
                                         <me>\Delta=b^2-4ac=(-4)^2-4\cdot 1\cdot 5 = 16 - 20 = -4</me>. 
                                         <p>Portanto a função não possui raízes pois <m>\Delta&gt;0</m>.</p>
@@ -4932,7 +4933,9 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                 <li>
                                     <m>y=25-x^2</m>
                                     <solution>
-                                        <p>Como <m>a=-1</m>, <m>b=0</m> e <m>c=25</m></p>
+                                        <p>Como <m>a=-1</m>, <m>b=0</m> e <m>c=25</m>, temos que:</p>
+                                        <me>\Delta=b^2-4ac=0^2-4\cdot (-1)\cdot 25=100</me>
+                                        Portanto, como <m>\Delta&gt;0</m> então a função possui duas raízes distintas.
                                     </solution>
                                 </li>
                             </ol>
