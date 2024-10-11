@@ -4862,6 +4862,9 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
         <section>
             <title>Zero da Função Quadrática</title>
             <subsection>
+                <title>Calcular zeros da função utilizando a forma canônica</title>
+            </subsection>
+            <subsection>
                 <title>Discriminante</title>
 
                 <p>
