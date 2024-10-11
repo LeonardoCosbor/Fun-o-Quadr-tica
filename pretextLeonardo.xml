@@ -4896,7 +4896,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                 <p>
                     <ol>
                         <li>
-                            Determine o valor do discriminante nas funções a seguir:
+                            <p>Determine o valor do discriminante nas funções a seguir:</p>
                             <ol marker="a">
                                 <li>
                                     <m>f(x)=x^2-6x+5</m>
@@ -4949,6 +4949,31 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                             </ol>
                         </li>
                     </ol>
+                </p>
+                <p>
+                    Vamos comparar três exemplos de gráficos e fórmulas de funções quadráticas que apresentam os 
+                    valores do discriminante e como podemos observar no gráfico.
+                </p>
+                <p>
+                    Veja o gráfico da função quadrática <m>f(x)=x^2-3x+2</m>. 
+                    <ul>
+                        <li>
+                            Coeficientes: <m>a=1</m>, <m>b=-3</m> e <m>c=2</m>.
+                        </li>
+                        <li>
+                            Discriminante: <m>\Delta=b^2-4ac=(-3)^2-4\cdot 1\cdot 2=9-8=1</m>. 
+                            <m>\Delta&gt;0</m>, portanto, duas raízes reais distintas.
+                        </li>
+                        <li>
+                            Como <m>a&gt;0</m>, então a concavidade da parábola é vidada para cima.
+                        </li>
+                        <li>
+                            O coeficiente <m>c=2</m> mostra que a parábola passa pelo ponto <m>(0,2)</m>.
+                        </li>
+                        <li>
+                            Gráfico: <image width="80%" source="delta1.png"/>
+                        </li>
+                    </ul>
                 </p>
             </subsection>
         </section>
