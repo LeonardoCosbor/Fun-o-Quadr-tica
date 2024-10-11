@@ -4938,6 +4938,14 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                         Portanto, como <m>\Delta&gt;0</m> então a função possui duas raízes distintas.
                                     </solution>
                                 </li>
+                                <li>
+                                    <m>y=x^2-14x+49</m>
+                                    <solution>
+                                        <p>Como <m>a=1</m>, <m>b=14</m> e <m>c=49</m>, temos que:</p>
+                                        <me>\Delta=b^2-4ac=14^2-4\cdot (1)\cdot 49= 196-196=0</me>
+                                        Portanto, como <m>\Delta=0</m> então a função possui um zero da função real. 
+                                    </solution>
+                                </li>
                             </ol>
                         </li>
                     </ol>
