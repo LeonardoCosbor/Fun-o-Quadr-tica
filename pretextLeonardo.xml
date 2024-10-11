@@ -4969,7 +4969,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                     valores do discriminante e como podemos observar no gráfico.
                 </p>
                 <p>
-                    Veja o gráfico da função quadrática <m>f(x)=x^2-3x+2</m>. 
+                    Veja o gráfico da função quadrática <m>g(x)=x^2-3x+2</m>. 
                     <ul>
                         <li>
                             Coeficientes: <m>a=1</m>, <m>b=-3</m> e <m>c=2</m>.
@@ -4985,10 +4985,64 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                             O coeficiente <m>c=2</m> mostra que a parábola passa pelo ponto <m>(0,2)</m>.
                         </li>
                         <li>
+                            O vértice da função é o ponto <m>V=\left(\dfrac{3}{2},-\dfrac{1}{4}\right)</m>.
+                        </li>
+                        <li>
                             Gráfico: <image width="80%" source="delta1.png"/>
                         </li>
                     </ul>
                 </p>
+                <p>
+                    Veja o gráfico da função quadrática <m>g(x)=-\dfrac{9}{4}x^2-3x-1</m>. 
+                    <ul>
+                        <li>
+                            Coeficientes: <m>a=\dfrac{9}{4}</m>, <m>b=-3</m> e <m>c=-1</m>.
+                        </li>
+                        <li>
+                            Discriminante: <m>\Delta=b^2-4ac=(-3)^2-4\cdot \dfrac{9}{4}\cdot (-1)=9-9=0</m>. 
+                            <m>\Delta=0</m>, portanto, a função possui uma raíz real.
+                        </li>
+                        <li>
+                            Como <m>a&lt;0</m>, então a concavidade da parábola é vidada para cima.
+                        </li>
+                        <li>
+                            O coeficiente <m>c=-1</m> mostra que a parábola passa pelo ponto <m>(0,-1)</m>.
+                        </li>
+                        <li>
+                            O vértice da função é o ponto <m>V=\left(-\dfrac{2}{3},0\right)</m>.
+                        </li>
+                        <li>
+                            Gráfico: <image width="80%" source="delta2.png"/>
+                        </li>
+                    </ul>
+                </p>
+                <p>
+                    Veja o gráfico da função quadrática <m>g(x)=2x^2-4x+3</m>. 
+                    <ul>
+                        <li>
+                            Coeficientes: <m>a=2</m>, <m>b=-4</m> e <m>c=3</m>.
+                        </li>
+                        <li>
+                            Discriminante: <m>\Delta=b^2-4ac=(-4)^2-4\cdot 2\cdot 3=16-24=-12</m>. 
+                            <m>\Delta&lt;0</m>, portanto, a função não possui raízes reais.
+                        </li>
+                        <li>
+                            Como <m>a&gt;0</m>, então a concavidade da parábola é vidada para cima.
+                        </li>
+                        <li>
+                            O coeficiente <m>c=3</m> mostra que a parábola passa pelo ponto <m>(0,3)</m>.
+                        </li>
+                        <li>
+                            O vértice da função é o ponto <m>V=(1,1)</m>.
+                        </li>
+                        <li>
+                            Gráfico: <image width="80%" source="delta3.png"/>
+                        </li>
+                    </ul>
+                </p>
+            </subsection>
+            <subsection>
+                <title>Máximos e Mínimos da Função Quadrática</title>
             </subsection>
         </section>
 
