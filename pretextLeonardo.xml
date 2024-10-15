@@ -4118,7 +4118,8 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                     <title>Função Quadrática da Forma Padrão para a Forma Canônica</title>
                         <statement>
                             <p>
-
+                                Toda função quadrática escrita na forma <m>f(x)=ax^2+bx+c</m> pode ser reescrita
+                                na forma <m>f(x)=a(x-m)^2+k</m>, que chamamos de forma canônica.
                             </p>
                         </statement>
                         <proof>
@@ -4154,44 +4155,50 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                 
                 <p>
                     <ol>
-                        <li><p>Escreva as funções a seguir na forma canônica:</p>
+                        <li><p>Escreva as funções a seguir na forma canônica e identifique qual dos gráficos representa 
+                            a lei de formação encontrada.
+                        </p>
                             <ol marker="a">        
                                 <li><m>f(x)=x^2-4x+3</m>
+                                    <image width="100%" source="GRAFICOS.png"/>
                                         <solution>
                                             Como <m>a=1</m>, <m>b=-4</m> e <m>c=3</m>, então
                                             <p><m>m=-\dfrac{b}{2a}=-\dfrac{-4}{2\cdot1}=2</m> e</p>
                                             <p><m>k=-\dfrac{\Delta}{4a}=-\dfrac{(-4)^2-4\cdot1\cdot3}{4\cdot1}=-1</m></p>
-                                            <p>Portanto, <m>f(x)=(x-2)^2-1</m>.</p>
+                                            <p>Portanto, <m>f(x)=(x-2)^2-1</m> cuja paŕabola está representada no Gráfico 3.</p>
                                         </solution>
                                 </li>
 
                                 <li>
                                     <m>f(x)=-x^2+5x-6</m>
+                                    <image width="100%" source="GRAFICOS.png"/>
                                         <solution>
                                             Como <m>a=-1</m>, <m>b=5</m> e <m>c=-6</m>, então
                                             <p><m>m=-\dfrac{b}{2a}=-\dfrac{5}{2\cdot(-1)}=\dfrac{5}{2}</m> e</p>
                                             <p><m>k=-\dfrac{\Delta}{4a}=-\dfrac{(5)^2-4\cdot(-1)\cdot(-6)}{4\cdot(-1)}=\dfrac{1}{4}</m></p>
-                                            <p>Portanto, <m>f(x)=-\left(x-\dfrac{5}{2}\right)^2+\dfrac{1}{4}</m>.</p>
+                                            <p>Portanto, <m>f(x)=-\left(x-\dfrac{5}{2}\right)^2+\dfrac{1}{4}</m> cuja paŕabola está representada no Gráfico 4.</p>
                                         </solution>
                                 </li>
 
                                 <li>
                                     <m>f(x)=5x^2-25</m>
+                                    <image width="100%" source="GRAFICOS.png"/>
                                         <solution>
                                             Como <m>a=5</m>, <m>b=0</m> e <m>c=-25</m>, então
                                             <p><m>m=-\dfrac{b}{2a}=-\dfrac{0}{2\cdot(5)}=0</m> e</p>
                                             <p><m>k=-\dfrac{\Delta}{4a}=-\dfrac{(0)^2-4\cdot(5)\cdot(-25)}{4\cdot(5)}=25</m></p>
-                                            <p>Portanto, <m>f(x)=5(x-0)^2+25</m>.</p>
+                                            <p>Portanto, <m>f(x)=5(x-0)^2+25</m> cuja paŕabola está representada no Gráfico 2.</p>
                                         </solution>
                                 </li>
 
                                 <li>
                                     <m>f(x)=\dfrac{x^2}{2}-4x</m>
+                                    <image width="100%" source="GRAFICOS.png"/>
                                         <solution>
                                             Como <m>a=\dfrac{1}{2}</m>, <m>b=-4</m> e <m>c=0</m>, então
                                             <p><m>m=-\dfrac{b}{2a}=-\dfrac{-4}{2\cdot\dfrac{1}{2}}=4</m> e</p>
                                             <p><m>k=-\dfrac{\Delta}{4a}=-\dfrac{(-4)^2-4\cdot\left(\dfrac{1}{2}\right)\cdot0}{4\cdot\dfrac{1}{2}}=-8</m></p>
-                                            <p>Portanto, <m>f(x)=\dfrac{1}{2}(x-4)^2-8</m>.</p>
+                                            <p>Portanto, <m>f(x)=\dfrac{1}{2}(x-4)^2-8</m> cuja paŕabola está representada no Gráfico 1.</p>
                                         </solution>
                                 </li>
                             </ol>
@@ -4242,6 +4249,81 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                             </p>
                     </example>
     
+                </subsection>
+
+                <subsection>
+                    <title>Domínio e Imagem da Função Quadrática</title>
+                    <p>
+                        Após determinarmos o vértice de uma parábola, podemos analisar o domínio e a 
+                        imagem de uma função quadrática. A seguir, observe a linha vermelha no eixo y
+                        quando alteramos os valores de <m>a</m>, <m>m</m> e <m>k</m>.
+                    </p>
+
+                    <p>
+                        <interactive geogebra="wwcuge3u"/>
+                    </p>
+                    <p>
+                        Seja <m>f:\mathbb{R}\rightarrow\mathbb{R}</m> uma função quadrática definida pela 
+                        lei de formação <m>f(x)=a(x-m)^2+k</m>, onde <m>a</m>, <m>m</m> e <m>k</m> são valores reais
+                        definidos por <m>m=-\dfrac{b}{2a}</m> e <m>k=\dfrac{4ac-b^2}{4a}</m>, define-se que o
+                        <alert>Domínio</alert> da função quadrática, denotado por <m>D(f)</m> são todos os valores
+                        reais, ou seja, <m>D(f)=\mathbb{R}</m>. Por outro lado, a <alert>Imagem</alert> de uma função
+                        quadrática, denotada por <m>Im(f)</m>, dependerá do valor do vértice da parábola, já que a função
+                        não é definida em todo eixo y. Vejamos alguns exemplos:
+                    </p>
+                    <p>
+                        <ol>
+                            <li>
+                                <p>Determine o domínio e a imagem das funções quadráticas:</p>
+                                    <ol marker="a">
+                                        <li>
+                                            <m>y=2(x-3)^2-4</m>
+                                                <solution>
+                                                    Note que esta função possui o vértice no ponto <m>(3,-4)</m> e possui 
+                                                    concavidade virada para cima. Logo, a função é definida para todos os reais no
+                                                    eixo x, mas só é definida no eixo y para valores reais maiores do que a ordenada
+                                                    y do vértice da parábola. Veja o gráfico:
+                                                    <image width="50%" source="im1.png"/>
+                                                    Portanto, <m>D(f)=\mathbb{R}</m> e <m>Im(f)=\{y\in\mathbb{R}/y\geq-4\}.</m>
+                                                </solution>
+                                        </li>
+                                        <li>
+                                            <m>y=-(x+1)^2+2</m>
+                                                <solution>
+                                                    Note que esta função possui o vértice no ponto <m>(-1,2)</m> e possui 
+                                                    concavidade virada para baixo. Logo, a função é definida para todos os reais no
+                                                    eixo x, mas só é definida no eixo y para valores reais menores do que a ordenada
+                                                    y do vértice da parábola. Veja o gráfico:
+                                                    <image width="50%" source="im2.png"/>
+                                                    Portanto, <m>D(f)=\mathbb{R}</m> e <m>Im(f)=\{y\in\mathbb{R}/y\leq2\}.</m>
+                                                </solution>
+                                        </li>
+                                        <li>
+                                            <m>y=x^2</m>
+                                                                                        <solution>
+                                                    Note que esta função possui o vértice no ponto <m>(0,0)</m> e possui 
+                                                    concavidade virada para cima. Logo, a função é definida para todos os reais no
+                                                    eixo x, mas só é definida no eixo y para valores reais maiores do que a ordenada
+                                                    y do vértice da parábola. Veja o gráfico:
+                                                    <image width="50%" source="im3.png"/>
+                                                    Portanto, <m>D(f)=\mathbb{R}</m> e <m>Im(f)=\{y\in\mathbb{R}/y\geq0\}.</m>
+                                                </solution>
+                                        </li>
+                                        <li>
+                                            <m>y=-x^2-3</m>
+                                                <solution>
+                                                    Note que esta função possui o vértice no ponto <m>(0,-3)</m> e possui 
+                                                    concavidade virada para baixo. Logo, a função é definida para todos os reais no
+                                                    eixo x, mas só é definida no eixo y para valores reais menores do que a ordenada
+                                                    y do vértice da parábola. Veja o gráfico:
+                                                    <image width="50%" source="im4.png"/>
+                                                    Portanto, <m>D(f)=\mathbb{R}</m> e <m>Im(f)=\{y\in\mathbb{R}/y\leq-3\}.</m>
+                                                </solution>
+                                        </li>
+                                    </ol>
+                            </li>
+                        </ol>
+                    </p>
                 </subsection>
             </subsection>
 
@@ -4843,6 +4925,34 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                     <li>
                         <p>Justifique por quê a função quadrática <m>f(x)=2x^2+28x+98</m>
                         possui seu ponto de mínimo no eixo x.</p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Compare os gráficos a seguir e determine qual deles representa a
+                            Imagem <m>Im(f)=\{y\in\mathbb{R}/y\geq-4\}</m>.
+                            <p></p>
+                            <p></p>
+                            <sidebyside>
+                                <p>
+                                    <m>y=x^2-6x+5</m>
+                                    <image width="50%" source="imagem1.png"/>
+                                </p>
+                                <p>
+                                    <m>y=-2x^2+12x-22</m>
+                                    <image width="50%" source="imagem2.png"/>
+                                </p>
+                            </sidebyside>
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Utilizando os controles deslizantes que representam os coeficientes da
+                            função quadrática na forma padrão, identifique qual das panelas está no
+                            foco da função quadrática <m>f(x)=\dfrac{x^2}{3}-1</m>
+                        </p>
+                        <interactive geogebra="qchaf6mm"/>
                     </li>
                 </ol>
                     <solution>

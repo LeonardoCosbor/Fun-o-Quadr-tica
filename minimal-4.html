@@ -137,7 +137,10 @@ window.MathJax = {
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="minimal-4.html#minimal-4-5" class="internal"><span class="codenumber">2.4</span> <span class="title">Função Quarática do tipo <span class="process-math">\(y=a(x-m)^2+k\)</span></span></a></div></li>
 <li class="toc-item toc-subsection">
 <div class="toc-title-box"><a href="minimal-4.html#minimal-4-6" class="internal"><span class="codenumber">2.5</span> <span class="title">Escrevendo a Função Quadrática na Forma Canônica</span></a></div>
-<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="minimal-4.html#minimal-4-6-8" class="internal"><span class="codenumber">2.5.1</span> <span class="title">Vértice da Parábola</span></a></div></li></ul>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="minimal-4.html#minimal-4-6-8" class="internal"><span class="codenumber">2.5.1</span> <span class="title">Vértice da Parábola</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="minimal-4.html#minimal-4-6-9" class="internal"><span class="codenumber">2.5.2</span> <span class="title">Domínio e Imagem da Função Quadrática</span></a></div></li>
+</ul>
 </li>
 <li class="toc-item toc-subsection">
 <div class="toc-title-box"><a href="minimal-4.html#minimal-4-7" class="internal"><span class="codenumber">2.6</span> <span class="title">Escrevendo a Função Quadrática na Forma Padrão</span></a></div>
@@ -269,7 +272,7 @@ window.MathJax = {
 <article class="theorem theorem-like" id="minimal-4-6-4-1"><h4 class="heading">
 <span class="type">Teorema</span><span class="space"> </span><span class="codenumber">2.2</span><span class="period">.</span><span class="space"> </span><span class="title">Função Quadrática da Forma Padrão para a Forma Canônica.</span>
 </h4>
-<div class="para" id="minimal-4-6-4-1-2-1"></div></article><details id="minimal-4-6-4-1-3" class="hiddenproof born-hidden-knowl"><summary><h4 class="heading"><span class="type">Demonstração<span class="period">.</span></span></h4></summary><article class="hiddenproof">Vamos fazer algumas manipulações algébricas na forma padrão e escrevê-la de outra maneira. Veja quando colocamos o coeficiente <span class="process-math">\(a\)</span> em evidência:<div class="displaymath process-math">
+<div class="para" id="minimal-4-6-4-1-2-1">Toda função quadrática escrita na forma <span class="process-math">\(f(x)=ax^2+bx+c\)</span> pode ser reescrita na forma <span class="process-math">\(f(x)=a(x-m)^2+k\text{,}\)</span> que chamamos de forma canônica.</div></article><details id="minimal-4-6-4-1-3" class="hiddenproof born-hidden-knowl"><summary><h4 class="heading"><span class="type">Demonstração<span class="period">.</span></span></h4></summary><article class="hiddenproof">Vamos fazer algumas manipulações algébricas na forma padrão e escrevê-la de outra maneira. Veja quando colocamos o coeficiente <span class="process-math">\(a\)</span> em evidência:<div class="displaymath process-math">
 \begin{equation*}
 f(x)=a\cdot\left[x^2+\dfrac{b}{a}x+\dfrac{c}{a}\right]
 \end{equation*}
@@ -300,32 +303,28 @@ f(x)=a\cdot\left(x+\dfrac{b}{2a}\right)^2+\dfrac{4ac-b^2}{4a}\text{,}
 </div>
 <div class="para" id="minimal-4-6-6"><em class="alert">Veja alguns exemplos:</em></div>
 <div class="para logical" id="minimal-4-6-7"><ol class="decimal"><li id="minimal-4-6-7-1-1">
-<div class="para" id="minimal-4-6-7-1-1-1">Escreva as funções a seguir na forma canônica:</div>
+<div class="para" id="minimal-4-6-7-1-1-1">Escreva as funções a seguir na forma canônica e identifique qual dos gráficos representa a lei de formação encontrada.</div>
 <ol class="lower-alpha">
-<li id="minimal-4-6-7-1-1-2-1"><div class="para" id="p-derived-minimal-4-6-7-1-1-2-1">
-<span class="process-math">\(f(x)=x^2-4x+3\)</span> <details id="minimal-4-6-7-1-1-2-1-2" class="solution solution-like born-hidden-knowl"><summary><span class="type">Solução</span><span class="period">.</span></summary><div class="solution solution-like">Como <span class="process-math">\(a=1\text{,}\)</span> <span class="process-math">\(b=-4\)</span> e <span class="process-math">\(c=3\text{,}\)</span> então <div class="para" id="minimal-4-6-7-1-1-2-1-2-4">
-<span class="process-math">\(m=-\dfrac{b}{2a}=-\dfrac{-4}{2\cdot1}=2\)</span> e</div> <div class="para" id="minimal-4-6-7-1-1-2-1-2-5"><span class="process-math">\(k=-\dfrac{\Delta}{4a}=-\dfrac{(-4)^2-4\cdot1\cdot3}{4\cdot1}=-1\)</span></div> <div class="para" id="minimal-4-6-7-1-1-2-1-2-6">Portanto, <span class="process-math">\(f(x)=(x-2)^2-1\text{.}\)</span>
-</div>
+<li id="minimal-4-6-7-1-1-2-1">
+<span class="process-math">\(f(x)=x^2-4x+3\)</span> <div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="GRAFICOS.png" class="contained"></div> <details id="minimal-4-6-7-1-1-2-1-3" class="solution solution-like born-hidden-knowl"><summary><span class="type">Solução</span><span class="period">.</span></summary><div class="solution solution-like">Como <span class="process-math">\(a=1\text{,}\)</span> <span class="process-math">\(b=-4\)</span> e <span class="process-math">\(c=3\text{,}\)</span> então <div class="para" id="minimal-4-6-7-1-1-2-1-3-4">
+<span class="process-math">\(m=-\dfrac{b}{2a}=-\dfrac{-4}{2\cdot1}=2\)</span> e</div> <div class="para" id="minimal-4-6-7-1-1-2-1-3-5"><span class="process-math">\(k=-\dfrac{\Delta}{4a}=-\dfrac{(-4)^2-4\cdot1\cdot3}{4\cdot1}=-1\)</span></div> <div class="para" id="minimal-4-6-7-1-1-2-1-3-6">Portanto, <span class="process-math">\(f(x)=(x-2)^2-1\)</span> cuja paŕabola está representada no Gráfico 3.</div>
 </div></details>
-</div></li>
-<li id="minimal-4-6-7-1-1-2-2"><div class="para" id="p-derived-minimal-4-6-7-1-1-2-2">
-<span class="process-math">\(f(x)=-x^2+5x-6\)</span> <details id="minimal-4-6-7-1-1-2-2-2" class="solution solution-like born-hidden-knowl"><summary><span class="type">Solução</span><span class="period">.</span></summary><div class="solution solution-like">Como <span class="process-math">\(a=-1\text{,}\)</span> <span class="process-math">\(b=5\)</span> e <span class="process-math">\(c=-6\text{,}\)</span> então <div class="para" id="minimal-4-6-7-1-1-2-2-2-4">
-<span class="process-math">\(m=-\dfrac{b}{2a}=-\dfrac{5}{2\cdot(-1)}=\dfrac{5}{2}\)</span> e</div> <div class="para" id="minimal-4-6-7-1-1-2-2-2-5"><span class="process-math">\(k=-\dfrac{\Delta}{4a}=-\dfrac{(5)^2-4\cdot(-1)\cdot(-6)}{4\cdot(-1)}=\dfrac{1}{4}\)</span></div> <div class="para" id="minimal-4-6-7-1-1-2-2-2-6">Portanto, <span class="process-math">\(f(x)=-\left(x-\dfrac{5}{2}\right)^2+\dfrac{1}{4}\text{.}\)</span>
-</div>
+</li>
+<li id="minimal-4-6-7-1-1-2-2">
+<span class="process-math">\(f(x)=-x^2+5x-6\)</span> <div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="GRAFICOS.png" class="contained"></div> <details id="minimal-4-6-7-1-1-2-2-3" class="solution solution-like born-hidden-knowl"><summary><span class="type">Solução</span><span class="period">.</span></summary><div class="solution solution-like">Como <span class="process-math">\(a=-1\text{,}\)</span> <span class="process-math">\(b=5\)</span> e <span class="process-math">\(c=-6\text{,}\)</span> então <div class="para" id="minimal-4-6-7-1-1-2-2-3-4">
+<span class="process-math">\(m=-\dfrac{b}{2a}=-\dfrac{5}{2\cdot(-1)}=\dfrac{5}{2}\)</span> e</div> <div class="para" id="minimal-4-6-7-1-1-2-2-3-5"><span class="process-math">\(k=-\dfrac{\Delta}{4a}=-\dfrac{(5)^2-4\cdot(-1)\cdot(-6)}{4\cdot(-1)}=\dfrac{1}{4}\)</span></div> <div class="para" id="minimal-4-6-7-1-1-2-2-3-6">Portanto, <span class="process-math">\(f(x)=-\left(x-\dfrac{5}{2}\right)^2+\dfrac{1}{4}\)</span> cuja paŕabola está representada no Gráfico 4.</div>
 </div></details>
-</div></li>
-<li id="minimal-4-6-7-1-1-2-3"><div class="para" id="p-derived-minimal-4-6-7-1-1-2-3">
-<span class="process-math">\(f(x)=5x^2-25\)</span> <details id="minimal-4-6-7-1-1-2-3-2" class="solution solution-like born-hidden-knowl"><summary><span class="type">Solução</span><span class="period">.</span></summary><div class="solution solution-like">Como <span class="process-math">\(a=5\text{,}\)</span> <span class="process-math">\(b=0\)</span> e <span class="process-math">\(c=-25\text{,}\)</span> então <div class="para" id="minimal-4-6-7-1-1-2-3-2-4">
-<span class="process-math">\(m=-\dfrac{b}{2a}=-\dfrac{0}{2\cdot(5)}=0\)</span> e</div> <div class="para" id="minimal-4-6-7-1-1-2-3-2-5"><span class="process-math">\(k=-\dfrac{\Delta}{4a}=-\dfrac{(0)^2-4\cdot(5)\cdot(-25)}{4\cdot(5)}=25\)</span></div> <div class="para" id="minimal-4-6-7-1-1-2-3-2-6">Portanto, <span class="process-math">\(f(x)=5(x-0)^2+25\text{.}\)</span>
-</div>
+</li>
+<li id="minimal-4-6-7-1-1-2-3">
+<span class="process-math">\(f(x)=5x^2-25\)</span> <div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="GRAFICOS.png" class="contained"></div> <details id="minimal-4-6-7-1-1-2-3-3" class="solution solution-like born-hidden-knowl"><summary><span class="type">Solução</span><span class="period">.</span></summary><div class="solution solution-like">Como <span class="process-math">\(a=5\text{,}\)</span> <span class="process-math">\(b=0\)</span> e <span class="process-math">\(c=-25\text{,}\)</span> então <div class="para" id="minimal-4-6-7-1-1-2-3-3-4">
+<span class="process-math">\(m=-\dfrac{b}{2a}=-\dfrac{0}{2\cdot(5)}=0\)</span> e</div> <div class="para" id="minimal-4-6-7-1-1-2-3-3-5"><span class="process-math">\(k=-\dfrac{\Delta}{4a}=-\dfrac{(0)^2-4\cdot(5)\cdot(-25)}{4\cdot(5)}=25\)</span></div> <div class="para" id="minimal-4-6-7-1-1-2-3-3-6">Portanto, <span class="process-math">\(f(x)=5(x-0)^2+25\)</span> cuja paŕabola está representada no Gráfico 2.</div>
 </div></details>
-</div></li>
-<li id="minimal-4-6-7-1-1-2-4"><div class="para" id="p-derived-minimal-4-6-7-1-1-2-4">
-<span class="process-math">\(f(x)=\dfrac{x^2}{2}-4x\)</span> <details id="minimal-4-6-7-1-1-2-4-2" class="solution solution-like born-hidden-knowl"><summary><span class="type">Solução</span><span class="period">.</span></summary><div class="solution solution-like">Como <span class="process-math">\(a=\dfrac{1}{2}\text{,}\)</span> <span class="process-math">\(b=-4\)</span> e <span class="process-math">\(c=0\text{,}\)</span> então <div class="para" id="minimal-4-6-7-1-1-2-4-2-4">
-<span class="process-math">\(m=-\dfrac{b}{2a}=-\dfrac{-4}{2\cdot\dfrac{1}{2}}=4\)</span> e</div> <div class="para" id="minimal-4-6-7-1-1-2-4-2-5"><span class="process-math">\(k=-\dfrac{\Delta}{4a}=-\dfrac{(-4)^2-4\cdot\left(\dfrac{1}{2}\right)\cdot0}{4\cdot\dfrac{1}{2}}=-8\)</span></div> <div class="para" id="minimal-4-6-7-1-1-2-4-2-6">Portanto, <span class="process-math">\(f(x)=\dfrac{1}{2}(x-4)^2-8\text{.}\)</span>
-</div>
+</li>
+<li id="minimal-4-6-7-1-1-2-4">
+<span class="process-math">\(f(x)=\dfrac{x^2}{2}-4x\)</span> <div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="GRAFICOS.png" class="contained"></div> <details id="minimal-4-6-7-1-1-2-4-3" class="solution solution-like born-hidden-knowl"><summary><span class="type">Solução</span><span class="period">.</span></summary><div class="solution solution-like">Como <span class="process-math">\(a=\dfrac{1}{2}\text{,}\)</span> <span class="process-math">\(b=-4\)</span> e <span class="process-math">\(c=0\text{,}\)</span> então <div class="para" id="minimal-4-6-7-1-1-2-4-3-4">
+<span class="process-math">\(m=-\dfrac{b}{2a}=-\dfrac{-4}{2\cdot\dfrac{1}{2}}=4\)</span> e</div> <div class="para" id="minimal-4-6-7-1-1-2-4-3-5"><span class="process-math">\(k=-\dfrac{\Delta}{4a}=-\dfrac{(-4)^2-4\cdot\left(\dfrac{1}{2}\right)\cdot0}{4\cdot\dfrac{1}{2}}=-8\)</span></div> <div class="para" id="minimal-4-6-7-1-1-2-4-3-6">Portanto, <span class="process-math">\(f(x)=\dfrac{1}{2}(x-4)^2-8\)</span> cuja paŕabola está representada no Gráfico 1.</div>
 </div></details>
-</div></li>
+</li>
 </ol>
 </li></ol></div>
 <section class="subsection" id="minimal-4-6-8"><h4 class="heading hide-type">
@@ -342,7 +341,34 @@ f(x)=a\cdot\left(x+\dfrac{b}{2a}\right)^2+\dfrac{4ac-b^2}{4a}\text{,}
 <span class="type">Exemplo</span><span class="space"> </span><span class="codenumber">2.4</span><span class="period">.</span>
 </h5></summary><article class="example example-like"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="Exemplo5.png" class="contained"></div> <div class="para" id="minimal-4-6-8-8-2">Note que o vértice tem coordenadas <span class="process-math">\(V=(m,k)=(-3,1)\text{,}\)</span> localizado no eixo de simetria de equação <span class="process-math">\(x=-3\)</span> e a concavidade virada para baixo deve-se ao fato de <span class="process-math">\(a=-1\text{,}\)</span> valor positivo.</div></article></details><details id="minimal-4-6-8-9" class="example example-like born-hidden-knowl"><summary><h5 class="heading">
 <span class="type">Exemplo</span><span class="space"> </span><span class="codenumber">2.5</span><span class="period">.</span>
-</h5></summary><article class="example example-like"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="Exemplo6.png" class="contained"></div> <div class="para" id="minimal-4-6-8-9-2">Note que o vértice tem coordenadas <span class="process-math">\(V=(m,k)=\left(-1,-\dfrac{1}{2}\right)\text{,}\)</span> localizado no eixo de simetria de equação <span class="process-math">\(x=-1\)</span> e a concavidade virada para baixo deve-se ao fato de <span class="process-math">\(a=2\text{,}\)</span> valor positivo.</div></article></details></section></section><section class="subsection" id="minimal-4-7"><h3 class="heading hide-type">
+</h5></summary><article class="example example-like"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="Exemplo6.png" class="contained"></div> <div class="para" id="minimal-4-6-8-9-2">Note que o vértice tem coordenadas <span class="process-math">\(V=(m,k)=\left(-1,-\dfrac{1}{2}\right)\text{,}\)</span> localizado no eixo de simetria de equação <span class="process-math">\(x=-1\)</span> e a concavidade virada para baixo deve-se ao fato de <span class="process-math">\(a=2\text{,}\)</span> valor positivo.</div></article></details></section><section class="subsection" id="minimal-4-6-9"><h4 class="heading hide-type">
+<span class="type">Subseção</span><span class="space"> </span><span class="codenumber">2.5.2</span><span class="space"> </span><span class="title">Domínio e Imagem da Função Quadrática</span>
+</h4>
+<div class="para" id="minimal-4-6-9-2">Após determinarmos o vértice de uma parábola, podemos analisar o domínio e a imagem de uma função quadrática. A seguir, observe a linha vermelha no eixo y quando alteramos os valores de <span class="process-math">\(a\text{,}\)</span> <span class="process-math">\(m\)</span> e <span class="process-math">\(k\text{.}\)</span>
+</div>
+<div class="para" id="minimal-4-6-9-3"><iframe src="https://www.geogebra.org/material/iframe/id/wwcuge3u/width/800/height/800/border/888888/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false" id="minimal-4-6-9-3-1" width="600" height="600"></iframe></div>
+<div class="para" id="minimal-4-6-9-4">Seja <span class="process-math">\(f:\mathbb{R}\rightarrow\mathbb{R}\)</span> uma função quadrática definida pela lei de formação <span class="process-math">\(f(x)=a(x-m)^2+k\text{,}\)</span> onde <span class="process-math">\(a\text{,}\)</span> <span class="process-math">\(m\)</span> e <span class="process-math">\(k\)</span> são valores reais definidos por <span class="process-math">\(m=-\dfrac{b}{2a}\)</span> e <span class="process-math">\(k=\dfrac{4ac-b^2}{4a}\text{,}\)</span> define-se que o <em class="alert">Domínio</em> da função quadrática, denotado por <span class="process-math">\(D(f)\)</span> são todos os valores reais, ou seja, <span class="process-math">\(D(f)=\mathbb{R}\text{.}\)</span> Por outro lado, a <em class="alert">Imagem</em> de uma função quadrática, denotada por <span class="process-math">\(Im(f)\text{,}\)</span> dependerá do valor do vértice da parábola, já que a função não é definida em todo eixo y. Vejamos alguns exemplos:</div>
+<div class="para logical" id="minimal-4-6-9-5"><ol class="decimal"><li id="minimal-4-6-9-5-1-1">
+<div class="para" id="minimal-4-6-9-5-1-1-1">Determine o domínio e a imagem das funções quadráticas:</div>
+<ol class="lower-alpha">
+<li id="minimal-4-6-9-5-1-1-2-1"><div class="para" id="p-derived-minimal-4-6-9-5-1-1-2-1">
+<span class="process-math">\(y=2(x-3)^2-4\)</span> <details id="minimal-4-6-9-5-1-1-2-1-2" class="solution solution-like born-hidden-knowl"><summary><span class="type">Solução</span><span class="period">.</span></summary><div class="solution solution-like">Note que esta função possui o vértice no ponto <span class="process-math">\((3,-4)\)</span> e possui concavidade virada para cima. Logo, a função é definida para todos os reais no eixo x, mas só é definida no eixo y para valores reais maiores do que a ordenada y do vértice da parábola. Veja o gráfico: <div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="im1.png" class="contained"></div> Portanto, <span class="process-math">\(D(f)=\mathbb{R}\)</span> e <span class="process-math">\(Im(f)=\{y\in\mathbb{R}/y\geq-4\}.\)</span>
+</div></details>
+</div></li>
+<li id="minimal-4-6-9-5-1-1-2-2"><div class="para" id="p-derived-minimal-4-6-9-5-1-1-2-2">
+<span class="process-math">\(y=-(x+1)^2+2\)</span> <details id="minimal-4-6-9-5-1-1-2-2-2" class="solution solution-like born-hidden-knowl"><summary><span class="type">Solução</span><span class="period">.</span></summary><div class="solution solution-like">Note que esta função possui o vértice no ponto <span class="process-math">\((-1,2)\)</span> e possui concavidade virada para baixo. Logo, a função é definida para todos os reais no eixo x, mas só é definida no eixo y para valores reais menores do que a ordenada y do vértice da parábola. Veja o gráfico: <div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="im2.png" class="contained"></div> Portanto, <span class="process-math">\(D(f)=\mathbb{R}\)</span> e <span class="process-math">\(Im(f)=\{y\in\mathbb{R}/y\leq2\}.\)</span>
+</div></details>
+</div></li>
+<li id="minimal-4-6-9-5-1-1-2-3"><div class="para" id="p-derived-minimal-4-6-9-5-1-1-2-3">
+<span class="process-math">\(y=x^2\)</span> <details id="minimal-4-6-9-5-1-1-2-3-2" class="solution solution-like born-hidden-knowl"><summary><span class="type">Solução</span><span class="period">.</span></summary><div class="solution solution-like">Note que esta função possui o vértice no ponto <span class="process-math">\((0,0)\)</span> e possui concavidade virada para cima. Logo, a função é definida para todos os reais no eixo x, mas só é definida no eixo y para valores reais maiores do que a ordenada y do vértice da parábola. Veja o gráfico: <div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="im3.png" class="contained"></div> Portanto, <span class="process-math">\(D(f)=\mathbb{R}\)</span> e <span class="process-math">\(Im(f)=\{y\in\mathbb{R}/y\geq0\}.\)</span>
+</div></details>
+</div></li>
+<li id="minimal-4-6-9-5-1-1-2-4"><div class="para" id="p-derived-minimal-4-6-9-5-1-1-2-4">
+<span class="process-math">\(y=-x^2-3\)</span> <details id="minimal-4-6-9-5-1-1-2-4-2" class="solution solution-like born-hidden-knowl"><summary><span class="type">Solução</span><span class="period">.</span></summary><div class="solution solution-like">Note que esta função possui o vértice no ponto <span class="process-math">\((0,-3)\)</span> e possui concavidade virada para baixo. Logo, a função é definida para todos os reais no eixo x, mas só é definida no eixo y para valores reais menores do que a ordenada y do vértice da parábola. Veja o gráfico: <div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="im4.png" class="contained"></div> Portanto, <span class="process-math">\(D(f)=\mathbb{R}\)</span> e <span class="process-math">\(Im(f)=\{y\in\mathbb{R}/y\leq-3\}.\)</span>
+</div></details>
+</div></li>
+</ol>
+</li></ol></div></section></section><section class="subsection" id="minimal-4-7"><h3 class="heading hide-type">
 <span class="type">Subseção</span><span class="space"> </span><span class="codenumber">2.6</span><span class="space"> </span><span class="title">Escrevendo a Função Quadrática na Forma Padrão</span>
 </h3>
 <div class="para" id="minimal-4-7-2">Na subseção anterior, passamos uma função quadrática da forma padrão para a forma canônica. Agora, veremos como fazer o inverso, ou seja, passar a função quadrática escrita na forma canônica para a forma padrão.</div>
@@ -780,6 +806,20 @@ k=121
 </div></details>
 </li>
 <li id="minimal-4-9-2-10"><div class="para" id="minimal-4-9-2-10-1">Justifique por quê a função quadrática <span class="process-math">\(f(x)=2x^2+28x+98\)</span> possui seu ponto de mínimo no eixo x.</div></li>
+<li id="minimal-4-9-2-11"><div class="para" id="minimal-4-9-2-11-1">Compare os gráficos a seguir e determine qual deles representa a Imagem <span class="process-math">\(Im(f)=\{y\in\mathbb{R}/y\geq-4\}\text{.}\)</span> <div class="para" id="minimal-4-9-2-11-1-2"></div> <div class="para" id="minimal-4-9-2-11-1-3"></div> <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;">
+<div class="sbspanel top" style="width:50%;"><div class="para" id="minimal-4-9-2-11-1-4-1">
+<span class="process-math">\(y=x^2-6x+5\)</span> <img src="imagem1.png" class="contained">
+</div></div>
+<div class="sbspanel top" style="width:50%;"><div class="para" id="minimal-4-9-2-11-1-4-2">
+<span class="process-math">\(y=-2x^2+12x-22\)</span> <img src="imagem2.png" class="contained">
+</div></div>
+</div></div>
+</div></li>
+<li id="minimal-4-9-2-12">
+<div class="para" id="minimal-4-9-2-12-1">Utilizando os controles deslizantes que representam os coeficientes da função quadrática na forma padrão, identifique qual das panelas está no foco da função quadrática <span class="process-math">\(f(x)=\dfrac{x^2}{3}-1\)</span>
+</div>
+<iframe src="https://www.geogebra.org/material/iframe/id/qchaf6mm/width/800/height/800/border/888888/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false" id="minimal-4-9-2-12-2" width="600" height="600"></iframe>
+</li>
 </ol>
 <details id="minimal-4-9-3" class="solution solution-like born-hidden-knowl"><summary><span class="type">Solução</span><span class="period">.</span></summary><div class="solution solution-like">
 <div class="para" id="minimal-4-9-3-1">Passando a função da forma padrão para a canônica, temos:</div>
