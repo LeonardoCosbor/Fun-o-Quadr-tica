@@ -5058,8 +5058,13 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
 
                     <example>
                         Neste exemplo, usaremos a função cuja lei de formação é <m>f(x)=-\dfrac{1}{2}(x-2)^2-3</m>. Adotaremos 
-                        os valores pares inteiros de x no intervalo <m>[-6,2</m>. Logo,
-                        <me>f(x)=-\dfrac{1}{2}(x-2)^2-3</me>
+                        os valores pares inteiros de x no intervalo <m>[-6,2]</m>. Logo,
+                        <me>f(-6)=-\dfrac{1}{2}\cdot(-6+2)^2-3=-\dfrac{1}{2}\cdot(-4)^2-3=-\dfrac{1}{2}\cdot16-3=-8-3=-11</me>
+                        <me>f(-4)=-\dfrac{1}{2}\cdot(-4+2)^2-3=-\dfrac{1}{2}\cdot(-2)^2-3=-\dfrac{1}{2}\cdot4-3=-2-3=-5</me>
+                        <me>f(-2)=-\dfrac{1}{2}\cdot(-2+2)^2-3=-\dfrac{1}{2}\cdot(0)^2-3=-\dfrac{1}{2}\cdot0-3=-3</me>
+                        <me>f(0)=-\dfrac{1}{2}\cdot(0+2)^2-3=-\dfrac{1}{2}\cdot(2)^2-3=-\dfrac{1}{2}\cdot4-3=-2-3=-5</me>
+                        <me>f(2)=-\dfrac{1}{2}\cdot(2+2)^2-3=-\dfrac{1}{2}\cdot(4)^2-3=-\dfrac{1}{2}\cdot16-3=-8-3=-11</me>
+
                     </example>
                 
                 <p>
