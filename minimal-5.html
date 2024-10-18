@@ -183,7 +183,7 @@ window.MathJax = {
 </h3>
 <div class="para" id="minimal-5-2-2">Nesta seção vamos usar as funções quadráticas para determinar valores numéricos da função que receberão nomes específicos no estudo de parábolas e que futuramente serão importantes para a resolução de problemas.</div>
 <div class="para logical" id="minimal-5-2-3">
-<div class="para">Utilizando a lei de formação <span class="process-math">\(f(x)=(x+1)^2-4\text{,}\)</span> vamos encontrar alguns pontos específicos no gráfico. Para isto, faremos o cálculo para o intervalo inteiro <span class="process-math">\([-4,2]\text{.}\)</span> Logo,</div>
+<div class="para">Utilizando a lei de formação <span class="process-math">\(f(x)=(x+1)^2-4\text{,}\)</span> vamos encontrar alguns pontos específicos no gráfico. Para isto, faremos o cálculo do valor numérico para o valores de x pertencentes ao intervalo inteiro <span class="process-math">\([-4,2]\text{.}\)</span> Logo,</div>
 <div class="displaymath process-math">
 \begin{equation*}
 f(-4)=(-4+1)^2-4=9-4=5
@@ -223,15 +223,15 @@ f(2)=(2+1)^2-4=9-4=5
 <div class="para">Note que temos algumas coincidências que podem ser explicadas pelo eixo de simetria da parábola, cujos valores distintos de x que estão à mesma distância do eixo de simetria, quando substituidos na fórmula da função, têm como resultado um y de mesmo valor. São os casos de <span class="process-math">\(f(-4)=f(2)=5\text{,}\)</span> <span class="process-math">\(f(-3)=f(1)=0\text{,}\)</span> <span class="process-math">\(f(-2)=f(0)=-3\)</span> e o vértice da função <span class="process-math">\(f(-1)=-4\text{.}\)</span>
 </div>
 </div>
-<div class="para" id="minimal-5-2-4">No gráfico interativo a seguir temos a representação desses pontos. Observe os valores de y e as coincidências de cores. <iframe src="https://www.desmos.com/calculator/ooh8gti1kz?" id="minimal-5-2-4-1" width="600" height="600"></iframe>
+<div class="para" id="minimal-5-2-4">No gráfico interativo a seguir temos a representação desses pontos. Os pontos de mesma cor estão à mesma distância do eixo de simetria e por isso o valor de suas coordenadas y são iguais. <iframe src="https://www.desmos.com/calculator/wl6p7sc7r6?" id="minimal-5-2-4-1" width="600" height="600"></iframe>
 </div>
-<div class="para" id="minimal-5-2-5">Portanto, cada valor de x possui um valor de y, ou seja, dado um x de um ponto P temos o seu valor de y substituindo x na fórmula da função quadrática. Assim, <span class="process-math">\(P=(x, (x+1)^2-4)=(x,f(x))=(x,y)\text{.}\)</span>
+<div class="para" id="minimal-5-2-5">Portanto, dado um x de um ponto P temos o seu valor numérico y substituindo x na fórmula da função quadrática. Assim, <span class="process-math">\(P=(x, (x+1)^2-4)=(x,f(x))=(x,y)\text{.}\)</span>
 </div>
 <div class="para" id="minimal-5-2-6">Acompanhe a seguir outros exemplos:</div>
 <details id="minimal-5-2-7" class="example example-like born-hidden-knowl"><summary><h4 class="heading">
 <span class="type">Exemplo</span><span class="space"> </span><span class="codenumber">3.1</span><span class="period">.</span>
 </h4></summary><article class="example example-like"><div class="para logical" id="minimal-5-2-7-1">
-<div class="para">Observaremos agora um outro exemplo, agora com uma função quadrática na forma padrão <span class="process-math">\(f(x)=-x^2+6x\text{.}\)</span> Analizaremos o mesmo intervalo inteiro para x, tal que <span class="process-math">\(x\in[-4,5]\text{.}\)</span> Mas antes, vamos escrever a função na forma canônica.</div>
+<div class="para">Observaremos agora um outro exemplo, agora com uma função quadrática na forma padrão <span class="process-math">\(f(x)=-x^2+6x\text{.}\)</span> Adotaremos o intervalo inteiro tal que <span class="process-math">\(x\in[-4,5]\text{.}\)</span> Mas antes, vamos escrever a função na forma canônica.</div>
 <div class="displaymath process-math">
 \begin{equation*}
 f(x)=a(x-m)^2+k=(-1)\cdot \left(x-\dfrac{-6}{2\cdot(-1)}\right)^2+\dfrac{4\cdot (-1)\cdot(0) -6^2}{4\cdot(-1)}
@@ -322,7 +322,7 @@ f(-3)=f(9)=-27\text{.}
 \end{equation*}
 </div>Graficamente:<iframe src="https://www.desmos.com/calculator/jtezvec1on?" id="minimal-5-2-7-20" width="600" height="600"></iframe></article></details><details id="minimal-5-2-8" class="example example-like born-hidden-knowl"><summary><h4 class="heading">
 <span class="type">Exemplo</span><span class="space"> </span><span class="codenumber">3.2</span><span class="period">.</span>
-</h4></summary><article class="example example-like">Observaremos agora um outro exemplo, agora com uma função quadrática cuja lei de formação é <span class="process-math">\(f(x)=3(x-2)^2\text{.}\)</span> Analizaremos o mesmo intervalo inteiro para x, tal que <span class="process-math">\(x\in[-4,1]\text{.}\)</span> <div class="para" id="minimal-5-2-8-3">Logo,</div>
+</h4></summary><article class="example example-like">Agora um outro exemplo, com uma função quadrática cuja lei de formação é <span class="process-math">\(f(x)=3(x-2)^2\text{.}\)</span> Adotaremos o intervalo inteiro para x, tal que <span class="process-math">\(x\in[-4,4]\text{.}\)</span> <div class="para" id="minimal-5-2-8-3">Logo,</div>
 <div class="displaymath process-math">
 \begin{equation*}
 f(-4)=3\cdot(-4-2)^2=3\cdot36=108
@@ -400,7 +400,17 @@ f(-3)=f(7)=75
 \begin{equation*}
 f(-4)=f(8)=108\text{.}
 \end{equation*}
-</div>Graficamente:<iframe src="https://www.desmos.com/calculator/9xkutto7bx?" id="minimal-5-2-8-21" width="600" height="600"></iframe></article></details><div class="para" id="minimal-5-2-9">De todos os pontos observados no gráfico da função quadrática, destacaremos</div></section><section class="subsection" id="minimal-5-3"><h3 class="heading hide-type">
+</div>Graficamente:<iframe src="https://www.desmos.com/calculator/9xkutto7bx?" id="minimal-5-2-8-21" width="600" height="600"></iframe></article></details><details id="minimal-5-2-9" class="example example-like born-hidden-knowl"><summary><h4 class="heading">
+<span class="type">Exemplo</span><span class="space"> </span><span class="codenumber">3.3</span><span class="period">.</span>
+</h4></summary><article class="example example-like">Neste exemplo, usaremos a função cuja lei de formação é <span class="process-math">\(f(x)=-\dfrac{1}{2}(x-2)^2-3\text{.}\)</span> Adotaremos os valores pares inteiros de x no intervalo <span class="process-math">\([-6,2\text{.}\)</span> Logo,<div class="displaymath process-math">
+\begin{equation*}
+f(x)=-\dfrac{1}{2}(x-2)^2-3
+\end{equation*}
+</div></article></details><div class="para" id="minimal-5-2-10">Após analisar os pontos observados no gráfico da função quadrática, encontrados segundo o cálculo de valor numérico, destacaremos um lugar específico da parábola, onde a coordenada y dos pontos é igual a zero.</div>
+<div class="para" id="minimal-5-2-11">Por exemplo, na função quadrática <span class="process-math">\(f(x)=(x+1)^2-4\text{,}\)</span> para <span class="process-math">\(x=-3\)</span> e <span class="process-math">\(x=1\text{,}\)</span> temos que <span class="process-math">\(f(-3)=0\)</span> e <span class="process-math">\(f(1)=0\text{.}\)</span> Ou seja, dizemos que -3 e 1 são os <em class="alert">zeros da função quadrática</em>.</div>
+<div class="para" id="minimal-5-2-12">Analogamente, para o segundo exemplo, na função quadrática <span class="process-math">\(f(x)=-(x-3)^2+9\text{,}\)</span> para <span class="process-math">\(x=0\)</span> e <span class="process-math">\(x=6\text{,}\)</span> temos que <span class="process-math">\(f(0)=0\)</span> e <span class="process-math">\(f(6)=0\text{.}\)</span> Logo, 0 e 6 são os <em class="alert">zeros da função quadrática</em>.</div>
+<div class="para" id="minimal-5-2-13">Da mesma forma, para o terceiro exemplo, na função quadrática <span class="process-math">\(f(x)=3(x-2)^2\text{,}\)</span> para <span class="process-math">\(x=2\text{,}\)</span> temos que <span class="process-math">\(f(2)=0\text{.}\)</span> Assim, 2 é o <em class="alert">zero da função quadrática</em>.</div>
+<div class="para" id="minimal-5-2-14">Por fim, para o quarto exemplo, na função quadrática <span class="process-math">\(f(x)=-\dfrac{1}{2}(x-2)^2-3\text{,}\)</span> não é possível encontrar um valor de x tal que <span class="process-math">\(f(x)=0\text{.}\)</span> Portanto, essa Função não têm <em class="alert">zeros da função quadrática</em> reais.</div></section><section class="subsection" id="minimal-5-3"><h3 class="heading hide-type">
 <span class="type">Subseção</span><span class="space"> </span><span class="codenumber">3.2</span><span class="space"> </span><span class="title">Calcular zeros da função utilizando a forma padrão</span>
 </h3></section><section class="subsection" id="minimal-5-4"><h3 class="heading hide-type">
 <span class="type">Subseção</span><span class="space"> </span><span class="codenumber">3.3</span><span class="space"> </span><span class="title">Zero da função quadrática nos gráficos</span>

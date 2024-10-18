@@ -4983,7 +4983,8 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                     </p>
                     <p>
                         Utilizando a lei de formação <m>f(x)=(x+1)^2-4</m>, vamos encontrar alguns pontos 
-                        específicos no gráfico. Para isto, faremos o cálculo para o intervalo inteiro <m>[-4,2]</m>.
+                        específicos no gráfico. Para isto, faremos o cálculo do valor numérico para o valores de x 
+                        pertencentes ao intervalo inteiro <m>[-4,2]</m>.
                         Logo, 
                         <me>f(-4)=(-4+1)^2-4=9-4=5</me>
                         Assim, para um valor de <m>x=-4</m> temos um <m>y=5</m>. Veja outros valores:
@@ -5001,21 +5002,22 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                     o vértice da função <m>f(-1)=-4</m>. 
                 </p>
                 <p>
-                    No gráfico interativo a seguir temos a representação desses pontos. Observe os valores de y e as
-                    coincidências de cores.
-                    <interactive desmos="ooh8gti1kz?"/>
+                    No gráfico interativo a seguir temos a representação desses pontos. Os pontos de mesma cor
+                    estão à mesma distância do eixo de simetria e por isso o valor de suas coordenadas y são iguais.
+                    
+                    <interactive desmos="wl6p7sc7r6?"/>
                 </p>
                 <p>
-                    Portanto, cada valor de x possui um valor de y, ou seja, dado um x de um ponto P
-                    temos o seu valor de y substituindo x na fórmula da função quadrática. Assim, 
-                    <m>P=(x, (x+1)^2-4)=(x,f(x))=(x,y)</m>.
+                    Portanto, dado um x de um ponto P temos o seu valor numérico y substituindo x na fórmula da função 
+                    quadrática. Assim, <m>P=(x, (x+1)^2-4)=(x,f(x))=(x,y)</m>.
                 </p>
+
                 <p>Acompanhe a seguir outros exemplos:</p>
                     <example>
                         <p>
                             Observaremos agora um outro exemplo, agora com uma função quadrática na forma padrão 
-                            <m>f(x)=-x^2+6x</m>. Analizaremos o mesmo intervalo inteiro para x, tal que <m>x\in[-4,5]</m>. Mas antes, vamos
-                            escrever a função na forma canônica. 
+                            <m>f(x)=-x^2+6x</m>. Adotaremos o intervalo inteiro tal que <m>x\in[-4,5]</m>. Mas antes, 
+                            vamos escrever a função na forma canônica. 
                             <me>f(x)=a(x-m)^2+k=(-1)\cdot \left(x-\dfrac{-6}{2\cdot(-1)}\right)^2+\dfrac{4\cdot (-1)\cdot(0) -6^2}{4\cdot(-1)}</me>
                             <me>=-(x-3)^2+9</me>
                         </p>
@@ -5036,8 +5038,8 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                     </example>
 
                     <example>
-                        Observaremos agora um outro exemplo, agora com uma função quadrática cuja lei de formação é 
-                        <m>f(x)=3(x-2)^2</m>. Analizaremos o mesmo intervalo inteiro para x, tal que <m>x\in[-4,1]</m>. 
+                        Agora um outro exemplo, com uma função quadrática cuja lei de formação é 
+                        <m>f(x)=3(x-2)^2</m>. Adotaremos o intervalo inteiro para x, tal que <m>x\in[-4,4]</m>. 
                         <p>Logo,</p>
                         <me>f(-4)=3\cdot(-4-2)^2=3\cdot36=108</me>
                         <me>f(-3)=3\cdot(-3-2)^2=3\cdot25=75</me>
@@ -5052,16 +5054,39 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                         este ponto é o vértice da parábola. Logo, <me>f(2)=0</me>, <me>f(1)=f(3)=3</me>, <me>f(0)=f(4)=12</me>,
                         <me>f(-1)=f(5)=27</me>, <me>f(-2)=f(6)=48</me>, <me>f(-3)=f(7)=75</me> e <me>f(-4)=f(8)=108</me>.
                         Graficamente:<interactive desmos="9xkutto7bx?"/>  
+                    </example>
 
-
-
+                    <example>
+                        Neste exemplo, usaremos a função cuja lei de formação é <m>f(x)=-\dfrac{1}{2}(x-2)^2-3</m>. Adotaremos 
+                        os valores pares inteiros de x no intervalo <m>[-6,2</m>. Logo,
+                        <me>f(x)=-\dfrac{1}{2}(x-2)^2-3</me>
                     </example>
                 
                 <p>
-                    De todos os pontos observados no gráfico da função quadrática, destacaremos 
+                    Após analisar os pontos observados no gráfico da função quadrática, 
+                    encontrados segundo o cálculo de valor numérico, destacaremos um lugar
+                    específico da parábola, onde a coordenada y dos pontos é igual a zero.   
                 </p>
-                    
-                    
+                <p>
+                    Por exemplo, na função quadrática <m>f(x)=(x+1)^2-4</m>, para <m>x=-3</m> e
+                    <m>x=1</m>, temos que <m>f(-3)=0</m> e <m>f(1)=0</m>. Ou seja, dizemos que -3
+                    e 1 são os <alert>zeros da função quadrática</alert>.
+                </p>
+                <p>
+                    Analogamente, para o segundo exemplo, na função quadrática <m>f(x)=-(x-3)^2+9</m>,
+                    para <m>x=0</m> e <m>x=6</m>, temos que <m>f(0)=0</m> e <m>f(6)=0</m>. Logo, 0 e 6 são os 
+                    <alert>zeros da função quadrática</alert>.
+                </p>
+                <p>
+                    Da mesma forma, para o terceiro exemplo, na função quadrática <m>f(x)=3(x-2)^2</m>,
+                    para <m>x=2</m>, temos que <m>f(2)=0</m>. Assim, 2 é o <alert>zero da função 
+                    quadrática</alert>.
+                </p>
+                <p>
+                    Por fim, para o quarto exemplo, na função quadrática <m>f(x)=-\dfrac{1}{2}(x-2)^2-3</m>,
+                    não é possível encontrar um valor de x tal que <m>f(x)=0</m>. Portanto, essa Função
+                    não têm <alert>zeros da função quadrática</alert> reais.
+                </p>    
 
 
 
