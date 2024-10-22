@@ -4984,7 +4984,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                     </p>
                     <p>
                         Utilizando a lei de formação <m>f(x)=(x+1)^2-4</m>, vamos encontrar alguns pontos 
-                        específicos no gráfico. Para isto, faremos o cálculo do valor numérico para o valores de x 
+                        específicos. Para isto, faremos o cálculo do valor numérico para o valores de x 
                         pertencentes ao intervalo inteiro <m>[-4,2]</m>.
                         Logo, 
                         <me>f(-4)=(-4+1)^2-4=9-4=5</me>
@@ -5001,12 +5001,6 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                     do eixo de simetria, quando substituidos na fórmula da função, têm como resultado
                     um y de mesmo valor. São os casos de <m>f(-4)=f(2)=5</m>, <m>f(-3)=f(1)=0</m>, <m>f(-2)=f(0)=-3</m> e
                     o vértice da função <m>f(-1)=-4</m>. 
-                </p>
-                <p>
-                    No gráfico interativo a seguir temos a representação desses pontos. Os pontos de mesma cor
-                    estão à mesma distância do eixo de simetria e por isso o valor de suas coordenadas y são iguais.
-                    
-                    <interactive desmos="wl6p7sc7r6?"/>
                 </p>
                 <p>
                     Portanto, dado um x de um ponto P temos o seu valor numérico y substituindo x na fórmula da função 
@@ -5035,7 +5029,6 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                         Note que o valor de y começa a repetir. Isto significa que o ponto <m>(3,9)</m>
                         é o vértice da parábola. Logo, <me>f(3)=9</me>, <me>f(2)=f(4)=8</me>, <me>f(1)=f(5)=5</me>,
                         <me>f(0)=f(6)=0</me>, <me>f(-1)=f(7)=-7</me>, <me>f(-2)=f(8)=-16</me> e <me>f(-3)=f(9)=-27</me>.
-                        Graficamente:<interactive desmos="jtezvec1on?"/>                      
                     </example>
 
                     <example>
@@ -5054,7 +5047,6 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                         Note que os valores de y começam a repetir a partir do ponto <m>(2,0)</m>. Isto significa que 
                         este ponto é o vértice da parábola. Logo, <me>f(2)=0</me>, <me>f(1)=f(3)=3</me>, <me>f(0)=f(4)=12</me>,
                         <me>f(-1)=f(5)=27</me>, <me>f(-2)=f(6)=48</me>, <me>f(-3)=f(7)=75</me> e <me>f(-4)=f(8)=108</me>.
-                        Graficamente:<interactive desmos="9xkutto7bx?"/>  
                     </example>
 
                     <example>
@@ -5067,14 +5059,12 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                         <me>f(2)=-\dfrac{1}{2}\cdot(2+2)^2-3=-\dfrac{1}{2}\cdot(4)^2-3=-\dfrac{1}{2}\cdot16-3=-8-3=-11</me>
                         Note que os valores de y começam a repetir a partir do ponto <m>(-2,-3)</m>. Isto significa que 
                         este ponto é o vértice da parábola. Logo, <me>f(-2)=-3</me>, <me>f(-4)=f(0)=-5</me> e <me>f(-6)=f(2)=-11</me>.
-                        
-                        Graficamente:<interactive desmos="5qs3roszwi?"/> 
                     </example>
                 
                 <p>
-                    Após analisar os pontos observados no gráfico da função quadrática, 
-                    encontrados segundo o cálculo de valor numérico, destacaremos um lugar
-                    específico da parábola, onde a coordenada y dos pontos é igual a zero.   
+                    Após analisar os pontos observados da função quadrática, 
+                    encontrados segundo o cálculo de valor numérico, destacaremos um resultado
+                    específico, onde a coordenada y dos pontos é igual a zero.   
                 </p>
                 <p>
                     Por exemplo, na função quadrática <m>f(x)=(x+1)^2-4</m>, para <m>x=-3</m> e
@@ -5097,11 +5087,12 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                     não têm <alert>zeros da função quadrática</alert> reais.
                 </p>    
             </subsection>
+
             <subsection>
                 <title>Encontrando os Zeros da Função Quadrática Resolvendo a Equação Quadrática</title>
 
                 <p>Outra forma mais direta de se encontrar os zeros da função quadrática é resolvendo uma
-                função quadrática e isolando o valor de x na equação. Usaremos os mesmos exemplos antes 
+                função quadrática é isolando o valor de x na equação. Usaremos os mesmos exemplos antes 
                 comentados.
                 </p> 
                 <p>
@@ -5110,14 +5101,13 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                         Para <m>f(x)=(x+1)^2-4</m>, faremos <m>f(x)=0</m>. Logo,
                         <me>(x+1)^2-4=0</me>
                         <me>(x+1)^2=4</me>
-                        <me>(x+1)=\pm\sqrt4</me>
+                        <me>x+1=\pm\sqrt4</me>
+                        <me>x+1=\pm2</me>
                         Abrindo em duas soluções:
-                        <me>x+1=\sqrt4</me>
                         <me>x+1=2</me>
                         <me>x=2-1</me>
                         <me>x=1</me>
                         e
-                        <me>x+1=-\sqrt4</me>
                         <me>x+1=-2</me>
                         <me>x=-2-1</me>
                         <me>x=-3</me>
@@ -5157,20 +5147,206 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                         <me>(x-2)^2=-6</me>
                         <me>x-2=\pm\sqrt-6</me>
                         Como a função quadrática é definida em <m>\mathbb{R}</m> e <m>\sqrt-6</m> não
-                        tem solução nos reais, então a função quadrática não possui zeros.
+                        tem solução nos reais, então a função quadrática <alert>não possui zeros</alert>.
                     </li>
                 </ul>
                 </p>
             </subsection>
 
+        </subsection>
+
+        <subsection>
+            <title>Calcular zeros da função utilizando a forma padrão</title>
+
+                <p>
+                    Encontrar os zeros da função quadrática na forma padrão, ou seja, <m>f(x)=ax^2+bx+c</m>
+                    é tão simples quanto a forma canônica. Por exemplo, para casos de funções 
+                    quadráticas incompletas, podemos resover isolando o valor de x ou colocando
+                    o termo x em evidência. Já em casos de funções quadráticas completas, 
+                    precisaremos de métodos mais eficazes como a <alert> Fórmula de Bháskara</alert>, 
+                    <alert>Soma e Produto</alert> ou <alert>Equações de Girard</alert>.
+                </p>
+
+            <subsection>
+                <title>Função Quadrática Incompleta</title>
+
+                    <p>
+                        Para determinar os zeros de uma função quadrática incompleta do tipo <m>f(x)=ax^2</m>, 
+                        <m>f(x)=ax^2+c</m> e <m>f(x)=ax^2+bx</m>, vamos igualar a função a zero e resolver as 
+                        equações quadráticas. Veja alguns exemplos.
+                    </p>
+                    <p>
+                        <ul>
+                            <li>
+                                <p>Função Quadrática Incompleta do tipo <m>f(x)=ax^2</m>.</p>
+                            
+                                <ol>
+                                    <li>
+                                        <p>
+                                            <m>f(x)=3x^2</m>
+                                                <solution>
+                                                    <me>3x^2=0</me>
+                                                    <me>x^2=0/3</me>
+                                                    <me>x^2=0</me>
+                                                    <me>x=\pm\sqrt0</me>
+                                                    <me>x=0</me>
+                                                    Portanto, 0 é o <alert>zero da função quadrática</alert>.
+                                                </solution>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <m>f(x)=-\dfrac{2x^2}{5}</m>
+                                                <solution>
+                                                    <me>-\dfrac{2x^2}{5}=0</me>
+                                                    <me>-2x^2=0\cdot5</me>
+                                                    <me>-2x^2=0</me>
+                                                    <me>x^2=\dfrac{0}{-2}</me>
+                                                    <me>x^2=0</me>
+                                                    <me>x=\pm\sqrt0</me>
+                                                    <me>x=0</me>
+                                                    Portanto, 0 é o <alert>zero da função quadrática</alert>.
+                                                </solution>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <m>f(x)=-\sqrt6 x^2</m>
+                                                <solution>
+                                                    <me>-\sqrt6 x^2=0</me>
+                                                    <me>x^2=\dfrac{0}{-\sqrt6}</me>
+                                                    <me>x^2=0</me>
+                                                    <me>x=\pm\sqrt0</me>
+                                                    <me>x=0</me>
+                                                    Portanto, 0 é o <alert>zero da função quadrática</alert>.
+                                                </solution>
+                                        </p>
+                                    </li>
+                                </ol>
+                            </li>    
+                            <li>
+                                <p>Função Quadrática Incompleta do tipo <m>f(x)=ax^2+c</m>.</p>
+                                
+                                <ol>
+                                    <li>
+                                        <p>
+                                            <m>f(x)=x^2-4</m>
+                                                <solution>
+                                                    <me>x^2-4=0</me>
+                                                    <me>x^2=4</me>
+                                                    <me>x=\pm\sqrt4</me>
+                                                    <me>x=\pm2</me>
+                                                    Portanto, -2 e 2 são os <alert>zeros da função quadrática</alert>
+                                                </solution>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <m>f(x)=3x^2-27</m>
+                                                <solution>
+                                                    <me>3x^2-27=0</me>
+                                                    <me>3x^2=27</me>
+                                                    <me>x^2=\dfrac{27}{3}</me>
+                                                    <me>x^2=9</me>
+                                                    <me>x=\pm\sqrt9</me>
+                                                    <me>x=\pm3</me>
+                                            </solution>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <m>f(x)=2x^2-7</m>
+                                                <solution>
+                                                    <me>4x^2-7=0</me>
+                                                    <me>4x^2=7</me>
+                                                    <me>x^2=\dfrac{7}{4}</me>
+                                                    <me>x=\pm\sqrt(\dfrac{7}{4})</me>
+                                                    <me>x=\pm\dfrac{\sqrt7}{2}</me>
+                                                </solution>
+                                        </p>
+                                    </li>
+                                </ol>
+                            </li>    
+                            <li>
+                                <p>Função Quadrática Incompleta do tipo <m>f(x)=ax^2+bx</m></p>
+
+                                <ol>
+                                    <li>
+                                        <p>
+                                            <m>f(x)=x^2-5x</m>
+                                                <solution>
+                                                    <me>x^2-5x=0</me>
+                                                    <me>x\cdot(x-5)=0</me>
+                                                    <me>x=0</me> e <me>x=5</me>
+                                                    Portanto, 0 e 5 são os <alert>zeros da função quadrática.</alert>
+                                                </solution>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <m>f(x)=25-5x^2</m>
+                                                <solution>
+                                                    <me>25-5x^2=0</me>
+                                                    <me>5x^2=25</me>
+                                                    <me>x^2=\dfrac{25}{5}</me>
+                                                    <me>x^2=5</me>
+                                                    <me>x=\pm\sqrt(\dfrac{5}{2})</me>
+                                                    <me>x=\pm\dfrac{\sqrt10}{2}</me>
+                                                    Portanto, <m>-\dfrac{\sqrt10}{2}</m> e <m>\dfrac{\sqrt10}{2}</m> são os 
+                                                    <alert>zeros da função quadrática.</alert>
+                                                </solution>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <m>f(x)=-3x^2-27x</m>
+                                                <solution>
+                                                    <me>-3x^2-27x=0</me>
+                                                    <me>x\cdot(-3x-27)=0</me>
+                                                    <me>x=0</me> e 
+                                                    <me>x=\dfrac{27}{-3}</me>
+                                                    <me>x=-9</me>
+                                                    <p>Portanto, 0 e -9 são os <alert>zeros da função quadrática.</alert></p>
+                                                </solution>
+                                        </p>
+                                    </li>
+                                </ol>
+                            </li>
+                        </ul>
+                    </p>
+                </subsection>
+
+                <subsection>
+                    <title>Função Quadrática Completa</title>
+
+                    <p>Toda função quadrática completa é escrita na forma <m>f(x)=ax^2+bx+c</m>, com
+                    <m>a</m>, <m>b</m> e <m>c</m> coeficientes reais diferentes de zero. Para calcular
+                    os zeros desta função, podemos utilizar a forma canônica como método de resolução. Mas
+                    como já foi discutido da subseção anterior, daremos ênfase em outros dois métodos: 
+                    <alert>Fórmula de Bháscara</alert> e <alert>Relações de Girard</alert></p> 
+
+                    <ul>
+                        <li>
+                            <alert>Fórmula de Bháscara</alert>
+
+                            <p>
+
+                            </p>
+                            
+                        </li>
+                        <li>
+                            <alert>Relações de Girard</alert>
+                        </li>
+                    </ul>
+                </subsection>
+
 
             </subsection>
-            <subsection>
-                <title>Calcular zeros da função utilizando a forma padrão</title>
-            </subsection>
+
             <subsection>
                 <title>Zero da função quadrática nos gráficos</title>
             </subsection>
+
             <subsection>
                 <title>Discriminante</title>
 
