@@ -5392,10 +5392,42 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                 Encontrar zeros da função quadrática pelas Relações de Girard torna-se mais
                                 simples pois se trata de uma função polinomial de grau 2. Logo, utilizaremos 
                                 a Soma da Raízes como <m>S=-\dfrac{b}{a}</m> e o Produto das Raízes como 
-                                <m>P=\dfrac{c}{a}</m>. 
+                                <m>P=\dfrac{c}{a}</m>. Para entender estas fórmulas clique em <alert>Demonstração</alert>.
                             </p>
+                            <proof>
+                                <p>Albert Girard nasceu em 1595 em Mihiel, França, e morreu em dezembro de 1632 em Lindem, na Holanda. 
+                                Em um dos trabalhos do matemático francês, estabeleceu relações de soma e produto entre as raízes de uma equação quadrática. 
+                                São elas:</p>
+                                
+                                <ol marker="I">
+                                    <li>
+                                        <p>A soma das raízes de uma equação quadrática é igual à razão entre o oposto do coeficiente de <m>x</m> e o coeficiente de <m>x^2</m>,
+                                        ou seja, a soma das raízes da equação <m>ax^2+bx+c=0</m> é dada por <m>−\dfrac{b}{a}</m>.</p>
+                                        <p>
+                                            Sejam <m>x_1=\dfrac{-b-\sqrt\Delta}{2a}</m> e <m>x_2=\dfrac{-b+\sqrt\Delta}{2a}</m>, então
+                                            <me>x_1+x_2=\dfrac{-b-\sqrt\Delta}{2a}+\dfrac{-b+\sqrt\Delta}{2a}</me>
+                                            <me>=\dfrac{-2b}{2a}</me>
+                                            <me>=-\dfrac{b}{a}</me>
+                                            Portanto, <m>x_1+x_2=-\dfrac{b}{a}.</m>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>O produto das raízes de uma equação quadrática é igual à razão entre o seu termo independente <m>c</m>e o coeficiente de <m>x^2</m>,
+                                    o que implica dizer que o produto das raízes da equação <m>ax^2+bx+c=0</m> é dado por <m>\dfrac{c}{a}</m>.</p>
+                                        <p>
+                                            Sejam <m>x_1=\dfrac{-b-\sqrt\Delta}{2a}</m> e <m>x_2=\dfrac{-b+\sqrt\Delta}{2a}</m>, então
+                                            <me>x_1\cdot x_2=\left(\dfrac{-b-\sqrt\Delta}{2a}\right)\cdot \left(\dfrac{-b+\sqrt\Delta}{2a}\right)</me>
+                                            <me>\dfrac{b^2-\Delta}{4a^2}</me>
+                                            <me>\dfrac{b^2-b^2+4ac}{4a^2}</me>
+                                            <me>\dfrac{c}{a}</me>
+                                            Portando, <m>x_1\cdot x_2=\dfrac{c}{a}</m>.
+                                        </p>
+                                    </li>
+                                </ol> 
+                                
+                            </proof>
                             <p>
-                                Veja os mesmos exemplos agora aplicados à soma e ao produtos das ráizes ou zeros
+                                Veja os mesmos exemplos agora aplicados à soma e ao produto das ráizes ou zeros
                                 da função.
                             </p>
                                 <ol>
