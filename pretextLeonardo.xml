@@ -5330,12 +5330,125 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                             <alert>Fórmula de Bháscara</alert>
 
                             <p>
-
+                                Dada a função quadrática <m>f(x)=ax^2+bx+x</m>, os valores de x tais que 
+                                <m>f(x)=0</m> são chamados raízes ou zeros da função. Portanto, para se obter
+                                os zeros de <m>f(x)</m> basta resolver a equação <m>ax^2+bx+c=0</m>. Para isto,
+                                faremos o discrimminante <m>\Delta=b^2-4ac</m> e os zeros <m>x=\dfrac{-b\pm\sqrt\Delta}{2a}</m>.
                             </p>
+                            <p>Veja alguns exemplos de como calcular os zeros de funções quadráticas:</p>
                             
+                            <ol>
+                                <li>
+                                    <m>f(x)=2x^2-5x+3</m>
+                                        <solution>
+                                            <p>Calculando o discriminante:</p>
+                                            <me>\Delta=b^2-4ac=(-5)^2-4\cdot 2\cdot 3= 25-24 = 1.</me>
+                                            Logo, temos que os valores de x são:
+                                            <me>x=\dfrac{-b\pm\sqrt\Delta}{2a}</me>
+                                            <me>=\dfrac{-(-5)\pm\sqrt1}{2\cdot2}</me>
+                                            <me>=\dfrac{5\pm1}{4}</me>
+                                            Separando em dois casos:
+                                            <me>x_1=\dfrac{5+1}{4}=\dfrac{6}{4}=\dfrac{3}{2}</me>
+                                            e
+                                            <me>x_2=\dfrac{5-1}{4}=\dfrac{4}{4}=1</me>
+                                            Portanto, 1 e <m>=\dfrac{3}{2}</m> são os zeros da função quadrática.
+                                        </solution>
+                                </li>
+                                <li>
+                                    <m>f(x)=-x^2+12x-36</m>
+                                        <solution>
+                                            <p>Calculando o discriminante:</p>
+                                            <me>\Delta=b^2-4ac=(12)^2-4\cdot (-1)\cdot (-36)= 144-144 = 0.</me>
+                                            Logo, temos que os valores de x são:
+                                            <me>x=\dfrac{-b\pm\sqrt\Delta}{2a}</me>
+                                            <me>=\dfrac{-(12)\pm\sqrt0}{2\cdot(-1)}</me>
+                                            <me>=\dfrac{-12\pm0}{-2}</me>
+                                            Separando em dois casos:
+                                            <me>x_1=\dfrac{-12+0}{-2}=\dfrac{-12}{-2}=6</me>
+                                            e
+                                            <me>x_2=\dfrac{-12-0}{-2}=\dfrac{-12}{-2}=6</me>
+                                            Portanto, 6 é o zero da função quadrática.
+                                        </solution>
+                                </li>
+                                <li>
+                                    <m>f(x)=x^2+2x+2</m>
+                                        <solution>
+                                            <p>Calculando o discriminante:</p>
+                                            <me>\Delta=b^2-4ac=(2)^2-4\cdot 1\cdot 2= 4-8 = -4.</me>
+                                            Logo, temos que os valores de x são:
+                                            <me>x=\dfrac{-b\pm\sqrt\Delta}{2a}</me>
+                                            <me>=\dfrac{-2\pm\sqrt-4}{2}</me>
+                                            Como <m>\sqrt-4</m> não é definido nos números reais (<m>\mathbb{R}</m>), 
+                                            então a função não possui raízes reais.
+                                        </solution>
+                                </li>
+                            </ol>
+
                         </li>
                         <li>
                             <alert>Relações de Girard</alert>
+
+                            <p>
+                                Encontrar zeros da função quadrática pelas Relações de Girard torna-se mais
+                                simples pois se trata de uma função polinomial de grau 2. Logo, utilizaremos 
+                                a Soma da Raízes como <m>S=-\dfrac{b}{a}</m> e o Produto das Raízes como 
+                                <m>P=\dfrac{c}{a}</m>. 
+                            </p>
+                            <p>
+                                Veja os mesmos exemplos agora aplicados à soma e ao produtos das ráizes ou zeros
+                                da função.
+                            </p>
+                                <ol>
+                                    <li>
+                                        <m>f(x)=2x^2-5x+3</m>
+                                        <solution>
+                                            <p>
+                                                <me>S=-\dfrac{b}{a}=-\dfrac{(-5)}{2}=\dfrac{5}{2}.</me>
+                                                <me>P=\dfrac{c}{a}=\dfrac{3}{2}</me>
+                                                Temos então que:
+                                                <me>x_1+x_2=\dfrac{5}{2}</me>
+                                                e
+                                                <me>x_1\cdot x_2=\dfrac{3}{2}</me>
+                                                Logo, temos que:
+                                                <me>1+\dfrac{3}{2}=\dfrac{2+3}{2}=\dfrac{5}{2}</me>
+                                                <me>1\cdot \dfrac{3}{2}=\dfrac{3}{2}.</me>
+                                                Portanto, 1 e <m>=\dfrac{3}{2}</m> são os zeros da função quadrática.
+                                            </p>
+                                        </solution>
+                                    </li>
+                                    <li>
+                                        <m>f(x)=-x^2+12x-36</m>
+                                        <solution>
+                                            <p>
+                                                <me>S=-\dfrac{b}{a}=-\dfrac{(12)}{-1}=12.</me>
+                                                <me>P=\dfrac{c}{a}=\dfrac{-36}{-1}=36</me>
+                                                Temos então que:
+                                                <me>x_1+x_2=12</me>
+                                                e
+                                                <me>x_1\cdot x_2=36</me>
+                                                Logo, temos que:
+                                                <me>6+6=12</me>
+                                                <me>6\cdot 6=36.</me>
+                                                Portanto, 6 é o zero da função quadrática.
+                                            </p>
+                                        </solution>
+                                    </li>
+                                    <li>
+                                        <m>f(x)=x^2+2x+2</m>
+                                        <solution>
+                                            <p>
+                                                <me>S=-\dfrac{b}{a}=-\dfrac{2}{1}=-2</me>
+                                                <me>P=\dfrac{c}{a}=\dfrac{2}{1}=2</me>
+                                                Temos então que:
+                                                <me>x_1+x_2=-2</me>
+                                                e
+                                                <me>x_1\cdot x_2=2</me>
+                                                Como não existe dois números que somados seja igual a -2 e multiplicados
+                                                seja igual a 2, então a função quadrática não possui raízes reais.
+                                            </p>
+                                        </solution>
+                                    </li>
+                                </ol>
                         </li>
                     </ul>
                 </subsection>
