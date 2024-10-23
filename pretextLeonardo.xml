@@ -4984,7 +4984,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                     </p>
                     <p>
                         Utilizando a lei de formação <m>f(x)=(x+1)^2-4</m>, vamos encontrar alguns pontos 
-                        específicos. Para isto, faremos o cálculo do valor numérico para o valores de x 
+                        específicos. Para isto, faremos o cálculo do valor numérico para os valores de x 
                         pertencentes ao intervalo inteiro <m>[-4,2]</m>.
                         Logo, 
                         <me>f(-4)=(-4+1)^2-4=9-4=5</me>
@@ -5093,7 +5093,68 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                 </p>
                 <p>Assim, temos dois valores de x que determinam um <m>f(x)=5</m>. Ou seja, 
                     <m>x=-4</m> e <m>x=2</m>. Portanto, <m>f(-4)=5</m> e <m>f(2)=5</m>.</p>
-                <p>destacaremos um resultado
+                
+                <example>
+                    <p>
+                        Seja a função <m>f(x)=-(x-3)^2+9</m>. Determine x sabendo que <m>f(x)=-16</m>.
+                    </p>
+                    <me>-(x-3)^2-9=-16</me>
+                    <me>(x-3)^2-9=16</me>
+                    <me>(x-3)^2=16+9</me>
+                    <me>(x-3)^2=25</me>
+                    <me>x-3=\pm\sqrt25</me>
+                    <me>x-3=\pm5</me>
+                    Abrindo em dois casos temos que:
+                    <sidebyside>
+                        <p>
+                            <me>x-3=5</me>
+                            <me>x=5+3</me>
+                            <me>x=8</me>
+                        </p>
+                        <p>
+                            <me>x-3=-5</me>
+                            <me>x=-5+3</me>
+                            <me>x=-2</me>
+                        </p>
+                    </sidebyside>
+                    <p>
+                        Assim, temos dois valores de x que determinam um <m>f(x)=5</m>. Ou seja, 
+                    <m>x=-4</m> e <m>x=2</m>. Portanto, <m>f(-4)=5</m> e <m>f(2)=5</m>.
+                    </p>
+                </example>
+                <example>
+                    <p>
+                        Seja a função <m>f(x)=3(x-2)^2</m>. Encontre o valor de x sabendo que f(x)=75.
+                    </p>
+                    <solution>
+                        <p>
+                            <me>3(x-2)^2=75</me>
+                            <me>(x-2)^2=\dfrac{75}{3}</me>
+                            <me>(x-2)^2=25</me>
+                            <me>x-2=\pm\sqrt25</me>
+                            <me>x-2=\pm5</me>
+                            Abrindo em dois casos:
+                            <sidebyside>
+                                <p>
+                                    <me>x-2=-5</me>
+                                    <me>x=-5+2</me>
+                                    <me>x=-3</me>
+                                </p>
+                                <p>
+                                    <me>x-2=5</me>
+                                    <me>x=5+2</me>
+                                    <me>x=7</me>    
+                                </p>
+                            
+                            <p>
+                                Assim, temos dois valores de x que determinam um <m>f(x)=75</m>. Ou seja, 
+                                <m>x=-3</m> e <m>x=7</m>. Portanto, <m>f(-3)=75</m> e <m>f(7)=75</m>.
+                            </p>
+                        </sidebyside>
+                    </p>
+                    </solution>
+                </example>
+                    <p>destacaremos um resultado
                     específico, onde a coordenada y dos pontos é igual a zero.   
                 </p>
                 <p>
