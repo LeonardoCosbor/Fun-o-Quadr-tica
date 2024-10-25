@@ -5636,180 +5636,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                 Concluímos então que uma função quadrática que possui zeros ou raízes apresentará interseções da parábola com
                 o eixo x. Caso contrário, a parábola não intersectará o eixo das abscissas. 
                 
-                <subsection>
-                    <title>Estudo dos Sinais da Função Quadrática</title>
-                    
-                    <p>
-                        O estudo do sinal da função quadrática é feito denominando-se os seus zeros,
-                        caso existam, e o esboço do gráfico. Vamos ver os seguintes exemplos:
-                    </p>
-                        <ol>
-                            <li>
-                                <p>
-                                    <m>y=3x^2-4x+1</m>
-                                </p>
-                                <ul>
-                                    <li>
-                                        <p>Zero da Função</p>
-                                        <p>
-                                            <me>\Delta=b^2-4ac=(-4)^2-4\cdot3\cdot1=16-12=4</me>
-                                            <me>x=\dfrac{-b\pm\sqrt\Delta}{2a}=\dfrac{4\pm\sqrt4}{2\cdot3}=\dfrac{4\pm2}{6}</me>
-                                            Abrindo em dois casos, temos que:
-                                            <me>x_1=\dfrac{4-2}{6}=\dfrac{2}{6}=\dfrac{1}{3}</me>
-                                            <me>x_2=\dfrac{4+2}{6}=\dfrac{6}{6}=1</me>
-                                            Os zeros da função são os valores <m>\dfrac{1}{3}</m> e 1.
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p>
-                                            A concavidade da parábola é voltada para cima já que <m>a=3&gt;0</m>.                                                      
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p>
-                                            Para os valores menores do que o primeiro zero da função e maiores do que o segundo zero da
-                                            da função, ou seja <m>x&lt;\dfrac{1}{3}</m> e <m>x&gt;1</m>, então temos uma função positiva. 
-                                            Logo, <m>f(x)&gt;0</m>. Já para valores entre os zeros da função, ou seja, <m>\dfrac{1}{3}&lt;x&lt;1</m>,
-                                            então temos uma função negativa, portanto, <m>f(x)&lt;0</m>. Veja a imagem.
-                                            <image width="50%" source="sinal1.png"/>
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p>
-                                            Para tal percepção, podemos fazer um cálculo simples com valores nos intervalos mencionados. 
-                                            <me>f(-2)=3\cdot(-2)^2-4\cdot(-2)+1=12+8+1=21&gt;0</me>
-                                            <me>f(0,5)=3\cdot(0,5)^2-4\cdot(0,5)+1=0,75-2+1=-0,25&lt;0</me>
-                                            <me>f(2)=3\cdot(2)^2-4\cdot(2)+1=12-8+1=5&gt;0</me>
-                                        </p>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                            <example>
-                                <p>
-                                    <m>y=-2x^2+8x-6</m>
-                                </p>
-                                <ul>
-                                    <li>
-                                        <p>
-                                            <me>\Delta=b^2-4ac=(8)^2-4\cdot(-2)\cdot(-6)=64-48=16</me>
-                                            <me>x=\dfrac{-b\pm\sqrt\Delta}{2a}=\dfrac{-8\pm\sqrt16}{2\cdot(-2)}=\dfrac{-8\pm4}{-4}</me>
-                                            Abrindo em dois casos, temos que:
-                                            <me>x_1=\dfrac{-8-4}{-4}=\dfrac{-12}{-4}=3</me>
-                                            <me>x_2=\dfrac{-8+4}{-4}=\dfrac{-4}{-4}=1</me>
-                                            Os zeros da função são os valores 1 e 3.
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p>
-                                            A concavidade da parábola é voltada para baixo já que <m>a=-2&lt;0</m>.                                                      
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p>
-                                            Para os valores menores do que o primeiro zero da função e maiores do que o segundo zero da
-                                            da função, ou seja <m>x&lt;1</m> e <m>x&gt;3</m>, então temos uma função negativa. 
-                                            Logo, <m>f(x)&lt;0</m>. Já para valores entre os zeros da função, ou seja, <m>1&lt;x&lt;3</m>,
-                                            então temos uma função positiva, portanto, <m>f(x)&gt;0</m>. Veja a imagem.
-                                            <image width="50%" source="sinal2.png"/>
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p>
-                                            Para tal percepção, podemos fazer um cálculo simples com valores nos intervalos mencionados. 
-                                            <me>f(0)=-2\cdot(0)^2+8\cdot(0)-6=-6&lt;0</me>
-                                            <me>f(2)=-2\cdot(2)^2+8\cdot(2)-6=6&gt;0</me>
-                                            <me>f(4)=-2\cdot(4)^2+8\cdot(4)-6=-6&lt;0</me>
-                                        </p>
-                                    </li>
-                                </ul>
-                            </example>
-                            </li>
-                            <li>
-                            <example>
-                                <p>
-                                    <m>f(x)=5x^2</m>
-                                </p>
-                                <ul>
-                                    <li>
-                                        <p>
-                                            <me>\Delta=b^2-4ac=(0)^2-4\cdot(5)\cdot(0)=0</me>
-                                            <me>x=\dfrac{-b\pm\sqrt\Delta}{2a}=\dfrac{-0\pm\sqrt0}{2\cdot(5)}=0</me>
-                                            Portanto, o a raíz da função é o valor 0.
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p>
-                                            A concavidade da parábola é voltada para cima já que <m>a=5&gt;0</m>.                                                      
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p>
-                                            Esta é uma função que mostra uma parábola que apenas na sua raíz, ou seja,
-                                            na interseção da parábola com o eixo x, a função é nula. Para todos os outos 
-                                            valores de x a função é positiva. Logo, <m>f(x)&gt;0</m> para todo <m>x\in\mathbb{R}-\{0\}</m>. Já para valores entre os zeros da função, ou seja, <m>1&lt;x&lt;3</m>,
-                                            então temos uma função positiva, portanto, <m>f(x)&gt;0</m>. Veja a imagem.
-                                            <image width="50%" source="sinal3.png"/>
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p>
-                                            Para tal percepção, podemos fazer um cálculo simples com valores nos intervalos mencionados. 
-                                            <me>f(-2)=5\cdot(-2)^2=20&gt;0</me>
-                                            <me>f(0)=5\cdot(0)^2=0</me>
-                                            <me>f(4)=5\cdot(4)^2=80&gt;0</me>
-                                        </p>
-                                    </li>
-                                </ul>
-                            </example>
-                            </li>
-                            <li>
-                                <example>
-                                    <p>
-                                        <m>f(x)=-0,5x^2+x-1</m>
-                                    </p>
-                                    <ul>
-                                        <li>
-                                            <p>
-                                                <me>\Delta=b^2-4ac=(1)^2-4\cdot(-0,5)\cdot(-1)=1-2=-1</me>
-                                                <me>x=\dfrac{-b\pm\sqrt\Delta}{2a}=\dfrac{-1\pm\sqrt-1}{2\cdot(-0,5)}=\dfrac{-1\pm\sqrt-1}{-1}=</me>
-                                                Como temos uma raíz quadrada de um número negativo e este não definido no conjunto dos números reais,
-                                                então a função não possui zeros reais, o que significa que a parábola não intersecta o eixo x.
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <p>
-                                                A concavidade da parábola é voltada para baixo já que <m>a=-0,5&lt;0</m>.                                                      
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <p>
-                                                Esta é uma função que mostra uma parábola que está toda contida abaixo do eixo x, isto é,
-                                                para qualquer valor de x, o resultado será sempre um valor negativo para <m>f(x)</m>. Logo,
-                                                <m>f(x)&lt;0</m> para todo <m>x\in\mathbb{R}</m>. Veja a imagem.
-                                                <image width="50%" source="sinal4.png"/>
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <p>
-                                                Para tal percepção, podemos fazer um cálculo simples com valores nas informações mencionadas. 
-                                                <me>f(-2)=-0,5\cdot(-2)^2+(-2)-1=-2-2-1=-5&lt;0</me>
-                                                <me>f(0)=-0,5\cdot(0)^2+(0)-1=-1=-1&lt;0</me>
-                                                <me>f(4)=-0,5\cdot(4)^2+(4)-1=-8+4-1=-5&lt;0</me>
-                                            </p>
-                                        </li>
-                                    </ul>
-                                </example>
-                                </li>
-                        </ol>
-                </subsection>
-
-                <subsection>
-                    <title>Inequações Quadráticas</title>
-                    
-                    
-                </subsection>
-            
+                            
             </subsection>
 
             <subsection>
@@ -5983,6 +5810,198 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                     </ul>
                 </p>
             </subsection>
+            <subsection>
+                <title>Estudo dos Sinais da Função Quadrática</title>
+                
+                <p>
+                    O estudo do sinal da função quadrática é feito denominando-se os seus zeros,
+                    caso existam, e o esboço do gráfico. Vamos ver os seguintes exemplos:
+                </p>
+                    <ol>
+                        <li>
+                            <p>
+                                <m>y=3x^2-4x+1</m>
+                            </p>
+                            <ul>
+                                <li>
+                                    <p>Zero da Função</p>
+                                    <p>
+                                        <me>\Delta=b^2-4ac=(-4)^2-4\cdot3\cdot1=16-12=4</me>
+                                        <me>x=\dfrac{-b\pm\sqrt\Delta}{2a}=\dfrac{4\pm\sqrt4}{2\cdot3}=\dfrac{4\pm2}{6}</me>
+                                        Abrindo em dois casos, temos que:
+                                        <me>x_1=\dfrac{4-2}{6}=\dfrac{2}{6}=\dfrac{1}{3}</me>
+                                        <me>x_2=\dfrac{4+2}{6}=\dfrac{6}{6}=1</me>
+                                        Os zeros da função são os valores <m>\dfrac{1}{3}</m> e 1.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        A concavidade da parábola é voltada para cima já que <m>a=3&gt;0</m>.                                                      
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Para os valores menores do que o primeiro zero da função e maiores do que o segundo zero da
+                                        da função, ou seja <m>x&lt;\dfrac{1}{3}</m> e <m>x&gt;1</m>, então temos uma função positiva. 
+                                        Logo, <m>f(x)&gt;0</m>. Já para valores entre os zeros da função, ou seja, <m>\dfrac{1}{3}&lt;x&lt;1</m>,
+                                        então temos uma função negativa, portanto, <m>f(x)&lt;0</m>. Veja a imagem.
+                                        <image width="50%" source="sinal1.png"/>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Para tal percepção, podemos fazer um cálculo simples com valores nos intervalos mencionados. 
+                                        <me>f(-2)=3\cdot(-2)^2-4\cdot(-2)+1=12+8+1=21&gt;0</me>
+                                        <me>f(0,5)=3\cdot(0,5)^2-4\cdot(0,5)+1=0,75-2+1=-0,25&lt;0</me>
+                                        <me>f(2)=3\cdot(2)^2-4\cdot(2)+1=12-8+1=5&gt;0</me>
+                                    </p>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                        <example>
+                            <p>
+                                <m>y=-2x^2+8x-6</m>
+                            </p>
+                            <ul>
+                                <li>
+                                    <p>
+                                        <me>\Delta=b^2-4ac=(8)^2-4\cdot(-2)\cdot(-6)=64-48=16</me>
+                                        <me>x=\dfrac{-b\pm\sqrt\Delta}{2a}=\dfrac{-8\pm\sqrt16}{2\cdot(-2)}=\dfrac{-8\pm4}{-4}</me>
+                                        Abrindo em dois casos, temos que:
+                                        <me>x_1=\dfrac{-8-4}{-4}=\dfrac{-12}{-4}=3</me>
+                                        <me>x_2=\dfrac{-8+4}{-4}=\dfrac{-4}{-4}=1</me>
+                                        Os zeros da função são os valores 1 e 3.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        A concavidade da parábola é voltada para baixo já que <m>a=-2&lt;0</m>.                                                      
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Para os valores menores do que o primeiro zero da função e maiores do que o segundo zero da
+                                        da função, ou seja <m>x&lt;1</m> e <m>x&gt;3</m>, então temos uma função negativa. 
+                                        Logo, <m>f(x)&lt;0</m>. Já para valores entre os zeros da função, ou seja, <m>1&lt;x&lt;3</m>,
+                                        então temos uma função positiva, portanto, <m>f(x)&gt;0</m>. Veja a imagem.
+                                        <image width="50%" source="sinal2.png"/>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Para tal percepção, podemos fazer um cálculo simples com valores nos intervalos mencionados. 
+                                        <me>f(0)=-2\cdot(0)^2+8\cdot(0)-6=-6&lt;0</me>
+                                        <me>f(2)=-2\cdot(2)^2+8\cdot(2)-6=6&gt;0</me>
+                                        <me>f(4)=-2\cdot(4)^2+8\cdot(4)-6=-6&lt;0</me>
+                                    </p>
+                                </li>
+                            </ul>
+                        </example>
+                        </li>
+                        <li>
+                        <example>
+                            <p>
+                                <m>f(x)=5x^2</m>
+                            </p>
+                            <ul>
+                                <li>
+                                    <p>
+                                        <me>\Delta=b^2-4ac=(0)^2-4\cdot(5)\cdot(0)=0</me>
+                                        <me>x=\dfrac{-b\pm\sqrt\Delta}{2a}=\dfrac{-0\pm\sqrt0}{2\cdot(5)}=0</me>
+                                        Portanto, o a raíz da função é o valor 0.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        A concavidade da parábola é voltada para cima já que <m>a=5&gt;0</m>.                                                      
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Esta é uma função que mostra uma parábola que apenas na sua raíz, ou seja,
+                                        na interseção da parábola com o eixo x, a função é nula. Para todos os outos 
+                                        valores de x a função é positiva. Logo, <m>f(x)&gt;0</m> para todo <m>x\in\mathbb{R}-\{0\}</m>. Já para valores entre os zeros da função, ou seja, <m>1&lt;x&lt;3</m>,
+                                        então temos uma função positiva, portanto, <m>f(x)&gt;0</m>. Veja a imagem.
+                                        <image width="50%" source="sinal3.png"/>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Para tal percepção, podemos fazer um cálculo simples com valores nos intervalos mencionados. 
+                                        <me>f(-2)=5\cdot(-2)^2=20&gt;0</me>
+                                        <me>f(0)=5\cdot(0)^2=0</me>
+                                        <me>f(4)=5\cdot(4)^2=80&gt;0</me>
+                                    </p>
+                                </li>
+                            </ul>
+                        </example>
+                        </li>
+                        <li>
+                            <example>
+                                <p>
+                                    <m>f(x)=-0,5x^2+x-1</m>
+                                </p>
+                                <ul>
+                                    <li>
+                                        <p>
+                                            <me>\Delta=b^2-4ac=(1)^2-4\cdot(-0,5)\cdot(-1)=1-2=-1</me>
+                                            <me>x=\dfrac{-b\pm\sqrt\Delta}{2a}=\dfrac{-1\pm\sqrt-1}{2\cdot(-0,5)}=\dfrac{-1\pm\sqrt-1}{-1}=</me>
+                                            Como temos uma raíz quadrada de um número negativo e este não definido no conjunto dos números reais,
+                                            então a função não possui zeros reais, o que significa que a parábola não intersecta o eixo x.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            A concavidade da parábola é voltada para baixo já que <m>a=-0,5&lt;0</m>.                                                      
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Esta é uma função que mostra uma parábola que está toda contida abaixo do eixo x, isto é,
+                                            para qualquer valor de x, o resultado será sempre um valor negativo para <m>f(x)</m>. Logo,
+                                            <m>f(x)&lt;0</m> para todo <m>x\in\mathbb{R}</m>. Veja a imagem.
+                                            <image width="50%" source="sinal4.png"/>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Para tal percepção, podemos fazer um cálculo simples com valores nas informações mencionadas. 
+                                            <me>f(-2)=-0,5\cdot(-2)^2+(-2)-1=-2-2-1=-5&lt;0</me>
+                                            <me>f(0)=-0,5\cdot(0)^2+(0)-1=-1=-1&lt;0</me>
+                                            <me>f(4)=-0,5\cdot(4)^2+(4)-1=-8+4-1=-5&lt;0</me>
+                                        </p>
+                                    </li>
+                                </ul>
+                            </example>
+                            </li>
+                    </ol>
+
+                    <p>
+                        Dados os exemplos acima, podemos resumir o estudo do sinal da função quadrática da seguinte
+                        maneira:
+                    </p>
+                    <p>
+                        <ul>
+                            <li>
+                                <p>
+                                    Se <m>\Delta&gt;0</m>, então a função possui duas raízes distintas, <m>x_1\neqx_2</m>.
+                                    
+                                </p>
+                            </li>
+                        </ul>
+
+                    </p>    
+
+
+            </subsection>
+
+            <subsection>
+                <title>Inequações Quadráticas</title>
+                
+                
+            </subsection>
+
 
             <subsection>
                 <title>Máximos e Mínimos da Função Quadrática</title>
@@ -5998,7 +6017,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                 </p>
 
                 <p><alert>Função Quadrática na Forma Padrão</alert>
-                        <interactive geogebra="xzuyysgg"/>
+                        <interactive geogebra="rfvkdrzp"/>
                 </p>
                 <p>
                     Examinando os gráficos, temos que:
