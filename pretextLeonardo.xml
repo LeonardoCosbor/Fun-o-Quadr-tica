@@ -6047,7 +6047,8 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                 </p>
                 <p>
                     Vamos resolver algumas inequações:
-                    <ol>Exemplo 1:
+                <p><alert>Exemplo 1:</alert> Resolva as inequações:</p>
+                    <ol>
                         <li>
                             <p>
                                 <m>x^2-6x+5\geq0</m>
@@ -6072,40 +6073,174 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                 </solution>
                             </p>
                         </li>
-                        <example>
                         <li>
                             <p>
                                 <m>x^2-6x+5\leq0</m>
                                 <solution>
-                                    <p><m>S=\{x\in\mathbb{R}/1\leq x \leq5\}</m></p>
+                                    <p>Até o estudo de sinais a solução deste exercício é a mesma. 
+                                        Portanto, a solução do exercício é:
+                                        <m>S=\{x\in\mathbb{R}/1\leq x \leq5\}</m></p>
                                 </solution>
                             </p>
                         </li>
-                        </example>
-                        <example>
                         <li>
                             <p>
-                                <m>x^2-6x+5\&gt;0</m>
+                                <m>x^2-6x+5&gt;0</m>
                                 <solution>
-                                    <p><m>S=\{x\in\mathbb{R}/x\&lt;1 \ ou\ x\&gt;5\}</m></p>
+                                    <p>Até o estudo de sinais a solução deste exercício é a mesma. 
+                                    Portanto, a solução do exercício é:
+                                    <m>S=\{x\in\mathbb{R}/x\&lt;1 \ ou\ x\&gt;5\}</m></p>
                                 </solution>
                             </p>
                         </li>
-                        </example>
-                        <example>
                         <li>
                             <p>
-                                <m>x^2-6x+5\&lt;0</m>
+                                <m>x^2-6x+5&lt;0</m>
                                 <solution>
-                                    <p><m>S=\{x\in\mathbb{R}/1\&lt;x\&lt;5\}</m></p>
+                                    <p>Até o estudo de sinais a solução deste exercício é a mesma. 
+                                        Portanto, a solução do exercício é:
+                                        <m>S=\{x\in\mathbb{R}/1\&lt;x\&lt;5\}</m></p>
                                 </solution>
                             </p>
                             </li>
-                        </example>
                     </ol>
                 </p>
-            </subsection>
+                <p><alert>Exemplo 2:</alert> Resolva as inequações:</p>
+                    <ol>
+                        <li>
+                            <p>
+                                <m>x^2-6x+9\geq0</m>
+                                <solution>
+                                    <p>
+                                        Calculando os zeros da função quadrática, temos que:
+                                        <me>\Delta=b^2-4ac=(-6)^2-4\cdot 1\cdot 9=36-36=0</me>
+                                        Como <m>\Delta&gt;0</m> então temos duas raźes reais iguais ou apenas uma raíz real. Logo,
+                                        <me>x=\dfrac{-b\pm\sqrt\Delta}{2a}=\dfrac{6\pm\sqrt0}{2\cdot 1}=\dfrac{6\pm0}{2}</me>
+                                        <me>x_1=\dfrac{6-0}{2}=\dfrac{6}{2}=3</me> e 
+                                        <me>x_2=\dfrac{6+0}{2}=\dfrac{6}{2}=3</me>
+                                        Logo,
+                                        <me>x_1=x_2=3</me>
+                                        Assim, temos duas raízes reais iguais e a concavidade está virada para cima pois <m>a=1&gt;0</m>. Segue 
+                                        então o seguinte estudo de sinais:
+                                        <image width="50%" source="ine2.png"/>
+                                        <p>Se <m>x\neq x_1</m>,então <m>f(x)&gt;0</m>.</p>
+                                        <p>Se <m>x=x_1</m>, então <m>f(x)=0</m>.</p>
+                                        Portanto, a solução do exercício é
+                                        <p><m>S=\\mathbb{R}/</m></p>
+                                    </p>
+                                </solution>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>x^2-6x+9\leq0</m>
+                                <solution>
+                                    <p>Até o estudo de sinais a solução deste exercício é a mesma. 
+                                        Portanto, a solução do exercício é:
+                                        <m>S=\{3\}</m></p>
+                                </solution>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>x^2-6x+9&gt;0</m>
+                                <solution>
+                                    <p>Até o estudo de sinais a solução deste exercício é a mesma. 
+                                    Portanto, a solução do exercício é:
+                                    <m>S=\{x\in\mathbb{R}/x\neq3\}</m></p>
+                                </solution>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>x^2-6x+9&lt;0</m>
+                                <solution>
+                                    <p>Até o estudo de sinais a solução deste exercício é a mesma. 
+                                        Portanto, a solução do exercício é:
+                                        <m>S=\{\}</m></p>
+                                </solution>
+                            </p>
+                            </li>
+                    </ol>
+                <p><alert>Exemplo 3:</alert> Resolva as inequações:</p>
+                    <ol>
+                        <li>
+                            <p>
+                                <m>x^2-6x+10&gt;0</m>
+                                <solution>
+                                    <p>
+                                        Calculando os zeros da função quadrática, temos que:
+                                        <me>\Delta=b^2-4ac=(-6)^2-4\cdot 1\cdot 10=36-40=-4</me>
+                                        Como <m>\Delta&lt;0</m> então a função não possui raízes reais. 
+                                        Assim, a paŕabola não possui interseção com o eixo x e a concavidade está virada para cima pois <m>a=1&gt;0</m>. Segue 
+                                        então o seguinte estudo de sinais:
+                                        <image width="50%" source="ine3.png"/>
+                                        Portanto, a solução do exercício é
+                                        <p><m>S=\mathbb{R}</m></p>
+                                    </p>
+                                </solution>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>x^2-6x+10&lt;0</m>
+                                <solution>
+                                    <p>Até o estudo de sinais a solução deste exercício é a mesma. 
+                                        Portanto, a solução do exercício é:
+                                        <m>S=\{\}</m></p>
+                                </solution>
+                            </p>
+                        </li>
+                    </ol>
+                <p><alert>Exemplo 4:</alert> Resolva as inequações:</p>
+                        <p>Determine para quais valores de <m>m</m> a função <m>f(x)=x^2-6x+2m+1</m>
+                        é positiva para todo x real.</p>
+                            <solution>
+                                <p>
+                                    O gráfico da função quadrática mencionada é uma parábola de concavidade
+                                    virada para cima. Como se quer <m>f(x)&gt;0</m> para todo x real, então
+                                    temos o seguinte gráfico:
+                                </p>
+                                <p>
+                                    <image width="50%" source="ine4.png"/>
+                                </p>
+                                <p>Temos então <m>\Delta&lt;0</m>. Logo,</p>
+                                <me>\Delta&lt;0</me>
+                                <me>(-6)^2-4\cdot1\cdot(2m+1)&lt;0</me>
+                                <me>36-8m-4&lt;0</me>
+                                <me>32-8m&lt;0</me>
+                                <me>-8m&lt;-32</me>
+                                <me>8m&gt;32</me>
+                                <me>m&gt;4</me>
+                                Portanto, para <m>m&gt;4</m>,têm-se <m>f(x)&gt;0\forall x\in\mathhbb{R}</m>.
+                            </solution>
+                <p><alert>Exemplo 5:</alert> Resolva o <b>sistema</b> de inequações</p>
+                    <p>
+                        <me>\begin{cases}
+                            x^2-2x&gt;3 \\ 
+                            2x^2\geq5x-2 
+                            \end{cases}
+                        </me>
 
+                    </p>
+                    <example>
+                        <p>
+                            Resovendo cada inequação separadamente, temos:
+                        </p>
+                        <ol marker="I">
+                            <li>
+                                <p>
+                                    <me>x^2-2x&lt;3</me>
+                                    <me>x^2-2x-3&lt;0</me>
+                                </p>
+                            </li>
+                        </ol>    
+                    </example>
+                    
+                            
+                            
+
+            </subsection>
 
             <subsection>
                 <title>Máximos e Mínimos da Função Quadrática</title>
