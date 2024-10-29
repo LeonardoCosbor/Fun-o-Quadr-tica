@@ -5984,9 +5984,45 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                     <p>
                         <ul>
                             <li>
+                                <p>Se <m>\Delta&gt;0</m>, então a função possui duas raízes distintas, ou seja, <m>x_1\neq x_2</m>.</p>
+                                        <p>
+                                            <image width="50%" source="ES1.png"/>
+                                            <p>Para <m>x&lt;x_1</m> ou <m>x&gt;x_2\Rightarrow f(x)&lt;0.</m></p>
+                                            <p>Para <m>x_1&lt; x &lt;x_2 \Rightarrow f(x)&gt;0.</m></p>
+                                            <p>Para <m>x=x_1</m> ou <m>x=x_2 \Rightarrow f(x)=0.</m></p>
+                                        </p>
+                                        <p>
+                                            <image width="50%" source="ES2.png"/>
+                                            <p>Para <m>x&lt;x_1</m> ou <m>x&gt;x_2\Rightarrow f(x)&gt;0.</m></p>
+                                            <p>Para <m>x_1&lt; x &lt;x_2 \Rightarrow f(x)&lt;0.</m></p>
+                                            <p>Para <m>x=x_1</m> ou <m>x=x_2 \Rightarrow f(x)=0.</m></p>
+                                        </p>
+                            </li>
+                            <li>
+                                <p>Se <m>\Delta=0</m>, então a função possui uma raíz real, ou seja, <m>x_1=x_2</m>.</p>
+                                        <p>
+                                            <image width="50%" source="ES3.png"/>
+                                            <p>Para <m>x\neq x_1\Rightarrow f(x)&lt;0.</m></p>
+                                            <p>Para <m>x=x_1\Rightarrow f(x)=0.</m></p>
+                                        </p>
+                                        <p>
+                                            <image width="50%" source="ES4.png"/>
+                                            <p>Para <m>x\neq x_1\Rightarrow f(x)&gt;0.</m></p>
+                                            <p>Para <m>x=x_1\Rightarrow f(x)=0.</m></p>
+                                        </p>
+                            </li>
+                            <li>
                                 <p>
-                                    Se <m>\Delta&gt;0</m>, então a função possui duas raízes distintas, <m>x_1\neqx_2</m>.
-                                    
+                                    Se <m>\Delta&lt;0</m>, então a função não possui raízes reais. 
+                                        <p>
+                                            <image width="50%" source="ES5.png"/>
+                                            <p><m>\forall x \in \mathbb{R} \Rightarrow f(x)&lt;0</m></p>
+                                        </p>
+                                        <p>
+                                            <image width="50%" source="ES6.png"/>
+                                            <p><m>\forall x \in \mathbb{R} \Rightarrow f(x)&gt;0</m></p>
+                                        </p>
+                                
                                 </p>
                             </li>
                         </ul>
@@ -5999,7 +6035,75 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
             <subsection>
                 <title>Inequações Quadráticas</title>
                 
-                
+                <p>
+                    Chama-se inequações quadráticas na variável x, toda inequação se reduz
+                    a uma das formas:
+                </p>
+                <p>
+                    <m>ax^2+bx+c&gt;0</m>, <m>ax^2+bx+c\geq0</m>, <m>ax^2+bx+c\leq0</m>, <m>ax^2+bx+c&lt;</m>,
+                </p>
+                <p>
+                    em que <m>a</m>, <m>b</m> e <m>c</m> são números  reais  quaisquer, com <m>a\neq0</m>.
+                </p>
+                <p>
+                    Vamos resolver algumas inequações:
+                    <ol>Exemplo 1:
+                        <li>
+                            <p>
+                                <m>x^2-6x+5\geq0</m>
+                                <solution>
+                                    <p>
+                                        Calculando os zeros da função quadrática, temos que:
+                                        <me>\Delta=b^2-4ac=(-6)^2-4\cdot 1\cdot 5=36-20=16</me>
+                                        Como <m>\Delta&gt;0</m> então temos duas raźes reais. Logo,
+                                        <me>x=\dfrac{-b\pm\sqrt\Delta}{2a}=\dfrac{6\pm\sqrt16}{2\cdot 1}=\dfrac{6\pm4}{2}</me>
+                                        <me>x_1=\dfrac{6-4}{2}=\dfrac{2}{2}=1</me> e 
+                                        <me>x_2=\dfrac{6+4}{2}=\dfrac{10}{2}=5</me>.
+                                        Assim, temos duas raízes reais e a concavidade está virada para cima pois <m>a=1&gt;0</m>. Segue 
+                                        então o seguinte estudo de sinais:
+                                        <image width="50%" source="ine1.png"/>
+                                        <p>Se <m>x&lt;x_1</m> e <m>x&gt;x_2</m>, então <m>f(x)&gt;0</m>.</p>
+                                        <p>Se <m>x_1&lt;x&lt;x_2</m>, então <m>f(x)&lt;0</m>.</p>
+                                        <p>Se <m>x=x_1</m> ou <m>x=x_2</m>, então <m>f(x)=0</m>.</p>
+                                        Portanto, a solução do exercício é
+                                        <p><m>S=\{x\in\mathbb{R}/x\leq1 \ ou\ x\geq5\}</m></p>
+                                        
+                                    </p>
+                                </solution>
+                            </p>
+                        </li>
+                        <example>
+                        <li>
+                            <p>
+                                <m>x^2-6x+5\leq0</m>
+                                <solution>
+                                    <p><m>S=\{x\in\mathbb{R}/1\leq x \leq5\}</m></p>
+                                </solution>
+                            </p>
+                        </li>
+                        </example>
+                        <example>
+                        <li>
+                            <p>
+                                <m>x^2-6x+5\&gt;0</m>
+                                <solution>
+                                    <p><m>S=\{x\in\mathbb{R}/x\&lt;1 \ ou\ x\&gt;5\}</m></p>
+                                </solution>
+                            </p>
+                        </li>
+                        </example>
+                        <example>
+                        <li>
+                            <p>
+                                <m>x^2-6x+5\&lt;0</m>
+                                <solution>
+                                    <p><m>S=\{x\in\mathbb{R}/1\&lt;x\&lt;5\}</m></p>
+                                </solution>
+                            </p>
+                            </li>
+                        </example>
+                    </ol>
+                </p>
             </subsection>
 
 
