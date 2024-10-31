@@ -6192,9 +6192,9 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                             </p>
                         </li>
                     </ol>
-                <p><alert>Exemplo 4:</alert> Resolva as inequações:</p>
-                        <p>Determine para quais valores de <m>m</m> a função <m>f(x)=x^2-6x+2m+1</m>
+                <p><alert>Exemplo 4:</alert> Determine para quais valores de <m>m</m> a função <m>f(x)=x^2-6x+2m+1</m>
                         é positiva para todo x real.</p>
+                        <p>
                             <solution>
                                 <p>
                                     O gráfico da função quadrática mencionada é uma parábola de concavidade
@@ -6214,6 +6214,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                 <me>m&gt;4</me>
                                 Portanto, para <m>m&gt;4</m>,têm-se <m>f(x)&gt;0\forall x\in\mathhbb{R}</m>.
                             </solution>
+                        </p>
                 <p><alert>Exemplo 5:</alert> Resolva o <b>sistema</b> de inequações</p>
                     <p>
                         <me>\begin{cases}
@@ -6221,9 +6222,9 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                             2x^2\geq5x-2 
                             \end{cases}
                         </me>
-
                     </p>
-                    <example>
+                    <p>
+                    <solution>
                         <p>
                             Resovendo cada inequação separadamente, temos:
                         </p>
@@ -6232,14 +6233,86 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                 <p>
                                     <me>x^2-2x&lt;3</me>
                                     <me>x^2-2x-3&lt;0</me>
+                                    Raízes: -1 e 3
+                                </p>
+                                <p>
+                                    <image width="50%" source="ineI.png"/>                                        
                                 </p>
                             </li>
+                            <li>
+                                <p>
+                                    <me>2x^2\geq5x-2</me>
+                                    <me>2x^2-5x+2\geq0</me>
+                                    Raízes:<m>\dfrac{1}{2}</m> e <m>2</m>
+                                </p>
+                                <p>
+                                    <image width="50%" source="ineII.png"/>
+                                </p>
+                            </li>
+                            <li>
+                                <p>Vamos fazer a interseção das soluções. Logo, </p>
+                                    <image width="70%" source="in3.png"/>
+                                    <p>a solução da inequação é <m>S=\{x\in\mathbb{R}/-1&lt;x\leq\dfrac{1}{2} \ ou \ 2\leq x&lt;3\}</m>.</p>
+                            </li>
                         </ol>    
-                    </example>
-                    
-                            
-                            
+                    </solution>
+                    </p>
+                <p><alert>Exemplo 6:</alert> Resolva a inequação</p>
+                    <me>
+                        (x^2-5x+4)\cdot(2-x)\cdot(-x^2+3x)&gt;0
+                    </me>
+                    <p>
+                        <solution>
+                            <p>
+                                Vamos estudar os sinais das três funções:
+                            </p>
+                                <ol>
+                                    <li>
+                                        <p><m>f(x)=x^2-5x+4</m></p>
+                                        <p>Raízes: 1 e 4</p>
+                                        <p>Gráfico</p>
+                                        <image width="50%" source="ineIV.png"/>
+                                    </li>
+                                    <li>
+                                        <p><m>g(x)=2-x</m></p>
+                                        <p>Raíz: 2</p>
+                                        <p>Gráfico</p>
+                                        <image width="50%" source="ineV.png"/>
+                                    </li>
+                                    <li>
+                                        <p><m>h(x)=-x^2+3x</m></p>
+                                        <p>Raízes: 0 e 3</p>
+                                        <p>Gráfico</p>
+                                        <image width="50%" source="ineVI.png"/>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Vamos agora mostrar o quadro de sinais de <m>f(x)\cdot g(x)\cdot h(x)</m>:
+                                        </p>
+                                        <image width="90%" source="ineVII.png"/>
+                                        <p>
+                                            Como <m>f(x)\cdot g(x) \cdot h(x) &gt;0</m>, então a solução é
+                                        </p>
+                                        <p>
+                                            <m>S=\{x\in\mathbb{R}/0&lt;x&lt;1 \ ou \ 2&lt;x&lt;3 \ ou \ x&gt;4\}</m>
+                                        </p>
+                                    </li>
+                                </ol>
+                        </solution>
+                    </p>
+                <p><alert>Exemplo 7:</alert> Resolva a inequação</p>
+                    <me>
+                        \dfrac{-2x^2+5x-2}{x^2-4}\geq-1
+                    </me>
 
+                    <solution>
+                        <p>
+                            
+                        </p>
+                    </solution>
+                    
+
+                    
             </subsection>
 
             <subsection>
