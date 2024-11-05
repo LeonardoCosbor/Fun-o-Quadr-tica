@@ -2737,7 +2737,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                             <tabular>
                             <row>
                             <cell >
-                                <alert>Produto da Soma:</alert>
+                                <alert>Quadrado da Soma:</alert>
                                 <m>(a+b)^2=a^2+2ab+b^2</m>
                             </cell>
                             </row>
@@ -2749,7 +2749,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                             <tabular>
                             <row>
                             <cell >
-                                <alert>Produto da Soma Pela Diferença:</alert>
+                                <alert>Quadrado da Diferença:</alert>
                                 <m>(a-b)^2=a^2-2ab+b^2</m>
                             </cell>
                             </row>
