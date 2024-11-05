@@ -6710,7 +6710,8 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                 <p>
                                     Para determinar a altura máxima atingida pelo rojão, utilizaremos a fórmula da ordenada do vértice 
                                     da função. Logo,
-                                    <me>y_v=-\dfrac{\Delta}{4a}=-\dfrac{\dfrac{64}{9}}{4\cdot\dfrac{-2}{45}}</me>
+                                    <me>y_v=-\dfrac{\Delta}{4a}=-\dfrac{\dfrac{64}{9}}{4\cdot\dfrac{-2}{45}}=\dfrac{-64}{9}\cdot\dfrac{45}{-8}=40</me>
+                                    Portanto, 40 metros de altura.
                                 </p>
                             </solution>
                     </li>
