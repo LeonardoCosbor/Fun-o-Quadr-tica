@@ -6684,7 +6684,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                         <p>
                             Numa festa de São João, a convite de Antônio, Pedro disparou um rojão.
                             No plano cartesiano, a trajetória do rojão obedeceu à seguinte lei:
-                            <me>y=-\dfrac{2x^2}{45}+\dfrac{8x}{3}/</me>
+                            <me>y=-\dfrac{2x^2}{45}+\dfrac{8x}{3}</me>
                             <image width="70%" source="rojão.png"/>
                             Pergunta-se:
                             <ol marker="a">
@@ -6692,6 +6692,27 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                 <li>Qual foi a alturma máxima atingida pelo rojão?</li>
                             </ol>
                         </p>
+                            <solution>
+                                <p>
+                                    Para saber se o rojão atirado por Pedro caiu antes ou depois
+                                    da fogueira devemos calcular a segunda raíz da função quadrática,
+                                    já que o menino se encontra na menor das raízes. Logo,
+                                    <me>\Delta=b^2-4ac</me>
+                                    <me>=\left(\dfrac{8}{3}\right)^2-4\cdot\left(\dfrac{-2}{45}\right)\cdot0</me>
+                                    <me>=\dfrac{64}{9}</me>
+                                    Como <m>\Delta&gt;0</m> então temos duas raízes reais distintas. Assim, 
+                                    <me>x=\dfrac{-b\pm\sqrt\Delta}{2a}=\dfrac{-\dfrac{8}{3}\pm\dfrac{8}{3}}{\dfrac{-4}{45}}</me>
+                                    Abrindo em dois casos temos:
+                                    <me>x_1=\dfrac{-\dfrac{8}{3}+\dfrac{8}{3}}{\dfrac{-4}{45}}=\dfrac{0}{\dfrac{-4}{45}}=0</me>
+                                    <me>x_2=\dfrac{-\dfrac{8}{3}-\dfrac{8}{3}}{\dfrac{-4}{45}}=\dfrac{\dfrac{-16}{3}}{\dfrac{-4}{45}}=\dfrac{-16}{3}\cdot\dfrac{45}{-4}=60</me>
+                                    Portanto, o rojão toca o solo em 60 m, <alert>depois</alert> da fogueira.
+                                </p>
+                                <p>
+                                    Para determinar a altura máxima atingida pelo rojão, utilizaremos a fórmula da ordenada do vértice 
+                                    da função. Logo,
+                                    <me>y_v=-\dfrac{\Delta}{4a}=-\dfrac{\dfrac{64}{9}}{4\cdot\dfrac{-2}{45}}</me>
+                                </p>
+                            </solution>
                     </li>
                 </ol>
             </subsection>
