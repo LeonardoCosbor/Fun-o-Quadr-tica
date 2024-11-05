@@ -6304,15 +6304,33 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                     <me>
                         \dfrac{-2x^2+5x-2}{x^2-4}\geq-1
                     </me>
-
+                <p>
                     <solution>
                         <p>
-                            
+                            <me>\dfrac{-2x^2+5x-2}{x^2-4}+1\geq0</me>
+                            <me>\dfrac{-2x^2+5x-2+x^2-4}{x^2-4}\geq0</me>
+                            <me>\dfrac{-x^2+5x-6}{x^2-4}\geq0</me>
+                            Estudando os sinais da função separadamente, temos:
+                            <ol marker="I">
+                                <li>
+                                    <p><m>f(x)=-x^2+5x-6</m></p>
+                                    <p>Raízes: 2 e 3</p>
+                                    <image width="50%" source="ineVIII.png"/>
+                                </li>
+                                <li>
+                                    <p><m>g(x)=x^2-4</m></p>
+                                    <p>Raízes: -2 e 2</p>
+                                    <image width="50%" source="ineIX.png"/>
+                                </li>
+                                <li>
+                                    <p>Analisando os sinais de <m>f(x)</m> e <m>g(x)</m>, já que devemos ter <m>\dfrac{f(x)}{g(x)}\geq0</m>, temos:</p>
+                                    <p><image width="100%" source="ineX.png"/></p>
+                                    <p>Portanto a solução da inequação é <m>S=\{x\in\mathbb{R}/-2&lt;x&lt;2 \ ou \ 2&lt;x\leq3\}</m>.</p>
+                                </li>
+                            </ol>
                         </p>
                     </solution>
-                    
-
-                    
+                </p>
             </subsection>
 
             <subsection>
@@ -6395,6 +6413,279 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                         </li>
                     </ol>
                 </p>
+            </subsection>
+
+            <subsection>
+                <title>Exercícios</title>
+
+                <ol>
+                    <li>
+                        <p>
+                            Identifique qual das alternativas representa os zeros da função <m>f(x)=(x-1)^2-1</m>.
+                        </p>
+                            <ol marker="a">
+                                <li><m>S=\{0,1\}</m></li>
+                                <li><m>S=\{-2,0\}</m></li>
+                                <li><m>S=\{0,2\}</m></li>
+                                <li><m>S=\{-3,-1\}</m></li>
+                            </ol>
+                                <solution>
+                                    <p>
+                                        <me>(x-1)^2-1=0</me>
+                                        <me>(x-1)^2=1</me>
+                                        <me>x-1=\pm\sqrt1</me>
+                                        <me>x-1=\pm1</me>
+                                        Abrindo dois casos:
+                                        <me>x-1=-1</me>
+                                        <me>x=-1+1</me>
+                                        <me>x=0</me>
+                                        e
+                                        <me>x-1=1</me>
+                                        <me>x=1+1/</me>
+                                        <me>x=2</me>
+                                        Portanto, <m>S={\0,2\}</m>.
+                                    </p>
+                                </solution>
+                    </li>
+                    <li>
+                        <p>
+                            Localize entre as alternativas a seguir aquele que representa a solução
+                            das raízes da função quadrática <m>f(x)=-2x^2+5x-3</m>.
+                            <ol marker="a">
+                                <li><m>S=\left\{1,\dfrac{3}{2}\right\}</m></li>
+                                <li><m>S=\left\{-\dfrac{3}{2},0\right\}</m></li>
+                                <li><m>S=\left\{0,\dfrac{1}{2}\right\}</m></li>
+                                <li><m>S=\{1,2\}</m></li>
+                            </ol>
+                                <solution>
+                                    <p>
+                                        Usaremos a fórmula de Bháscara para encontrar os zeros da função.
+                                        Como <m>a=-2</m>, <m>b=5</m> e <m>c=-3</m>, temos que:
+                                        <me>\Delta=b^2-4ac=5^2-4\cdot(-2)\cdot(-3)=25-24=1</me>
+                                        <me>x=\dfrac{-b\pm\sqrt\Delta}{2a}=\dfrac{-5\pm\sqrt1}{2\cdot(-2)}=\dfrac{-5\pm1}{-4}</me>
+                                        Já que <m>\Delta&gt;0</m>, temos dois zeros da função. São eles:
+                                        <me>x_1=\dfrac{-5+1}{-2}=\dfrac{-4}{-4}=1</me>
+                                        <me>x_2=\dfrac{-5-1}{-2}=\dfrac{-6}{-4}=\dfrac{3}{2}</me>
+                                        Portanto, a solução do exercício é:
+                                        <m>S=\left\{1,\dfrac{3}{2}\right\}</m>
+                                    </p>
+                                </solution>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Explique como mostrar graficamente os zeros das funções quadráticas
+                            <m>f(x)=x^2-5x+6</m>, <m>g(x)=-\dfrac{(x-1)^2}{4}</m> e <m>h(x)=-3(x+1)^2-2</m>.
+                        </p>
+                            <solution>
+                                <p>
+                                    Para a função <m>f</m>, usaremos as relações de girard. Logo,
+                                    <me>x_1+x_2= -\dfrac{b}{a} = -\dfrac{(-5)}{1} = 5</me>
+                                    <me>x_1 \cdot x_2 = \dfrac{c}{a} = \dfrac{6}{1} = 6 </me>
+                                    As raízes que satisfazem as equações são 2 e 3, pois 2+3=5 e 2x3=6. 
+                                    Portanto, <m>S=\{2,3\}</m>. 
+                                </p>
+                                <p>
+                                    Para a função <m>g</m>, basta isolar a incógnita <m>x</m>. Logo,
+                                    <me>-\dfrac{(x-1)^2}{4}=0</me>
+                                    <me>-(x-1)^2=0</me>
+                                    <me>(x-1)^2=0</me>
+                                    <me>x-1=\pm0</me>
+                                    <me>x-1=0</me>
+                                    <me>x=1</me>
+                                    Assim, a função <m>g</m> tem apenas um zero da função. Portanto, <m>S=\{0\}</m>.
+                                </p>
+                                <p>
+                                    Para a função <m>h</m> será análogo à função <m>g</m>.
+                                    <me>-3(x+1)^2-2=0</me>
+                                    <me>-3(x+1)^2=2</me>
+                                    <me>(x+1)^2=-\dfrac{2}{3}</me>
+                                    <me>x+1=\sqrt{-\dfrac{2}{3}}</me>
+                                    Como raíz quadrada de números negativos não são definidas no conjunto dos
+                                    números reais, então, segue que a solução do exercício é <m>S=\{\}</m>.
+                                </p>
+                                <p>No gráfico, seguem as funções, sendo a função <m>f</m> com duas intersecções 
+                                    com o eixo x, a função <m>g</m> com apenas uma intersecção com o eixo x e a 
+                                    função <m>h</m> sem interseção com o eixo x.
+                                    <image width="50%" source="Ex3.png"/>
+                                </p>
+                            </solution>
+                    </li>
+                    <li>
+                        <p>
+                            Associe cada gráfico de função quadrática e o valor do discriminante.
+                        </p>
+                            <ol marker="a">
+                                <li><m>\Delta&lt;0</m></li>
+                                <li><m>\Delta=0</m></li>
+                                <li><m>\Delta&gt;0</m></li>
+                            </ol>
+                            <ol marker="I">
+                                <li><image width="50%" source="4a.png"/></li>
+                                <li><image width="50%" source="4b.png"/></li>
+                                <li><image width="50%" source="4c.png"/></li>
+                            </ol>
+                                <solution>
+                                    <p>
+                                        Para <m>\Delta&lt;0</m>, a parábola não intersecta o eixo x, portanto, gráfico III.
+                                    </p>
+                                    <p>
+                                        Para <m>\Delta=0</m>, a parábola intersecta o eixo x uma vez pois teremos apenas uma 
+                                        raíz da função, logo, gráfico II. 
+                                    </p>
+                                    <p>
+                                        Para <m>\Delta=&gt;0</m>, a paŕabola intersecta o eixo x duas vezes pois teremos dois 
+                                        zeros da função. Portanto, gráfico I.
+                                    </p>
+                                </solution>
+                    </li>
+                    <li>
+                        <p>
+                            Calcule o discriminante das seguintes funções quadráticas:
+                        </p>
+                            <ol marker="a">
+                                <li><m>f(x)=-2x^2+12x-16</m></li>
+                                <li><m>g(x)=3x^2-18x+27</m></li>
+                                <li><m>h(x)=4x^2+4</m></li>
+                            </ol>
+                                <solution>
+                                    <p>
+                                        <me>\Delta_f=12^2-4\cdot(-2)\cdot(-16)=144-128=16</me>
+                                        <me>\Delta_g=(-18)^2-4\cdot(3)\cdot(27)=324-324=0</me>
+                                        <me>\Delta_h=0^2-4\cdot(4)\cdot(4)=0-64=-64</me>
+                                    </p>
+                                </solution>
+                    </li>
+                    <li>
+                        <p>
+                            Demonstre como encontrar o zero da função quadrática <m>f(x)=2x^2-5x+3</m>
+                            tanto na forma padrão quanto na forma canînica.
+                        </p>
+                            <solution>
+                                <p>
+                                    Na forma padrão, usaremos a fórmula de Bháscara. Logo,
+                                    <me>\Delta=b^2-4ac=(-5)^2-4\cdot(2)\cdot(3)=25-24=1&gt;0</me>
+                                    Logo, temos duas raízes reais distintas. 
+                                    <me>x=\dfrac{-b\pm\sqrt\Delta}{2a}=\dfrac{-(-5)\pm\sqrt1}{2\cdot2}=\dfrac{5\pm1}{4}</me>
+                                    <me>x=\dfrac{5+1}{4}=\dfrac{6}{4}=\dfrac{3}{2}</me>
+                                    <me>x=\dfrac{5-1}{4}=\dfrac{4}{4}=1</me>
+                                    Portanto, <m>S=\left\{1,\dfrac{3}{2}\right\}</m>
+                                </p>
+                                <p>
+                                    Para a forma canônica, devemos passar a função quadrática na forma padrão para a canônica.
+                                    Logo, temos que:
+                                    <me>f(x)=a\cdot(x-m)^2+k=a\cdot\left(x-\dfrac{-b}{2a}\right)^2+\dfrac{4ac-b^2}{4a}=2\cdot\left(x-\dfrac{5}{2\cdot2}\right)^2+\dfrac{4\cdot2\cdot3-(-5)^2}{4\cdot2}=2\left(x-\dfrac{5}{4}\right)^2-\dfrac{1}{8}</me>
+                                    Isolando x na igualdade <m>f(x)=0</m>, temos que:
+                                    <me>2\left(x-\dfrac{5}{4}\right)^2-\dfrac{1}{8}=0</me>
+                                    <me>2\left(x-\dfrac{5}{4}\right)^2=\dfrac{1}{8}</me>
+                                    <me>\left(x-\dfrac{5}{4}\right)^2=\dfrac{1}{16}</me>
+                                    <me>x-\dfrac{5}{4}=\pm\sqrt{\dfrac{1}{16}}</me>
+                                    <me>x-\dfrac{5}{4}=\pm\dfrac{1}{4}</me>
+                                    Abrindo em dois casos, temos:
+                                    <me>x_1=\dfrac{1}{4}+\dfrac{5}{4}=\dfrac{6}{4}=\dfrac{3}{2}</me>
+                                    <me>x_2=\dfrac{1}{4}-\dfrac{5}{4}=-\dfrac{4}{4}=-1</me>
+                                    Portanto, <m>S=\left\{1,\dfrac{3}{2}\right\}</m>
+                                </p>
+
+
+                            </solution>
+                    </li>
+                    <li>
+                        <p>
+                            Resolva o seguinte problema: 
+                        </p>
+                        <p>
+                            Oscar arremessa uma bola de basquete cujo centro segue uma trajetória
+                            plana vertical de equação <m>y = -\dfrac{1}{7}x^2+\dfrac{8}{7}x+2</m>,
+                            na qual os valores de x e y são dados em metros. Oscar acerta o arremesso
+                            e o centro da bola passa pelo centro da cesta, que está a 3 m de altura. 
+                            Determine a distância do centro da cesta ao eixo y.
+                        </p>
+                        <p>
+                            <image width="100%" source="Oscar.png"/>
+                        </p>
+                            <solution>
+                                <p>
+                                    Vamos encontrar para qual valor de x temos uma imagem igual a 3. Logo,
+                                    <me>y = -\dfrac{1}{7}x^2+\dfrac{8}{7}x+2=3</me>
+                                    <me>y = -\dfrac{1}{7}x^2+\dfrac{8}{7}x+2-3=0</me>
+                                    <me>y = -\dfrac{1}{7}x^2+\dfrac{8}{7}x-1=0</me>
+                                    <me>\Delta=b^2-4ac</me>
+                                    <me>=\left(\dfrac{8}{7}\right)^2-4\cdot\left(-\dfrac{1}{7}\right)\cdot(-1)</me>
+                                    <me>=\left(\dfrac{64}{49}\right)-\left(\dfrac{4}{7}\right)</me>
+                                    <me>=\left(\dfrac{64}{49}\right)-\left(\dfrac{28}{49}\right)</me>
+                                    <me>=\dfrac{36}{49}</me>
+                                    Como <m>\Delta=\dfrac{36}{49}&gt;0</m>, então temos duas raízes reais distintas. Logo,
+                                    <me>x=\dfrac{-\dfrac{8}{7}\pm\sqrt{\dfrac{36}{49}}}{2\cdot\dfrac{-1}{7}}</me>
+                                    <me>x=\dfrac{-\dfrac{8}{7}\pm\dfrac{6}{7}}{-\dfrac{2}{7}}</me>
+                                    Abrindo em dois casos, temos:
+                                    <me>x_1=\dfrac{-\dfrac{8}{7}-\dfrac{6}{7}}{-\dfrac{2}{7}}=\dfrac{-\dfrac{14}{7}}{-\dfrac{2}{7}}=7</me>
+                                    <me>x_2=\dfrac{-\dfrac{8}{7}+\dfrac{6}{7}}{-\dfrac{2}{7}}=\dfrac{-\dfrac{2}{7}}{-\dfrac{2}{7}}=1</me>
+                                    Logo, para dois valores de x temos uma altura de 3 metros. São eles <m>f(1)=3</m> e <m>f(7)=3</m>. 
+                                    Portanto, como x e y são dados em metros, então <m>x=7</m> metros.
+                                </p>
+                            </solution>
+                    </li>
+                    <li>
+                        <p>
+                            Investigue para quais valores de <m>k</m> a função <m>f(x)=x^2-8x+3m-2</m> seja positiva
+                            para todo valor de x.
+                        </p>
+                            <solution>
+                                <p>
+                                    <me>\Delta&gt;0</me>
+                                    <me>(-8)^2-4\cdot1\cdot(3m-2)&gt;0</me>
+                                    <me>64-12m+8&gt;0</me>
+                                    <me>72-12m&gt;0</me>
+                                    <me>-12m&gt;-72</me>
+                                    <me>12m&lt;72</me>
+                                    <me>m&lt;\dfrac{72}{12}</me>
+                                    <me>m&lt;6</me>
+                                </p>
+                                <p>
+                                    Veja o gráfico interativo quando mudamos os valores de m
+                                    <interactive geogebra="vnxbfmm4"/>
+                                </p>
+                            </solution>
+                    </li>
+                    <li>
+                        <p>
+                            (UFRS) Uma bola colocada no chão é chutada para o alto, percorrendo uma 
+                            trajetória descrita por <m>y=-2x^2+12x</m>, em que <m>y</m> é a altura dada em m.
+                            A altura máxima atingida pela bola é de:
+                            <ol marker="a">
+                                <li>36 m </li>
+                                <li>18 m</li>
+                                <li>12 m</li>
+                                <li>6 m</li>
+                                <li>3 m</li>
+                            </ol> 
+                        </p>
+                            <solution>
+                                <p>
+                                    Para encontrar a altura máxima basta calcular o vértice da função
+                                    quadrática que é o ponto de máximo da parábola desenhada. Veja a 
+                                    imagem do gráfico.
+                                </p>
+                                <p>
+                                    <image width="50%" source="ufrs.png"/>
+                                </p>
+                                <p>
+                                    Vamos calcular o vértice da função. Sendo <m>a=-2</m>, <m>b=12</m> e
+                                    <m>c=0</m>, então:
+                                    <me>x_v=-\dfrac{b}{2a}=-\dfrac{12}{2\cdot(-2)}=3</me>
+                                    <me>y_v=-\dfrac{\Delta}{4a}=\dfrac{4\cdot(-2)\cdot0-12^2}{4\cdot(-2)}=\dfrac{-144}{-8}=18</me>
+                                    Portanto, a altura máxima atingida pela bola, no instante 3, é <alert>18 m</alert>.
+                                </p>
+                                
+                            </solution>
+                    </li>
+                    <li>
+                        <p>
+                            Justificar
+                        </p>
+                    </li>
+                </ol>
             </subsection>
 
         </section>
