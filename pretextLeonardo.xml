@@ -6682,7 +6682,15 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                     </li>
                     <li>
                         <p>
-                            Justificar
+                            Numa festa de São João, a convite de Antônio, Pedro disparou um rojão.
+                            No plano cartesiano, a trajetória do rojão obedeceu à seguinte lei:
+                            <me>y=-\dfrac{2x^2}{45}+\dfrac{8x}{3}/</me>
+                            <image width="70%" source="rojão.png"/>
+                            Pergunta-se:
+                            <ol marker="a">
+                                <li>Ele caiu antes ou depois da fogueira?</li>
+                                <li>Qual foi a alturma máxima atingida pelo rojão?</li>
+                            </ol>
                         </p>
                     </li>
                 </ol>
