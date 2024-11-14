@@ -85,13 +85,14 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                 
                     <figure xml:id="F1">
                     <caption> Queda livre</caption>
-                    <image width="60%" source="tempobolaregua.png"/>
+                    <image width="30%" source="tempobolaregua.png"/>
                     </figure>
                 
                 <p>
                 Observamos na imagem acima que a cada segundo que passa a
                 bola de tênis percorre uma distância maior em direção ao solo. Ao observar a situação através de uma 
-                tabela, nota-se que estes valores não seguem uma linearidade.
+                tabela, nota-se que a distância percorrida não é uma função linear
+                do tempo.
                 </p>
                 
                 <table xml:id="T1">
@@ -121,8 +122,8 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                 </table>               
                 <p>
                 Se a situação mencionada na imagem fosse uma situação
-                linear, veríamos a distância aumentar de forma padronizada, ou seja, 
-                para cada segundo que a bola cai, a distância aumenta n vezes, o que
+                linear, veríamos que a bola percorre a mesma distância em 
+                qualquer segundo, ou seja, para cada segundo que a bola cai, a distância aumenta n vezes, o que
                 não acontece em <xref ref="T1"/>.
                 </p>
 
@@ -306,7 +307,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                         <li><p>Identifique qual situação a seguir é não linear.</p>
                             <p>(a) 
                             <table>
-                    <title>Um corpo próximo da superfície terrestre, sujeita à aceleração 
+                    <title>Um corpo próximo da superfície terrestre, sujeito à aceleração 
                     da gravidade de 10 <m>m/s^2</m>, é abandonado e depois de 5 segundos 
                     atinge o solo.</title>
                     <tabular halign="center">
@@ -461,8 +462,9 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                         litro. Seu proprietário percebeu que, para cada centavo de desconto que concedia
                                         por litro, eram vendidos 100 litros a mais por dia. Por exemplo, no dia em que o
                                         preço do álcool foi R$ 1,48, foram vendidos 10.200 litros</li>
-                                        <li>Suponha que o governo adote uma meta de buscar uma carga tributária de 33% do
-                                        PIB com margem de 3 pontos percentuais para mais ou para menos.</li>
+                                        <li>Calcular o saldo ao final de 12 meses quando a quantia de R$ 1200,00 foi aplicada
+                                        durante 6 anos em uma instituição bancária a uma taxa de 1,5% ao mês, no sistema de juros
+                                        compostos.</li>
                                         <li>Para calcular o pH do sangue dos seres humanos pode-se utilizar a fórmula de 
                                         Henderson-Hasselbach, dada por <m>pH=6,1+log(\dfrac{B}{C})</m>, em que B representa a 
                                         concentração de bicarbonato e C representa a concentração de ácido carbônico.</li>
@@ -475,8 +477,8 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                         </li>
 
                         <li>
-                            <p>Relacione corretamente os valores dos conjuntos formando um padrão não linear.
-                                <example>
+                            <p>Observe a relação feita nos diagramas e julgue se é uma situação <alert>linear</alert> ou <alert>não linear</alert>.</p>
+                            
                                     <sidebyside>
                                         <p>
                                             <figure>
@@ -484,81 +486,11 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                             </figure>
                                         </p>
                                         <p>
-                                            <table>
-                                                <tabular halign="center" left="minor" right="minor" bottom="minor" top="minor">
-                                                    <row>
-                                                        <cell>A</cell>
-                                                        <cell>B</cell>
-                                                    </row>
-                                                    <row>
-                                                        <cell>1</cell>
-                                                        <cell>1</cell>
-                                                    </row>
-                                                    <row>
-                                                        <cell>2</cell>
-                                                        <cell>4</cell>
-                                                    </row>
-                                                    <row>
-                                                        <cell>3</cell>
-                                                        <cell>9</cell>
-                                                    </row>
-                                                    <row>
-                                                        <cell>4</cell>
-                                                        <cell>16</cell>
-                                                    </row>
-                                                    <row>
-                                                        <cell>5</cell>
-                                                        <cell>25</cell>
-                                                    </row>
-                                                </tabular>
-                                            </table>
+                                            <p>(<c></c>) Situação Linear</p>
+                                            <p>(<c></c>) Situação Não Linear</p>
                                         </p>
                                     </sidebyside>
-                                </example>
-                            </p>
-
-                            <p>
-                                <sidebyside>
-                                        <p>
-                                            <figure>
-                                                <image width="50%" source="conjuntoIII.png"/>
-                                            </figure>
-                                        </p>
-                                        <p>
-                                            <table>
-                                                <tabular halign="center" left="minor" right="minor" bottom="minor" top="minor">
-                                                    <row>
-                                                        <cell>A</cell>
-                                                        <cell>B</cell>
-                                                    </row>
-                                                    <row>
-                                                        <cell><c></c></cell>
-                                                        <cell><c></c></cell>
-                                                    </row>
-                                                    <row>
-                                                        <cell><c></c></cell>
-                                                        <cell><c></c></cell>
-                                                    </row>
-                                                    <row>
-                                                        <cell><c></c></cell>
-                                                        <cell><c></c></cell>
-                                                    </row>
-                                                    <row>
-                                                        <cell><c></c></cell>
-                                                        <cell><c></c></cell>
-                                                    </row>
-                                                    <row>
-                                                        <cell><c></c></cell>
-                                                        <cell><c></c></cell>
-                                                    </row>
-                                                </tabular>
-                                            </table>
-                                        </p>
-                                    </sidebyside>
-                                </p>
-                            
-                            <solution>
-                                <p>
+                                
                                     <sidebyside>
                                         <p>
                                             <figure>
@@ -566,38 +498,60 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                             </figure>
                                         </p>
                                         <p>
-                                            <table>
-                                                <tabular halign="center" left="minor" right="minor" bottom="minor" top="minor">
-                                                    <row>
-                                                        <cell>A</cell>
-                                                        <cell>B</cell>
-                                                    </row>
-                                                    <row>
-                                                        <cell>1</cell>
-                                                        <cell>0</cell>
-                                                    </row>
-                                                    <row>
-                                                        <cell>2</cell>
-                                                        <cell>3</cell>
-                                                    </row>
-                                                    <row>
-                                                        <cell>3</cell>
-                                                        <cell>8</cell>
-                                                    </row>
-                                                    <row>
-                                                        <cell>4</cell>
-                                                        <cell>15</cell>
-                                                    </row>
-                                                    <row>
-                                                        <cell>5</cell>
-                                                        <cell>24</cell>
-                                                    </row>
-                                                </tabular>
-                                            </table>
+                                            <p>(<c></c>) Situação Linear</p>
+                                            <p>(<c></c>) Situação Não Linear</p>
                                         </p>
                                     </sidebyside>
-                                </p>
-                            </solution>
+                                        
+                                    <sidebyside>
+                                        <p>
+                                            <figure>
+                                                <image width="50%" source="conjuntoV.png"/>
+                                            </figure>
+                                        </p>
+                                        <p>
+                                            <p>(<c></c>) Situação Linear</p>
+                                            <p>(<c></c>) Situação Não Linear</p>
+                                        </p>
+                                    </sidebyside>
+                                    <solution>
+                                            
+                                        <sidebyside>
+                                            <p>
+                                                <figure>
+                                                    <image width="50%" source="conjuntoII.png"/>
+                                                </figure>
+                                            </p>
+                                            <p>
+                                                <p>(<c></c>) Situação Linear</p>
+                                                <p>(<c>X</c>) Situação Não Linear</p>
+                                            </p>
+                                        </sidebyside>
+                                    
+                                        <sidebyside>
+                                            <p>
+                                                <figure>
+                                                    <image width="50%" source="conjuntoIV.png"/>
+                                                </figure>
+                                            </p>
+                                            <p>
+                                                <p>(<c></c>) Situação Linear</p>
+                                                <p>(<c>X</c>) Situação Não Linear</p>
+                                            </p>
+                                        </sidebyside>
+
+                                        <sidebyside>
+                                            <p>
+                                                <figure>
+                                                    <image width="50%" source="conjuntoV.png"/>
+                                                </figure>
+                                            </p>
+                                            <p>
+                                                <p>(<c>X</c>) Situação Linear</p>
+                                                <p>(<c></c>) Situação Não Linear</p>
+                                            </p>
+                                        </sidebyside>
+                                    </solution>
                         </li>
 
                         <li>
@@ -799,128 +753,6 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                         </li>
 
                         <li>
-                            Para evitar uma epidemia, a Secretaria de Saúde de uma cidade
-                            dedetizou todos os bairros, de modo a evitar a proliferação do 
-                            mosquito da dengue. Sabe-se que o número f de infectados é dado
-                            por uma determinada função f(t) em que t é expresso em dia e t = 0
-                            é o dia anterior à primeira infecção e além disso, tal expressão é válida
-                            para os 60 primeiros dias da epidemia. A Secretaria de Saúde 
-                            decidiu que uma segunda dedetização deveria ser feita no dia em 
-                            que o número de infectados chegasse à marca de 1600 pessoas, e uma
-                            segunda dedetização precisou acontecer. Utilize os valores da tabela
-                            para determinar em que dia a detetização acontecerá. 
-                                <table>
-                                    <tabular halign="center">
-                                        <row bottom="minor">
-                                            <cell>t</cell>
-                                            <cell>f(t)</cell>
-                                        </row>
-                                        <row>
-                                            <cell>10</cell>
-                                            <cell>1000</cell>
-                                        </row>
-                                        <row>
-                                            <cell>11</cell>
-                                            <cell>1078</cell>
-                                        </row>
-                                        <row>
-                                            <cell>12</cell>
-                                            <cell>1152</cell>
-                                        </row>
-                                        <row>
-                                            <cell>13</cell>
-                                            <cell>1222</cell>
-                                        </row>
-                                        <row>
-                                            <cell>14</cell>
-                                            <cell>1288</cell>
-                                        </row>
-                                        <row>
-                                            <cell>15</cell>
-                                            <cell>1350</cell>
-                                        </row>
-                                        <row>
-                                            <cell>16</cell>
-                                            <cell>1408</cell>
-                                        </row>
-                                        <row>
-                                            <cell>17</cell>
-                                            <cell>1462</cell>
-                                        </row>
-                                    </tabular>
-                                </table>
-                                <solution>
-                                    <p>Vamos criar mais uma coluna mostrando a diferença dos valores
-                                    da segunda coluna</p>
-                                    <table>
-                                    <tabular halign="center">
-                                        <row bottom="minor">
-                                            <cell>t</cell>
-                                            <cell>f(t)</cell>
-                                            <cell>diferença</cell>
-                                        </row>
-                                        <row>
-                                            <cell>10</cell>
-                                            <cell>1000</cell>
-                                            <cell>-</cell>
-                                        </row>
-                                        <row>
-                                            <cell>11</cell>
-                                            <cell>1078</cell>
-                                            <cell>1078-1000=78</cell>
-                                        </row>
-                                        <row>
-                                            <cell>12</cell>
-                                            <cell>1152</cell>
-                                            <cell>1152-1078=74</cell>
-                                        </row>
-                                        <row>
-                                            <cell>13</cell>
-                                            <cell>1222</cell>
-                                            <cell>1222-1152=70</cell>
-                                        </row>
-                                        <row>
-                                            <cell>14</cell>
-                                            <cell>1288</cell>
-                                            <cell>1288-1222=66</cell>
-                                        </row>
-                                        <row>
-                                            <cell>15</cell>
-                                            <cell>1350</cell>
-                                            <cell>1350-1288=62</cell>
-                                        </row>
-                                        <row>
-                                            <cell>16</cell>
-                                            <cell>1408</cell>
-                                            <cell>1408-1350=58</cell>
-                                        </row>
-                                        <row>
-                                            <cell>17</cell>
-                                            <cell>1462</cell>
-                                            <cell>1488-1462=54</cell>
-                                        </row>
-                                        <row>
-                                            <cell>18</cell>
-                                            <cell>1512</cell>
-                                            <cell>1558-1512=50</cell>
-                                        </row>
-                                        <row>
-                                            <cell>19</cell>
-                                            <cell>1558</cell>
-                                            <cell>1600-1558=46</cell>
-                                        </row>
-                                        <row>
-                                            <cell>20</cell>
-                                            <cell>1600</cell>
-                                            <cell>1638-1600=38</cell>
-                                        </row>
-                                    </tabular>
-                                </table> 
-                            <p>Portanto, no 20º dia, 1600 pessoas foram infectadas</p>
-                                </solution>
-                        </li>
-
-                        <li>
                             <p>
                             Calcule as informaçoes <c></c> que estão faltando nas tabelas a seguir.
                             </p>
@@ -1115,6 +947,130 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                 
                                 </solution>
                          </li>
+
+                        <li>
+                            <alert>DESAFIO</alert> Para evitar uma epidemia, a Secretaria de Saúde de uma cidade
+                            dedetizou todos os bairros, de modo a evitar a proliferação do 
+                            mosquito da dengue. Sabe-se que o número f de infectados é dado
+                            por uma determinada função f(t) em que t é expresso em dia e t = 0
+                            é o dia anterior à primeira infecção e além disso, tal expressão é válida
+                            para os 60 primeiros dias da epidemia. A Secretaria de Saúde 
+                            decidiu que uma segunda dedetização deveria ser feita no dia em 
+                            que o número de infectados chegasse à marca de 1600 pessoas, e uma
+                            segunda dedetização precisou acontecer. Utilize os valores da tabela
+                            para determinar em que dia a detetização acontecerá. 
+                                <table>
+                                    <tabular halign="center">
+                                        <row bottom="minor">
+                                            <cell>t</cell>
+                                            <cell>f(t)</cell>
+                                        </row>
+                                        <row>
+                                            <cell>10</cell>
+                                            <cell>1000</cell>
+                                        </row>
+                                        <row>
+                                            <cell>11</cell>
+                                            <cell>1078</cell>
+                                        </row>
+                                        <row>
+                                            <cell>12</cell>
+                                            <cell>1152</cell>
+                                        </row>
+                                        <row>
+                                            <cell>13</cell>
+                                            <cell>1222</cell>
+                                        </row>
+                                        <row>
+                                            <cell>14</cell>
+                                            <cell>1288</cell>
+                                        </row>
+                                        <row>
+                                            <cell>15</cell>
+                                            <cell>1350</cell>
+                                        </row>
+                                        <row>
+                                            <cell>16</cell>
+                                            <cell>1408</cell>
+                                        </row>
+                                        <row>
+                                            <cell>17</cell>
+                                            <cell>1462</cell>
+                                        </row>
+                                    </tabular>
+                                </table>
+                                <solution>
+                                    <p>Vamos criar mais uma coluna mostrando a diferença dos valores
+                                    da segunda coluna</p>
+                                    <table>
+                                    <tabular halign="center">
+                                        <row bottom="minor">
+                                            <cell>t</cell>
+                                            <cell>f(t)</cell>
+                                            <cell>diferença</cell>
+                                        </row>
+                                        <row>
+                                            <cell>10</cell>
+                                            <cell>1000</cell>
+                                            <cell>-</cell>
+                                        </row>
+                                        <row>
+                                            <cell>11</cell>
+                                            <cell>1078</cell>
+                                            <cell>1078-1000=78</cell>
+                                        </row>
+                                        <row>
+                                            <cell>12</cell>
+                                            <cell>1152</cell>
+                                            <cell>1152-1078=74</cell>
+                                        </row>
+                                        <row>
+                                            <cell>13</cell>
+                                            <cell>1222</cell>
+                                            <cell>1222-1152=70</cell>
+                                        </row>
+                                        <row>
+                                            <cell>14</cell>
+                                            <cell>1288</cell>
+                                            <cell>1288-1222=66</cell>
+                                        </row>
+                                        <row>
+                                            <cell>15</cell>
+                                            <cell>1350</cell>
+                                            <cell>1350-1288=62</cell>
+                                        </row>
+                                        <row>
+                                            <cell>16</cell>
+                                            <cell>1408</cell>
+                                            <cell>1408-1350=58</cell>
+                                        </row>
+                                        <row>
+                                            <cell>17</cell>
+                                            <cell>1462</cell>
+                                            <cell>1488-1462=54</cell>
+                                        </row>
+                                        <row>
+                                            <cell>18</cell>
+                                            <cell>1512</cell>
+                                            <cell>1558-1512=50</cell>
+                                        </row>
+                                        <row>
+                                            <cell>19</cell>
+                                            <cell>1558</cell>
+                                            <cell>1600-1558=46</cell>
+                                        </row>
+                                        <row>
+                                            <cell>20</cell>
+                                            <cell>1600</cell>
+                                            <cell>1638-1600=38</cell>
+                                        </row>
+                                    </tabular>
+                                </table> 
+                            <p>Portanto, no 20º dia, 1600 pessoas foram infectadas</p>
+                                </solution>
+                        </li>
+
+                        
 
                          <li>
                             Invente um exercício que traz uma situação não linear, mas 
@@ -1634,7 +1590,9 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                         pela fórmula <m>y=10x-2x^2</m></p>
                                     </li>
                                     <li>
-                                        <p>O produto de dois números cuja soma é 10.</p>
+                                        <p>O produto de dois números, cuja soma é 10, sendo x um dos números y o
+                                            produto dos dois.
+                                        </p>
                                     </li>
                                 </ol>
                             </p>
@@ -1863,8 +1821,8 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                         </li>
 
                         <li>
-                            <p>Compare as fórmulas e explique qual delas representa o padrão
-                            da ilustração.</p>
+                            <p>Compare as fórmulas e explique qual delas representa o número de quadradinhos na 
+                                figura 1.55, com x=1,2,3, ...</p>
                             <sidebyside>
                             <p>
                                 <ol>
@@ -1891,7 +1849,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                 </solution>
                         </li>
 
-                        <li><p>Analise as tabelas e elabore uma fórmula para cada situação.</p>
+                        <li><p><alert>Desafio</alert> Analise as tabelas e elabore uma fórmula para cada situação.</p>
                             <p>(a)
                              
                             <table>
@@ -2157,8 +2115,9 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                
                         <li>
                             <p>
-                                Observe a ilustração, crie uma tabela e preencha os dados
-                                como no exercício anterior, não esquecendo de mostrar a função.
+                                <alert>Desafio</alert> Observe a ilustração, crie uma tabela indicando, na figura 1.64, x=1,2,3,..., a 
+                                largura e a altura do retângulo (em quadradinhos) e o número  total de quadradinhos na figura. Em 
+                                seguida, escreva uma fórmula que, para cada x, dê o número total de quadradinhos.
                             </p>
                 
                                 <figure>
@@ -2216,8 +2175,9 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                         </li>
 
                         <li>
-                            <p background-color="#a83232" display="inline">Invente uma situação de padrão quadrático que você possa escrever uma tabela
-                            relacionando duas grandezas, uma dependendo da outra.</p>
+                            <p>Invente uma situação envolvendo duas variáveis <m>x</m> e <m>y</m>, e uma
+                            função quadrática que dá <m>y</m> em função de <m>x</m>. Em seguida escreva uma tabela
+                            com alguns valores para <m>x</m> e os respectivos valores para <m>y</m>.</p>
                         </li>
                     </ol>
                 </p>
@@ -2229,14 +2189,14 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                 <title>Conjectura na geometria</title>
                     <p>
                         No estudo de funções do segundo grau, ou funções quadráticas, as áreas 
-                        são uma importante aplicação. Observe e mexa no quadro a seguir , variando
-                        de uma em uma unidade a base e a altura do triângulo. Anote em uma tabela 
-                        e tente perceber se existe algum padrão.
+                        são uma importante aplicação. Você já pensou o que acontece com a área de 
+                        um triângulo quando variamos sua base e a sua altura ao mesmo tempo?  Observe
+                        o quadro a seguir e mexendo nos vértices do triângulo, tente chegar a uma 
+                        conclusão.
                     </p>
-                   
                     <p>
                     <figure>
-                        <interactive width="100%" aspect="1:2" geogebra="ytsashkg" />
+                        <interactive geogebra="ytsashkg"/>
                         <caption>Área de Triângulos</caption>
                     </figure>
                     </p>
@@ -2453,7 +2413,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                         <p></p>
                             <li>
                                 <p>Relacione cada figura com sua respectiva área, escrevendo em
-                                <c>?</c> o nome da figura geometria.</p>
+                                <c>?</c> o nome da figura geometrica.</p>
                             <sidebyside>
                                 <p>
                                 <figure>
@@ -2575,7 +2535,8 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                         <hint>
                                             <image width="50%" source="cubo3x.png"/>
                                         </hint>
-                                    <p>Para enxergar melhor a superfície do cubo, aumente o valor de i na imagem a seguir.</p>
+                                    <p>Para enxergar melhor a superfície do cubo, aumente o valor de i no recurso  interativo 
+                                        do Geogebra.</p>
 
                                     <figure>
                                         <interactive width="80%" geogebra="enrsppa8"/>
@@ -2616,7 +2577,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                     </solution>
                             </li>
                             <li>
-                                <p>Calcule a área lateral do sólido ABCDEFG:</p>
+                                <p><alert>Desafio</alert> Calcule a área lateral do sólido ABCDEFG em função da variável <m>x</m>:</p>
                                 <figure>
                                     <image width="50%" source="cuboII.png" />
                                 </figure>
@@ -2685,23 +2646,23 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                             </li>
 
                             <li>
-                                Compare as áreas sobreadas a seguir e selecione qual das figuras tem maior área.
+                                <alert>Desafio</alert> Compare                                                                                                                                   as áreas sobreadas a seguir e selecione qual das figuras tem maior área.
                                 <figure>
                                     <image width="70%" source="comparando.png"/>
                                 </figure>
 
                                 <solution>
                                     <p> Figura 1:</p>
-                                              <p><m>A=\dfrac{(x+5+x+1)\cdot (x+6)}{2}</m></p>
-                                              <p><m>=\dfrac{(2x+6)\cdot (x+6)}{2}</m></p>
-                                              <p><m>=\dfrac{2x^2+18x+36}{2}</m></p>
-                                              <p><m>=x^2+9x+18</m></p>
+                                            <p><m>A=\dfrac{(x+5+x+1)\cdot (x+6)}{2}</m></p>
+                                            <p><m>=\dfrac{(2x+6)\cdot (x+6)}{2}</m></p>
+                                            <p><m>=\dfrac{2x^2+18x+36}{2}</m></p>
+                                            <p><m>=x^2+9x+18</m></p>
                                     <p> Figura 2:</p>
-                                              <p><m>A=(x+6)\cdot (x+4)-2^2</m></p>
-                                              <p><m>=(x^2+4x+6x+24)-4</m></p>
-                                              <p><m>=x^2+10x+20</m></p>
+                                            <p><m>A=(x+6)\cdot (x+4)-2^2</m></p>
+                                            <p><m>=(x^2+4x+6x+24)-4</m></p>
+                                            <p><m>=x^2+10x+20</m></p>
                                     <p>Portanto, a Figura 2 tem maior área.</p>
-                                   
+
                                 </solution>                            
                             </li>
                         </ol>    
@@ -2710,126 +2671,149 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
 
             </subsection>
 
-            <subsection xml:id="dd">
+            <subsection>
                 <title>Calculando áreas em diversos cenários</title>
                         <p>
                         Quando trabalhamos com funções quadráticas, nos deparamos 
                         com exercícios que apresentam produtos notáveis, principalmente
                         quando se aplica a problemas de áreas.
                         </p>
+                        
                         <p>
-                        Vamos relembrar dos três produtos.
-                        </p>
-                        <p>
-                           
-                            <tabular>
-                            <row>
-                            <cell>
-                                <alert>Produto da Soma Pela Diferença:</alert>
-                                <m>(a+b)\cdot(a-b)=a^2-b^2</m>
-                            </cell>
-                            </row>
-                            </tabular>
-                            
-                        </p>
-                         <p>
-                           
-                            <tabular>
-                            <row>
-                            <cell >
-                                <alert>Quadrado da Soma:</alert>
-                                <m>(a+b)^2=a^2+2ab+b^2</m>
-                            </cell>
-                            </row>
-                            </tabular>
-                            
-                        </p>
-                         <p>
-                           
-                            <tabular>
-                            <row>
-                            <cell >
-                                <alert>Quadrado da Diferença:</alert>
-                                <m>(a-b)^2=a^2-2ab+b^2</m>
-                            </cell>
-                            </row>
-                            </tabular>
-                            
-                        </p>
-                        <p>
-                        Pela <alert>table 1.29</alert> observamos que o termo quadrático aparece
+                        Na <alert>tabela 1.29</alert> observamos que o termo quadrático aparece
                         quando aumentamos ao mesmo tempo as medidas da base e da altura do 
-                        triângulo. Se considerarmos um retângulo de altura x e base 2x, teremos uma 
-                        área igual a 
-                        <p>
-                            <m>A=x\cdot2x=2x^2</m>
+                        triângulo. 
                         </p>
+                        
+                        <sidebyside>
+                            <p>
+                                Em um retângulo de altura x e base 2x, teremos o cálculo
+                                de sua área da seguinte maneira:
+                                <me>A=x\cdot2x</me>
+                                <me>A=2x^2</me>
+                            </p>
+                            <p>
+                                <image width="50%" source="2x².png"/>
+                            </p>
+                        </sidebyside>
+
+                        <sidebyside>
+                            <p>
+                                Se aumentarmos a altura do triângulo em uma unidade,
+                                teremos:
+                                <me>A=(x+1)\cdot2x</me>
+                                <me>A=2x^2+2x</me>
+                            </p>
+                            <p>
+                                <image width="30%" source="2x²+2x.png"/>
+                            </p>
+                        </sidebyside>
+
+                        <sidebyside>
+                            <p>
+                                Agora, se aumentarmos a base e a altura, simultânemente, teremos:
+                                <me>A=(x+1)\cdot(2x+1)</me>
+                                <me>A=2x^2+x+2x+1</me>
+                                <me>A=2x^2+3x+1</me>
+                            </p>
+                            <p>
+                                <image width="60%" source="2x²+3x+1.png"/>
+                            </p>
+                        </sidebyside>
+
                         <p>
-                        </p>
-                        Se aumentarmos uma unidade para um dos lados do retângulo, teremos:
-                        <p>
-                            <m>A=(x+1)\cdot2x=2x^2+2x</m>
-                        </p>
-                        <p>
-                        </p>
-                        Agora se aumentarmos uma unidade para cada lado do nosso retângulo, teremos:
-                        <p>
-                            <m>A=(x+1)\cdot(2x+1)=2x^2+x+2x+1=2x^2+3x+1</m>
-                        </p>
-                        <p>
-                        </p>
                         Para cada termo que aumentamos nos lados do retângulo, mais um
                         termo é adicionado na área do polígono.
                         </p>
                         <p>
                         Agora vamos pensar num quadrado.
                         </p>
-                        <p>
+                        
                         Dado um quadrado de lado x, temos que sua área é:
+                        <sidebyside>
                             <p>
-                            A= <m>x \cdot x = x^2</m>
+                                <me>A=x \cdot x </me>
+                                <me>A= x^2</me>
                             </p>
-                            <figure>
-                                <image width="40%" source="quadrado.png"/>
-                                <caption>Quadrado de lado x e área igual a <m>x^2</m></caption>
-                            </figure>
-                        </p>
-                        <p>
+                            <p>
+                                <image width="20%" source="quadrado.png"/>
+                            </p>
+                        </sidebyside>
+                        
                         Se aumentarmos y unidades em cada lado do quadrado, teremos:
+                        <sidebyside>
                             <p>
-                            A= <m>(x+y) \cdot (x+y) = (x+y)^2 = x^2+2xy+y^2,</m> um polinômio de três termos.
+                                <me>A=(x+y) \cdot (x+y)</me>
+                                <me>A=(x+y)^2</me>
+                                <me>A=x^2+2xy+y^2</me>, um polinômio de três termos.
                             </p>
-                            <figure>
-                                <image width="40%" source="quadradoII.png"/>
-                                <caption>Quadrado de lado x+y e área igual a <m>(x+y)^2</m></caption>
-                            </figure>
-                        </p>
-                        <p>
+                            <p>
+                                <image width="20%" source="quadradoII.png"/>
+                            </p>
+                        </sidebyside>
+                        
                         Agora, se diminuirmos y unidades nos lados do quadrado, teremos:
+                        <sidebyside>
                             <p>
-                            A= <m>(x-y) \cdot (x-y) = (x-y)^2 = x^2-2xy+y^2,</m> novamente um polinômio de três termos.
+                                <me>A=(x-y) \cdot (x-y)</me>
+                                <me>A=(x-y)^2</me>
+                                <me>A=x^2-2xy+y^2</me>, novamente um polinômio de três termos.
                             </p>
-                            <figure>
-                                <image width="40%" source="quadradoIII.png"/>
-                                <caption>Quadrado de lado x-y e área igual a <m>(x-y)^2</m></caption>
-                            </figure>
-                        </p>
-                        <p>
+                            <p>
+                                <image width="20%" source="quadradoIII.png"/>
+                            </p>
+                        </sidebyside>
+                        
                         No entanto, se diminuirmos y unidades de um lado do quadrado e aumentarmos y unidades
                         no outro lado do quadrado, teremos:
+                        <sidebyside>
                             <p>
-                            A= <m>(x-y) \cdot (x+y) = x^2-y^2 </m>, um polinômio de três termos.
+                                <me>A=(x-y) \cdot (x+y)</me>
+                                <me>A=x^2-y^2</me>, um polinômio de três termos.
                             </p>
-                            <figure>
-                                <image width="40%" source="quadradoIV.png"/>
-                                <caption>Retângulo de lados x-y por x+y e área igual a <m>x^2-y^2</m></caption>
-                            </figure>
-                        </p>
+                            <p>
+                                <image width="20%" source="quadradoIV.png"/>
+                            </p>
+                        </sidebyside>
+
+                        <p>
+                            Portanto, seguem os produtos notáveis:
+                            </p>
+                            <p>
+                                <tabular>
+                                <row>
+                                <cell>
+                                    <alert>Produto da Soma Pela Diferença:</alert>
+                                    <m>(a+b)\cdot(a-b)=a^2-b^2</m>
+                                </cell>
+                                </row>
+                                </tabular>
+                            </p>
+                            <p>
+                                <tabular>
+                                <row>
+                                <cell >
+                                    <alert>Quadrado da Soma:</alert>
+                                    <m>(a+b)^2=a^2+2ab+b^2</m>
+                                </cell>
+                                </row>
+                                </tabular>
+                            </p>
+                            <p>
+                                <tabular>
+                                <row>
+                                <cell>
+                                    <alert>Quadrado da Diferença:</alert>
+                                    <m>(a-b)^2=a^2-2ab+b^2</m>
+                                </cell>
+                                </row>
+                                </tabular>
+                            </p>
 
                         <p>
                             <ol>
                                 <li>
-                                <p>Demonstre o desenvolvimento dos produtos notáveis:
+                                <p>Desenvolva os dos produtos notáveis:
                                     <ol marker="(a)">
                                         <li><m>(3x-1)^2</m></li>
                                         <li><m>(2m+\dfrac{3}{4})^2</m></li>
@@ -2853,7 +2837,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                         <li><m>25m^2+20m+4</m></li>
                                     </ol>
                                 </p>
-                                     <solution>
+                                    <solution>
                                         <p>
                                         <p>Exemplo 2 a. <m>x^2-2^2=(x-2)\cdot(x+2)</m></p>
                                         <p>Exemplo 2 b. <m>(2x)^2-2\cdot2x\cdot5+5^2=(2x-5)^2</m></p>
@@ -2864,9 +2848,10 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                         
                                 <li>
                                 <p>
-                                Uma caixa d`água tem a forma de paralelepípedo reto-retângulo,
+                                Uma caixa d'água tem a forma de paralelepípedo reto-retângulo,
                                 cujas medidas internas são, em metros, x, 20 – x e 2. Explique como encontrar
-                                a expressão da área total deste sólido?  
+                                a expressão da área total deste sólido e siga a sua explicação para encontrar 
+                                a expressão pedida.  
                                 </p>
                                     <hint>
                                         <figure>
@@ -2874,7 +2859,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                             <caption>Paralelepípedo Reto-Retângulo</caption>
                                         </figure>   
                                     </hint>
-                                     <solution>
+                                    <solution>
                                         <p>
                                         <p>A área total será calculada pela soma das áreas das faces do 
                                         do paralelepípedo reto-retângulo:</p>
@@ -2895,7 +2880,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                     <p></p>
                                         <interactive width="70%" geogebra="ay3pxbu3"/>
                                 </li>
-                       
+
                                 <li>
                                     <p>Calcule a aresta de um prisma de base quadrada cuja área total é 
                                     <m>6x^2+36x+54</m>.</p>
@@ -2915,28 +2900,28 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
 
                                 <li>
                                 <p>
-                                Demonstre como determinar a área total do cubo de lado x+1. 
+                                Demonstre como determinar a área total do cubo de lado 2x+1. 
                                     <figure>
                                         <image width="40%" source="cuboVI.png"/>
                                         <caption>Cubo de lado 2x-1</caption>
                                     </figure> 
                                 </p>
                                     <solution>
-                                     <p>
+                                    <p>
                                         <p>A área total será calculada pela soma das áreas das faces do 
                                         do cubo:</p>
                                         <p><m>A=6\cdot(2x-1)^2</m></p>
                                         <p><m>A=6\cdot((2x)^2-2\cdot 2x\cdot1+1)</m></p>
                                         <p><m>A=6\cdot((4x^2-4x+1)</m></p>
                                         <p><m>A=24x^2-24x+4</m></p>
-                                     </p>
+                                    </p>
                                     </solution>
                                 </li>
 
                                 <li>
                                     <p>Uma folha retangular de cartolina tem comprimento 18 cm e largura
-                                    10 cm. Recortam-se dessa folha quatro quadrados congruentes de modo que
-                                    cada um deles tenha um dos vértices em um vértice da folha, formando-se uma
+                                    10 cm. Recortam-se dessa folha quadrados congruentes em 
+                                    cada um dos cantos dessa folha, como na figura, formando-se uma
                                     superfície aberta de um paralelepípedo reto-retângulo:</p>
                                     <hint>
                                         <interactive width="100%" geogebra="mpenqbf4"/>
@@ -2946,8 +2931,8 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                     </figure>
                                     <ol>
                                         <li>
-                                            <p>Defina a fórmula que encontra a área da superfície desse paralelepipedo
-                                            reto-retângulo.</p>
+                                            <p>Encontre uma fórmula para a área da superfície desse paralelepipedo
+                                            reto-retângulo em função do lado "l" dos quadrados dos cantos.</p>
                                             <solution>
                                                 <p><m>A=base\cdot altura=(18)\cdot(10)-4\cdot x^2=180-4x^2</m></p>
                                             </solution>
@@ -3008,8 +2993,8 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                 </li>
 
                                 <li>
-                                    <p>Selecione qual das fórmulas a seguir é a que define a área lateral
-                                    de uma embalagem de perfume. Em seguida, determine qual a área lateral 
+                                    <p>Selecione qual das fórmulas a seguir é a que corresponde à área lateral
+                                    da embalagem de perfume abaixo. Em seguida, determine qual a área lateral 
                                     desta embalagem se a medida do diâmetro for igual a 10 cm.</p>
                                         <figure>
                                             <image width="50%" source="cilindro.png"/>
@@ -3031,9 +3016,9 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
 
                             </ol>
                         </p>
-                
-
-            </subsection>
+            </subsection>    
+            
+            
 
             <subsection xml:id="ee">
                 <title>Reconhecendo funções quadráticas</title>
@@ -3045,16 +3030,15 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
 
                 <p><alert>Exemplo 1:</alert>
                 Mário pretende aproveitar uma área já existente em seu sítio para a construção
-                de um cercado que servirá, posteriormente, de um viveiro para pássaros. Ele usará
+                de um cercado que servirá, posteriormente, um viveiro para pássaros. Ele usará
                 um muro já existente para construir este cercado em formato retangular conforme 
                 ilustra a figura a seguir.
                 </p>
-                    <figure>
-                        <image width="40%" source="cercado.png"/>
-                        <caption>Cercado</caption>
-                    </figure>
                 <p>
-                Considere que Mário dispõe de 100 metros de tela para a construção do cercado,
+                    <image width="40%" source="cercado.png"/>
+                </p>
+                <p>
+                Considere que Mário usará exatamente de 100 metros de tela para a construção do cercado,
                 logo a expressão que representa a área do cercado em termos de sua largura 𝒍 é:
                 <ol marker="a">
                     <li><m>100+2l</m></li>
@@ -3079,15 +3063,13 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                 triangulares de pedra e um canteiro quadrado de grama, como na figura. O prefeito ainda
                 não decidiu qual será a área do canteiro de grama, e por isso o comprimento do segmento
                 AB está indicado por x na figura.
-                    <figure>
+                    <p>
                         <image width="40%" source="grama.png"/>
-                        <caption>Grama</caption>
-                    </figure>
+                    </p>
                     <p>Com estas informações,</p>
                     <p>
                     <ol marker="(a)">
-                        <li>Calcule a área do canteiro de grama para x = 2.</li>
-                               
+                        <li>Sabendo que o canteiro  de grama é quadrado, calcule a área dele para x = 2.</li>
                         <li>Escreva a expressão da área do canteiro de grama em função de x.</li>
                     </ol>
                     </p>
@@ -3114,7 +3096,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                 <m>C(x) = 2x² – 100x + 5000.</m></p>
                     <ol marker="a">
                         <li>Qual o custo para produzir 10 unidades?</li>
-                        <li>Quantas unidades precisarei para ter um custo de R$ 3950,00?</li>
+                        <li>Quantas unidades consigo construir com R$ 3950,00?</li>
                     </ol>
                         <solution>
                             <ol marker="a">
@@ -3151,33 +3133,30 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                         qual situação é um exemplo de aplicação de função quadrática.</p>
                             <ol marker="a">
                                 <li>
-                            Em uma determinada cidade, a bandeira 2 dos táxis custa R$4,50 mais R$1,50
+                            O valor da corrida de taxi, em uma determinada cidade, cuja corrida vale R$4,50 mais R$1,50
                             por quilômetro rodado. 
                                     <figure>
                                         <image width="50%" source="taxi.png"/>
                                     </figure>
                                 </li>
                                 <li>
-                            Cientistas brasileiros verificaram que uma determinada colônia de bactérias 
-                            triplica a cada meia hora. Uma amostra de 10.000 bactérias por mililitro foi 
-                            colocada em um tubo de ensaio e, após um tempo x, verificou-se que o total
-                            era de <m>2,43.10^6</m> bactérias por mililitro.
+                            O total de bactérias por mililitro, em uma determinada colônia de bactérias,
+                            cuja amostra de 10 000 bactérias por ml, após um tempo x, triplica a cada
+                            meia hora. 
                                     <figure>
                                         <image width="50%" source="bacteria.png"/>
                                     </figure>
                                 </li>
                                 <li>
-                            Um homem andando na rua joga numa lixeira uma garrafa de água mineral. O movimento que a
-                            garrafa faz até chegar ao fundo da lixeira estuda-se na matemática e na física, em queda livre.
+                            O movimento que a garrafa faz até chegar ao fundo da lixeira, jogada por um 
+                            homem andando na rua, em queda livre.
                                     <figure>
                                         <image width="50%" source="quedagua.png"/>
                                     </figure>
                                 </li>
                                 <li>
-                            Determinar o tempo que os caminhões de uma empresa de transporte de carga, que estima 
-                            em 20% ao ano a taxa de depreciação de cada caminhão de sua frota. Ou seja, a cada ano,
-                            o valor de seus veículos se reduz em 20%. Assim, o valor V, em reais, de um caminhão 
-                            adquirido por R$ 100.000,00, t anos após sua compra, é dado por <m>V=100000\cdot(0,8)^t</m>.
+                            O valor V, em reais, de um caminhão adquirido por R$ 100.000,00, t anos após sua compra, sabendo que todo ano a taxa de 
+                            depreciação é de 20%.
                                     <figure>
                                         <image width="50%" source="caminhao.png"/>
                                     </figure>
@@ -3248,23 +3227,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
 
                         <li>
                             <p>Relacione fórmula e imagem a seguir:</p>
-                            <example>
-                                <sidebyside>
-                               
-                                <p>
-                                    <p>A fórmula que determina os pontos é</p>
-                                    <p><m>y=-x^2+4x-1</m> pois</p>
-                                    <p><m>x=0\Rightarrow y=-0^2+4\cdot0-1=</m><alert>-1</alert></p>
-                                    <p><m>x=1\Rightarrow y=-1^2+4\cdot1-1=</m><alert>2</alert></p>
-                                    <p><m>x=2\Rightarrow y=-2^2+4\cdot2-1=</m><alert>3</alert></p>
-                                    <p><m>x=3\Rightarrow y=-3^2+4\cdot3-1=</m><alert>2</alert></p>
-                                    <p><m>x=4\Rightarrow y=-4^2+4\cdot4-1=</m><alert>-1</alert></p>
-                                </p>
-                                 <p>
-                                    <figure><image width="50%" source="g2.png"/></figure>
-                                </p>
-                                </sidebyside>
-                            </example>
+                            
                         <sidebyside>
                             <p>
                                 <ol>
@@ -3276,28 +3239,18 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                             </p>
                         
                             <p>
-                            <answer>
-                                <figure><image width="5%" source="g1.png"/></figure>
-                            </answer>
-                            <answer>
-                                <figure><image width="5%" source="g3.png"/></figure>
-                            </answer>
-                            <answer>
-                                <figure><image width="5%" source="g4.png"/></figure>
-                            </answer>
-                            <answer>
-                                <figure><image width="5%" source="g5.png"/></figure>
-                            </answer>
+                                <image width="5%" source="g1.png"/>
+                                <image width="5%" source="g3.png"/>
+                                <image width="5%" source="g4.png"/>
+                                <image width="5%" source="g5.png"/>
                             </p>
                         </sidebyside>
 
                             <solution>
-                                
-                                    <p><m>y=-x^2+4x+1</m><figure><image width="30%" source="g1.png"/></figure></p>
-                                    <p><m>y=x^2+2x</m><figure><image width="30%" source="g4.png"/></figure></p>
-                                    <p><m>y=x^2</m><figure><image width="30%" source="g5.png"/></figure></p>
-                                    <p><m>y=-\dfrac{x^2}{3}+3</m><figure><image width="30%" source="g3.png"/></figure></p>
-                                
+                                    <p><m>y=-x^2+4x+1</m><image width="30%" source="g1.png"/></p>
+                                    <p><m>y=x^2+2x</m><image width="30%" source="g4.png"/></p>
+                                    <p><m>y=x^2</m><image width="30%" source="g5.png"/></p>
+                                    <p><m>y=-\dfrac{x^2}{3}+3</m><image width="30%" source="g3.png"/></p>
                             </solution>
                         </li>
 
