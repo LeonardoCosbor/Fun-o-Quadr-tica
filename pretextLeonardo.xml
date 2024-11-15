@@ -4169,7 +4169,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                             <p>Portanto, <m>f(x)=-\left(x-\dfrac{5}{2}\right)^2+\dfrac{1}{4}</m> cuja paŕabola está representada no Gráfico 4.</p>
                                         </solution>
                                 </li>
-
+                            <alert>Atividades</alert> Faça o mesmo para os dois próximos ítens.
                                 <li>
                                     <m>f(x)=5x^2-25</m>
                                     <image width="100%" source="GRAFICOS.png"/>
