@@ -4099,9 +4099,9 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                 <m>f(x)=ax^2+bx+c</m> e na forma canônica <m>f(x)=a(x-m)^2+k</m>.
                 </p>
 
-                <p>Contudo, podemos usar as formas para transcrever uma função quadrática
+                <p>Contudo, podemos tomar uma função quadrática
                 que está na forma padrão e escrevê-la na forma quadrática e vice-versa.
-                Veja em <alert>Demonstração</alert> como fazer esta transição entre as duas
+                Veja no teorema a seguir como fazer esta transição entre as duas
                 formas de escrever a função quadrática. 
                 </p>
                 <p>
@@ -4110,7 +4110,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                         <statement>
                             <p>
                                 Toda função quadrática escrita na forma <m>f(x)=ax^2+bx+c</m> pode ser reescrita
-                                na forma <m>f(x)=a(x-m)^2+k</m>, que chamamos de forma canônica.
+                                na forma <m>f(x)=a(x-m)^2+k</m>, com <m>m=-\dfrac{b}{2a}</m> e <m>k=\dfrac{4ac-b²}{4a}</m>.
                             </p>
                         </statement>
                         <proof>
@@ -4136,8 +4136,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                 </p>
 
                 <p>
-                    Após a demonstração de completar quadrados, usaremos estas constantes <m>m=-\dfrac{b}{2a}</m> e <m>k=\dfrac{4ac-b^2}{4a}</m>
-                    para facilitar os cálculos. Para a constante <m>k</m>, chamaremos a constante <m>b^2-4ac</m> de discriminante e denotaremos como
+                    Para a constante <m>k</m>, chamaremos a constante <m>b^2-4ac</m> de <emph>discriminante</emph> e denotaremos como
                     <m>\Delta</m>, de modo que <m>k=-\dfrac{\Delta}{4a}</m>.
                 </p>
 
