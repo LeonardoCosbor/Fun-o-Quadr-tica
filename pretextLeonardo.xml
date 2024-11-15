@@ -3922,7 +3922,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
 
                 <ol>
                     <li>
-                        Usando os botões deslizantes que representam os valores dos parâmentros
+                        Usando os botões deslizantes que representam os valores dos parâmetros
                         <m>a</m> e <m>k</m>, faça que a parábola preta coincidir com a parábola verde. 
                         <interactive geogebra="wuzzdnpf"/>
                     </li>
@@ -3935,11 +3935,9 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                     </li>
 
                     <li>
-                        Objetos próximos da superfície da terra movem-se em trajetória parabólica 
-                        devido à ação da gravidade. Por exemplo, um homem está treinando lançamentos 
-                        com uma bola de futebol. O desenho da trajetória da bola é uma função quadrática. 
-                        Com o auxílio do botão deslizante, encontre essa parábola que mais se aproxima 
-                        da trajetória da bola.
+                        Um canhão atira um projétil, desenhando uma trajetória parabólica, cujo gráfico pertence à
+                        função quadrática. Mexa nos botões deslizantes do gráfico interativo até que a parábola 
+                        coincida com a trajetória do projétil.
                         <interactive geogebra="nntgcjbg"/>
                     </li>
             </ol>       
