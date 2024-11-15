@@ -4002,7 +4002,8 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
 
             <subsection>
                 <title>Função Quarática do tipo <m>y=a(x-m)^2+k</m></title>
-
+                
+                <p>Dizemos que uma função quadrática desse tipo está na <emph>forma padrão</emph>.</p>
                 <p>Relembrando das funções quadráticas anteriores, os parâmetros <alert>a</alert> e
                 <alert>m</alert> são responsáveis pelo sentido da concavidade da parábola e pelo seu
                 deslocamento horizontal, respectivamente. Vamos inserir um terceiro parâmetro, um valor
