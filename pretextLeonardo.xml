@@ -4045,10 +4045,17 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                         </li>
 
                         <li>
-                            Observe os pontos P, Q, R e S. Anote para quais valores de <m>a</m>, <m>m</m>
-                            e <m>k</m>, a parábola representa a trajetória de um dardo lançado por um 
-                            atleta em treinamento e que deseja acertar esses pontos. Para isto, utilize 
-                            os botões deslizantes do gráfico interativo.
+                            Observe os pontos P, Q, R e S. Um atleta em treinamento deseja acertar
+                            esses pontos e para cada um deles, uma trajetória será feita pelo dardo 
+                            atirado. Preencha a tabela informando quais valores de <m>a</m>, <m>m</m>
+                            e <m>k</m>, a parábola acerta cada um dos pontos apresentados.
+                            <table>
+                                <tabular>
+                                    <row>
+                                        <cell>ok</cell>
+                                    </row>
+                                </tabular>
+                            </table>
                             <interactive geogebra="rrmmjfmp"/>
                         </li>
                     </ol>
