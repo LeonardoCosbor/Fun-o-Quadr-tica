@@ -4001,10 +4001,10 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
             </subsection>
 
             <subsection>
-                <title>Função Quarática do tipo <m>y=a(x-m)^2+k</m></title>
+                <title>Função Quadrática do tipo <m>y=a(x-m)^2+k</m></title>
                 
-                <p>Dizemos que uma função quadrática desse tipo está na <emph>forma padrão</emph>.</p>
-                <p>Relembrando das funções quadráticas anteriores, os parâmetros <alert>a</alert> e
+                <p>Dizemos que uma função quadrática desse tipo está na <emph>forma canônica</emph>.
+                Relembrando das funções quadráticas anteriores, os parâmetros <alert>a</alert> e
                 <alert>m</alert> são responsáveis pelo sentido da concavidade da parábola e pelo seu
                 deslocamento horizontal, respectivamente. Vamos inserir um terceiro parâmetro, um valor
                 real k, responsável pelo deslocamento vertical da parábola. Teste estes valores no gráfico
@@ -4045,10 +4045,10 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                         </li>
 
                         <li>
-                            Observe os pontos P, Q, R e S. Um deles representa a chegada de um dardo 
-                            lançado por um atleta em treinamento. Utilize os botões deslizantes para 
-                            encontrar a parábola que representa a trajetória aproximada e em qual ponto
-                            este dardo acerta.
+                            Observe os pontos P, Q, R e S. Anote para quais valores de <m>a</m>, <m>m</m>
+                            e <m>k</m>, a parábola representa a trajetória de um dardo lançado por um 
+                            atleta em treinamento e que deseja acertar esses pontos. Para isto, utilize 
+                            os botões deslizantes do gráfico interativo.
                             <interactive geogebra="rrmmjfmp"/>
                         </li>
                     </ol>
