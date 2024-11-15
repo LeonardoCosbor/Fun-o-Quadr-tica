@@ -3957,11 +3957,10 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
 
                     <interactive desmos="vzirokf6fu"/>
 
-                <p>Este parâmetro <m>m</m> desloca o eixo de simetria da parábola horizontalmente, 
-                no sentido positivo ou negativo do eixo x. Ou seja, se <m>m&gt;0</m>, então a parábola está à direita do eixo
-                y. Por outro lado, se <m>m&lt;</m>, então a parábola estará à esquerda do eixo y. E se <m>m=0</m>, então a parábola
-                estará com seu eixo de simetria coincidindo com o eixo y. Veja uma imagem
-                ilustrativa.</p>
+                <p>Este parâmetro <m>m</m> desloca o eixo de simetria (onde está o vértice) da parábola horizontalmente, 
+                no sentido positivo ou negativo do eixo x. Ou seja, se <m>m&gt;0</m>, então o eixo de simetria estará à 
+                direita do eixo y. Por outro lado, se <m>m&lt;0</m>, então o eixo de simetria estará à esquerda do eixo 
+                eixo y. E se <m>m=0</m>, então o eixo de simetria coincide com o eixo y. Veja uma imagem ilustrativa.</p>
 
                 <interactive desmos="vrfdhns9uw"/>
 
