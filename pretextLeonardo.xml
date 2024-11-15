@@ -4052,9 +4052,34 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                             <table>
                                 <tabular top="minor" bottom="minor" right="minor" left="minor">
                                     <row>
-                                        <cell>ok</cell>
-                                        <cell>ok</cell>
-                                        <cell>ok</cell>
+                                        <cell>Ponto</cell>
+                                        <cell><m>a</m></cell>
+                                        <cell><m>m</m></cell>
+                                        <cell><m>k</m></cell>
+                                    </row>
+                                    <row>
+                                        <cell>P</cell>
+                                        <cell><c></c></cell>
+                                        <cell><c></c></cell>
+                                        <cell><c></c></cell>
+                                    </row>
+                                    <row>
+                                        <cell>Q</cell>
+                                        <cell><c></c></cell>
+                                        <cell><c></c></cell>
+                                        <cell><c></c></cell>
+                                    </row>
+                                    <row>
+                                        <cell>R</cell>
+                                        <cell><c></c></cell>
+                                        <cell><c></c></cell>
+                                        <cell><c></c></cell>
+                                    </row>
+                                    <row>
+                                        <cell>S</cell>
+                                        <cell><c></c></cell>
+                                        <cell><c></c></cell>
+                                        <cell><c></c></cell>
                                     </row>
                                 </tabular>
                             </table>
