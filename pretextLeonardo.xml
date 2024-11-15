@@ -3948,9 +3948,10 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                 <title>Função Quadrática do tipo <m>y=a(x-m)^2</m></title>
 
                 <p>Quando a função quadrática é do tipo <m>f(x)=a(x-m)^2</m>
-                um número real m é subtraído do termo x, ao se comparar à função <m>f(x)=ax^2</m>. 
+                notamos que o coeficiente <m>a</m> está multiplicando o quadrado da diferença
+                da variável x por um novo parâmetro que chamaremos de <m>m</m>. 
                 Vamos observar no gráfico interativo o que acontece com a parábola quando mudamos o 
-                valor de m.</p>
+                valor deste parâmetro.</p>
                 
                 <p></p>
 
