@@ -3014,6 +3014,52 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                         </solution>
                                 </li>
 
+                                <li>
+                                    <p>Observe o exemplo e demonstre como encontrar os pontos de uma função dada pela fórmula <m>y=2x-x^2</m>, 
+                                    no plano cartesiano. Para os valores de x, use os valores inteiros de -4 a 2.</p>
+                                        <example>
+                                        <p>Dada uma função quadrática cuja fórmula é <m>y=4x-x^2</m>, acharemos os pontos atribuindo 
+                                        valores a x e usando a fórmula, vamos determinar os valores de y. Vamos usar para os valores 
+                                        de x, os inteiros -1 a 5.</p>
+                                            <p><m>x=-1 \Rightarrow y=4\cdot(-1)-(-1)^2=-4-1=-5 \therefore </m>A=(-1,-5)</p>
+                                            <p><m>x=0 \Rightarrow y=4\cdot(0)-(0)^2=0-0=0 \therefore </m>B=(0,0)</p>
+                                            <p><m>x=1 \Rightarrow y=4\cdot(1)-(1)^2=4-1=3 \therefore </m>C=(1,3)</p>
+                                            <p><m>x=2 \Rightarrow y=4\cdot(2)-(2)^2=8-4=4 \therefore </m>D=(2,4)</p>
+                                            <p><m>x=3 \Rightarrow y=4\cdot(3)-(3)^2=12-9=3 \therefore </m>E=(3,4)</p>
+                                            <p><m>x=4 \Rightarrow y=4\cdot(4)-(4)^2=16-16=0 \therefore </m>F=(4,0)</p>
+                                            <p><m>x=5 \Rightarrow y=4\cdot(5)-(5)^2=20-25=-5 \therefore </m>G=(5,-5)</p>
+                                            <p><interactive geogebra="w5t5uchu"/></p>
+                                        </example>
+        
+                                        <solution>
+                                            <p>Dada uma função quadrática cuja fórmula é <m>y=2x+x^2</m>, acharemos os pontos atribuindo 
+                                        valores a x e usando a fórmula, vamos determinar os valores de y. </p>
+                                            <p><m>x=-4 \Rightarrow y=2\cdot(-4)+(-4)^2=-8+16=8 \therefore </m>A=(-4,8)</p>
+                                            <p><m>x=-3 \Rightarrow y=2\cdot(-3)+(-3)^2=-6+9=3 \therefore </m>B=(-3,3)</p>
+                                            <p><m>x=-2 \Rightarrow y=2\cdot(-2)+(-2)^2=-4+4=0 \therefore </m>C=(-2,0)</p>
+                                            <p><m>x=-1 \Rightarrow y=2\cdot(-1)+(-1)^2=-2+1=-1 \therefore </m>D=(-1,-1)</p>
+                                            <p><m>x=0 \Rightarrow y=2\cdot(0)+(0)^2=0+0=0 \therefore </m>E=(0,0)</p>
+                                            <p><m>x=1 \Rightarrow y=2\cdot(1)+(1)^2=2+1=3 \therefore </m>F=(1,3)</p>
+                                            <p><m>x=2 \Rightarrow y=2\cdot(2)+(2)^2=4+4=8 \therefore </m>G=(2,8)</p>
+                                            <figure>
+                                                <image width="50%" source="funcaoq.png"/>
+                                            </figure>
+                                        </solution>
+                                </li>
+                                <li>
+                                    Investigue qual das funções possui menor valor de y quando x=3.
+                                    <sidebyside>
+                                        <p><m>y=-x^2+6x</m></p>
+                                        <p>ou</p>
+                                        <p><m>y=-x^2+6x+1</m></p>
+                                    </sidebyside>
+                                    <solution>
+                                        <p>Para <m>y=-x^2+6x</m>, temos que <m>y=-3^2+6\cdot3=-9+18=9</m>.</p>
+                                        <p>Para <m>y=-x^2+6x+1</m>, temos que <m>y=-3^2+6\cdot3+1=-9+18+1=10</m>.</p>
+                                        <p>Portanto, a segunda função possui y maior para x=10.</p>
+                                    </solution>
+                                </li>
+
                             </ol>
                         </p>
             </subsection>    
@@ -3238,11 +3284,11 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                 </ol>
                             </p>
                         
-                            <p>
-                                <image width="5%" source="g1.png"/>
-                                <image width="5%" source="g3.png"/>
-                                <image width="5%" source="g4.png"/>
-                                <image width="5%" source="g5.png"/>
+                            <p halign="center">
+                                (<c></c>)<image width="30%" source="g1.png"/>
+                                (<c></c>)<image width="30%" source="g3.png"/>
+                                (<c></c>)<image width="30%" source="g4.png"/>
+                                (<c></c>)<image width="30%" source="g5.png"/>
                             </p>
                         </sidebyside>
 
@@ -3252,39 +3298,6 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                     <p><m>y=x^2</m><image width="30%" source="g5.png"/></p>
                                     <p><m>y=-\dfrac{x^2}{3}+3</m><image width="30%" source="g3.png"/></p>
                             </solution>
-                        </li>
-
-                        <li>
-                            <p>Observe o exemplo e demonstre como encontrar os pontos de uma função dada pela fórmula <m>y=2x-x^2</m>, 
-                            no plano cartesiano. Para os valores de x, use os valores inteiros de -4 a 2.</p>
-                                <example>
-                                <p>Dada uma função quadrática cuja fórmula é <m>y=4x-x^2</m>, acharemos os pontos atribuindo 
-                                valores a x e usando a fórmula, vamos determinar os valores de y. Vamos usar para os valores 
-                                de x, os inteiros -1 a 5.</p>
-                                    <p><m>x=-1 \Rightarrow y=4\cdot(-1)-(-1)^2=-4-1=-5 \therefore </m>A=(-1,-5)</p>
-                                    <p><m>x=0 \Rightarrow y=4\cdot(0)-(0)^2=0-0=0 \therefore </m>B=(0,0)</p>
-                                    <p><m>x=1 \Rightarrow y=4\cdot(1)-(1)^2=4-1=3 \therefore </m>C=(1,3)</p>
-                                    <p><m>x=2 \Rightarrow y=4\cdot(2)-(2)^2=8-4=4 \therefore </m>D=(2,4)</p>
-                                    <p><m>x=3 \Rightarrow y=4\cdot(3)-(3)^2=12-9=3 \therefore </m>E=(3,4)</p>
-                                    <p><m>x=4 \Rightarrow y=4\cdot(4)-(4)^2=16-16=0 \therefore </m>F=(4,0)</p>
-                                    <p><m>x=5 \Rightarrow y=4\cdot(5)-(5)^2=20-25=-5 \therefore </m>G=(5,-5)</p>
-                                    <p><interactive geogebra="w5t5uchu"/></p>
-                                </example>
-
-                                <solution>
-                                    <p>Dada uma função quadrática cuja fórmula é <m>y=2x+x^2</m>, acharemos os pontos atribuindo 
-                                valores a x e usando a fórmula, vamos determinar os valores de y. </p>
-                                    <p><m>x=-4 \Rightarrow y=2\cdot(-4)+(-4)^2=-8+16=8 \therefore </m>A=(-4,8)</p>
-                                    <p><m>x=-3 \Rightarrow y=2\cdot(-3)+(-3)^2=-6+9=3 \therefore </m>B=(-3,3)</p>
-                                    <p><m>x=-2 \Rightarrow y=2\cdot(-2)+(-2)^2=-4+4=0 \therefore </m>C=(-2,0)</p>
-                                    <p><m>x=-1 \Rightarrow y=2\cdot(-1)+(-1)^2=-2+1=-1 \therefore </m>D=(-1,-1)</p>
-                                    <p><m>x=0 \Rightarrow y=2\cdot(0)+(0)^2=0+0=0 \therefore </m>E=(0,0)</p>
-                                    <p><m>x=1 \Rightarrow y=2\cdot(1)+(1)^2=2+1=3 \therefore </m>F=(1,3)</p>
-                                    <p><m>x=2 \Rightarrow y=2\cdot(2)+(2)^2=4+4=8 \therefore </m>G=(2,8)</p>
-                                    <figure>
-                                        <image width="50%" source="funcaoq.png"/>
-                                    </figure>
-                                </solution>
                         </li>
 
                         <li>
@@ -3445,21 +3458,6 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                     <p>Portanto, aos 3 segundos a bola atinge 36 metros, sua maior altura.</p>
                                 </solution>
                         </li>
-
-                        <li>
-                            Investigue qual das funções possui menor valor de y quando x=3.
-                            <sidebyside>
-                                <p><m>y=-x^2+6x</m></p>
-                                <p>ou</p>
-                                <p><m>y=-x^2+6x+1</m></p>
-                            </sidebyside>
-                            <solution>
-                                <p>Para <m>y=-x^2+6x</m>, temos que <m>y=-3^2+6\cdot3=-9+18=9</m>.</p>
-                                <p>Para <m>y=-x^2+6x+1</m>, temos que <m>y=-3^2+6\cdot3+1=-9+18+1=10</m>.</p>
-                                <p>Portanto, a segunda função possui y maior para x=10.</p>
-                            </solution>
-                        </li>
-
                         <li>
                             Elabore uma função quadrática de modo que, quando substituído o valor de <m>x=7</m>, 
                             seu valor de y fique igual a zero.
@@ -3489,8 +3487,9 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
             <subsection xml:id="ff">
                 <title>Definindo a Função Quadrática</title>
                 
-                <p>Nesta subseção, faremos uma definição baseada nas informações das subseções anterioes,
-                que trazem características importantes sobre função quadrática.
+                <p>Nesta subseção, faremos a definição formal de função quadrática
+                    baseada nas informações das subseções anterioes,
+                    que trazem características importantes sobre ela.
                 </p>
                 <p>Chama-se <alert>Função Quadrática</alert> toda função de <m>\mathbb{R}\rightarrow\mathbb{R}</m>, dada por
                 uma lei de formação cuja fórmula é <m>f(x)=ax^2+bx+c</m>, onde <m>a</m>, <m>b</m> e <m>c</m> são números reais
@@ -3514,6 +3513,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                         <li><m>f(x)=3x^2-4x</m>, sendo a=3, b=-4 e c=0</li>
                         <li><m>f(x)=-\frac{1}{2}x^2+9</m>, sendo a=<m>-\frac{1}{2}</m>, b=0 e c=9</li>                        
                         <li><m>f(x)=\sqrt3x^2-2x+8</m>, sendo a=<m>\sqrt3</m>, b=-2 e c=8</li>
+                        <li><m>f(x)=4x-8</m>, como <m>a=0</m>, então não é função quadrática.</li>
                     </ul>
                 
                 <p>
@@ -3863,21 +3863,23 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                 <ol>
                     <li>
                         Usando o botão deslizante que representa os valores do coeficiente
-                        <m>a</m>, determine a parábola que coincide com a parábola vermelha. 
+                        <m>a</m>, faça a parábola preta coincidir com a parábola vermelha. 
                         <interactive geogebra="typfstqw"/>
                     </li>
 
                     <li>
-                        Mexa no botão deslizante do gráfico a seguir e determine a parábola
-                        que passe pelos três pontos. Observe as coordenadas dos pontos e compare
-                        com o coeficiente da função quadrática.
+                        Usando o botão deslizante do coeficiente <m>a</m> faça a parábola passar pelos
+                        3 pontos A, B e C. Observe as coordenadas dos pontos e compare com o coeficiente
+                        da função quadrática.
                         <interactive geogebra="g8nhvwxa"/>
                     </li>
 
                     <li>
-                        Um homem está treinando lançamentos com uma bola de futebol. O desenho da trajetória
-                        da bola é uma função quadrática. Com o auxílio do botão deslizante, encontre a 
-                        parábola que mais se aproxima da trajetória da bola.
+                        Objetos próximos da Terra movem-se em trajetória parabólica pela ação da 
+                        gravidade, cujo gráfico é de uma função é quadrática. Com isso, um homem 
+                        que está treinando lançamentos com uma bola de futebol percebe este movimento
+                        parabólico. Com o auxílio do botão deslizante, encontre a parábola que mais 
+                        se aproxima da trajetória da bola.
                         <interactive geogebra="zkemqjdc"/>
                     </li>
             </ol>       
@@ -3889,8 +3891,8 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
             <subsection>
                 <title>Função do tipo <m>y=ax^2+k</m></title>
 
-                <p>A função quadrática <m>y=ax^2</m> é uma função que possui apenas um parâmetro
-                multiplicando o termo <m>x^2</m> e é responsável por mudar a abertura da concavidade
+                <p>A função quadrática <m>y=ax^2</m> é uma função que possui apenas um coeficiente
+                multiplicando o termo <m>x^2</m>, e é responsável por mudar a abertura da concavidade
                 da parábola. Vamos inserir mais um parâmetro <m>k</m> somando o termo <m>ax^2</m>. Ou seja,
                 analisaremos um gráfico interativo para a função <m>y=ax^2+k</m>.</p>
                 
@@ -3920,22 +3922,24 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
 
                 <ol>
                     <li>
-                        Usando o botão deslizante que representa os valores dos parâmentros
-                        <m>a</m> e <m>k</m> determine a parábola que coincide com a parábola verde. 
+                        Usando os botões deslizantes que representam os valores dos parâmentros
+                        <m>a</m> e <m>k</m>, faça que a parábola preta coincidir com a parábola verde. 
                         <interactive geogebra="wuzzdnpf"/>
                     </li>
 
                     <li>
-                        Mexa no botão deslizante do gráfico a seguir e determine a parábola
-                        que passe pelos três pontos. Observe as coordenadas dos pontos e compare
+                        Use o botão deslizantes do gráfico interativo e faça a parábola
+                        passar pelos três pontos. Observe as coordenadas de cada ponto e compare
                         com os coeficientes da função quadrática.
                         <interactive geogebra="fzesuedr"/>
                     </li>
 
                     <li>
-                        Um homem está treinando lançamentos com uma bola de futebol. O desenho da trajetória
-                        da bola é uma função quadrática. Com o auxílio do botão deslizante, encontre a 
-                        parábola que mais se aproxima da trajetória da bola.
+                        Objetos próximos da superfície da terra movem-se em trajetória parabólica 
+                        devido à ação da gravidade. Por exemplo, um homem está treinando lançamentos 
+                        com uma bola de futebol. O desenho da trajetória da bola é uma função quadrática. 
+                        Com o auxílio do botão deslizante, encontre essa parábola que mais se aproxima 
+                        da trajetória da bola.
                         <interactive geogebra="nntgcjbg"/>
                     </li>
             </ol>       
