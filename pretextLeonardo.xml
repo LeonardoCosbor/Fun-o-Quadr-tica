@@ -4053,6 +4053,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                 <tabular top="minor" bottom="minor" right="minor" left="minor">
                                     <row>
                                         <cell>ok</cell>
+                                        <cell>ok</cell>
                                     </row>
                                 </tabular>
                             </table>
