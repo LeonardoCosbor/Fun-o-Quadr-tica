@@ -4054,9 +4054,11 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                     <row>
                                         <cell>ok</cell>
                                         <cell>ok</cell>
+                                        <cell>ok</cell>
                                     </row>
                                 </tabular>
                             </table>
+
                             <interactive geogebra="rrmmjfmp"/>
                         </li>
                     </ol>
