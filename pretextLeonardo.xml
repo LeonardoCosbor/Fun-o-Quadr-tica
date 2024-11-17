@@ -4255,8 +4255,24 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                             <solution>
                                 Note que o vértice tem coordenadas <m>V=(m,k)=(0,-1)</m>, localizado no eixo de simetria de equação
                                 <m>x=0</m> e a concavidade virada para cima deve-se ao fato de <m>a=1</m>, valor positivo.
-                            </solution>
                                 <image width="100%" source="Exemplo1.png"/>
+                            </solution>
+                        </li>
+                        <li>
+                            <p>
+                                <m>f(x)=-x^2+3x+2</m>
+                            </p>
+                            <solution>
+                                <p>
+                                    Vamos escrever a função da forma padrão para a forma canônica.
+                                    <me>f(x)=-x^2+3x+2</me>
+                                    <me>f(x)=-1\cdot \left(x-\dfrac{-b}{2a}\right)^2+\dfrac{4ac-b^2}{4a}</me>
+                                    <me>f(x)=-1\cdot \left(x-\dfrac{-3}{2\cdot(-1)}\right)^2+\dfrac{4\cdot(-1)\cdot(-2)-3^2}{4\cdot(-1)}</me>
+                                    <me>f(x)=-\left(x-\dfrac{3}{2}\right)^2+\dfrac{1}{4}</me>
+                                    Temos então o vértice da função cujas coordenadas são <m>V=\left(\dfrac{3}{2},\dfrac{1}{4})</m>.
+                                    <image width="100%" source="Exemplo7.png"/>
+                                </p>
+                            </solution>
                         </li>
                     </ol>
                 </subsection>
