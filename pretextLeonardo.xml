@@ -4197,23 +4197,27 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                 </p>
                 <subsection>
                     <title>Vértice da Parábola</title>
-                    <p>A parábola é uma curva desenhada pelo gráfico da função quadrática, indenpendente de qual
-                    forma ela está escrita, seja a padrão ou a canônica. Como já sabemos escrever uma função na forma canônica,
-                    observaremos se estes dados são de fácil percepção quando usamos um software gráfico para
-                    desenhar as parábolas.
+                    <p>A parábola é a curva desenhada pelo gráfico da função quadrática e seu <emph>vértice</emph> é, 
+                    o seu ponto de mínimo se a parábola for virada para cima ou o ponto de máximo de a parábola
+                    for virada para baixo, indenpendente de qual forma ela está escrita, seja a padrão ou a canônica. 
+                    Como já sabemos escrever uma função na forma canônica, observaremos facilmente o vértice dela quando
+                    usamos um software gráfico para desenhar as parábolas.
                     </p>
     
-                    <p>Veja no gráfico a seguir a função quadrática <m>f(x)=(x-2)^2+3</m>:</p>
-    
-                    <interactive desmos="jeytyh3ra5"/>
-    
-                    <p>Na função <m>f(x)=(x-2)^2+3</m> os valores de <m>m=2</m> e <m>k=3</m> representam as 
+                    <p>Quais as coodenadas do vértce da parábola definida pela equação <m>f(x)=(x-2)^2+3</m>?</p>
+                    
+                    <p>
+                        Na função <m>f(x)=(x-2)^2+3</m> os valores de <m>m=2</m> e <m>k=3</m> representam as 
                         coordenadas do ponto de mínimo da parábola, ou seja, <m>V=(m,k)=(2,3)</m>. E como
                         já sabemos, <m>m</m> representa a equação do eixo de simetria da parábola. Ou seja, nessa
                         função, <m>x=2</m> representa a lei de formação do eixo de simetria da parábola. 
                     </p>
+
+                    <image width="100%" source="Exemplo.png"/>
     
-                    <p>Outros exemplos</p>
+                    
+    
+                    <p>Outro exemplos</p>
                     
                     <example>
                         <image width="100%" source="Exemplo1.png"/>
@@ -4224,20 +4228,38 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                     </example>
     
                     <example>
+                        <p>Determinar o vértice da função <m>f(x)=-x^2-6x-8</m>.</p>
                         <image width="100%" source="Exemplo5.png"/>
                             <p>
-                                Note que o vértice tem coordenadas <m>V=(m,k)=(-3,1)</m>, localizado no eixo de simetria de equação
-                                <m>x=-3</m> e a concavidade virada para baixo deve-se ao fato de <m>a=-1</m>, valor positivo.
+                                Note que a função está escrita na forma <m>f(x)=-x^2-6x-8</m>. 
+                                Podemos escrever a função na forma canônica e em seguida analisar
+                                os valores de <m>m</m> e <m>k</m>. Logo,
+                                <me>f(x)=-x^2-6x-9+1</me>
+                                <me>f(x)=-(x^2+6x+9)+1</me>
+                                <me>f(x)=-(x+3)^2+1</me>
+                                Assim, o vértice tem coordenadas <m>V=(m,k)=(-3,1)</m>, localizado 
+                                no eixo de simetria de equação <m>x=-3</m> e a concavidade virada 
+                                para baixo deve-se ao fato de <m>a=-1</m>, valor positivo.
                             </p>
                     </example>
-    
-                    <example>
+                
+                <alert>Atividades</alert>
+                    
+                <p>Determine o vértice das funções quadráticas</p>
+                    <ol marker="a">
+                        <li>
+                            <p>
+                                
+                            </p>
+                        </li>
+                    </ol>
+                    <solution>
                         <image width="100%" source="Exemplo6.png"/>
                             <p>
                                 Note que o vértice tem coordenadas <m>V=(m,k)=\left(-1,-\dfrac{1}{2}\right)</m>, localizado no eixo de simetria de equação
                                 <m>x=-1</m> e a concavidade virada para baixo deve-se ao fato de <m>a=2</m>, valor positivo.
                             </p>
-                    </example>
+                    </solution>
     
                 </subsection>
 
