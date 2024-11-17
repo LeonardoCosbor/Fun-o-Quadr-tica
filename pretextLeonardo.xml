@@ -4269,7 +4269,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                     <me>f(x)=-1\cdot \left(x-\dfrac{-b}{2a}\right)^2+\dfrac{4ac-b^2}{4a}</me>
                                     <me>f(x)=-1\cdot \left(x-\dfrac{-3}{2\cdot(-1)}\right)^2+\dfrac{4\cdot(-1)\cdot(-2)-3^2}{4\cdot(-1)}</me>
                                     <me>f(x)=-\left(x-\dfrac{3}{2}\right)^2+\dfrac{1}{4}</me>
-                                    Temos então o vértice da função cujas coordenadas são <m>V=\left(\dfrac{3}{2},\dfrac{1}{4})</m>.
+                                    Temos então o vértice da função cujas coordenadas são <m>V=\left(\dfrac{3}{2},\dfrac{1}{4}\right)</m>.
                                     <image width="100%" source="Exemplo7.png"/>
                                 </p>
                             </solution>
@@ -4281,8 +4281,9 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                     <title>Domínio e Imagem da Função Quadrática</title>
                     <p>
                         Após determinarmos o vértice de uma parábola, podemos analisar o domínio e a 
-                        imagem de uma função quadrática. A seguir, observe a linha vermelha no eixo y
-                        quando alteramos os valores de <m>a</m>, <m>m</m> e <m>k</m>.
+                        imagem de uma função quadrática. A seguir, observe a linha vermelha, que mostra
+                        os valores de y que podem ser obtidos quando alteramos os valores de <m>a</m>, 
+                        <m>m</m> e <m>k</m>.
                     </p>
 
                     <p>
@@ -4292,8 +4293,8 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                         Seja <m>f:\mathbb{R}\rightarrow\mathbb{R}</m> uma função quadrática definida pela 
                         lei de formação <m>f(x)=a(x-m)^2+k</m>, onde <m>a</m>, <m>m</m> e <m>k</m> são valores reais
                         definidos por <m>m=-\dfrac{b}{2a}</m> e <m>k=\dfrac{4ac-b^2}{4a}</m>, define-se que o
-                        <alert>Domínio</alert> da função quadrática, denotado por <m>D(f)</m> são todos os valores
-                        reais, ou seja, <m>D(f)=\mathbb{R}</m>. Por outro lado, a <alert>Imagem</alert> de uma função
+                        <alert>Domínio</alert> da função quadrática, que contém todos os valores de x para os quais 
+                        a expressão <m>f(x)=a(x-m)^2+k</m> faz sentido, denotado por <m>D(f)</m>, ou seja, <m>D(f)=\mathbb{R}</m>. Por outro lado, a <alert>Imagem</alert> de uma função
                         quadrática, denotada por <m>Im(f)</m>, dependerá do valor do vértice da parábola, já que a função
                         não é definida em todo eixo y. Vejamos alguns exemplos:
                     </p>
