@@ -4365,8 +4365,8 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                 <m>k</m> <m>\in\mathbb{R}</m>, abriremos o produto da diferença primeiro. Logo,</p>
 
                     <me>f(x)=a\cdot(x^2-2mx+m^2)+k</me>
-                    <me>f(x)=ax^2-2amx+am^2+k</me>
-                    <me>f(x)=ax^2+(-2am)x+(am^2+k)</me>
+                    <me>=ax^2-2amx+am^2+k</me>
+                    <me>=ax^2+(-2am)x+(am^2+k)</me>
                 <p>Portanto, segue que os coeficientes da forma padrão são <m>a</m>, <m>b=-2am</m> e 
                 <m>c=am^2+k</m>.</p>
 
@@ -4376,10 +4376,13 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                     para determinar coeficientes da forma padrão. 
                 </p>
 
-                <p>Para esta percepção, analise as soluções a seguir resolvidas por estes dois métodos.</p>
+                <p>
+                    Veja o exemplo a seguir, onde transformamos a função quadrática da forma canônica para a 
+                    forma padrão.
+                </p>
 
                
-                <p><alert>Veja alguns exemplos:</alert></p>
+                <p><alert>Exemplo:</alert></p>
 
                 <p>
                     <ol>
@@ -4397,7 +4400,16 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                             <p>Portanto, <m>f(x)=f(x)=x^2-4x+3</m></p>
                                         </solution>
                                 </li>
+                            </ol>
+                        </li>
+                    </ol>
+                </p>
 
+                <p><alert>Atividade</alert></p>
+
+                <ol>
+                    <li><p>Escreva as funções a seguir na forma padrão:</p>
+                        <ol marker="a">                     
                                 <li>
                                     <m>f(x)=-\left(x-\dfrac{5}{2}\right)^2+\dfrac{1}{4}</m>
                                         <solution>
@@ -4429,7 +4441,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                             </ol>
                         </li>
                     </ol>
-                </p>
+                
 
                 
 
