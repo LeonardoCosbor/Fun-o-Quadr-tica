@@ -4230,11 +4230,6 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                     </p>
                     <image width="100%" source="Exemplo5.png"/>
 
-
-                    
-                       
-                            
-    
                 <alert>Atividades</alert>
                     
                 <p>Determine o vértice das funções quadráticas</p>
@@ -4255,11 +4250,13 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                         </li>
                         <li>
                             <p>
+                                <m>f(x)=x^2-1</m>
+                            </p>
+                            <solution>
                                 Note que o vértice tem coordenadas <m>V=(m,k)=(0,-1)</m>, localizado no eixo de simetria de equação
                                 <m>x=0</m> e a concavidade virada para cima deve-se ao fato de <m>a=1</m>, valor positivo.
-                            </p>
+                            </solution>
                                 <image width="100%" source="Exemplo1.png"/>
-                            
                         </li>
                     </ol>
                 </subsection>
