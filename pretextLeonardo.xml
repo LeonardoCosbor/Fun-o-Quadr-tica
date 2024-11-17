@@ -4215,52 +4215,53 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
 
                     <image width="100%" source="Exemplo.png"/>
     
+                    <p>Quais as coodenadas do vértce da parábola definida pela equação <m>f(x)=-x^2-6x-8</m>?</p>
                     
-    
-                    <p>Outro exemplos</p>
+                    <p>
+                        Note que a função está escrita na forma <m>f(x)=-x^2-6x-8</m>. 
+                        Podemos escrever a função na forma canônica e em seguida analisar
+                        os valores de <m>m</m> e <m>k</m>. Logo,
+                        <me>f(x)=-x^2-6x-9+1</me>
+                        <me>f(x)=-(x^2+6x+9)+1</me>
+                        <me>f(x)=-(x+3)^2+1</me>
+                        Assim, o vértice tem coordenadas <m>V=(m,k)=(-3,1)</m>, localizado 
+                        no eixo de simetria de equação <m>x=-3</m> e a concavidade virada 
+                        para baixo deve-se ao fato de <m>a=-1</m>, valor positivo.
+                    </p>
+                    <image width="100%" source="Exemplo5.png"/>
+
+
                     
-                    <example>
-                        <image width="100%" source="Exemplo1.png"/>
-                            <p>
-                                Note que o vértice tem coordenadas <m>V=(m,k)=(0,-1)</m>, localizado no eixo de simetria de equação
-                                <m>x=0</m> e a concavidade virada para cima deve-se ao fato de <m>a=1</m>, valor positivo.
-                            </p>
-                    </example>
+                       
+                            
     
-                    <example>
-                        <p>Determinar o vértice da função <m>f(x)=-x^2-6x-8</m>.</p>
-                        <image width="100%" source="Exemplo5.png"/>
-                            <p>
-                                Note que a função está escrita na forma <m>f(x)=-x^2-6x-8</m>. 
-                                Podemos escrever a função na forma canônica e em seguida analisar
-                                os valores de <m>m</m> e <m>k</m>. Logo,
-                                <me>f(x)=-x^2-6x-9+1</me>
-                                <me>f(x)=-(x^2+6x+9)+1</me>
-                                <me>f(x)=-(x+3)^2+1</me>
-                                Assim, o vértice tem coordenadas <m>V=(m,k)=(-3,1)</m>, localizado 
-                                no eixo de simetria de equação <m>x=-3</m> e a concavidade virada 
-                                para baixo deve-se ao fato de <m>a=-1</m>, valor positivo.
-                            </p>
-                    </example>
-                
                 <alert>Atividades</alert>
                     
                 <p>Determine o vértice das funções quadráticas</p>
                     <ol marker="a">
                         <li>
                             <p>
-                                
+                                <m>f(x)=2(x+1)^2-\dfrac{1}{2}</m>
                             </p>
-                        </li>
-                    </ol>
+                        
                     <solution>
                         <image width="100%" source="Exemplo6.png"/>
                             <p>
-                                Note que o vértice tem coordenadas <m>V=(m,k)=\left(-1,-\dfrac{1}{2}\right)</m>, localizado no eixo de simetria de equação
-                                <m>x=-1</m> e a concavidade virada para baixo deve-se ao fato de <m>a=2</m>, valor positivo.
+                                Note que o vértice tem coordenadas <m>V=(m,k)=\left(-1,-\dfrac{1}{2}\right)</m>, 
+                                localizado no eixo de simetria de equação <m>x=-1</m> e a concavidade virada 
+                                para baixo deve-se ao fato de <m>a=2</m>, valor positivo.
                             </p>
                     </solution>
-    
+                        </li>
+                        <li>
+                            <p>
+                                Note que o vértice tem coordenadas <m>V=(m,k)=(0,-1)</m>, localizado no eixo de simetria de equação
+                                <m>x=0</m> e a concavidade virada para cima deve-se ao fato de <m>a=1</m>, valor positivo.
+                            </p>
+                                <image width="100%" source="Exemplo1.png"/>
+                            
+                        </li>
+                    </ol>
                 </subsection>
 
                 <subsection>
