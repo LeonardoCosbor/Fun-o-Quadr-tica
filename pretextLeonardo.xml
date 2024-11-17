@@ -4386,7 +4386,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
 
                 <p>
                     <ol>
-                        <li><p>Escreva as funções a seguir na forma padrão:</p>
+                        <li><p>Escreva a função a seguir na forma padrão:</p>
                             <ol marker="a">        
                                 <li><m>f(x)=(x-2)^2-1</m>
                                         <solution>
@@ -4436,14 +4436,10 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                             <p><m>f(x)=\dfrac{1}{2}\cdot x^2-2\cdot \dfrac{1}{2}\cdot 4\cdot x + \dfrac{1}{2}\cdot 4^2-8</m></p>
                                             <p>Portanto, <m>f(x)=\dfrac{x^2}{2}-4x</m>.</p>
                                         </solution>
-                                                                                                                                                                                                                                                                                                                                                                                                                    
                                 </li>
                             </ol>
                         </li>
                     </ol>
-                
-
-                
 
                 <subsection>
                     <title>Esboçando o Gráfico da Função Quadrática</title>
