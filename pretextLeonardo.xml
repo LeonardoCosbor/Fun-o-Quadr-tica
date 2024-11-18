@@ -4518,18 +4518,8 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
 
                     <image width="80%" source="Parabola4.png"/>
 
-                    <theorem>
-                        <statement>
-                            <p>
-                                Dado uma parábola com equação canônica <m>y=a(x-m)^2+k</m>, as coordenadas 
-                                do foco são <m>F=\left(m,k+\dfrac{1}{4a}\right)</m> e a diretriz é a reta 
-                                <m>y=k-\dfrac{1}{4a}</m>.
-                            </p>
-                        </statement>
-                    </theorem>
-
                     <p>
-                        <proof>
+                        
                             <alert>Elementos da Parábola</alert>
                             <ul>
                                 <li>
@@ -4585,8 +4575,19 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                 <m>d:y=3</m>. Portanto, segue o gráfico da função:
                                 <image width="100%" source="foco3.png"/>
                             </p>
-                        </proof> 
+                         
                     </p>
+
+                    <theorem>
+                        <statement>
+                            <p>
+                                Dado uma parábola com equação canônica <m>y=a(x-m)^2+k</m>, as coordenadas 
+                                do foco são <m>F=\left(m,k+\dfrac{1}{4a}\right)</m> e a diretriz é a reta 
+                                <m>y=k-\dfrac{1}{4a}</m>.
+                            </p>
+                        </statement>
+                    </theorem>
+
                     <p>
                         Uma aplicação deste elemento importante da parábola é o <alert>fogão solar</alert>, um dispositivo
                         sustentável que usa a energia térmica do sol para cozinhar alimentos, substituindo o uso de combustíveis como lenha,
