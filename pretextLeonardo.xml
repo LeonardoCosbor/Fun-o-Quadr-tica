@@ -4575,7 +4575,6 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                 <m>d:y=3</m>. Portanto, segue o gráfico da função:
                                 <image width="100%" source="foco3.png"/>
                             </p>
-                         
                     </p>
 
                     <theorem>
@@ -4618,7 +4617,11 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                             <li>
                                 <alert>Fogões Solares de Caixa:</alert> é o tipo mais comum de fogão solar, composto de caixa isolada, tampa transparente e um refletor dentro da 
                                 caixa para refletir a luz do sol, mantendo dentro do recipiente um ambiente propício para cozimento. 
-                                <image width="50%" source="fsc.png"/>
+                                <figure>
+                                    <image width="50%" source="fsc.png"/>
+                                    <caption></caption>
+                                </figure>
+                                
                             </li>
                             <li>
                                 <alert>Fogões Solares Parabólicos:</alert> usam refletores parabólicos para refletir a luz num único ponto (foco da parábola).  
