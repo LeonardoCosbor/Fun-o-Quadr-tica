@@ -4508,20 +4508,26 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
             
             <subsection>
                 <title>Foco da Parábola</title>
-                    <p>Formalmente, parábola é o conjunto de pontos equidistantes a uma reta <m>d</m>
+                    <p>Geometricamente, parábola é o lugar geométrico dos pontos equidistantes a uma reta <m>d</m>
                     chamada diretriz e um ponto fixo <m>F</m> chamado de foco que não esteja na reta.
                     Observando a imagem, temos uma parábola de concavidade positiva. Dentro da concavidade
                     e situado no eixo de simetria da parábola está localizado o ponto <m>F</m>, assim, colinear
                     com o vértice da parábola. Nesta, localizamos um ponto <m>A</m> e na reta diretriz um ponto
                     <m>B</m>. Note que a distância do ponto <m>A</m> ao foco <m>F</m> tem a mesma medida que a 
-                    distância do ponto <m>A</m> ao foco <m>B</m>. Ou seja, <m>AF=AB</m>.</p>
+                    distância do ponto <m>A</m> ao foco <m>B</m>. Ou seja, <m>\overline{AF}=\overline{AB}</m>.</p>
 
                     <image width="80%" source="Parabola4.png"/>
 
-                    <p>Para encontrar as coordenadas do foco, clique em <alert>Demonstração</alert>, pois vamos
-                    usar apenas a fórmula direta para os cálculos e aplicações em exercícios.
-                    .</p> 
-                        
+                    <theorem>
+                        <statement>
+                            <p>
+                                Dado uma parábola com equação canônica <m>y=a(x-m)^2+k</m>, as coordenadas 
+                                do foco são <m>F=\left(m,k+\dfrac{1}{4a}\right)</m> e a diretriz é a reta 
+                                <m>y=k-\dfrac{1}{4a}</m>.
+                            </p>
+                        </statement>
+                    </theorem>
+                    
                     <p>
                         <proof>
                             <alert>Elementos da Parábola</alert>
