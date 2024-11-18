@@ -4618,8 +4618,9 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                 <alert>Fogões Solares de Caixa:</alert> é o tipo mais comum de fogão solar, composto de caixa isolada, tampa transparente e um refletor dentro da 
                                 caixa para refletir a luz do sol, mantendo dentro do recipiente um ambiente propício para cozimento. 
                                 <figure>
+                                    <title>Fogão Solar de Caixa</title>
                                     <image width="50%" source="fsc.png"/>
-                                    <caption></caption>
+                                    <caption>Portal Solar, 2024</caption>
                                 </figure>
                                 
                             </li>
