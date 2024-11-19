@@ -4621,7 +4621,6 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                     <caption>Portal Solar, 2024</caption>
                                     <image width="50%" source="fsc.png"/>
                                 </figure>
-                                
                             </li>
                             <li>
                                 <alert>Fogões Solares Parabólicos:</alert> usam refletores parabólicos para refletir a luz num único ponto (foco da parábola).  
@@ -4629,15 +4628,20 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                     <caption>Conceitos, 2024</caption>
                                     <image width="50%" source="fspr.png"/>
                                 </figure>
-                                
                             </li>
                             <li>
                                 <alert>Fogões Solares Híbridos:</alert> combinam diversos tipos de tecnologia de aquecimento.       
-                                <image width="50%" source="fsh.png"/>
+                                <figure>
+                                    <caption>Pleno Sol, 2014</caption>
+                                    <image width="50%" source="fsh.png"/>
+                                </figure>
                             </li>
                             <li>
                                 <alert>Fogões Solares Portáteis:</alert> projetados para serem compactos e fáceis de transportar.
-                                <image width="50%" source="fspo.png"/>
+                                <figure>
+                                    <caption>Ciclo Vivo, 2017</caption>
+                                    <image width="50%" source="fspo.png"/>
+                                </figure>
                             </li>
                         </ul>
                     </p>
