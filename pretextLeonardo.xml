@@ -5025,11 +5025,11 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
         </section>
 
         <section>
-            <title>Zero da Função Quadrática</title>
+            <title>Zeros da Função Quadrática</title>
             <subsection>
-                <title>Zeros da Função Quadrática e a Forma Canônica</title>
+                <title>Zeros e a Forma Canônica</title>
                     <subsection>
-                        <title>Encontrando os Zeros da Função Quadrática por Valor Numérico da Função</title>
+                        <title>Valor Numérico da Função</title>
                     <p>
                         Nesta seção vamos usar as funções quadráticas para determinar valores numéricos da
                         função que receberão nomes específicos no estudo de parábolas e que futuramente serão
@@ -5037,11 +5037,11 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                     </p>
                     <p>
                         Utilizando a lei de formação <m>f(x)=(x+1)^2-4</m>, vamos encontrar alguns pontos 
-                        específicos. Para isto, faremos o cálculo do valor numérico para os valores de x 
-                        pertencentes ao intervalo inteiro <m>[-4,2]</m>.
+                        específicos. Para isto, faremos o cálculo do valor numérico para os valores inteiros de x 
+                        pertencentes ao intervalo <m>[-4,2]</m>.
                         Logo, 
                         <me>f(-4)=(-4+1)^2-4=9-4=5</me>
-                        Assim, para um valor de <m>x=-4</m> temos um <m>y=5</m>. Veja outros valores:
+                        Assim, para um valor de <m>x=-4</m> temos <m>y=5</m>. Veja outros valores:
                         <me>f(-3)=(-3+1)^2-4=4-4=0</me>
                         <me>f(-2)=(-2+1)^2-4=1-4=-3</me>
                         <me>f(-1)=(-1+1)^2-4=0-4=-4</me>
@@ -5050,22 +5050,22 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                         <me>f(2)=(2+1)^2-4=9-4=5</me>
                                         
                     Note que temos algumas coincidências que podem ser explicadas pelo eixo de 
-                    simetria da parábola, cujos valores distintos de x que estão à mesma distância 
+                    simetria da parábola que é <m>x=1</m>, cujos valores distintos de x que estão à mesma distância 
                     do eixo de simetria, quando substituidos na fórmula da função, têm como resultado
                     um y de mesmo valor. São os casos de <m>f(-4)=f(2)=5</m>, <m>f(-3)=f(1)=0</m>, <m>f(-2)=f(0)=-3</m> e
-                    o vértice da função <m>f(-1)=-4</m>. 
+                    o vértice da função <m>(-1,-4)</m>. 
                 </p>
                 <p>
-                    Portanto, dado um x de um ponto P temos o seu valor numérico y substituindo x na fórmula da função 
-                    quadrática. Assim, <m>P=(x, (x+1)^2-4)=(x,f(x))=(x,y)</m>.
+                    Portanto, dada a coordenada um x de um ponto, temos o valor numérico de y substituindo x na fórmula da função 
+                    quadrática. Assim, para a função quadrática do exemplo acima, <m>P=(x, (x+1)^2-4)=(x,f(x))=(x,y)</m>.
                 </p>
 
                 <p>Acompanhe a seguir outros exemplos:</p>
                     <example>
                         <p>
                             Observaremos agora um outro exemplo, agora com uma função quadrática na forma padrão 
-                            <m>f(x)=-x^2+6x</m>. Adotaremos o intervalo inteiro tal que <m>x\in[-4,5]</m>. Mas antes, 
-                            vamos escrever a função na forma canônica. 
+                            <m>f(x)=-x^2+6x</m>. Calcularemos <m>f(x)</m> para <m>x\in\{-4,-3,-2,-1,0,1,2,3,4,5\}</m>. 
+                            Mas antes, vamos escrever a função na forma canônica. 
                             <me>f(x)=a(x-m)^2+k=(-1)\cdot \left(x-\dfrac{-6}{2\cdot(-1)}\right)^2+\dfrac{4\cdot (-1)\cdot(0) -6^2}{4\cdot(-1)}</me>
                             <me>=-(x-3)^2+9</me>
                         </p>
