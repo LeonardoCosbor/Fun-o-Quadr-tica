@@ -5260,17 +5260,17 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                     e 1 são os <alert>zeros da função quadrática</alert>.
                 </p>
                 <p>
-                    Analogamente, para o segundo exemplo <xref ref="E1"/>, na função quadrática <m>f(x)=-(x-3)^2+9</m>,
+                    Analogamente, para o segundo exemplo (<xref ref="E1"/>), na função quadrática <m>f(x)=-(x-3)^2+9</m>,
                     para <m>x=0</m> e <m>x=6</m>, temos que <m>f(0)=0</m> e <m>f(6)=0</m>. Logo, 0 e 6 são os 
                     <alert>zeros da função quadrática</alert>.
                 </p>
                 <p>
-                    Da mesma forma, para o terceiro exemplo <xref ref="A1"/>, na função quadrática <m>f(x)=3(x-2)^2</m>,
+                    Da mesma forma, para o terceiro exemplo (<xref ref="A1"/>), na função quadrática <m>f(x)=3(x-2)^2</m>,
                     para <m>x=2</m>, temos que <m>f(2)=0</m>. Assim, 2 é o <alert>zero da função 
                     quadrática</alert>.
                 </p>
                 <p>
-                    Por fim, para o quarto exemplo <xref ref="A2"/>, na função quadrática <m>f(x)=-\dfrac{1}{2}(x-2)^2-3</m>,
+                    Por fim, para o quarto exemplo (<xref ref="A2"/>), na função quadrática <m>f(x)=-\dfrac{1}{2}(x-2)^2-3</m>,
                     não é possível encontrar um valor de x tal que <m>f(x)=0</m>. Portanto, essa Função
                     não têm <alert>zeros da função quadrática</alert> reais.
                 </p>    
