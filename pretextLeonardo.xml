@@ -5189,7 +5189,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                     </p>
                 </example>
 
-            <ol><alert></alert>
+            <ol><alert>Atividades</alert>
                 <li>
                     <p>
                         Seja a função <m>f(x)=3(x-2)^2</m>. Encontre o valor de x sabendo que f(x)=75.
