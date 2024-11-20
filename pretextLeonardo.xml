@@ -5272,7 +5272,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                 <p>
                     Por fim, para o quarto exemplo (<xref ref="A2"/>), na função quadrática <m>f(x)=-\dfrac{1}{2}(x-2)^2-3</m>,
                     não é possível encontrar um valor de x tal que <m>f(x)=0</m>. Portanto, essa Função
-                    não têm <alert>zeros da função quadrática</alert> reais.
+                    não têm <alert>zeros</alert> reais.
                 </p>    
             </subsection>
 
@@ -5288,52 +5288,52 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                     <li>
                         Para <m>f(x)=(x+1)^2-4</m>, faremos <m>f(x)=0</m>. Logo,
                         <me>(x+1)^2-4=0</me>
-                        <me>(x+1)^2=4</me>
-                        <me>x+1=\pm\sqrt4</me>
-                        <me>x+1=\pm2</me>
+                        <me>\Rightarrow (x+1)^2=4</me>
+                        <me>\Rightarrow x+1=\pm\sqrt4</me>
+                        <me>\Rightarrow x+1=\pm2</me>
                         Abrindo em duas soluções:
                         <me>x+1=2</me>
-                        <me>x=2-1</me>
-                        <me>x=1</me>
+                        <me>\Rightarrow x=2-1</me>
+                        <me>\Rightarrow x=1</me>
                         e
                         <me>x+1=-2</me>
-                        <me>x=-2-1</me>
-                        <me>x=-3</me>
+                        <me>\Rightarrow x=-2-1</me>
+                        <me>\Rightarrow x=-3</me>
                         Portanto, -3 e 1 são os <alert>zeros da função quadrática</alert> <m>f(x)=(x+1)^2-4</m>.
                     </li>
                     <li>
                         Para <m>f(x)=-(x-3)^2+9</m>, faremos <m>f(x)=0</m>. Logo,
                         <me>-(x-3)^2+9=0</me>
-                        <me>-(x-3)^2=-9 \cdot(-1)</me>
-                        <me>(x-3)^2=9</me>
-                        <me>x-3=\pm\sqrt9</me>
-                        <me>x-3=\pm3</me>
+                        <me>\Rightarrow -(x-3)^2=-9 \cdot(-1)</me>
+                        <me>\Rightarrow (x-3)^2=9</me>
+                        <me>\Rightarrow x-3=\pm\sqrt9</me>
+                        <me>\Rightarrow x-3=\pm3</me>
                         Abrindo em 2 casos, temos que:
                         
                         <me>x-3=3</me>
-                        <me>x=3+3</me>
-                        <me>x=6</me>
+                        <me>\Rightarrow x=3+3</me>
+                        <me>\Rightarrow x=6</me>
                         e
                         <me>x-3=-3</me>
-                        <me>x=-3+3</me>
-                        <me>x=0</me>
+                        <me>\Rightarrow x=-3+3</me>
+                        <me>\Rightarrow x=0</me>
                         Portanto, 0 e 6 são os <alert>zeros da função quadrática</alert> <m>f(x)=-(x-3)^2+9</m>.
                     </li>
                     <li>
                         Para <m>f(x)=3\cdot(x-2)^2</m>, faremos <m>f(x)=0</m>. Logo,
                         <me>3\cdot(x-2)^2=0</me>
-                        <me>(x-2)^2=0</me>
-                        <me>x-2=\pm\sqrt0</me>
-                        <me>x-2=0</me>
-                        <me>x=2</me>
+                        <me>\Rightarrow (x-2)^2=0</me>
+                        <me>\Rightarrow x-2=\pm\sqrt0</me>
+                        <me>\Rightarrow x-2=0</me>
+                        <me>\Rightarrow x=2</me>
                         Portanto, 2 é o <alert>zero da função quadrática</alert> <m>f(x)=3\cdot(x-2)^2</m>.
                     </li>
                     <li>
                         Para <m>f(x)=-\dfrac{1}{2}(x-2)^2-3</m>, faremos <m>f(x)=0</m>. Logo,
                         <me>-\dfrac{1}{2}(x-2)^2-3=0</me>
-                        <me>-\dfrac{1}{2}(x-2)^2=3</me>
-                        <me>(x-2)^2=-6</me>
-                        <me>x-2=\pm\sqrt-6</me>
+                        <me>\Rightarrow -\dfrac{1}{2}(x-2)^2=3</me>
+                        <me>\Rightarrow (x-2)^2=-6</me>
+                        <me>\Rightarrow x-2=\pm\sqrt-6</me>
                         Como a função quadrática é definida em <m>\mathbb{R}</m> e <m>\sqrt-6</m> não
                         tem solução nos reais, então a função quadrática <alert>não possui zeros</alert>.
                     </li>
