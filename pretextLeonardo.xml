@@ -5292,13 +5292,19 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                         <me>\Rightarrow x+1=\pm\sqrt4</me>
                         <me>\Rightarrow x+1=\pm2</me>
                         Abrindo em duas soluções:
-                        <me>x+1=2</me>
-                        <me>\Rightarrow x=2-1</me>
-                        <me>\Rightarrow x=1</me>
-                        e
-                        <me>x+1=-2</me>
-                        <me>\Rightarrow x=-2-1</me>
-                        <me>\Rightarrow x=-3</me>
+                        <sidebyside>
+                            <p>
+                                <me>x+1=2</me>
+                                <me>\Rightarrow x=2-1</me>
+                                <me>\Rightarrow x=1</me>
+                            </p>
+                            <p>e</p>
+                            <p>
+                                <me>x+1=-2</me>
+                                <me>\Rightarrow x=-2-1</me>
+                                <me>\Rightarrow x=-3</me>
+                            </p>
+                        </sidebyside>
                         Portanto, -3 e 1 são os <alert>zeros da função quadrática</alert> <m>f(x)=(x+1)^2-4</m>.
                     </li>
                     <li>
@@ -5309,14 +5315,21 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                         <me>\Rightarrow x-3=\pm\sqrt9</me>
                         <me>\Rightarrow x-3=\pm3</me>
                         Abrindo em 2 casos, temos que:
-                        
-                        <me>x-3=3</me>
-                        <me>\Rightarrow x=3+3</me>
-                        <me>\Rightarrow x=6</me>
-                        e
-                        <me>x-3=-3</me>
-                        <me>\Rightarrow x=-3+3</me>
-                        <me>\Rightarrow x=0</me>
+                        <sidebyside>
+                            <p>
+                                <me>x-3=3</me>
+                                <me>\Rightarrow x=3+3</me>
+                                <me>\Rightarrow x=6</me>
+                            </p>
+                            <p>
+                                e
+                            </p>
+                            <p>
+                                <me>x-3=-3</me>
+                                <me>\Rightarrow x=-3+3</me>
+                                <me>\Rightarrow x=0</me>
+                            </p>
+                        </sidebyside>
                         Portanto, 0 e 6 são os <alert>zeros da função quadrática</alert> <m>f(x)=-(x-3)^2+9</m>.
                     </li>
                     <li>
@@ -5336,9 +5349,32 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                         <me>\Rightarrow x-2=\pm\sqrt-6</me>
                         Como a função quadrática é definida em <m>\mathbb{R}</m> e <m>\sqrt-6</m> não
                         tem solução nos reais, então a função quadrática <alert>não possui zeros</alert>.
+                        Dependendo do ano em que se trabalha a resolução de uma equação quadrática, esta 
+                        solução pode ser dada, dentro do conjunto dos números complexos. Ou seja,
+                        <sidebyside>
+                            <p>
+                                <me>x-2=\sqrt6i</me>
+                                <me>x=\sqrt6i+2</me>
+                            </p>
+                            <p>e</p>
+                            <p>
+                                <me>x-2=-\sqrt6i</me>
+                                <me>x=-\sqrt6i+2</me>
+                            </p>
+                        </sidebyside>
+                        Portanto, <m>x=-\sqrt6i+2</m> e <me>x=\sqrt6i+2</me> são os <alert>zeros da função</alert>.
                     </li>
                 </ul>
                 </p>
+
+            <p><alert>Atividades</alert></p>
+                <ol>
+                    <li>
+                        <p>
+                            
+                        </p>
+                    </li>
+                </ol>
             </subsection>
 
         </subsection>
