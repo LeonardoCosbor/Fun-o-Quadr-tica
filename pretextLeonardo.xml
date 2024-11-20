@@ -5060,8 +5060,8 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                     quadrática. Assim, para a função quadrática do exemplo acima, <m>P=(x, (x+1)^2-4)=(x,f(x))=(x,y)</m>.
                 </p>
 
-                <p>Acompanhe a seguir outros exemplos:</p>
-                    <example>
+                <p>Acompanhe a seguir outros exemplos e atividades:</p>
+                    <example xml:id="E1">
                         <p>
                             Observaremos agora um outro exemplo, agora com uma função quadrática na forma padrão 
                             <m>f(x)=-x^2+6x</m>. Calcularemos <m>f(x)</m> para <m>x\in\{-4,-3,-2,-1,0,1,2,3,4,5\}</m>. 
@@ -5094,7 +5094,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                     </p>
                 <ol>
                 
-                    <li>
+                    <li xml:id="A1">
                         Seja a função quadrática <m>f(x)=3(x-2)^2</m>. Analise os valores de y para
                         <m>x\in\{-4,-3,-2,-1,0,1,2,3,4\}</m>, mostrando quais são as coordenadas do vértice 
                         e quais são os valores de <m>x</m> possuem os mesmos valores de <m>y</m>.
@@ -5114,7 +5114,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                 <me>f(-1)=f(5)=27</me>, <me>f(-2)=f(6)=48</me>, <me>f(-3)=f(7)=75</me> e <me>f(-4)=f(8)=108</me>.
                             </solution>
                     </li>
-                    <li>
+                    <li xml:id="A2">
                         Seja a função quadrática <m>f(x)=-\dfrac{1}{2}(x-2)^2-3</m>. Analise os valores de y para
                         <m>x\in\{-6,-4,-2,0,2\}</m>, mostrando quais são as coordenadas do vértice 
                         e quais são os valores de <m>x</m> possuem os mesmos valores de <m>y</m>.
@@ -5251,7 +5251,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
 
                 <p> Agora destacaremos alguns resultados específicos destes cálculos, onde a coordenada
                     y dos pontos é igual a zero. Ou seja, daremos ênfase aos valores numéricos de que 
-                    determinam um y igual a zero, chamando assim esses valores de <alert>ZERO DA FUNÇÃO 
+                    determinam y igual a zero, chamando assim esses valores de <alert>ZEROS DA FUNÇÃO 
                     QUADRÁTICA</alert>.  
                 </p>
                 <p>
@@ -5260,17 +5260,17 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                     e 1 são os <alert>zeros da função quadrática</alert>.
                 </p>
                 <p>
-                    Analogamente, para o segundo exemplo, na função quadrática <m>f(x)=-(x-3)^2+9</m>,
+                    Analogamente, para o segundo exemplo <xref ref="E1"/>, na função quadrática <m>f(x)=-(x-3)^2+9</m>,
                     para <m>x=0</m> e <m>x=6</m>, temos que <m>f(0)=0</m> e <m>f(6)=0</m>. Logo, 0 e 6 são os 
                     <alert>zeros da função quadrática</alert>.
                 </p>
                 <p>
-                    Da mesma forma, para o terceiro exemplo, na função quadrática <m>f(x)=3(x-2)^2</m>,
+                    Da mesma forma, para o terceiro exemplo <xref ref="A1"/>, na função quadrática <m>f(x)=3(x-2)^2</m>,
                     para <m>x=2</m>, temos que <m>f(2)=0</m>. Assim, 2 é o <alert>zero da função 
                     quadrática</alert>.
                 </p>
                 <p>
-                    Por fim, para o quarto exemplo, na função quadrática <m>f(x)=-\dfrac{1}{2}(x-2)^2-3</m>,
+                    Por fim, para o quarto exemplo <xref ref="A2"/>, na função quadrática <m>f(x)=-\dfrac{1}{2}(x-2)^2-3</m>,
                     não é possível encontrar um valor de x tal que <m>f(x)=0</m>. Portanto, essa Função
                     não têm <alert>zeros da função quadrática</alert> reais.
                 </p>    
