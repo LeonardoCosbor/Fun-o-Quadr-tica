@@ -5086,8 +5086,10 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                         <me>f(0)=f(6)=0</me>, <me>f(-1)=f(7)=-7</me>, <me>f(-2)=f(8)=-16</me> e <me>f(-3)=f(9)=-27</me>.
                     </example>
 
-                    <alert>Atividades</alert>
-                <ol>
+                    <p></p>
+
+                <ol><alert>Atividades</alert>
+                
                     <li>
                         Seja a função quadrática <m>f(x)=3(x-2)^2</m>. Analise os valores de y para
                         <m>x\in\{-4,-3,-2,-1,0,1,2,3,4\}</m>, mostrando quais são as coordenadas do vértice 
