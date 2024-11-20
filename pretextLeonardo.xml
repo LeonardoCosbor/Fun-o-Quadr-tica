@@ -5366,8 +5366,43 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                 <ol>
                     <li>
                         <p>
-                            
+                            Determnine os zeros das seguintes funções:
                         </p>
+                        <ol marker="a">
+                            <li>
+                                <m>f(x)=3(x+1)^2-3</m>
+                                    <solution>
+                                        <p>
+                                            <me>f(x)=0</me>
+                                            <me>\Rightarrow 3(x+1)^2-3=0</me>
+                                            <me>\Rightarrow 3(x+1)^2=3</me>
+                                            <me>\Rightarrow (x+1)^2=\dfrac{3}{3}</me>
+                                            <me>\Rightarrow (x+1)^2=1</me>
+                                            <me>\Rightarrow x+1=\pm1</me>
+                                            Abrindo em dois casos, temos:
+                                            <sidebyside>
+                                                <p>
+                                                    <me>x+1=1</me>
+                                                    <me>\Rightarrow x=1-1</me>
+                                                    <me>\Rightarrow x=0</me>
+                                                </p>
+                                                <p>
+                                                    <me>x+1=-1</me>
+                                                    <me>\Rightarrow x=-1-1</me>
+                                                    <me>\Rightarrow x=-2</me>
+                                                </p>
+                                            </sidebyside>
+                                            Portanto, -2 e 0 são os zeros da função.
+                                        </p>
+                                    </solution>
+                            </li>
+                            <li>
+                                <m>g(x)=-4(x-3)^2</m>
+                            </li>
+                            <li>
+                                <m>h(x)=-(x-3)^2-2</m>
+                            </li>
+                        </ol>
                     </li>
                 </ol>
             </subsection>
