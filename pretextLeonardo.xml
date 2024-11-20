@@ -5362,7 +5362,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                 <me>x=-\sqrt6i+2</me>
                             </p>
                         </sidebyside>
-                        Portanto, <m>x=-\sqrt6i+2</m> e <me>x=\sqrt6i+2</me> são os <alert>zeros da função</alert>.
+                        Portanto, <m>x=-\sqrt6i+2</m> e <m>x=\sqrt6i+2</m> são os <alert>zeros da função</alert>.
                     </li>
                 </ul>
                 </p>
