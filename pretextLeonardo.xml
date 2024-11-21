@@ -5400,7 +5400,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                 <m>g(x)=-4(x-3)^2</m>
                                 <solution>
                                     <p>
-                                        <me>f(x)=0</me>
+                                        <me>g(x)=0</me>
                                         <me>\Rightarrow -4(x-3)^2=0</me>
                                         <me>\Rightarrow (x-3)^2=\dfrac{0}{-4}</me>
                                         <me>\Rightarrow (x-3)^2=0</me>
@@ -5414,6 +5414,27 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                             </li>
                             <li>
                                 <m>h(x)=-(x-3)^2-2</m>
+                                <p>
+                                    <me>h(x)=0</me>
+                                    <me>\Rightarrow -(x-3)^2-2=0</me>
+                                    <me>\Rightarrow -(x-3)^2=2</me>
+                                    <me>\Rightarrow (x-3)^2=\dfrac{2}{-1}</me>
+                                    <me>\Rightarrow (x-3)^2=-2</me>
+                                    <me>\Rightarrow x-3=\pm-2</me>
+                                    A função não possui zeros reais. Mas podemos abrir
+                                    em dois casos utilizando a unidade imaginária <m>\sqrt-1=i</m>. Logo:
+                                    <sidebyside>
+                                        <p>
+                                            <me>x-3=\sqrt2i</me>
+                                            <me>\Rightarrow x=\sqrt2i+3</me>
+                                        </p>
+                                        <p>
+                                            <me>x-3=-\sqrt2i</me>
+                                            <me>\Rightarrow x=-\sqrt2i+3</me>
+                                        </p>
+                                    </sidebyside>
+                                    Portanto, <m>\sqrt2i+3</m> e <m>-\sqrt2i+3</m> são os zeros da função.
+                                </p>
                             </li>
                         </ol>
                     </li>
