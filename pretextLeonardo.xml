@@ -5632,12 +5632,18 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                         <li>
                             <alert>Fórmula de Bháscara</alert>
 
-                            <p>
-                                Dada a função quadrática <m>f(x)=ax^2+bx+x</m>, os valores de x tais que 
-                                <m>f(x)=0</m> são chamados raízes ou zeros da função. Portanto, para se obter
-                                os zeros de <m>f(x)</m> basta resolver a equação <m>ax^2+bx+c=0</m>. Para isto,
-                                faremos o discrimminante <m>\Delta=b^2-4ac</m> e os zeros <m>x=\dfrac{-b\pm\sqrt\Delta}{2a}</m>.
-                            </p>
+                            <theorem>
+                                <statement>
+                                    <p>
+                                        Dada a função quadrática <m>f(x)=ax^2+bx+x</m>, seus zeros são dados
+                                        por <m>x=\dfrac{-b\pm\sqrt\Delta}{2a}</m>. O valor de <m>b^2-4ac</m> é
+                                        chamado discriminante, <m>\Delta</m>, e a função tem duas raízes se 
+                                        <m>\Delta&gt;0</m>, uma raíz (dupla) se <m>\Delta=0</m> e duas raízes 
+                                        complexas se <m>\Delta&lt;0</m>.
+                                    </p>
+                                </statement>
+                            </theorem>
+                            
                             <p>Veja alguns exemplos de como calcular os zeros de funções quadráticas:</p>
                             
                             <ol>
