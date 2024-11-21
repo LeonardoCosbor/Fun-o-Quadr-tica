@@ -6020,8 +6020,37 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                                 A parábola <m>g</m> não intersecta o eixo x. Logo, suas raízes são
                                                 complexas. Para determiná-las, precisamos dos valores de <m>m</m>, 
                                                 <m>k</m> e <m>a</m>.
+                                            </p>
+                                            <p>
                                                 Como o vértice da parábola tem coordenadas <m>V=(1,2)</m> e o vértice de 
                                                 uma parábola é dado por <m>V=(m,k)</m>, então <m>m=1</m> e <m>k=2</m>.
+                                            </p>
+                                            <p>
+                                                Precisamos de mais um ponto da parábola para determinar o coeficiente <m>a</m>.
+                                                Note que a parábola passa no eixo y no ponto (0,3). Usaremos então x=0 e y=3
+                                                na fórmula da função quadrática na forma canônica <m>y=a(x+m)^2+k</m>. Logo,
+                                                <md>
+                                                    <mrow>a\cdot (0-1)^2+2 \amp =3</mrow>
+                                                    <mrow>a\cdot (-1)^2+2 \amp =3</mrow>
+                                                    <mrow>a\cdot 1+2 \amp =3</mrow>
+                                                    <mrow>a\amp=3-2</mrow>
+                                                    <mrow>a\amp=1</mrow>
+                                                </md>
+                                                Portanto, temos que <m>a=1</m>.
+                                                <p>
+                                                    Para determinar os zeros da função <m>h</m>, faremos <m>h(x)=0</m>. Logo,
+                                                </p>
+                                                <md>
+                                                    <mrow>(x-1)^2+2\amp=0</mrow>
+                                                    <mrow>(x-1)^2\amp=-2</mrow>
+                                                    <mrow>x-1\amp=\pm\sqrt(-2)</mrow>
+                                                    <mrow>x-1\amp=\pm\sqrt(-2)</mrow>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+                                                    <mrow>x-1\amp=\sqrt2i</mrow>
+                                                </md>
+                                                Abrindo em dois casos, temos:
+                                                <m>x=\sqrt2i+1</m> e <m>x-\sqrt2i+1</m>.
+                                                Temos que as raízes da função <m>h</m> são <m>\sqrt2i+1</m>
+                                                e <m>-\sqrt2i+1</m>.
                                             </p>
                                         </solution>
                                 </li>
