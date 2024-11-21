@@ -5466,7 +5466,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                         equações quadráticas. Veja alguns exemplos.
                     </p>
                     <p>
-                        <ul>
+                        <ol>
                             <li>
                                 <p>Função Quadrática Incompleta do tipo <m>f(x)=ax^2</m>.</p>
                             
@@ -5521,7 +5521,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                     </li>
                                 </ol>
                             </li>
-                        </ul>
+                        </ol>
                     </p>
 
                     <p>
