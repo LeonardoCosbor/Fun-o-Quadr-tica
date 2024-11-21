@@ -5709,48 +5709,49 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                         <m>f(x)=-x^2+4x-3</m>
                                         <solution>
                                             <p>Calculando o discriminante:</p>
-                                            <me>\Delta=b^2-4ac=(-5)^2-4\cdot 2\cdot 3= 25-24 = 1.</me>
+                                            <me>\Delta=b^2-4ac=(4)^2-4\cdot (-1)\cdot (-3)= 16-12 = 4.</me>
                                             Logo, temos que os valores de x são:
                                             <me>x=\dfrac{-b\pm\sqrt\Delta}{2a}</me>
-                                            <me>\Rightarrow x=\dfrac{-(-5)\pm\sqrt1}{2\cdot2}</me>
-                                            <me>\Rightarrow x=\dfrac{5\pm1}{4}</me>
+                                            <me>\Rightarrow x=\dfrac{-4\pm\sqrt4}{2\cdot(-1)}</me>
+                                            <me>\Rightarrow x=\dfrac{-4\pm2}{-2}</me>
                                             Separando em dois casos:
-                                            <m>x_1=\dfrac{5+1}{4}=\dfrac{6}{4}=\dfrac{3}{2}</m>
+                                            <m>x_1=\dfrac{-4+2}{-2}=\dfrac{-2}{-2}=1</m>
                                             e
-                                            <m>x_2=\dfrac{5-1}{4}=\dfrac{4}{4}=1</m>
-                                            Portanto, 1 e <m>=\dfrac{3}{2}</m> são os zeros da função.
+                                            <m>x_2=\dfrac{-4-2}{-2}=\dfrac{-6}{-2}=3</m>
+                                            Portanto, 1 e 3 são os zeros da função.
                                         </solution>
                                     </li>
                                     <li>
                                         <m>g(x)=x^2-4x+4</m>
                                         <solution>
                                             <p>Calculando o discriminante:</p>
-                                            <me>\Delta=b^2-4ac=(-5)^2-4\cdot 2\cdot 3= 25-24 = 1.</me>
+                                            <me>\Delta=b^2-4ac=(-4)^2-4\cdot 1\cdot 4= 16-16 = 0.</me>
                                             Logo, temos que os valores de x são:
                                             <me>x=\dfrac{-b\pm\sqrt\Delta}{2a}</me>
-                                            <me>\Rightarrow x=\dfrac{-(-5)\pm\sqrt1}{2\cdot2}</me>
-                                            <me>\Rightarrow x=\dfrac{5\pm1}{4}</me>
+                                            <me>\Rightarrow x=\dfrac{-(-4)\pm\sqrt0}{2\cdot1}</me>
+                                            <me>\Rightarrow x=\dfrac{4\pm0}{2}</me>
                                             Separando em dois casos:
-                                            <m>x_1=\dfrac{5+1}{4}=\dfrac{6}{4}=\dfrac{3}{2}</m>
+                                            <m>x_1=\dfrac{4+0}{2}=\dfrac{4}{2}=2</m>
                                             e
-                                            <m>x_2=\dfrac{5-1}{4}=\dfrac{4}{4}=1</m>
-                                            Portanto, 1 e <m>=\dfrac{3}{2}</m> são os zeros da função.
+                                            <m>x_2=\dfrac{4-0}{2}=\dfrac{4}{2}=2</m>
+                                            Portanto, 2 é o zero da função.
                                         </solution>
                                     </li>
                                     <li>
                                         <m>h(x)=2x^2+5x+4</m>
                                         <solution>
                                             <p>Calculando o discriminante:</p>
-                                            <me>\Delta=b^2-4ac=(-5)^2-4\cdot 2\cdot 3= 25-24 = 1.</me>
+                                            <me>\Delta=b^2-4ac=(-5)^2-4\cdot 2\cdot 4= 25-32 = -7.</me>
                                             Logo, temos que os valores de x são:
                                             <me>x=\dfrac{-b\pm\sqrt\Delta}{2a}</me>
-                                            <me>\Rightarrow x=\dfrac{-(-5)\pm\sqrt1}{2\cdot2}</me>
-                                            <me>\Rightarrow x=\dfrac{5\pm1}{4}</me>
+                                            <me>\Rightarrow x=\dfrac{-5\pm\sqrt(-7)}{2\cdot2}</me>
+                                            <me>\Rightarrow x=\dfrac{-5\pm\sqrt7i}{4}</me>
                                             Separando em dois casos:
-                                            <m>x_1=\dfrac{5+1}{4}=\dfrac{6}{4}=\dfrac{3}{2}</m>
+                                            <m>x_1=\dfrac{-5+\sqrt7i}{4}</m>
                                             e
-                                            <m>x_2=\dfrac{5-1}{4}=\dfrac{4}{4}=1</m>
-                                            Portanto, 1 e <m>=\dfrac{3}{2}</m> são os zeros da função.
+                                            <m>x_2=\dfrac{-5-\sqrt7i}{4}</m>
+                                            Portanto, <m>\dfrac{-5+\sqrt7i}{4}</m> e 
+                                            <m>x_2=\dfrac{-5-\sqrt7i}{4}</m> são as raízes complexas da função.
                                         </solution>
                                     </li>
                                 </ol>
@@ -5878,17 +5879,17 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                         <m>f(x)=-x^2+4x-3</m>
                                         <solution>
                                             <p>
-                                                <me>S=-\dfrac{b}{a}=-\dfrac{(-5)}{2}=\dfrac{5}{2}.</me>
-                                                <me>P=\dfrac{c}{a}=\dfrac{3}{2}</me>
-                                                Temos então que dois números que somados é igual a <m>\dfrac{5}{2}</m>
-                                                e multiplicados é igual a <m>\dfrac{3}{2}</m>. Logo,
-                                                <m>x_1+x_2=\dfrac{5}{2}</m> 
+                                                <me>S=-\dfrac{b}{a}=-\dfrac{(4)}{-1}=4</me>
+                                                <me>P=\dfrac{c}{a}=\dfrac{-3}{-1}=3</me>
+                                                Temos então que dois números que somados é igual a 4
+                                                e multiplicados é igual a 3. Logo,
+                                                <m>x_1+x_2=4</m> 
                                                 e
-                                                <m>x_1\cdot x_2=\dfrac{3}{2}</m>.
+                                                <m>x_1\cdot x_2=3</m>.
                                                 Logo, temos que:
-                                                <m>1+\dfrac{3}{2}=\dfrac{2+3}{2}=\dfrac{5}{2}</m> e 
-                                                <m>1\cdot \dfrac{3}{2}=\dfrac{3}{2}.</m>
-                                                Portanto, 1 e <m>=\dfrac{3}{2}</m> são os zeros da função quadrática.
+                                                <m>1+3=4</m> e 
+                                                <m>1\cdot 3=3.</m>
+                                                Portanto, 1 e 3 são os zeros da função quadrática.
                                             </p>
                                         </solution>
                                     </li>
@@ -5896,17 +5897,17 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                         <m>g(x)=x^2-4x+4</m>
                                         <solution>
                                             <p>
-                                                <me>S=-\dfrac{b}{a}=-\dfrac{(-5)}{2}=\dfrac{5}{2}.</me>
-                                                <me>P=\dfrac{c}{a}=\dfrac{3}{2}</me>
-                                                Temos então que dois números que somados é igual a <m>\dfrac{5}{2}</m>
-                                                e multiplicados é igual a <m>\dfrac{3}{2}</m>. Logo,
-                                                <m>x_1+x_2=\dfrac{5}{2}</m> 
+                                                <me>S=-\dfrac{b}{a}=-\dfrac{4}{1}=4.</me>
+                                                <me>P=\dfrac{c}{a}=\dfrac{4}{1}=4</me>
+                                                Temos então que dois números que somados é igual a 2
+                                                e multiplicados é igual a 2. Logo,
+                                                <m>x_1+x_2=4</m> 
                                                 e
-                                                <m>x_1\cdot x_2=\dfrac{3}{2}</m>.
+                                                <m>x_1\cdot x_2=4</m>.
                                                 Logo, temos que:
-                                                <m>1+\dfrac{3}{2}=\dfrac{2+3}{2}=\dfrac{5}{2}</m> e 
-                                                <m>1\cdot \dfrac{3}{2}=\dfrac{3}{2}.</m>
-                                                Portanto, 1 e <m>=\dfrac{3}{2}</m> são os zeros da função quadrática.
+                                                <m>2+2=4</m> e 
+                                                <m>2\cdot 2=4.</m>
+                                                Portanto, 2 é o zero da função.
                                             </p>
                                         </solution>
                                     </li>
@@ -5914,17 +5915,17 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                         <m>h(x)=2x^2+5x+4</m>
                                         <solution>
                                             <p>
-                                                <me>S=-\dfrac{b}{a}=-\dfrac{(-5)}{2}=\dfrac{5}{2}.</me>
-                                                <me>P=\dfrac{c}{a}=\dfrac{3}{2}</me>
-                                                Temos então que dois números que somados é igual a <m>\dfrac{5}{2}</m>
-                                                e multiplicados é igual a <m>\dfrac{3}{2}</m>. Logo,
-                                                <m>x_1+x_2=\dfrac{5}{2}</m> 
+                                                <me>S=-\dfrac{b}{a}=-\dfrac{5}{2}.</me>
+                                                <me>P=\dfrac{c}{a}=\dfrac{4}{2}=2</me>
+                                                Temos então que dois números que somados seja igual a <m>-\dfrac{5}{2}</m>
+                                                e multiplicados seja igual a 4. Logo,
+                                                <m>x_1+x_2=-\dfrac{5}{2}</m> 
                                                 e
-                                                <m>x_1\cdot x_2=\dfrac{3}{2}</m>.
+                                                <m>x_1\cdot x_2=2</m>.
                                                 Logo, temos que:
-                                                <m>1+\dfrac{3}{2}=\dfrac{2+3}{2}=\dfrac{5}{2}</m> e 
-                                                <m>1\cdot \dfrac{3}{2}=\dfrac{3}{2}.</m>
-                                                Portanto, 1 e <m>=\dfrac{3}{2}</m> são os zeros da função quadrática.
+                                                <m>\dfrac{-5-\sqrt7i}{4}+\dfrac{-5+\sqrt7i}{4}=\dfrac{-10}{4}=-\dfrac{5}{2}</m> e 
+                                                <m>\left(\dfrac{-5-\sqrt7i}{4}\right)\cdot\left(\dfrac{-5+\sqrt7i}{4}\right)=\dfrac{(-5)^2-(\sqrt7i)^2}{16}=\dfrac{25+7}{16}=2.</m>
+                                                Portanto, <m>\dfrac{-5-\sqrt7i}{4}</m> e <m><m>\dfrac{-5+\sqrt7i}{4}</m></m> são os zeros da função quadrática.
                                             </p>
                                         </solution>
                                     </li>
