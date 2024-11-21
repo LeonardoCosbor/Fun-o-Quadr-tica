@@ -5654,13 +5654,13 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                             <me>\Delta=b^2-4ac=(-5)^2-4\cdot 2\cdot 3= 25-24 = 1.</me>
                                             Logo, temos que os valores de x são:
                                             <me>x=\dfrac{-b\pm\sqrt\Delta}{2a}</me>
-                                            <me>=\dfrac{-(-5)\pm\sqrt1}{2\cdot2}</me>
-                                            <me>=\dfrac{5\pm1}{4}</me>
+                                            <me>\Rightarrow x=\dfrac{-(-5)\pm\sqrt1}{2\cdot2}</me>
+                                            <me>\Rightarrow x=\dfrac{5\pm1}{4}</me>
                                             Separando em dois casos:
-                                            <me>x_1=\dfrac{5+1}{4}=\dfrac{6}{4}=\dfrac{3}{2}</me>
+                                            <m>x_1=\dfrac{5+1}{4}=\dfrac{6}{4}=\dfrac{3}{2}</m>
                                             e
-                                            <me>x_2=\dfrac{5-1}{4}=\dfrac{4}{4}=1</me>
-                                            Portanto, 1 e <m>=\dfrac{3}{2}</m> são os zeros da função quadrática.
+                                            <m>x_2=\dfrac{5-1}{4}=\dfrac{4}{4}=1</m>
+                                            Portanto, 1 e <m>=\dfrac{3}{2}</m> são os zeros da função.
                                         </solution>
                                 </li>
                                 <li>
@@ -5670,13 +5670,13 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                             <me>\Delta=b^2-4ac=(12)^2-4\cdot (-1)\cdot (-36)= 144-144 = 0.</me>
                                             Logo, temos que os valores de x são:
                                             <me>x=\dfrac{-b\pm\sqrt\Delta}{2a}</me>
-                                            <me>=\dfrac{-(12)\pm\sqrt0}{2\cdot(-1)}</me>
-                                            <me>=\dfrac{-12\pm0}{-2}</me>
+                                            <me>\Rightarrow x=\dfrac{-(12)\pm\sqrt0}{2\cdot(-1)}</me>
+                                            <me>\Rightarrow x=\dfrac{-12\pm0}{-2}</me>
                                             Separando em dois casos:
-                                            <me>x_1=\dfrac{-12+0}{-2}=\dfrac{-12}{-2}=6</me>
+                                            <m>x_1=\dfrac{-12+0}{-2}=\dfrac{-12}{-2}=6</m>
                                             e
-                                            <me>x_2=\dfrac{-12-0}{-2}=\dfrac{-12}{-2}=6</me>
-                                            Portanto, 6 é o zero da função quadrática.
+                                            <m>x_2=\dfrac{-12-0}{-2}=\dfrac{-12}{-2}=6</m>
+                                            Portanto, 6 é o zero da função.
                                         </solution>
                                 </li>
                                 <li>
@@ -5686,9 +5686,12 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                             <me>\Delta=b^2-4ac=(2)^2-4\cdot 1\cdot 2= 4-8 = -4.</me>
                                             Logo, temos que os valores de x são:
                                             <me>x=\dfrac{-b\pm\sqrt\Delta}{2a}</me>
-                                            <me>=\dfrac{-2\pm\sqrt-4}{2}</me>
-                                            Como <m>\sqrt-4</m> não é definido nos números reais (<m>\mathbb{R}</m>), 
-                                            então a função não possui raízes reais.
+                                            <me>\Rightarrow x=\dfrac{-2\pm\sqrt-4}{2}</me>
+                                            Separando em dois casos:
+                                            <m>x_1=\dfrac{-2+2i}{2}=-1+i</m>
+                                            e
+                                            <m>x_2=\dfrac{-2-2i}{2}=-1-i</m>
+                                            Portanto, <m>-1+i</m> e <m>-1-i</m> são os zeros da função.
                                         </solution>
                                 </li>
                             </ol>
@@ -5697,12 +5700,15 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                         <li>
                             <alert>Relações de Girard</alert>
 
-                            <p>
-                                Encontrar zeros da função quadrática pelas Relações de Girard torna-se mais
-                                simples pois se trata de uma função polinomial de grau 2. Logo, utilizaremos 
-                                a Soma da Raízes como <m>S=-\dfrac{b}{a}</m> e o Produto das Raízes como 
-                                <m>P=\dfrac{c}{a}</m>. Para entender estas fórmulas clique em <alert>Demonstração</alert>.
-                            </p>
+                            <theorem>
+                                <statement>
+                                    <p>
+                                        Se <m>x_1</m> e <m>x_2</m> são os zeros de uma função quadrática então
+                                        <m>x_1+x_2=-\dfrac{-b}{a}</m> e <m>x_1\cdot x_2=\dfrac{c}{a}</m>.
+                                    </p>
+                                </statement>
+                            </theorem>
+                            
                             <proof>
                                 <p>Albert Girard nasceu em 1595 em Mihiel, França, e morreu em dezembro de 1632 em Lindem, na Holanda. 
                                 Em um dos trabalhos do matemático francês, estabeleceu relações de soma e produto entre as raízes de uma equação quadrática. 
@@ -5736,8 +5742,10 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                 
                             </proof>
                             <p>
-                                Veja os mesmos exemplos agora aplicados à soma e ao produto das raízes ou zeros
-                                da função.
+                                Vamos denotar <m>S=-\dfrac{b}{a}</m> e <m>P=\dfrac{c}{a}</m>. Então podemos 
+                                usar esse teorema para encontrar os zeros de uma função quadrática buscando
+                                por dois números <m>x_1</m> e <m>x_2</m> tais que <m>x_1+x_2=S</m> e <m>x_1\cdot x_2=P</m>,
+                                como ilustrado nos exemplos a seguir.
                             </p>
                                 <ol>
                                     <li>
@@ -5746,13 +5754,14 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                             <p>
                                                 <me>S=-\dfrac{b}{a}=-\dfrac{(-5)}{2}=\dfrac{5}{2}.</me>
                                                 <me>P=\dfrac{c}{a}=\dfrac{3}{2}</me>
-                                                Temos então que:
-                                                <me>x_1+x_2=\dfrac{5}{2}</me>
+                                                Temos então que dois números que somados é igual a <m>\dfrac{5}{2}</m>
+                                                e multiplicados é igual a <m>\dfrac{3}{2}</m>. Logo,
+                                                <m>x_1+x_2=\dfrac{5}{2}</m> 
                                                 e
-                                                <me>x_1\cdot x_2=\dfrac{3}{2}</me>
+                                                <m>x_1\cdot x_2=\dfrac{3}{2}</m>.
                                                 Logo, temos que:
-                                                <me>1+\dfrac{3}{2}=\dfrac{2+3}{2}=\dfrac{5}{2}</me>
-                                                <me>1\cdot \dfrac{3}{2}=\dfrac{3}{2}.</me>
+                                                <m>1+\dfrac{3}{2}=\dfrac{2+3}{2}=\dfrac{5}{2}</m> e 
+                                                <m>1\cdot \dfrac{3}{2}=\dfrac{3}{2}.</m>
                                                 Portanto, 1 e <m>=\dfrac{3}{2}</m> são os zeros da função quadrática.
                                             </p>
                                         </solution>
@@ -5763,13 +5772,14 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                             <p>
                                                 <me>S=-\dfrac{b}{a}=-\dfrac{(12)}{-1}=12.</me>
                                                 <me>P=\dfrac{c}{a}=\dfrac{-36}{-1}=36</me>
-                                                Temos então que:
-                                                <me>x_1+x_2=12</me>
+                                                Temos então que dois números que somados é igual a 12 
+                                                e multiplicados é igual a 36. Logo,
+                                                <m>x_1+x_2=12</m> 
                                                 e
-                                                <me>x_1\cdot x_2=36</me>
+                                                <m>x_1\cdot x_2=36</m>
                                                 Logo, temos que:
-                                                <me>6+6=12</me>
-                                                <me>6\cdot 6=36.</me>
+                                                <m>6+6=12</m> e 
+                                                <m>6\cdot 6=36.</m>
                                                 Portanto, 6 é o zero da função quadrática.
                                             </p>
                                         </solution>
@@ -5780,12 +5790,15 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                             <p>
                                                 <me>S=-\dfrac{b}{a}=-\dfrac{2}{1}=-2</me>
                                                 <me>P=\dfrac{c}{a}=\dfrac{2}{1}=2</me>
-                                                Temos então que:
-                                                <me>x_1+x_2=-2</me>
+                                                Temos então que dois números que somados é igual a -2 e multiplicados é igual a 2.
+                                                Logo,
+                                                <m>x_1+x_2=-2</m>
                                                 e
-                                                <me>x_1\cdot x_2=2</me>
-                                                Como não existe dois números que somados seja igual a -2 e multiplicados
-                                                seja igual a 2, então a função quadrática não possui raízes reais.
+                                                <m>x_1\cdot x_2=2</m>
+                                                Logo, temos que:
+                                                <m>-1+i+(-1-i)=-1+i-1-i=-2</m> e 
+                                                <m>(-1+i)\cdot(-1-i)=1+i-i-i^2=1-(-1)=1+1=2.</m>
+                                                Portanto, <m>-1+i</m> e <m>-1-i</m> são as raízes complexas da função.
                                             </p>
                                         </solution>
                                     </li>
