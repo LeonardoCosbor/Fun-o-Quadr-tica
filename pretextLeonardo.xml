@@ -5695,8 +5695,29 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                         </solution>
                                 </li>
                             </ol>
-
                         </li>
+
+                        <p><alert>Atividades</alert></p>
+
+                        <ol>
+                            <li>
+                                <p>
+                                    Determine os zeros das funções quadráticas a seguir:
+                                </p>
+                                <ol marker="a">
+                                    <li>
+                                        <m>f(x)=-x^2+4x-3</m>
+                                    </li>
+                                    <li>
+                                        <m>g(x)=x^2-4x+4</m>
+                                    </li>
+                                    <li>
+                                        <m>h(x)=2x^2+5x+4</m>
+                                    </li>
+                                </ol>
+                            </li>
+                        </ol>
+
                         <li>
                             <alert>Relações de Girard</alert>
 
@@ -5805,6 +5826,28 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                 </ol>
                         </li>
                     </ul>
+
+                    <p><alert>Atividades</alert></p>
+
+                        <ol>
+                            <li>
+                                <p>
+                                    Determine os zeros das funções quadráticas a seguir:
+                                </p>
+                                <ol marker="a">
+                                    <li>
+                                        <m>f(x)=-x^2+4x-3</m>
+                                    </li>
+                                    <li>
+                                        <m>g(x)=x^2-4x+4</m>
+                                    </li>
+                                    <li>
+                                        <m>h(x)=2x^2+5x+4</m>
+                                    </li>
+                                </ol>
+                            </li>
+                        </ol>
+
                 </subsection>
 
 
