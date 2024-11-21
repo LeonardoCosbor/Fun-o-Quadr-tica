@@ -5449,12 +5449,12 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
             <title>Calcular zeros da função utilizando a forma padrão</title>
 
                 <p>
-                    Encontrar os zeros da função quadrática na forma padrão, ou seja, <m>f(x)=ax^2+bx+c</m>
-                    é tão simples quanto a forma canônica. Por exemplo, para casos de funções 
-                    quadráticas incompletas, podemos resover isolando o valor de x ou colocando
-                    o termo x em evidência. Já em casos de funções quadráticas completas, 
+                    Encontrar os zeros da função quadrática na forma padrão, ou seja, 
+                    na forma <m>f(x)=ax^2+bx+c</m> não é tão simples quanto na forma canônica.
+                    Por exemplo, em casos de funções quadráticas completas, 
                     precisaremos de métodos mais eficazes como a <alert> Fórmula de Bháskara</alert>, 
                     <alert>Soma e Produto</alert> ou <alert>Equações de Girard</alert>.
+                    Contudo, ainda podemos isolar x para funções quadráticas completas.
                 </p>
 
             <subsection>
@@ -5484,6 +5484,55 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                                 </solution>
                                         </p>
                                     </li>
+                                </ol>
+                            </li>    
+                            <li>
+                                <p>Função Quadrática Incompleta do tipo <m>f(x)=ax^2+c</m>.</p>
+                                
+                                <ol>
+                                    <li>
+                                        <p>
+                                            <m>f(x)=x^2-4</m>
+                                                <solution>
+                                                    <me>x^2-4=0</me>
+                                                    <me>x^2=4</me>
+                                                    <me>x=\pm\sqrt4</me>
+                                                    <me>x=\pm2</me>
+                                                    Portanto, -2 e 2 são os <alert>zeros da função quadrática</alert>
+                                                </solution>
+                                        </p>
+                                    </li>
+                                </ol>
+                            </li>    
+                            <li>
+                                <p>Função Quadrática Incompleta do tipo <m>f(x)=ax^2+bx</m></p>
+
+                                <ol>
+                                    <li>
+                                        <p>
+                                            <m>f(x)=x^2-5x</m>
+                                                <solution>
+                                                    <me>x^2-5x=0</me>
+                                                    <me>x\cdot(x-5)=0</me>
+                                                    <me>x=0</me> e <me>x=5</me>
+                                                    Portanto, 0 e 5 são os <alert>zeros da função quadrática.</alert>
+                                                </solution>
+                                        </p>
+                                    </li>
+                                </ol>
+                            </li>
+                        </ul>
+                    </p>
+
+                    <p>
+                        <alert>Atividades</alert>
+                    </p>
+                    <ol>
+                        <li>
+                            <p>
+                                Determine o zero das funções quadráticas incompletas:
+                            </p>
+                                <ol marker="a">
                                     <li>
                                         <p>
                                             <m>f(x)=-\dfrac{2x^2}{5}</m>
@@ -5512,24 +5561,6 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                                 </solution>
                                         </p>
                                     </li>
-                                </ol>
-                            </li>    
-                            <li>
-                                <p>Função Quadrática Incompleta do tipo <m>f(x)=ax^2+c</m>.</p>
-                                
-                                <ol>
-                                    <li>
-                                        <p>
-                                            <m>f(x)=x^2-4</m>
-                                                <solution>
-                                                    <me>x^2-4=0</me>
-                                                    <me>x^2=4</me>
-                                                    <me>x=\pm\sqrt4</me>
-                                                    <me>x=\pm2</me>
-                                                    Portanto, -2 e 2 são os <alert>zeros da função quadrática</alert>
-                                                </solution>
-                                        </p>
-                                    </li>
                                     <li>
                                         <p>
                                             <m>f(x)=3x^2-27</m>
@@ -5552,23 +5583,6 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                                     <me>x^2=\dfrac{7}{4}</me>
                                                     <me>x=\pm\sqrt(\dfrac{7}{4})</me>
                                                     <me>x=\pm\dfrac{\sqrt7}{2}</me>
-                                                </solution>
-                                        </p>
-                                    </li>
-                                </ol>
-                            </li>    
-                            <li>
-                                <p>Função Quadrática Incompleta do tipo <m>f(x)=ax^2+bx</m></p>
-
-                                <ol>
-                                    <li>
-                                        <p>
-                                            <m>f(x)=x^2-5x</m>
-                                                <solution>
-                                                    <me>x^2-5x=0</me>
-                                                    <me>x\cdot(x-5)=0</me>
-                                                    <me>x=0</me> e <me>x=5</me>
-                                                    Portanto, 0 e 5 são os <alert>zeros da função quadrática.</alert>
                                                 </solution>
                                         </p>
                                     </li>
@@ -5601,9 +5615,8 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                         </p>
                                     </li>
                                 </ol>
-                            </li>
-                        </ul>
-                    </p>
+                        </li>
+                    </ol>
                 </subsection>
 
                 <subsection>
