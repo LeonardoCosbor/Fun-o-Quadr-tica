@@ -5398,6 +5398,19 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                             </li>
                             <li>
                                 <m>g(x)=-4(x-3)^2</m>
+                                <solution>
+                                    <p>
+                                        <me>f(x)=0</me>
+                                        <me>\Rightarrow -4(x-3)^2=0</me>
+                                        <me>\Rightarrow (x-3)^2=\dfrac{0}{-4}</me>
+                                        <me>\Rightarrow (x-3)^2=0</me>
+                                        <me>\Rightarrow x-3=\pm0</me>
+                                        <me>\Rightarrow x-3=0</me>
+                                        <me>\Rightarrow x=3</me>
+                                        
+                                        Portanto, 3 é o zero da função.
+                                    </p>
+                                </solution>
                             </li>
                             <li>
                                 <m>h(x)=-(x-3)^2-2</m>
