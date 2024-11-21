@@ -5949,7 +5949,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                     de eixos ortogonais. Começaremos com os exemplos dados na subseção anterior. 
                 </p>
                 <p>
-                    No caso da função <m>f(x)=2x^2-5x+3</m>, temos que 1 e <m>\dfrac{3}{2}</m> são os
+                    No caso da função <m>f(x)=2\left(x-\dfrac{5}{4}\right)^2-\dfrac{1}{8}</m>, temos que 1 e <m>\dfrac{3}{2}</m> são os
                     zeros da função quadrática. Logo, observamos graficamente que os pontos <m>(1,0)</m> e 
                     <m>\left(\dfrac{3}{2},0\right)</m>, destacados em vermelho estão sobre o eixo x e são a
                     interseção da parábola com o eixo x, além de estarem à mesma distância do eixo de simetria.
