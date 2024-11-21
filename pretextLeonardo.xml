@@ -5414,6 +5414,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                             </li>
                             <li>
                                 <m>h(x)=-(x-3)^2-2</m>
+                                <solution>
                                 <p>
                                     <me>h(x)=0</me>
                                     <me>\Rightarrow -(x-3)^2-2=0</me>
@@ -5435,6 +5436,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                     </sidebyside>
                                     Portanto, <m>\sqrt2i+3</m> e <m>-\sqrt2i+3</m> são os zeros da função.
                                 </p>
+                            </solution>
                             </li>
                         </ol>
                     </li>
