@@ -5696,6 +5696,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                 </li>
                             </ol>
                         </li>
+                    </ul>
 
                         <p><alert>Atividades</alert></p>
 
@@ -5757,6 +5758,8 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                 </ol>
                             </li>
                         </ol>
+
+                        <ul>
 
                         <li>
                             <alert>Relações de Girard</alert>
