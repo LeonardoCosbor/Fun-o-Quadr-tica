@@ -5958,7 +5958,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                     <image width="80%" source="zero1.png"/>
                 </p>
                 <p>
-                    Veja agora o caso da função <m>f(x)=-x^2+12x-36</m> cujo zero da função é 6. Logo, no gráfico
+                    Veja agora o caso da função <m>f(x)=-(x-6)^2</m> cujo zero da função é 6. Logo, no gráfico
                     observamos que o ponto em vermelho de coordenadas <m>(6,0)</m> é o único ponto de interseção 
                     do eixo x com a parábola.
                 </p>
@@ -5966,15 +5966,70 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                     <image width="80%" source="zero2.png"/>
                 </p>
                 <p>
-                    Já para a função <m>f(x)=x^2+2x+2</m> não conseguiremos ver destacado em vermelho o ponto de inteseção
+                    Já para a função <m>f(x)=(x+1)^2+1</m> não conseguiremos ver destacado em vermelho o ponto de inteseção
                     pois a função quadrática não possui raízes ou zeros reais. 
                 </p>
                 <p>
                     <image width="80%" source="zero3.png"/>
                 </p>
+                <p>
                 Concluímos então que uma função quadrática que possui zeros ou raízes apresentará interseções da parábola com
                 o eixo x. Caso contrário, a parábola não intersectará o eixo das abscissas. 
-                
+                </p>
+
+                <p><alert>Atividades</alert></p>
+
+                <ol>
+                    <li>
+                        <p>
+                            Determine os zeros das funções quadráticas a partir dos
+                            gráficos das funções.
+                        </p>
+                            <ol marker="a">
+                                <li>
+                                    <p>
+                                        função <m>f</m>
+                                        <image width="50%" source="G1.png"/>
+                                    </p>
+                                    <solution>
+                                        <p>
+                                            A parábola da função <m>f</m> intersecta o eixo x nos pontos
+                                            (-4,0) e (0,0). Portanto, os zeros da função <m>f</m> são -4 e 0. 
+                                        </p>
+                                    </solution>
+                                </li>
+                                <li>
+                                    <p>
+                                        função <m>g</m>
+                                        <image width="50%" source="G2.png"/>
+                                    </p>
+                                        <solution>
+                                            <p>
+                                                A parábola da função <m>g</m> intersecta o eixo x apenas no 
+                                                ponto (1,0). Portanto, 1 é o zero da função.
+                                            </p>
+                                        </solution>
+                                </li>
+                                <li>
+                                    <p>
+                                        função <m>h</m>
+                                        <image width="50%" source="G3.png"/>
+                                    </p>
+                                        <solution>
+                                            <p>
+                                                A parábola <m>g</m> não intersecta o eixo x. Logo, suas raízes são
+                                                complexas. Para determiná-las, precisamos dos valores de <m>m</m>, 
+                                                <m>k</m> e <m>a</m>.
+                                                Como o vértice da parábola tem coordenadas <m>V=(1,2)</m> e o vértice de 
+                                                uma parábola é dado por <m>V=(m,k)</m>, então <m>m=1</m> e <m>k=2</m>.
+                                            </p>
+                                        </solution>
+                                </li>
+                            </ol>
+                    </li>
+                </ol>
+
+
                             
             </subsection>
 
