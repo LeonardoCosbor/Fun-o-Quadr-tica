@@ -6086,6 +6086,50 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                     </li>
                 </ol>
                 <p>
+                    Podemos concluir então que a função tem <alert>duas raízes</alert> se <m>-ak&lt;0</m>,
+                    <alert>uma raíz</alert> se <m>-ak=0</m> e <alert>não tem raízes reais</alert> se <m>-ak&gt;0</m>.  
+                </p>
+
+                <p>
+                    Vamos observar um exemplo de como determinar o número de raízes de uma 
+                    função na forma canônica. 
+                </p>
+                <p>
+                    Seja a função quadrática <m>f(x)=2(x-1)^2-5</m>. Como <m>a=2</m> e <m>k=-5</m>,
+                    temos que <m>a\cdot k=2\cdot(-5)=-10&lt;0</m>, portanto, a função possui <alert>
+                    duas raízes</alert>.
+                </p>
+
+                <p>
+                    <alert>Atividades</alert>
+                </p>
+
+                <ol>
+                    <li>
+                        <p>
+                            Determine quantas raízes possuem as funções a seguir:
+                        </p>
+                            <ol marker="a">
+                                <li>
+                                    <p>
+                                        <m>f(x)=</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>f(x)=</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>f(x)=</m>
+                                    </p>
+                                </li>
+                            </ol>
+                    </li>
+                </ol>
+
+                <p>
                     O discriminante da função quadrática indica quantas raízes reais a função
                     possui. Graficamente, isto indica o número de vezes que a parábola intersecta 
                     o eixo das abscissas (eixo x). Ou seja: 
@@ -6105,6 +6149,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                         </li>
                     </ul>
                 </p>
+                
                 <p>
                     Observe o gráfico interativo em que o valor de <m>\Delta</m> está destacado em amarelo, a fórmula da função quadrática
                     está destacado em azul e os zeros da função aparecem em vermelho. Mude os valores
