@@ -6878,10 +6878,10 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                     <me>x=\dfrac{4\pm\sqrt4}{2\cdot1}\dfrac{4\pm2}{2}</me>
                                     <me>\Rightarrow x=\dfrac{4\pm2}{2}</me>
                                     Abrindo em dois casos, temos que:
-                                    <me>x=\dfrac{4-2}{2}=1</me> e <me>\dfrac{4+2}{2}=3</me>
+                                    <me>x_1=\dfrac{4-2}{2}=1</me> e <me>x_2\dfrac{4+2}{2}=3</me>
                                     <image width="50%" source="AT1.png"/>
                                     Como <m>a&gt;0</m> então os valores de x que satisfazem a inequação são
-                                    <m>S=\{x\in\mathbb{R}/x&lt;1 \ ou \ x&gt;3}</m>
+                                    <m>S=\{x\in\mathbb{R}/x&lt;1 \ ou \ x&gt;3\}</m>
                             </solution>
                     </li>
                     <li>
