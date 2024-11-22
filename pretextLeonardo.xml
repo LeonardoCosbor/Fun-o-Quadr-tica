@@ -6112,18 +6112,39 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                             <ol marker="a">
                                 <li>
                                     <p>
-                                        <m>f(x)=</m>
+                                        <m>f(x)=-3(x+1)^2</m>
                                     </p>
+                                    <solution>
+                                        <p>
+                                            Seja a função quadrática <m>f(x)=-3(x+1)^2</m>. Como <m>a=-3</m> e <m>k=0</m>,
+                                            temos que <m>a\cdot k=-3\cdot0=0</m>, portanto, a função possui <alert>
+                                            uma raíz</alert>.
+                                        </p>
+                                    </solution>
                                 </li>
                                 <li>
                                     <p>
-                                        <m>f(x)=</m>
+                                        <m>f(x)=-\dfrac{3}{2}(x-2)^2-2</m>
                                     </p>
+                                    <solution>
+                                        <p>
+                                            Seja a função quadrática <m>f(x)=-\dfrac{3}{2}(x-2)^2-2</m>. Como <m>a=-\dfrac{3}{2}</m> e <m>k=-2</m>,
+                                            temos que <m>a\cdot k=-\dfrac{3}{2}\cdot(-2)=3&gt;0</m>, portanto, a função possui <alert>
+                                            duas raízes</alert>.
+                                        </p>
+                                    </solution>
                                 </li>
                                 <li>
                                     <p>
-                                        <m>f(x)=</m>
+                                        <m>f(x)=5(x+4)^2-1</m>
                                     </p>
+                                    <solution>
+                                        <p>
+                                            Seja a função quadrática <m>f(x)=5(x+4)^2-1</m>. Como <m>a=5</m> e <m>k=-1</m>,
+                                            temos que <m>a\cdot k=5\cdot(-1)=-5&lt;0</m>, portanto, a função <alert>não 
+                                            possui raízes reais</alert>.
+                                        </p>
+                                    </solution>
                                 </li>
                             </ol>
                     </li>
