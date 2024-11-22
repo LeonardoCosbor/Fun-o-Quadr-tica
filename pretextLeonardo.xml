@@ -6066,14 +6066,29 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                 <title>Discriminante</title>
 
                 <p>
-                    Como já foi comentado no capítulo <alert>Escrevendo a Função Quadrática na Forma Canônica</alert>,
-                    em Demonstração, Discriminante é o nome dado ao símbolo <m>\Delta</m>, uma constante cujo valor é <m>b^2-4ac</m>, 
-                    ou seja, <m>\Delta=b^2-4ac</m>. 
+                    Para funções quadráticas na forma padrão, <m>f(x)=ax^2+bx+c</m>, a 
+                    a situação não é tão simples, pois precisamos olhar para o discriminante
+                    <m>\Delta=b^2-4ac</m>.
                 </p>
                 <p>
-                    No estudo de funções quadráticas, o discriminante da função quadrática indica quantas raízes reais 
-                    a função possui. Graficamente, isto indica o número de vezes que a parábola intersecta o eixo das abscissas (eixo x).
-                    Ou seja:
+                    <alert>Atividades</alert>
+                </p>
+                <ol>
+                    <li>
+                        Investigue para que valores de <m>k</m> a parábola fará intersecção com o 
+                        eixo e terá 0, 1 ou 2 raízes?
+                        <interactive desmos="cxextjhp98?"/>
+                    </li>
+                    <li>
+                        Investigue para que valores de <m>k</m> a parábola fará intersecção com o 
+                        eixo e terá 0, 1 ou 2 raízes?
+                        <interactive desmos="97a0tzqgem?"/>
+                    </li>
+                </ol>
+                <p>
+                    O discriminante da função quadrática indica quantas raízes reais a função
+                    possui. Graficamente, isto indica o número de vezes que a parábola intersecta 
+                    o eixo das abscissas (eixo x). Ou seja: 
                 </p>
                 <p>
                     <ul>
