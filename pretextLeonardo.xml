@@ -6891,7 +6891,15 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                         </p>
                             <solution>
                                 <p>
-                                    
+                                    Para que a função seja positiva para todo x real precisamos que <m>a&gt;0</m> e 
+                                    <m>\Delta&lt;0</m>. Ou seja, precisamos que a parábola esteja com a concavidade para
+                                    cima e não tenha intersecções com o eixo x. Logo,
+                                    <me>\Delta=(2m-1)^2-4\cdot m\cdot (m+1)=4m^2-4m+1-4m^2-4m=-8m+1&lt;0</me>
+                                    <me>\Rightarrow -8m&lt;-1</me>
+                                    <me>\Rightarrow 8m&gt;1</me>
+                                    <me>\Rightarrow m&gt;\dfrac{1}{8}</me>
+                                    Como as condições (<m>a</m> e <m>k</m>) são simultâneas, então a função será 
+                                    positiva para todo x real, se e somente se, <m>m&gt;\dfrac{1}{8}</m>.
                                 </p>
                             </solution>
                     </li>
@@ -6901,8 +6909,15 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                         </p>
                             <solution>
                                 <p>
-                                    
+                                    Precisamos resolver a inequação produto <m>f\cdot g&lt;0</m>. Logo,
                                 </p>
+                                <ul>
+                                    <li>
+                                        <p>
+                                            Para
+                                        </p>
+                                    </li>
+                                </ul>
                             </solution>
                     </li>
                 </ol>
