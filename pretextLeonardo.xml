@@ -6568,7 +6568,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                     a uma das formas:
                 </p>
                 <p>
-                    <m>ax^2+bx+c&gt;0</m>, <m>ax^2+bx+c\geq0</m>, <m>ax^2+bx+c\leq0</m>, <m>ax^2+bx+c&lt;</m>,
+                    <m>ax^2+bx+c&gt;0</m>, <m>ax^2+bx+c\geq0</m>, <m>ax^2+bx+c\leq0</m>, <m>ax^2+bx+c&lt;0</m>,
                 </p>
                 <p>
                     em que <m>a</m>, <m>b</m> e <m>c</m> são números  reais  quaisquer, com <m>a\neq0</m>.
@@ -6714,7 +6714,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                 <m>x^2-6x+10&lt;0</m>
                                 <solution>
                                     <p>Até o estudo de sinais a solução deste exercício é a mesma. 
-                                        Portanto, a solução do exercício é:
+                                        Portanto, a solução do exercício é o conjunto vazio
                                         <m>S=\{\}</m></p>
                                 </solution>
                             </p>
@@ -6859,6 +6859,30 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                         </p>
                     </solution>
                 </p>
+
+                <p>
+                    <alert>Atividades</alert>
+                </p>
+            
+                <ol>
+                    <li>
+                        <p>
+                            Resolva a inequação <m>x^2-4x+3&gt;0</m>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Determine <m>m</m> para que a função quadrática <m>f(x)=mx^2+(2m-1)x+(m+1)</m>
+                            seja positiva para todo x real.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Resolva a inequação <m>(x^2-8x+12)\cdot(x^2-5x)&lt;0</m>.
+                        </p>
+                    </li>
+                </ol>
+
             </subsection>
 
             <subsection>
