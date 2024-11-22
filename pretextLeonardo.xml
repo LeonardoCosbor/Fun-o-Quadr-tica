@@ -6869,17 +6869,41 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                         <p>
                             Resolva a inequação <m>x^2-4x+3&gt;0</m>.
                         </p>
+                            <solution>
+                                <p>
+                                    Calculando os zeros da função quadrática <m>y=x^2-4x+3</m>, temos que
+                                </p>
+                                    <me>\Delta=(-4)^2-4\cdot 1\cdot 3=16-12=4</me>
+                                    Temos duas raízes reais por <m>\Delta&gt;0</m>. Logo,
+                                    <me>x=\dfrac{4\pm\sqrt4}{2\cdot1}\dfrac{4\pm2}{2}</me>
+                                    <me>\Rightarrow x=\dfrac{4\pm2}{2}</me>
+                                    Abrindo em dois casos, temos que:
+                                    <me>x=\dfrac{4-2}{2}=1</me> e <me>\dfrac{4+2}{2}=3</me>
+                                    <image width="50%" source="AT1.png"/>
+                                    Como <m>a&gt;0</m> então os valores de x que satisfazem a inequação são
+                                    <m>S=\{x\in\mathbb{R}/x&lt;1 \ ou \ x&gt;3}</m>
+                            </solution>
                     </li>
                     <li>
                         <p>
                             Determine <m>m</m> para que a função quadrática <m>f(x)=mx^2+(2m-1)x+(m+1)</m>
                             seja positiva para todo x real.
                         </p>
+                            <solution>
+                                <p>
+                                    
+                                </p>
+                            </solution>
                     </li>
                     <li>
                         <p>
                             Resolva a inequação <m>(x^2-8x+12)\cdot(x^2-5x)&lt;0</m>.
                         </p>
+                            <solution>
+                                <p>
+                                    
+                                </p>
+                            </solution>
                     </li>
                 </ol>
 
