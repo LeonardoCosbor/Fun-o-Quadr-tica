@@ -6191,20 +6191,38 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                         <me>\Delta=b^2-4ac=(-6)^2-4\cdot 1\cdot 5 = 36-20 = 16</me>
                                     </solution>
                                 </li>
+                            </ol>
+                        </li>
+                    </ol>
+                </p>
+
+                        <p><alert>Atividades</alert></p>
+                <p>
+                    <ol>
+                        <li>
+                            <p>Determine o valor do discriminante nas funções a seguir:</p>
+                            <ol marker="a">    
                                 <li>
-                                    <m>g(x)=-x^2+4x-4</m>
+                                    <m>f(x)=-x^2+4x-4</m>
                                     <solution>
                                         <me>\Delta=b^2-4ac=4^2-4\cdot (-1)\cdot (-4)= 16 - 16 = 0</me>
                                     </solution>
                                 </li>
                                 <li>
-                                    <m>h(x)=x^2+4x+5</m>
+                                    <m>g(x)=x^2+4x+5</m>
                                     <solution>
                                         <me>\Delta=b^2-4ac=4^2-4\cdot 1\cdot 5 = 16 - 20 = -4</me>
                                     </solution>
                                 </li>
+                                <li>
+                                    <m>h(x)=5x^2+x-2</m>
+                                    <solution>
+                                        <me>\Delta=b^2-4ac=1^2-4\cdot 5\cdot (-2) = 1 + 40 = 41</me>
+                                    </solution>
+                                </li>
                             </ol>
                         </li>
+                    
                         <li>
                             <p>Determine quantas raízes reais as funções quadráticas a seguir possuem.</p>
                             <ol marker="a">
