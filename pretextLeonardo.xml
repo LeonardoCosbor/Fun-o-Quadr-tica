@@ -6913,9 +6913,20 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                 </p>
                                 <ul>
                                     <li>
-                                        <p>
-                                            Para
-                                        </p>
+                                        <p>Para <m>f(x)=x^2-8x+12</m>, temos:</p>
+                                        <p>Raízes: 2 e 6.</p>
+                                        <p>Concavidade virada para cima pois <m>a=1&gt;0</m></p>
+                                        <p>Graficamente: <image width="50%" source="AT3.png"/></p>
+                                    </li>
+                                    <li>
+                                        <p>Para <m>g(x)=x^2-5x</m></p>
+                                        <p>Raizes: 0 e 5</p> 
+                                        <p>Concavidade virada para cima pois <m>a=1&gt;0</m>.</p>
+                                        <p>Graficamente: <image width="50%" source="AT4.png"/></p>
+                                    </li>
+                                    <li>
+                                        <p>Fazendo a intersecção dos intervalos, temos que:</p>
+                                        <p><m>S=\{x\in\mathbb{R}/0&lt;x&lt;2 \ ou \ 5&lt;x&lt;6}</m></p>
                                     </li>
                                 </ul>
                             </solution>
