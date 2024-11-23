@@ -6926,7 +6926,8 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                     </li>
                                     <li>
                                         <p>Fazendo a intersecção dos intervalos, temos que:</p>
-                                        <p><m>S=\{x\in\mathbb{R}/0&lt;x&lt;2 \ ou \ 5&lt;x&lt;6}</m></p>
+                                        <p><m>S=\{x\in\mathbb{R}/0&lt;x&lt;2 \ ou \ 5&lt;x&lt;6\}</m></p>
+                                        <p><image width="50%" source="AT5.png"/></p>
                                     </li>
                                 </ul>
                             </solution>
