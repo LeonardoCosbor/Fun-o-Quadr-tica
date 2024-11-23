@@ -6947,6 +6947,9 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                 
                 <p><alert>Função Quadrática na Forma Canônica</alert>
                         <interactive geogebra="vefyy4ep"/> 
+                        Observe que se a função quadrática está na forma canônica, então 
+                        <m>f(x)=a(x-m)^2+k</m> tem seu máximo ou mínimo ocorre para <m>x=m</m>
+                        e tem valor <m>y=f(m)</m>.
                 </p>
 
                 <p><alert>Função Quadrática na Forma Padrão</alert>
@@ -6966,7 +6969,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                     </ul>
                 </p>
                 <p>
-                    Vamos resolver alguns exemplos de funções quadráticas, tanto na forma canônica quanto
+                    Vamos resolver exemplos de funções quadráticas, tanto na forma canônica quanto
                     na forma padrão, para que possamos notar quando o vértice da função será ponto de máximo
                     ou ponto de mínimo.
                 </p>
@@ -7016,6 +7019,86 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                         </li>
                     </ol>
                 </p>
+
+                <p><alert>Atividades</alert></p>
+
+                <ol>
+                    <li>
+                        <p>
+                            O gráfico da função <m>y =-\dfrac{1}{200}x²+\dfrac{1}{5}x</m>,
+                            representado na figura a seguir, descreve a trajetória de um projétil,
+                            lançado a partir da origem. Sabendo-se que x e y são dados em 
+                            quilômetros, determine a altura máxima H deste projétil.
+                            <image width="50%" source="proj1.png"/>
+                        </p>
+                            <solution>
+                                <p>
+                                    Como a função quadrática etá na forma padrão, fica mais simples usar a 
+                                    fórmula do y do vértice da função, dada por <m>y_v=-dfrac{\Delta}{4a}</m>.
+                                    Logo, temos que
+                                    <md>
+                                        <mrow>y_v= \amp-\dfrac{\Delta}{4a} </mrow>
+                                        <mrow>y_v= \amp-\dfrac{b^2-4ac}{4a}</mrow>
+                                        <mrow>y_v= \amp-\dfrac{\left(\dfrac{1}{5}\right)^2}{4\cdot\dfrac{-1}{200}}</mrow>
+                                        <mrow>y_v= \amp-\dfrac{\dfrac{1}{25}}{\dfrac{-4}{200}} </mrow>
+                                        <mrow>y_v= \amp\dfrac{-1}{25}\cdot\dfrac{200}{-4} </mrow>
+                                        <mrow>y_v= \amp\dfrac{-200}{-100}</mrow>
+                                        <mrow>y_v= \amp 2 </mrow>
+                                    </md>
+                                    Portanto, o projétil alcança 2 km de altura.
+                                </p>
+                            </solution>
+                    </li>
+                    <li>
+                        <p>
+                            (Enem 2017) A Igreja de São Francisco de Assis, obra arquitetônica
+                            modernista de Oscar Niemeyer, localizada na Lagoa da Pampulha, em 
+                            Belo Horizonte, possui abóbadas parabólicas. A seta na Figura 1 
+                            ilustra uma das abóbadas na entrada principal da capela. A Figura 2
+                            fornece uma vista frontal desta abóbada, com medidas hipotéticas 
+                            para simplificar os cálculos.
+                            <image width="50%" source="proj2.png"/>
+                            Qual a medida da altura H, em metro, indicada na Figura 2?
+                            <ol marker="a">
+                                <li>16/3</li>
+                                <li>31/5</li>
+                                <li>25/4</li>
+                                <li>25/3</li>
+                                <li>75/2</li>
+                            </ol>
+                        </p>
+                            <solution>
+                                <p>
+                                    Vamos usar neste caso, a função quadrática na forma canônica 
+                                    já que sabemos alguns detalhes desta parábola. Por exemplo, 
+                                    o x do vértice, ou seja, o valor de m é igual a zero, pois podemos 
+                                    colocar o eixo de simetria coincidindo com o eixo y. Temos também
+                                    as bases da abóbora que representam os zeros da função, ou seja, os 
+                                    pontos <m>(5,0)</m> e <m>(-5,0)</m>. Por fim, temos o ponto na curva
+                                    da abóbora, dado por <m>(4,3)</m>. Assim,
+                                    <md>
+                                        <mrow>y= \amp a(x-m)^2+k </mrow>
+                                        <mrow>0= \amp a(5-0)^2+k </mrow>
+                                        <mrow>0= \amp 25a+k </mrow>
+                                        <mrow>-25a= \amp k </mrow>
+                                        <mrow> a\amp -\dfrac{k}{25} </mrow>
+                                    </md>
+                                    Para o ponto <m>(4,3)</m>, temos:
+                                    <md>
+                                        <mrow> y= \amp a(x-m)^2+k </mrow>
+                                        <mrow> 3= \amp -\dfrac{k}{25}(4-0)^2+k </mrow>
+                                        <mrow> 3= \amp -\dfrac{16k}{25}+\dfrac{25k}{25}</mrow>
+                                        <mrow> 3= \amp \dfrac{9k}{25}</mrow>
+                                        <mrow> 3\cdot25= \amp 9k</mrow>
+                                        <mrow> 75= \amp 9k</mrow>
+                                        <mrow> k = \amp \dfrac{75}{9}</mrow>
+                                        <mrow> k = \amp \dfrac{25}{3}</mrow>
+                                    </md>
+                                    Portanto, alternativa d.
+                                </p>
+                            </solution>
+                    </li>
+                </ol>
             </subsection>
 
             <subsection>
@@ -7161,8 +7244,8 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                     </li>
                     <li>
                         <p>
-                            Demonstre como encontrar o zero da função quadrática <m>f(x)=2x^2-5x+3</m>
-                            tanto na forma padrão quanto na forma canînica.
+                            Mostre como encontrar o zero da função quadrática <m>f(x)=2x^2-5x+3</m>
+                            tanto na forma padrão quanto na forma canônica.
                         </p>
                             <solution>
                                 <p>
@@ -7231,7 +7314,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                     </li>
                     <li>
                         <p>
-                            Investigue para quais valores de <m>k</m> a função <m>f(x)=x^2-8x+3m-2</m> seja positiva
+                            Investigue para quais valores de <m>m</m> a função <m>f(x)=x^2-8x+3m-2</m> seja positiva
                             para todo valor de x.
                         </p>
                             <solution>
