@@ -5169,23 +5169,29 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                     <p>
                         Seja a função <m>f(x)=-(x-3)^2+9</m>. Determine x sabendo que <m>f(x)=-16</m>.
                     </p>
-                    <me>-(x-3)^2+9=-16</me>
-                    <me>\Rightarrow (x-3)^2-9=16</me>
-                    <me>\Rightarrow(x-3)^2=16+9</me>
-                    <me>\Rightarrow(x-3)^2=25</me>
-                    <me>\Rightarrow x-3=\pm\sqrt25</me>
-                    <me>\Rightarrow x-3=\pm5</me>
+                    <md>
+                    <mrow>-(x-3)^2+9=-16</mrow>
+                    <mrow>\Rightarrow \amp (x-3)^2-9=16</mrow>
+                    <mrow>\Rightarrow \amp (x-3)^2=16+9</mrow>
+                    <mrow>\Rightarrow \amp (x-3)^2=25</mrow>
+                    <mrow>\Rightarrow \amp x-3=\pm\sqrt25</mrow>
+                    <mrow>\Rightarrow \amp x-3=\pm5</mrow>
+                    </md>
                     Abrindo em dois casos temos que:
                     <sidebyside>
                         <p>
-                            <me>x-3=5</me>
-                            <me>\Rightarrow x=5+3</me>
-                            <me>\Rightarrow x=8</me>
+                            <md>
+                            <mrow>x-3=5</mrow>
+                            <mrow>\Rightarrow \ amp x=5+3</mrow>
+                            <mrow>\Rightarrow \ amp x=8</mrow>
+                            </md>
                         </p>
                         <p>
-                            <me>x-3=-5</me>
-                            <me>\Rightarrow x=-5+3</me>
-                            <me>\Rightarrow x=-2</me>
+                            <md>
+                            <mrow>x-3=-5</mrow>
+                            <mrow>\Rightarrow \amp x=-5+3</mrow>
+                            <mrow>\Rightarrow \amp x=-2</mrow>
+                            </md>
                         </p>
                     </sidebyside>
                     <p>
@@ -5204,22 +5210,28 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                     </p>
                     <solution>
                         <p>
-                            <me>3(x-2)^2=75</me>
-                            <me>\Rightarrow(x-2)^2=\dfrac{75}{3}</me>
-                            <me>\Rightarrow(x-2)^2=25</me>
-                            <me>\Rightarrow x-2=\pm\sqrt25</me>
-                            <me>\Rightarrow x-2=\pm5</me>
+                            <md>
+                            <mrow>3(x-2)^2=75</mrow>
+                            <mrow>\Rightarrow(x-2)^2=\dfrac{75}{3}</mrow>
+                            <mrow>\Rightarrow(x-2)^2=25</mrow>
+                            <mrow>\Rightarrow x-2=\pm\sqrt25</mrow>
+                            <mrow>\Rightarrow x-2=\pm5</mrow>
+                            </md>
                             Abrindo em dois casos:
                             <sidebyside>
                                 <p>
+                                    <md>
                                     <me>x-2=-5</me>
-                                    <me>\Rightarrow x=-5+2</me>
-                                    <me>\Rightarrow x=-3</me>
+                                    <me>\Rightarrow \amp x=-5+2</me>
+                                    <me>\Rightarrow \amp x=-3</me>
+                                    </md>
                                 </p>
                                 <p>
-                                    <me>x-2=5</me>
-                                    <me>\Rightarrow x=5+2</me>
-                                    <me>\Rightarrow x=7</me>    
+                                    <md>
+                                    <mrow>x-2=5</mrow>
+                                    <mrow>\Rightarrow \amp x=5+2</mrow>
+                                    <mrow>\Rightarrow \amp x=7</mrow>
+                                    </md>    
                                 </p>
                             </sidebyside>
                         </p>
@@ -5235,13 +5247,15 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                     </p>
                     <solution>
                         <p>
-                            <me>-\dfrac{1}{2}(x-2)^2-3=-3</me>
-                            <me>\Rightarrow-\dfrac{1}{2}(x-2)^2=-3+3</me>
-                            <me>\Rightarrow-\dfrac{1}{2}(x-2)^2=0</me>
-                            <me>\Rightarrow(x-2)^2=\dfrac{0}{-\dfrac{1}{2}}</me>
-                            <me>\Rightarrow(x-2)^2=0</me>
-                            <me>\Rightarrow x=\pm\sqrt0</me>
-                            <me>\Rightarrow x=0</me>
+                            <md>
+                            <mrow>-\dfrac{1}{2}(x-2)^2-3=-3</mrow>
+                            <mrow>\Rightarrow \amp -\dfrac{1}{2}(x-2)^2=-3+3</mrow>
+                            <mrow>\Rightarrow \amp -\dfrac{1}{2}(x-2)^2=0</mrow>
+                            <mrow>\Rightarrow \amp (x-2)^2=\dfrac{0}{-\dfrac{1}{2}}</mrow>
+                            <mrow>\Rightarrow \amp (x-2)^2=0</mrow>
+                            <mrow>\Rightarrow \amp x=\pm\sqrt0</mrow>
+                            <mrow>\Rightarrow \amp x=0</mrow>
+                            </md>
                         </p>
                         <p>
                             Assim, temos um valor de x que determina um <m>f(x)=-3</m>. Ou seja, 
@@ -5289,62 +5303,80 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                 <ul>
                     <li>
                         Para <m>f(x)=(x+1)^2-4</m>, faremos <m>f(x)=0</m>. Logo,
-                        <me>(x+1)^2-4=0</me>
-                        <me>\Rightarrow (x+1)^2=4</me>
-                        <me>\Rightarrow x+1=\pm\sqrt4</me>
-                        <me>\Rightarrow x+1=\pm2</me>
+                        <md>
+                        <mrow>(x+1)^2-4=0</mrow>
+                        <mrow>\Rightarrow \amp (x+1)^2=4</mrow>
+                        <mrow>\Rightarrow \amp x+1=\pm\sqrt4</mrow>
+                        <mrow>\Rightarrow \amp x+1=\pm2</mrow>
+                        </md>
                         Abrindo em duas soluções:
                         <sidebyside>
                             <p>
-                                <me>x+1=2</me>
-                                <me>\Rightarrow x=2-1</me>
-                                <me>\Rightarrow x=1</me>
+                                <md>
+                                <mrow>x+1=2</mrow>
+                                <mrow>\Rightarrow \amp x=2-1</mrow>
+                                <mrow>\Rightarrow \amp x=1</mrow>
+                                </md>
                             </p>
                             <p>
-                                <me>x+1=-2</me>
-                                <me>\Rightarrow x=-2-1</me>
-                                <me>\Rightarrow x=-3</me>
+                                <md>
+                                    <mrow>x+1=-2</mrow>
+                                    <mrow>\Rightarrow \amp x=-2-1</mrow>
+                                    <mrow>\Rightarrow \amp x=-2-1 \amp </mrow>
+                                    <mrow>\Rightarrow \amp x=-3 </mrow>
+                                </md>
                             </p>
                         </sidebyside>
                         Portanto, -3 e 1 são os <alert>zeros da função quadrática</alert> <m>f(x)=(x+1)^2-4</m>.
                     </li>
                     <li>
                         Para <m>f(x)=-(x-3)^2+9</m>, faremos <m>f(x)=0</m>. Logo,
-                        <me>-(x-3)^2+9=0</me>
-                        <me>\Rightarrow -(x-3)^2=-9 \cdot(-1)</me>
-                        <me>\Rightarrow (x-3)^2=9</me>
-                        <me>\Rightarrow x-3=\pm\sqrt9</me>
-                        <me>\Rightarrow x-3=\pm3</me>
+                        <md>
+                        <mrow>-(x-3)^2+9=0</mrow>
+                        <mrow>\Rightarrow \amp -(x-3)^2=-9 \cdot(-1)</mrow>
+                        <mrow>\Rightarrow \amp (x-3)^2=9</mrow>
+                        <mrow>\Rightarrow \amp x-3=\pm\sqrt9</mrow>
+                        <mrow>\Rightarrow x-3= \pm3</mrow>
+                        </md>
                         Abrindo em 2 casos, temos que:
                         <sidebyside>
                             <p>
-                                <me>x-3=3</me>
-                                <me>\Rightarrow x=3+3</me>
-                                <me>\Rightarrow x=6</me>
+                                <md>
+                                <mrow>x-3=3</mrow>
+                                <mrow>\Rightarrow \amp x=3+3</mrow>
+                                <mrow>\Rightarrow \amp x=6</mrow>
+                                </md>
                             </p>
                             <p>
-                                <me>x-3=-3</me>
-                                <me>\Rightarrow x=-3+3</me>
-                                <me>\Rightarrow x=0</me>
+                                <md>
+                                <mrow>x-3=-3</mrow>
+                                <mrow>\Rightarrow \amp x=-3+3</mrow>
+                                <mrow>\Rightarrow  \amp x=0</mrow>
+                                </md>
                             </p>
                         </sidebyside>
                         Portanto, 0 e 6 são os <alert>zeros da função quadrática</alert> <m>f(x)=-(x-3)^2+9</m>.
                     </li>
                     <li>
                         Para <m>f(x)=3\cdot(x-2)^2</m>, faremos <m>f(x)=0</m>. Logo,
-                        <me>3\cdot(x-2)^2=0</me>
-                        <me>\Rightarrow (x-2)^2=0</me>
-                        <me>\Rightarrow x-2=\pm\sqrt0</me>
-                        <me>\Rightarrow x-2=0</me>
-                        <me>\Rightarrow x=2</me>
+                        <md>
+                        <mrow>3\cdot(x-2)^2= 0</mrow>
+                        <mrow>\Rightarrow \amp (x-2)^2=0</mrow>
+                        <mrow>\Rightarrow \amp x-2=\pm\sqrt0</mrow>
+                        <mrow>\Rightarrow \amp x-2=0</mrow>
+                        <mrow>\Rightarrow \amp x=2</mrow>
+                        </md>
                         Portanto, 2 é o <alert>zero da função quadrática</alert> <m>f(x)=3\cdot(x-2)^2</m>.
                     </li>
                     <li>
                         Para <m>f(x)=-\dfrac{1}{2}(x-2)^2-3</m>, faremos <m>f(x)=0</m>. Logo,
-                        <me>-\dfrac{1}{2}(x-2)^2-3=0</me>
-                        <me>\Rightarrow -\dfrac{1}{2}(x-2)^2=3</me>
-                        <me>\Rightarrow (x-2)^2=-6</me>
-                        <me>\Rightarrow x-2=\pm\sqrt-6</me>
+                        <md>
+                            <mrow>-\dfrac{1}{2}(x-2)^2-3= 0</mrow>
+                            <mrow>\Rightarrow \amp -\dfrac{1}{2}(x-2)^2= 3</mrow>
+                            <mrow>\Rightarrow \amp (x-2)^2= -6</mrow>
+                            <mrow>\Rightarrow \amp x-2= \pm\sqrt-6</mrow>
+                        </md>
+
                         Como a função quadrática é definida em <m>\mathbb{R}</m> e <m>\sqrt-6</m> não
                         tem solução nos reais, então a função quadrática <alert>não possui zeros</alert>.
                         Dependendo do ano em que se trabalha a resolução de uma equação quadrática, esta 
@@ -5352,11 +5384,11 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                         <sidebyside>
                             <p>
                                 <me>x-2=\sqrt6i</me>
-                                <me>x=\sqrt6i+2</me>
+                                <me>\Rightarrow x=\sqrt6i+2</me>
                             </p>
                             <p>
                                 <me>x-2=-\sqrt6i</me>
-                                <me>x=-\sqrt6i+2</me>
+                                <me>\Rightarrow x=-\sqrt6i+2</me>
                             </p>
                         </sidebyside>
                         Portanto, <m>x=-\sqrt6i+2</m> e <m>x=\sqrt6i+2</m> são os <alert>zeros da função</alert>.
@@ -5375,23 +5407,29 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                 <m>f(x)=3(x+1)^2-3</m>
                                     <solution>
                                         <p>
-                                            <me>f(x)=0</me>
-                                            <me>\Rightarrow 3(x+1)^2-3=0</me>
-                                            <me>\Rightarrow 3(x+1)^2=3</me>
-                                            <me>\Rightarrow (x+1)^2=\dfrac{3}{3}</me>
-                                            <me>\Rightarrow (x+1)^2=1</me>
-                                            <me>\Rightarrow x+1=\pm1</me>
+                                            <md>
+                                            <mrow>f(x)=0</mrow>
+                                            <mrow>\Rightarrow \amp 3(x+1)^2-3= 0</mrow>
+                                            <mrow>\Rightarrow \amp 3(x+1)^2= 3</mrow>
+                                            <mrow>\Rightarrow \amp (x+1)^2= \dfrac{3}{3}</mrow>
+                                            <mrow>\Rightarrow \amp (x+1)^2= 1</mrow>
+                                            <mrow>\Rightarrow \amp x+1= \pm1</mrow>
+                                            </md>
                                             Abrindo em dois casos, temos:
                                             <sidebyside>
                                                 <p>
-                                                    <me>x+1=1</me>
-                                                    <me>\Rightarrow x=1-1</me>
-                                                    <me>\Rightarrow x=0</me>
+                                                    <md>
+                                                    <mrow>x+1= \amp 1</mrow>
+                                                    <mrow>\Rightarrow \amp x= 1-1</mrow>
+                                                    <mrow>\Rightarrow \amp x= 0</mrow>
+                                                    </md>
                                                 </p>
                                                 <p>
-                                                    <me>x+1=-1</me>
-                                                    <me>\Rightarrow x=-1-1</me>
-                                                    <me>\Rightarrow x=-2</me>
+                                                    <md>
+                                                    <mrow>x+1=-1</mrow>
+                                                    <me>\Rightarrow \amp x=-1-1</me>
+                                                    <me>\Rightarrow \amp x=-2</me>
+                                                    </md>
                                                 </p>
                                             </sidebyside>
                                             Portanto, -2 e 0 são os zeros da função.
@@ -5402,13 +5440,15 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                 <m>g(x)=-4(x-3)^2</m>
                                 <solution>
                                     <p>
-                                        <me>g(x)=0</me>
-                                        <me>\Rightarrow -4(x-3)^2=0</me>
-                                        <me>\Rightarrow (x-3)^2=\dfrac{0}{-4}</me>
-                                        <me>\Rightarrow (x-3)^2=0</me>
-                                        <me>\Rightarrow x-3=\pm0</me>
-                                        <me>\Rightarrow x-3=0</me>
-                                        <me>\Rightarrow x=3</me>
+                                    <md>
+                                        <mrow>g(x)=0</mrow>
+                                        <mrow>\Rightarrow \amp -4(x-3)^2=0</mrow>
+                                        <mrow>\Rightarrow \amp (x-3)^2=\dfrac{0}{-4}</mrow>
+                                        <mrow>\Rightarrow \amp (x-3)^2=0</mrow>
+                                        <mrow>\Rightarrow \amp x-3=\pm0</mrow>
+                                        <mrow>\Rightarrow \amp x-3=0</mrow>
+                                        <mrow>\Rightarrow \amp x=3</mrow>
+                                    </md>
                                         
                                         Portanto, 3 é o zero da função.
                                     </p>
@@ -5418,12 +5458,14 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                 <m>h(x)=-(x-3)^2-2</m>
                                 <solution>
                                 <p>
-                                    <me>h(x)=0</me>
-                                    <me>\Rightarrow -(x-3)^2-2=0</me>
-                                    <me>\Rightarrow -(x-3)^2=2</me>
-                                    <me>\Rightarrow (x-3)^2=\dfrac{2}{-1}</me>
-                                    <me>\Rightarrow (x-3)^2=-2</me>
-                                    <me>\Rightarrow x-3=\pm-2</me>
+                                    <md>
+                                    <mrow>h(x)=0</mrow>
+                                    <mrow>\Rightarrow \amp -(x-3)^2-2=0</mrow>
+                                    <mrow>\Rightarrow \amp -(x-3)^2=2</mrow>
+                                    <mrow>\Rightarrow \amp (x-3)^2=\dfrac{2}{-1}</mrow>
+                                    <mrow>\Rightarrow \amp (x-3)^2=-2</mrow>
+                                    <mrow>\Rightarrow \amp x-3=\pm-2</mrow>
+                                    </md>
                                     A função não possui zeros reais. Mas podemos abrir
                                     em dois casos utilizando a unidade imaginária <m>\sqrt-1=i</m>. Logo:
                                     <sidebyside>
@@ -5478,10 +5520,10 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                             <m>f(x)=3x^2</m>
                                                 <solution>
                                                     <me>3x^2=0</me>
-                                                    <me>\Rightarrow x^2=0/3</me>
-                                                    <me>\Rightarrow x^2=0</me>
-                                                    <me>\Rightarrow x=\pm\sqrt0</me>
-                                                    <me>\Rightarrow x=0</me>
+                                                    <me>\Rightarrow \amp x^2=0/3</me>
+                                                    <me>\Rightarrow \amp x^2=0</me>
+                                                    <me>\Rightarrow \amp x=\pm\sqrt0</me>
+                                                    <me>\Rightarrow \amp x=0</me>
                                                     Portanto, 0 é o <alert>zero da função quadrática</alert>.
                                                 </solution>
                                         </p>
@@ -5496,10 +5538,10 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                         <p>
                                             <m>f(x)=x^2-4</m>
                                                 <solution>
-                                                    <me>\Rightarrow x^2-4=0</me>
-                                                    <me>\Rightarrow x^2=4</me>
-                                                    <me>\Rightarrow x=\pm\sqrt4</me>
-                                                    <me>\Rightarrow x=\pm2</me>
+                                                    <me>x^2-4=0</me>
+                                                    <me>\Rightarrow \amp x^2=4</me>
+                                                    <me>\Rightarrow \amp x=\pm\sqrt4</me>
+                                                    <me>\Rightarrow \amp x=\pm2</me>
                                                     Portanto, -2 e 2 são os <alert>zeros da função quadrática</alert>
                                                 </solution>
                                         </p>
@@ -5514,9 +5556,11 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                         <p>
                                             <m>f(x)=x^2-5x</m>
                                                 <solution>
-                                                    <me>x^2-5x=0</me>
-                                                    <me>\Rightarrow x\cdot(x-5)=0</me>
-                                                    <me>\Rightarrow x=0</me> e <me>x=5</me>
+                                                    <md>
+                                                    <mrow>x^2-5x=0</mrow>
+                                                    <mrow>\Rightarrow \amp x\cdot(x-5)=0</mrow>
+                                                    <mrow>\Rightarrow \amp x=0 \ e \ x=5</mrow>
+                                                    </md>
                                                     Portanto, 0 e 5 são os <alert>zeros da função quadrática.</alert>
                                                 </solution>
                                         </p>
@@ -5539,13 +5583,15 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                         <p>
                                             <m>f(x)=-\dfrac{2x^2}{5}</m>
                                                 <solution>
-                                                    <me>-\dfrac{2x^2}{5}=0</me>
-                                                    <me>\Rightarrow-2x^2=0\cdot5</me>
-                                                    <me>\Rightarrow-2x^2=0</me>
-                                                    <me>\Rightarrow x^2=\dfrac{0}{-2}</me>
-                                                    <me>\Rightarrow x^2=0</me>
-                                                    <me>\Rightarrow x=\pm\sqrt0</me>
-                                                    <me>\Rightarrow x=0</me>
+                                                    <md>
+                                                    <mrow>-\dfrac{2x^2}{5}=0</mrow>
+                                                    <mrow>\Rightarrow \amp -2x^2=0\cdot5</mrow>
+                                                    <mrow>\Rightarrow \amp -2x^2=0</mrow>
+                                                    <mrow>\Rightarrow \amp x^2=\dfrac{0}{-2}</mrow>
+                                                    <mrow>\Rightarrow \amp x^2=0</mrow>
+                                                    <mrow>\Rightarrow \amp x=\pm\sqrt0</mrow>
+                                                    <mrow>\Rightarrow \amp x=0</mrow>
+                                                    </md>
                                                     Portanto, 0 é o <alert>zero da função quadrática</alert>.
                                                 </solution>
                                         </p>
@@ -5554,11 +5600,13 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                         <p>
                                             <m>f(x)=-\sqrt6 x^2</m>
                                                 <solution>
-                                                    <me>-\sqrt6 x^2=0</me>
-                                                    <me>\Rightarrow x^2=\dfrac{0}{-\sqrt6}</me>
-                                                    <me>\Rightarrow x^2=0</me>
-                                                    <me>\Rightarrow x=\pm\sqrt0</me>
-                                                    <me>\Rightarrow x=0</me>
+                                                    <md>
+                                                    <mrow>-\sqrt6 x^2=0</mrow>
+                                                    <mrow>\Rightarrow \amp x^2=\dfrac{0}{-\sqrt6}</mrow>
+                                                    <mrow>\Rightarrow \amp x^2=0</mrow>
+                                                    <mrow>\Rightarrow \amp x=\pm\sqrt0</mrow>
+                                                    <mrow>\Rightarrow \amp x=0</mrow>
+                                                    </md>
                                                     Portanto, 0 é o <alert>zero da função quadrática</alert>.
                                                 </solution>
                                         </p>
@@ -5567,12 +5615,14 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                         <p>
                                             <m>f(x)=3x^2-27</m>
                                                 <solution>
-                                                    <me>3x^2-27=0</me>
-                                                    <me>\Rightarrow 3x^2=27</me>
-                                                    <me>\Rightarrow x^2=\dfrac{27}{3}</me>
-                                                    <me>\Rightarrow x^2=9</me>
-                                                    <me>\Rightarrow x=\pm\sqrt9</me>
-                                                    <me>\Rightarrow x=\pm3</me>
+                                                    <md>
+                                                    <mrow>3x^2-27=0</mrow>
+                                                    <mrow>\Rightarrow  \amp 3x^2=27</mrow>
+                                                    <mrow>\Rightarrow  \amp x^2=\dfrac{27}{3}</mrow>
+                                                    <mrow>\Rightarrow  \amp x^2=9</mrow>
+                                                    <mrow>\Rightarrow  \amp x=\pm\sqrt9</mrow>
+                                                    <mrow>\Rightarrow  \amp x=\pm3</mrow>
+                                                    </md>
                                             </solution>
                                         </p>
                                     </li>
@@ -5580,11 +5630,13 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                         <p>
                                             <m>f(x)=2x^2-7</m>
                                                 <solution>
-                                                    <me>4x^2-7=0</me>
-                                                    <me>\Rightarrow 4x^2=7</me>
-                                                    <me>\Rightarrow x^2=\dfrac{7}{4}</me>
-                                                    <me>\Rightarrow x=\pm\sqrt(\dfrac{7}{4})</me>
-                                                    <me>\Rightarrow x=\pm\dfrac{\sqrt7}{2}</me>
+                                                    <md>
+                                                    <mrow>4x^2-7=0</mrow>
+                                                    <mrow>\Rightarrow \amp 4x^2=7</mrow>
+                                                    <mrow>\Rightarrow \amp x^2=\dfrac{7}{4}</mrow>
+                                                    <mrow>\Rightarrow \amp x=\pm\sqrt(\dfrac{7}{4})</mrow>
+                                                    <mrow>\Rightarrow \amp x=\pm\dfrac{\sqrt7}{2}</mrow>
+                                                    </md>
                                                 </solution>
                                         </p>
                                     </li>
@@ -5592,12 +5644,14 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                         <p>
                                             <m>f(x)=25-5x^2</m>
                                                 <solution>
-                                                    <me>25-5x^2=0</me>
-                                                    <me>\Rightarrow 5x^2=25</me>
-                                                    <me>\Rightarrow x^2=\dfrac{25}{5}</me>
-                                                    <me>\Rightarrow x^2=5</me>
-                                                    <me>\Rightarrow x=\pm\sqrt(\dfrac{5}{2})</me>
-                                                    <me>\Rightarrow x=\pm\dfrac{\sqrt10}{2}</me>
+                                                    <md>
+                                                    <mrow>25-5x^2=0</mrow>
+                                                    <mrow>\Rightarrow \amp 5x^2=25</mrow>
+                                                    <mrow>\Rightarrow \amp x^2=\dfrac{25}{5}</mrow>
+                                                    <mrow>\Rightarrow \amp x^2=5</mrow>
+                                                    <mrow>\Rightarrow \amp x=\pm\sqrt(\dfrac{5}{2})</mrow>
+                                                    <mrow>\Rightarrow \amp x=\pm\dfrac{\sqrt10}{2}</mrow>
+                                                    </md>
                                                     Portanto, <m>-\dfrac{\sqrt10}{2}</m> e <m>\dfrac{\sqrt10}{2}</m> são os 
                                                     <alert>zeros da função quadrática.</alert>
                                                 </solution>
@@ -5607,11 +5661,13 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                         <p>
                                             <m>f(x)=-3x^2-27x</m>
                                                 <solution>
-                                                    <me>\Rightarrow -3x^2-27x=0</me>
-                                                    <me>\Rightarrow x\cdot(-3x-27)=0</me>
-                                                    <me>\Rightarrow x=0</me> e 
-                                                    <me>\Rightarrow x=\dfrac{27}{-3}</me>
-                                                    <me>\Rightarrow x=-9</me>
+                                                    <md>
+                                                    <mrow>-3x^2-27x=0</mrow>
+                                                    <mrow>\Rightarrow \amp x\cdot(-3x-27)=0</mrow>
+                                                    <mrow>\Rightarrow \amp x=0</mrow> e 
+                                                    <mrow>\Rightarrow \amp x=\dfrac{27}{-3}</mrow>
+                                                    <mrow>\Rightarrow \amp x=-9</mrow>
+                                                    </md>
                                                     <p>Portanto, 0 e -9 são os <alert>zeros da função quadrática.</alert></p>
                                                 </solution>
                                         </p>
@@ -5655,9 +5711,11 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                             <p>Calculando o discriminante:</p>
                                             <me>\Delta=b^2-4ac=(-5)^2-4\cdot 2\cdot 3= 25-24 = 1.</me>
                                             Logo, temos que os valores de x são:
-                                            <me>x=\dfrac{-b\pm\sqrt\Delta}{2a}</me>
-                                            <me>\Rightarrow x=\dfrac{-(-5)\pm\sqrt1}{2\cdot2}</me>
-                                            <me>\Rightarrow x=\dfrac{5\pm1}{4}</me>
+                                            <md>
+                                            <mrow>x=\dfrac{-b\pm\sqrt\Delta}{2a}</mrow>
+                                            <mrow>\Rightarrow \amp x=\dfrac{-(-5)\pm\sqrt1}{2\cdot2}</mrow>
+                                            <mrow>\Rightarrow \amp x=\dfrac{5\pm1}{4}</mrow>
+                                            </md>
                                             Separando em dois casos:
                                             <m>x_1=\dfrac{5+1}{4}=\dfrac{6}{4}=\dfrac{3}{2}</m>
                                             e
@@ -5671,9 +5729,11 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                             <p>Calculando o discriminante:</p>
                                             <me>\Delta=b^2-4ac=(12)^2-4\cdot (-1)\cdot (-36)= 144-144 = 0.</me>
                                             Logo, temos que os valores de x são:
-                                            <me>x=\dfrac{-b\pm\sqrt\Delta}{2a}</me>
-                                            <me>\Rightarrow x=\dfrac{-(12)\pm\sqrt0}{2\cdot(-1)}</me>
-                                            <me>\Rightarrow x=\dfrac{-12\pm0}{-2}</me>
+                                            <md>
+                                            <mrow>x=\dfrac{-b\pm\sqrt\Delta}{2a}</mrow>
+                                            <mrow>\Rightarrow \amp x=\dfrac{-(12)\pm\sqrt0}{2\cdot(-1)}</mrow>
+                                            <mrow>\Rightarrow \amp x=\dfrac{-12\pm0}{-2}</mrow>
+                                            </md>
                                             Separando em dois casos:
                                             <m>x_1=\dfrac{-12+0}{-2}=\dfrac{-12}{-2}=6</m>
                                             e
@@ -5687,8 +5747,10 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                             <p>Calculando o discriminante:</p>
                                             <me>\Delta=b^2-4ac=(2)^2-4\cdot 1\cdot 2= 4-8 = -4.</me>
                                             Logo, temos que os valores de x são:
-                                            <me>x=\dfrac{-b\pm\sqrt\Delta}{2a}</me>
-                                            <me>\Rightarrow x=\dfrac{-2\pm\sqrt-4}{2}</me>
+                                            <md>
+                                            <mrow>x=\dfrac{-b\pm\sqrt\Delta}{2a}</mrow>
+                                            <mrow>\Rightarrow \amp x=\dfrac{-2\pm\sqrt-4}{2}</mrow>
+                                            </md>
                                             Separando em dois casos:
                                             <m>x_1=\dfrac{-2+2i}{2}=-1+i</m>
                                             e
@@ -5714,9 +5776,11 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                             <p>Calculando o discriminante:</p>
                                             <me>\Delta=b^2-4ac=(4)^2-4\cdot (-1)\cdot (-3)= 16-12 = 4.</me>
                                             Logo, temos que os valores de x são:
-                                            <me>x=\dfrac{-b\pm\sqrt\Delta}{2a}</me>
-                                            <me>\Rightarrow x=\dfrac{-4\pm\sqrt4}{2\cdot(-1)}</me>
-                                            <me>\Rightarrow x=\dfrac{-4\pm2}{-2}</me>
+                                            <md>
+                                            <mrow>x=\dfrac{-b\pm\sqrt\Delta}{2a}</mrow>
+                                            <mrow>\Rightarrow \amp x=\dfrac{-4\pm\sqrt4}{2\cdot(-1)}</mrow>
+                                            <mrow>\Rightarrow x=\dfrac{-4\pm2}{-2}</mrow>
+                                            \</md>
                                             Separando em dois casos:
                                             <m>x_1=\dfrac{-4+2}{-2}=\dfrac{-2}{-2}=1</m>
                                             e
@@ -5730,9 +5794,11 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                             <p>Calculando o discriminante:</p>
                                             <me>\Delta=b^2-4ac=(-4)^2-4\cdot 1\cdot 4= 16-16 = 0.</me>
                                             Logo, temos que os valores de x são:
-                                            <me>x=\dfrac{-b\pm\sqrt\Delta}{2a}</me>
-                                            <me>\Rightarrow x=\dfrac{-(-4)\pm\sqrt0}{2\cdot1}</me>
-                                            <me>\Rightarrow x=\dfrac{4\pm0}{2}</me>
+                                            <md>
+                                            <mrow>x=\dfrac{-b\pm\sqrt\Delta}{2a}</mrow>
+                                            <mrow>\Rightarrow \amp x=\dfrac{-(-4)\pm\sqrt0}{2\cdot1}</mrow>
+                                            <mrow>\Rightarrow x=\dfrac{4\pm0}{2}</mrow>
+                                            </md>
                                             Separando em dois casos:
                                             <m>x_1=\dfrac{4+0}{2}=\dfrac{4}{2}=2</m>
                                             e
@@ -5746,9 +5812,11 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                             <p>Calculando o discriminante:</p>
                                             <me>\Delta=b^2-4ac=(-5)^2-4\cdot 2\cdot 4= 25-32 = -7.</me>
                                             Logo, temos que os valores de x são:
-                                            <me>x=\dfrac{-b\pm\sqrt\Delta}{2a}</me>
-                                            <me>\Rightarrow x=\dfrac{-5\pm\sqrt(-7)}{2\cdot2}</me>
-                                            <me>\Rightarrow x=\dfrac{-5\pm\sqrt7i}{4}</me>
+                                            <md>
+                                            <mrow>x=\dfrac{-b\pm\sqrt\Delta}{2a}</mrow>
+                                            <mrow>\Rightarrow \amp x=\dfrac{-5\pm\sqrt(-7)}{2\cdot2}</mrow>
+                                            <mrow>\Rightarrow x=\dfrac{-5\pm\sqrt7i}{4}</mrow>
+                                            </md>
                                             Separando em dois casos:
                                             <m>x_1=\dfrac{-5+\sqrt7i}{4}</m>
                                             e
@@ -5786,6 +5854,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                         ou seja, a soma das raízes da equação <m>ax^2+bx+c=0</m> é dada por <m>−\dfrac{b}{a}</m>.</p>
                                         <p>
                                             Sejam <m>x_1=\dfrac{-b-\sqrt\Delta}{2a}</m> e <m>x_2=\dfrac{-b+\sqrt\Delta}{2a}</m>, então
+                                            
                                             <me>x_1+x_2=\dfrac{-b-\sqrt\Delta}{2a}+\dfrac{-b+\sqrt\Delta}{2a}</me>
                                             <me>=\dfrac{-2b}{2a}</me>
                                             <me>=-\dfrac{b}{a}</me>
