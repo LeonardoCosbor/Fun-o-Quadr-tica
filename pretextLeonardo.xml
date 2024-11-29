@@ -57,7 +57,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
         <frontmatter>
 
             <titlepage>
-                <authors>
+                
                     <author>
                         <personname>Leonardo Costa de Borba</personname>
                     </author>
@@ -65,7 +65,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                         <personname>Marcio Rostirolla Adames</personname>
                     </author>
                     <institution>Universidade Technológica Federal do Paraná</institution>
-                </authors>
+                
 
                 <date><today/></date>
             </titlepage>
