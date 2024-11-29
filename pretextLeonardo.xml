@@ -61,9 +61,9 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                     <author>
                         <personname>Leonardo Costa de Borba</personname>
                     </author>
-                    <coauthor>
+                    <author>
                         <personname>Marcio Rostirolla Adames</personname>
-                    </coauthor>
+                    </author>
                     <institution>Universidade Technológica Federal do Paraná</institution>
                 </authors>
 
