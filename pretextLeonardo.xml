@@ -62,9 +62,9 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                     <institution>Universidade Technológica Federal do Paraná</institution>
                 </author>
 
-                <coauthor>
+                <co-author>
                     <personname>Marcio Rostirolla Adames</personname>
-                </coauthor>
+                </co-author>
                 <date><today/></date>
             </titlepage>
 
