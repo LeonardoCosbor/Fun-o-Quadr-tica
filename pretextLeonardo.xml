@@ -59,12 +59,12 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
             <titlepage>
                 <author>
                     <personname>Leonardo Costa de Borba</personname>
+                    <coauthor>
+                        <personname>Marcio Rostirolla Adames</personname>
+                    </coauthor>
                     <institution>Universidade Technológica Federal do Paraná</institution>
                 </author>
 
-                <co-author>
-                    <personname>Marcio Rostirolla Adames</personname>
-                </co-author>
                 <date><today/></date>
             </titlepage>
 

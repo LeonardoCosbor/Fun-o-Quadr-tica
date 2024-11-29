@@ -7,7 +7,7 @@ var ptx_lunr_docs = [
   "type": "Pré-textual",
   "number": "",
   "title": "Pré-textual",
-  "body": "   Leonardo Costa de Borba  Universidade Technológica Federal do Paraná    Marcio Rostirolla Adames      Notas de aula de um curso de função quadrática. Trabalho em progresso...  Todos os direitos reservados. All rights reserved.   "
+  "body": "   Leonardo Costa de Borba   Marcio Rostirolla Adames   Universidade Technológica Federal do Paraná      Notas de aula de um curso de função quadrática. Trabalho em progresso...  Todos os direitos reservados. All rights reserved.   "
 },
 {
   "id": "minimal-3",
