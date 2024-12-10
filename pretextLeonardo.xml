@@ -56,14 +56,14 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
 
         <frontmatter>
 
-            <titlepage>
+        <titlepage>
                 
-                    <author>
-                        <personname>Leonardo Costa de Borba</personname>
-                    </author>
-                    <author>
-                        <personname>Marcio Rostirolla Adames</personname>
-                    </author>
+        <author>
+            <personname>Leonardo Costa de Borba</personname>
+        </author>
+        <author>
+            <personname>Marcio Rostirolla Adames</personname>
+        </author>
                     <institution>Universidade Technológica Federal do Paraná</institution>
                 
 
@@ -76,14 +76,16 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
             </abstract>
 
         </frontmatter>
+
             <section>
                     <title>Situações realísticas</title>
                 <subsection xml:id="aa">
                     <title>Comportamento de uma Função Quadrática</title>
                 <p>
-                Para estudarmos um novo tipo de padrão de função, vamos considerar
-                um experimento físico chamado queda livre, um movimento vertical que 
-                consiste na queda dos corpos sem o efeito da força de atrito.
+                Para estudarmos um novo tipo de padrão de função, vamos 
+                considerar um experimento físico chamado queda livre, um 
+                movimento vertical que consiste na queda dos corpos sem 
+                o efeito da força de atrito.
                 </p>
                 <p>
                 Observe a imagem:
@@ -290,7 +292,8 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                 <p>
                     <ol>
                         <li>
-                            <p>Observe as imagens e reconheça qual delas representa uma situação estudada no capítulo.</p>
+                            <p>Observe as imagens e reconheça qual delas 
+                            representa uma situação estudada no capítulo.</p>
                             <p>
                                 <sidebyside>
                                     <p>
@@ -1827,8 +1830,9 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                         </li>
 
                         <li>
-                            <p>Compare as fórmulas e explique qual delas representa o número de quadradinhos na 
-                                figura 1.55, com x=1,2,3, ...</p>
+                            <p>Compare as fórmulas e explique qual delas representa
+                            o número de quadradinhos na  figura 1.55, 
+                            com x=1,2,3, ...</p>
                             <sidebyside>
                             <p>
                                 <ol>
@@ -2407,13 +2411,18 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                             <p>
                             </p>
                             <li>
-                                <p>Descreva como seria a fórmula que representa a área do triângulo DEF.</p>
+                                <p>Descreva como seria a fórmula que representa a área
+                                do triângulo DEF.</p>
                                     <figure>
                                         <image width="50%" source="trianguloV.png"/>
                                     </figure>
 
                                     <solution>
-                                        <p><m>A=\dfrac{2x\cdot (x+1)}{2}=\dfrac{2x^2+2x}{2}=x^2+x</m></p>
+                                        <md>
+                                            <mrow>A =\amp \dfrac{2x\cdot (x+1)}{2} </mrow>
+                                            <mrow>= \amp \dfrac{2x^2+2x}{2} </mrow>
+                                            <mrow>= \amp x^2+x</mrow>
+                                        </md>
                                     </solution>
                             </li>
                         <p></p>
