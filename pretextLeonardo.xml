@@ -5413,7 +5413,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                 <ol>
                     <li>
                         <p>
-                            Determnine os zeros das seguintes funções:
+                            Determine os zeros das seguintes funções:
                         </p>
                         <ol marker="a">
                             <li>
@@ -5440,8 +5440,8 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                                 <p>
                                                     <md>
                                                     <mrow>x+1=-1</mrow>
-                                                    <me>\Rightarrow \amp x=-1-1</me>
-                                                    <me>\Rightarrow \amp x=-2</me>
+                                                    <mrow>\Rightarrow \amp x=-1-1</mrow>
+                                                    <mrow>\Rightarrow \amp x=-2</mrow>
                                                     </md>
                                                 </p>
                                             </sidebyside>
@@ -7027,15 +7027,17 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                 <title>Máximos e Mínimos da Função Quadrática</title>
 
                 <p>
-                    Observando o gráfico interativo a seguir e usando os controles deslizantes,
-                    vamos analisar os valores do coeficiente <m>a</m> e a posição do vértice <m>V=(x_v,y_v)</m>
-                    da parábola.
+                    Observando o gráfico interativo a seguir e usando os 
+                    controles deslizantes, vamos analisar os valores do 
+                    coeficiente <m>a</m> e a posição do vértice 
+                    <m>V=(x_v,y_v)</m> da parábola.
                 </p>
                 
                 <p><alert>Função Quadrática na Forma Canônica</alert>
                         <interactive geogebra="vefyy4ep"/> 
-                        Observe que se a função quadrática está na forma canônica, então 
-                        <m>f(x)=a(x-m)^2+k</m> tem seu máximo ou mínimo ocorre para <m>x=m</m>
+                        Observe que se a função quadrática está na forma 
+                        canônica, então <m>f(x)=a(x-m)^2+k</m> tem seu 
+                        máximo ou mínimo ocorre para <m>x=m</m>
                         e tem valor <m>y=f(m)</m>.
                 </p>
 
