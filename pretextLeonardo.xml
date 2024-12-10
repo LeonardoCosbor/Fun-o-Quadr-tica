@@ -2413,9 +2413,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                             <li>
                                 <p>Descreva como seria a fórmula que representa a área
                                 do triângulo DEF.</p>
-                                    <figure>
-                                        <image width="50%" source="trianguloV.png"/>
-                                    </figure>
+                                    <image width="50%" source="trianguloV.png"/>
 
                                     <solution>
                                         <md>
