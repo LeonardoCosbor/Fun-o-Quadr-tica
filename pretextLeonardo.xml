@@ -975,10 +975,10 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                             </p>
                                 
                                 </solution>
-                         </li>
+                        </li>
 
                         <li>
-                            <alert>DESAFIO</alert> Para evitar uma epidemia, a Secretaria de Saúde de uma cidade
+                            <alert>DESAFIO</alert> (ENEM 2016) Para evitar uma epidemia, a Secretaria de Saúde de uma cidade
                             dedetizou todos os bairros, de modo a evitar a proliferação do 
                             mosquito da dengue. Sabe-se que o número f de infectados é dado
                             por uma determinada função f(t) em que t é expresso em dia e t = 0
@@ -989,6 +989,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                             segunda dedetização precisou acontecer. Utilize os valores da tabela
                             para determinar em que dia a detetização acontecerá. 
                                 <table>
+                                    <title>Número de infectados em determinado dia t</title>
                                     <tabular halign="center">
                                         <row bottom="minor">
                                             <cell>t</cell>
