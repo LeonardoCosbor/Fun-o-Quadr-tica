@@ -81,12 +81,12 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                     de marcação chamada o PreTeXt, que tem os recursos 
                     necessários para produzir materiais interativos, integrando 
                     ferramentas como o Desmos e o GeoGebra. Para o desenvolvimento
-                     metodológico, levamos em conta os erros e acertos dos 
-                     estudantes na Prova Paraná, recomendações baseadas nos 
-                     resultados do PISA, e documentos oficiais como a BNCC e 
-                     Matrizes de Referência do SAEB. Na produção do material, 
-                     fomos inspirados nas Metologias Ativas e direcionados pela 
-                     Taxonomia de Bloom.
+                    metodológico, levamos em conta os erros e acertos dos 
+                    estudantes na Prova Paraná, recomendações baseadas nos 
+                    resultados do PISA, e documentos oficiais como a BNCC e 
+                    Matrizes de Referência do SAEB. Na produção do material, 
+                    fomos inspirados nas Metologias Ativas e direcionados pela 
+                    Taxonomia de Bloom.
                 </p>
                 <p>Todos os direitos reservados. All rights reserved.</p>
             </abstract>
@@ -107,15 +107,16 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                 Observe a imagem:
                 </p>
                 
-                    <figure xml:id="F1">
-                    <caption> Queda livre</caption>
+                    <figure xml:id="QL">
+                    <caption>Queda livre</caption>
                     <image width="30%" source="tempobolaregua.png"/>
                     </figure>
                 
                 <p>
-                Observamos na imagem acima que a cada segundo que passa a
-                bola de tênis percorre uma distância maior em direção ao solo. Ao observar a situação através de uma 
-                tabela, nota-se que a distância percorrida não é uma função linear
+                Observamos na imagem acima que a cada 
+                segundo que passa a bola de tênis percorre uma distância maior em
+                direção ao solo. Ao observar a situação através de uma tabela, 
+                nota-se que a distância percorrida não é uma função linear
                 do tempo.
                 </p>
                 
@@ -145,10 +146,10 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                     </tabular>
                 </table>               
                 <p>
-                Se a situação mencionada na imagem fosse uma situação
+                Se a situação mencionada na <xref ref="QL"/>imagem fosse uma situação
                 linear, veríamos que a bola percorre a mesma distância em 
-                qualquer segundo, ou seja, para cada segundo que a bola cai, a distância aumenta n vezes, o que
-                não acontece em <xref ref="T1"/>.
+                qualquer segundo, ou seja, para cada segundo que a bola cai, 
+                a distância aumenta n vezes, o que não acontece em <xref ref="T1"/>.
                 </p>
 
                 <p>Veja uma simples comparação.</p>
@@ -210,7 +211,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                 <p> 
                 Assim, podemos concluir que a tabela <xref ref="Q1"/> é uma situação 
                 não linear. Será que conseguiríamos incluir mais linhas na tabela
-                observando a queda da bola (<xref ref="F1"/>) no decorrer do tempo? 
+                observando a queda da bola no decorrer do tempo? 
                 Vamos fazer isto?
                 </p>
                 
