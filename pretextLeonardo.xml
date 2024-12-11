@@ -1033,6 +1033,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                     <p>Vamos criar mais uma coluna mostrando a diferença dos valores
                                     da segunda coluna</p>
                                     <table>
+                                    <title>Número de infectados em determinado dia t</title>
                                     <tabular halign="center">
                                         <row bottom="minor">
                                             <cell>t</cell>
