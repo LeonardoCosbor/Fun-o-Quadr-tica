@@ -1105,19 +1105,18 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                 </table> 
                             <p>Portanto, no 20º dia, 1600 pessoas foram infectadas</p>
                                 </solution>
+
                         </li>
 
-                        
-
-                         <li>
+                        <li>
                             Invente um exercício que traz uma situação não linear, mas 
                             que mantenha um padrão como a do exercício anterior.
-                         </li>
+                        </li>
                     </ol>
                 </p>
                     
                 </subsection>
-               
+
                 <subsection xml:id="bb">
                     <title>Análise e conjectura</title>
                 <p>
@@ -1270,6 +1269,8 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                 Um outro exemplo que podemos citar é a partir de uma imagem que ilustra áreas.</p>
                     <figure>
                         <image width="50%" source="padraoIII.png"/>
+                        <caption>Sequência de blocos</caption>
+                        <legend>Fonte: Rostirolla, 2022</legend>
                     </figure>    
                 <p>Esta imagem mostra uma sequência de três imagens que seguem um padrão quadrático.
                 Para entender melhor, veja a tabela que mostra a primeira linha enumerando as figuras 
@@ -7521,6 +7522,12 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                 </ol>
             </subsection>
 
+        </section>
+        <section xml:id="referencias">
+            <title>Referências</title>
+            
+            
+            
         </section>
 
 
