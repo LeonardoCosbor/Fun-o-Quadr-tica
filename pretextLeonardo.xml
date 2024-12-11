@@ -1031,9 +1031,9 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                             <cell>1462</cell>
                                         </row>
                                     </tabular>
-                                    <legend>Fonte:<url href="https://exercicios.brasilescola.uol.com.br/exercicios-matematica/enem-lista-de-exercicios-sobre-equacao-e-funcao-polinomial-do-2-grau.html"
-                            visual="brasilescola.uol.com.br">brasilescola.uol.com.br</url></legend>
                                 </table>
+                                <legend>Fonte:<url href="https://exercicios.brasilescola.uol.com.br/exercicios-matematica/enem-lista-de-exercicios-sobre-equacao-e-funcao-polinomial-do-2-grau.html"
+                                visual="brasilescola.uol.com.br">brasilescola.uol.com.br</url></legend>
                                 
                                 <solution>
                                     <p>Vamos criar mais uma coluna mostrando a diferença dos valores
