@@ -7526,13 +7526,21 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
         <section xml:id="referencias">
             <title>Referências</title>
             
-            <ul>
+            <ol xml:id="ref-1">
                 <li>
                     <p>
                         SILVA, João. <em>Introdução ao HTML</em>. 2. ed, São Paulo: Editora Web,2020.
                     </p>
                 </li>
-            </ul>
+            </ol>
+
+            <ol xml:id="ref-2">
+                <li>
+                    <p>
+                        SILVA, João. <em>Introdução ao HTML</em>. 2. ed, São Paulo: Editora Web,2020.
+                    </p>
+                </li>
+            </ol>
             
             
         </section>
