@@ -334,7 +334,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
 
                         <li><p>Identifique qual situação a seguir é não linear.</p>
                             <p>(a) 
-                            <table>
+                            <table xml:id="alternativaa">
                     <title>Um corpo próximo da superfície terrestre, sujeito à aceleração 
                     da gravidade de 10 <m>m/s^2</m>, é abandonado e depois de 5 segundos 
                     atinge o solo.</title>
@@ -468,7 +468,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                 </table> 
                             </p>
                                 <solution>
-                                    <p><alert>Alternativa (a)</alert></p>
+                                    <p><alert>Alternativa (a), <xref ref="alternativaa"/></alert></p>
                                     <p>
                                     As outras alternativas é de fácil percepção, pois
                                     aumentam linearmente.
