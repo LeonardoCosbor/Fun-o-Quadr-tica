@@ -314,7 +314,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                             <p>
                                 <sidebyside>
                                     <p>
-                                    <figure>
+                                    <figure xml:id="PQ">
                                         <title>Homem pulando de paraquedas</title>
                                         <image width="30%" source="paraquedas.png"/>
                                     </figure>
@@ -328,7 +328,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                 </sidebyside>
                             </p>
                                 <solution>
-                                    A figura 1.7 representa queda livre, estudada no capítulo.
+                                    A <xref ref="PQ"/> representa queda livre, estudada no capítulo.
                                 </solution>
                         </li>
 
