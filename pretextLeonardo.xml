@@ -215,7 +215,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                 Vamos fazer isto?
                 </p>
                 
-                <table xml:id="Q">
+                <table xml:id="Q" halign="center">
                     <title>Queda Livre</title>
                     <tabular halign="center">
                     <row header="yes" bottom="minor">
