@@ -7526,6 +7526,9 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
         <section xml:id="referencias">
             <title>Referências</title>
             
+            <book></book>
+            <article></article>
+            <misc></misc>
             
             
             
