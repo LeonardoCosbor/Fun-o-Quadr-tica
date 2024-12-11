@@ -315,13 +315,13 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                 <sidebyside>
                                     <p>
                                     <figure xml:id="PQ">
-                                        <title>Homem pulando de paraquedas</title>
+                                        <caption>Homem pulando de paraquedas</caption>
                                         <image width="30%" source="paraquedas.png"/>
                                     </figure>
                                     </p>
                                     <p>
                                     <figure>
-                                        <title>Homem jogando boliche</title>
+                                        <caption>Homem jogando boliche</caption>
                                         <image width="70%" source="boliche.png"/>
                                     </figure>
                                     </p>
@@ -647,7 +647,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                         <figure>
                                             <caption>Taipei 101, Tailândia.</caption>
                                             <image width="30%" source="taipei101.png"/>
-                                            <legend halign="center">Fonte:<xref first="nytimes.com/interactive/2023/03.html"/></legend>
+                                            <legend halign="center">Fonte:<xref first="nytimes.com/interactive/2023/03/16/travel/things-to-do-taipei.html"/></legend>
                                         </figure>
                                     </p>
                                 </sidebyside>

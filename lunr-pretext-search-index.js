@@ -78,7 +78,7 @@ var ptx_lunr_docs = [
   "url": "minimal-3.html#PQ",
   "type": "Figura",
   "number": "1.7",
-  "title": "Homem pulando de paraquedas",
+  "title": "",
   "body": " Homem pulando de paraquedas   "
 },
 {
@@ -87,7 +87,7 @@ var ptx_lunr_docs = [
   "url": "minimal-3.html#aa-16-1-1-2-1-2-1",
   "type": "Figura",
   "number": "1.8",
-  "title": "Homem jogando boliche",
+  "title": "",
   "body": " Homem jogando boliche   "
 },
 {
