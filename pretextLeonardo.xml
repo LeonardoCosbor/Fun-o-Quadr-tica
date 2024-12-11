@@ -108,8 +108,8 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                 </p>
                 
                     <figure xml:id="QL">
-                    <caption halign="center">Queda livre</caption>
-                    <image width="30%" source="tempobolaregua.png"/>
+                        <caption halign="center">Queda livre</caption>
+                        <image width="30%" source="tempobolaregua.png"/>
                     </figure>
                 
                 <p>
