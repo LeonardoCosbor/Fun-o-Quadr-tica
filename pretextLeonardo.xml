@@ -7526,7 +7526,12 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
         <section xml:id="referencias">
             <title>Referências</title>
             
-            <book>Artigo</book>
+            <book>Artigo
+                <author>Nome Do Autor</author>
+                <title>Título do Livro</title>
+                <year>2024</year>
+                            
+            </book>
             <article>Artigo</article>
             <misc>Artigo</misc>
             <bibliografy>Rrealmente</bibliografy>
