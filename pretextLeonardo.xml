@@ -644,7 +644,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                         </table>
                                     </p>
                                     <p>
-                                        <figure halign="center">Taipei 101, Tailândia.
+                                        <figure halign="center">
                                             <caption>Taipei 101, Tailândia.</caption>
                                             <image width="30%" source="taipei101.png"/>
                                             <legend halign="center">Fonte: <url href="https://www.nytimes.com/interactive/2023/03/16/travel/things-to-do-taipei.html"
