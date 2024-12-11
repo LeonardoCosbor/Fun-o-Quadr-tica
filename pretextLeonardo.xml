@@ -215,7 +215,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                 Vamos fazer isto?
                 </p>
                 
-                <table xml:id="Q" halign="center">
+                <table xml:id="Q">
                     <title>Queda Livre</title>
                     <tabular halign="center">
                     <row header="yes" bottom="minor">
@@ -981,12 +981,14 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                         </li>
 
                         <li>
-                            <alert>DESAFIO</alert> (ENEM 2016) Para evitar uma epidemia, a Secretaria de Saúde de uma cidade
-                            dedetizou todos os bairros, de modo a evitar a proliferação do 
-                            mosquito da dengue. Sabe-se que o número f de infectados é dado
-                            por uma determinada função f(t) em que t é expresso em dia e t = 0
-                            é o dia anterior à primeira infecção e além disso, tal expressão é válida
-                            para os 60 primeiros dias da epidemia. A Secretaria de Saúde 
+                            <alert>DESAFIO</alert> <url href="https://exercícios.brasilescola.uol.com.br
+                            /exercicios-matematica/enem-lista-de-exercicios-sobre-equacao-e-funcao-
+                            polinomial-do-2-grau.html">(ENEM 2016)</url> Para evitar uma epidemia, 
+                            a Secretaria de Saúde de uma cidade dedetizou todos os bairros, de modo a 
+                            evitar a proliferação do mosquito da dengue. Sabe-se que o número f de 
+                            infectados é dado por uma determinada função f(t) em que t é expresso em dia
+                            e t = 0 é o dia anterior à primeira infecção e além disso, tal expressão é 
+                            válida para os 60 primeiros dias da epidemia. A Secretaria de Saúde 
                             decidiu que uma segunda dedetização deveria ser feita no dia em 
                             que o número de infectados chegasse à marca de 1600 pessoas, e uma
                             segunda dedetização precisou acontecer. Utilize os valores da tabela
