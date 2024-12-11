@@ -645,8 +645,8 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                     </p>
                                     <p>
                                         <figure>
-                                            <image width="30%" source="taipei101.png"/>
                                             <caption>Taipei 101, Tailândia.</caption>
+                                            <image width="30%" source="taipei101.png"/>
                                             <legend>Fonte</legend>
                                         </figure>
                                     </p>
