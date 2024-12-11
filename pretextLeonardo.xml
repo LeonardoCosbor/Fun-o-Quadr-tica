@@ -782,7 +782,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
 
                         <li>
                             <p>
-                            Calcule as informaçoes que estão escondidas pela figura "<c></c>"
+                            Calcule as informaçoes que estão escondidas pela figura <c></c> e
                             que estão faltando nas tabelas a seguir.
                             </p>
                                 <ol maker="a">
@@ -882,8 +882,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                             </tabular>
                                         </table>
                                     </li>
-                                </ol>
-                                            <solution>
+                                             <solution>
                                                 <table>
                                                     <tabular halign="center" left="minor" right="minor" bottom="minor" top="minor">
                                                         <row>
@@ -917,6 +916,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                                     </tabular>
                                                 </table>
                                             </solution>
+                                </ol>
                         </li>
 
                         <li>
