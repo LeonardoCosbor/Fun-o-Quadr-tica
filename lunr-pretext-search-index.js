@@ -1168,7 +1168,7 @@ var ptx_lunr_docs = [
   "type": "Seção",
   "number": "4",
   "title": "Referências",
-  "body": " Referências    SILVA, João. Introdução ao HTML . 2. ed, São Paulo: Editora Web,2020.      SILVA, João. Introdução ao HTML . 2. ed, São Paulo: Editora Web,2020.    "
+  "body": " Referências    The New York Times. Things to Do in Taipei . 16 mar. 2023. Disponível em: www.nytimes.com\/taipei . Acesso em: 11 dez. 2024.      SILVA, João. Introdução ao HTML . 2. ed, São Paulo: Editora Web,2020.    "
 }
 ]
 
