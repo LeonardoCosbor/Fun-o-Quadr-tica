@@ -590,6 +590,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                 <sidebyside>
                                     <p>
                                         <table>
+                                        <title>Paraquedista em queda livre</title>
                                             <tabular halign="center" left="minor" right="minor" bottom="minor" top="minor" color="blue">
                                                 <row>
                                                     <cell>t<m>(s)</m></cell>
@@ -882,7 +883,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                             </tabular>
                                         </table>
                                     </li>
-                                             <solution>
+                                            <solution>
                                                 <table>
                                                     <tabular halign="center" left="minor" right="minor" bottom="minor" top="minor">
                                                         <row>
