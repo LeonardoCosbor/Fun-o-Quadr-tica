@@ -570,7 +570,8 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
 
                                         <sidebyside>
                                             <p>
-                                                <figure>
+                                                <figure halign="center">
+                                                    <title halign="center">Conjunto</title>
                                                     <image width="50%" source="conjuntoV.png"/>
                                                 </figure>
                                             </p>
