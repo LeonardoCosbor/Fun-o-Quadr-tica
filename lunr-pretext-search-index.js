@@ -1168,7 +1168,7 @@ var ptx_lunr_docs = [
   "type": "Seção",
   "number": "4",
   "title": "Referências",
-  "body": " Referências  Artigo Nome Do Autor  Título do Livro  2024   Artigo  Artigo  Rrealmente  "
+  "body": " Referências    SILVA, João. Introdução ao HTML . 2. ed, São Paulo: Editora Web,2020.    "
 }
 ]
 
