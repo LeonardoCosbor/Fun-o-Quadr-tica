@@ -7526,18 +7526,17 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
         <section xml:id="referencias">
             <title>Referências</title>
             
-            <ol xml:id="ref-1">
-                <li>
+            <ol>
+                <li xml:id="ref-1">
                     <p>
                         The New York Times. <em>Things to Do in Taipei</em>. 16 mar. 2023. Disponível em: 
                         <url href="https://www.nytimes.com/interactive/2023/03/16/travel/things-to-do-taipei.html" 
                         visual="www.nytimes.com/taipei">www.nytimes.com/taipei</url>. Acesso em: 11 dez. 2024.
                     </p>
                 </li>
-            </ol>
+            
 
-            <ol xml:id="ref-2">
-                <li>
+                <li xml:id="ref-2">
                     <p>
                         SILVA, João. <em>Introdução ao HTML</em>. 2. ed, São Paulo: Editora Web,2020.
                     </p>
