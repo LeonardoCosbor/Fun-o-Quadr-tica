@@ -1168,7 +1168,7 @@ var ptx_lunr_docs = [
   "type": "Seção",
   "number": "4",
   "title": "Referências",
-  "body": " Referências  fvdfv  "
+  "body": " Referências  "
 }
 ]
 
