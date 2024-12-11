@@ -121,7 +121,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                 </p>
                 
                 <table xml:id="T1">
-                    <title>Queda Livre</title>
+                    <title halign="center">Queda Livre</title>
                     <tabular halign="center">
                     <row header="yes" bottom="minor">
                     <cell>Tempo<m>(s)</m></cell>
