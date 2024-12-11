@@ -146,10 +146,10 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                     </tabular>
                 </table>               
                 <p>
-                Se a situação mencionada na <xref ref="QL"/>imagem fosse uma situação
-                linear, veríamos que a bola percorre a mesma distância em 
+                Se a situação mencionada na <xref ref="QL"/> fosse uma situação
+                linear, veríamos que a bola iria percorrer a mesma distância em 
                 qualquer segundo, ou seja, para cada segundo que a bola cai, 
-                a distância aumenta n vezes, o que não acontece em <xref ref="T1"/>.
+                a distância aumenta n vezes, o que não acontece na <xref ref="T1"/>.
                 </p>
 
                 <p>Veja uma simples comparação.</p>
@@ -209,7 +209,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                 </sidebyside> 
                 </p>                          
                 <p> 
-                Assim, podemos concluir que a tabela <xref ref="Q1"/> é uma situação 
+                Assim, podemos concluir que a <xref ref="Q1"/> é uma situação 
                 não linear. Será que conseguiríamos incluir mais linhas na tabela
                 observando a queda da bola no decorrer do tempo? 
                 Vamos fazer isto?
@@ -254,7 +254,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                 </table> 
                 
                 <p>
-                Clique em solution para ver se você conseguiu acertar os valores da tabela.
+                Clique em <alert>solução</alert> para ver se você conseguiu acertar os valores da tabela.
                 </p>
                 <solution>
                 <table xml:id="Q3">
@@ -315,11 +315,13 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                 <sidebyside>
                                     <p>
                                     <figure>
+                                        <title>Homem pulando de paraquedas</title>
                                         <image width="30%" source="paraquedas.png"/>
                                     </figure>
                                     </p>
                                     <p>
                                     <figure>
+                                        <title>Homem jogando boliche</title>
                                         <image width="70%" source="boliche.png"/>
                                     </figure>
                                     </p>
