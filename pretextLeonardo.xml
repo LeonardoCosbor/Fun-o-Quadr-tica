@@ -570,8 +570,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
 
                                         <sidebyside>
                                             <p>
-                                                <figure halign="center">
-                                                    <title halign="center">Conjunto</title>
+                                                <figure>
                                                     <image width="50%" source="conjuntoV.png"/>
                                                 </figure>
                                             </p>
@@ -783,7 +782,8 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
 
                         <li>
                             <p>
-                            Calcule as informaçoes <c></c> que estão faltando nas tabelas a seguir.
+                            Calcule as informaçoes que estão escondidas pela figura "<c></c>"
+                            que estão faltando nas tabelas a seguir.
                             </p>
                                 <ol maker="a">
                                     <li>
