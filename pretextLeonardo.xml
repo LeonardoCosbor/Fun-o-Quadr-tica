@@ -1658,7 +1658,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                 <figure>
                                     <caption>Lançamento oblíquo e o futebol</caption>
                                     <image source="futi.png"/>
-                                    <legend>Fonte: <xml:id ref="ref-4"/></legend>
+                                    <legend>Fonte: <xref ref="ref-4"/></legend>
                                 </figure>
 
                                     <table>
