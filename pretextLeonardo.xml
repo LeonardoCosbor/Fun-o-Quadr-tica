@@ -2834,7 +2834,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                     <mrow>A = \amp (x-y) \cdot (x+y)</mrow>
                                     <mrow>A = \amp x^2-y^2</mrow>
                                 </md>
-                                , um polinômio de três termos.
+                                , um polinômio de dois termos.
                             </p>
                             <p>
                                 <image width="20%" source="quadradoIV.png"/>
