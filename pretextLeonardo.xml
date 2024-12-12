@@ -3036,8 +3036,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                     perímetro. Compare as áreas das embalagens e indique se o fazendeiro deve ou não
                                     trocar de embalagem, sabendo que ele quer manter o mesmo volume de leite.
                                     (Considere <m>\sqrt3=1,7</m>)</p>
-                                    <legend><url href="https://www.passeidireto.com/pergunta/137482715/38-uma-empresa-distribuidora-de-leite-vende-cada-litro-em-uma-embalagem-de-papel" 
-                                    visual="passeidireto.com">Fonte: passeidireto.com</url></legend>
+                                    <legend> Fonte: <xref ref="ref-8"/></legend>
                                     <figure>
                                         <image width="50%" source="leite.png"/>
                                     </figure>
@@ -7595,6 +7594,11 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                     <biblio xml:id="ref-7">
                         <em>Meu Guru</em>,2024. Disponível em: <url href="https://www.meuguru.com/guru-ia/pergunta/estudos-gerais/16-uma-folha-retangular-de-cartolina-tem-comprime-lQ58pXh5s"
                         visual="www.meuguru.com">www.meuguru.com</url>. Acesso em: 12 dez. 2024.
+                    </biblio>
+
+                    <biblio xml:id="ref-8">
+                        <em>Passei Direto</em>, 2024. Disponível em:<url href="https://www.passeidireto.com/pergunta/137482715/38-uma-empresa-distribuidora-de-leite-vende-cada-litro-em-uma-embalagem-de-papel" 
+                        visual="passeidireto.com">Fonte: passeidireto.com</url>. Acesso em 10 dez 2024.
                     </biblio>
         </section>
 
