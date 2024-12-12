@@ -3159,7 +3159,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                 <p>
                 Considere que Mário usará exatamente de 100 metros de tela para a construção do cercado,
                 logo a expressão que representa a área do cercado em termos de sua largura 𝒍 é:
-                <legend>Fonte: <xref ref="ref-9"/></legend>
+                <p><legend>Fonte: <xref ref="ref-9"/></legend></p>
                 <ol marker="a">
                     <li><m>100+2l</m></li>
                     <li><m>100l^2-2</m></li>
@@ -3193,6 +3193,8 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                         <li>Escreva a expressão da área do canteiro de grama em função de x.</li>
                     </ol>
                     </p>
+
+                    <legend>Fonte: <xref ref="ref-10"/></legend>
 
                     <solution>
                         <p>(a) Aplicando o Teorema de Pitágoras no triângulo retângulo de lados
@@ -7607,6 +7609,13 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                         Gran Cursos Online. <em>Questões de Concursos: Matemática</em>, 2024. 
                         Disponível em: <url href="https://questoes.grancursosonline.com.br/questoes-de-concursos/matematica-403825/3147343" 
                         visual="https://questoes.grancursosonline.com.br">https://questoes.grancursosonline.com.br</url>.
+                        Acesso em: 12 dez. 2024.
+                    </biblio>
+
+                    <biblio xml:id="ref-10">
+                        Aprende Brasil. <em>Sistema de Ensino Aorende Brasil: 15ª OBMEP</em>, 2019.
+                        Disponível em: <url href="https://educadores.aprendebrasilon.com.br/wp-content/uploads/sites/2/2019/04/Gabarito-Quarta-Semana-Maratona-Tecnol%C3%B3gica-OBMEP-AB.pdf"
+                        visual="https://educadores.aprendebrasilon.com.br">https://educadores.aprendebrasilon.com.br</url>.
                         Acesso em: 12 dez. 2024.
                     </biblio>
 
