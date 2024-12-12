@@ -7591,7 +7591,11 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                         www.tutorbrasil.com.br</url>. Acesso em: 11 dez. 2024. 
 
                     </biblio>
-            
+
+                    <biblio xml:id="ref-7">
+                        <em>Meu Guru</em>,2024. Disponível em: <url href="https://www.meuguru.com/guru-ia/pergunta/estudos-gerais/16-uma-folha-retangular-de-cartolina-tem-comprime-lQ58pXh5s"
+                        visual="www.meuguru.com">www.meuguru.com</url>. Acesso em: 12 dez. 2024.
+                    </biblio>
         </section>
 
 
