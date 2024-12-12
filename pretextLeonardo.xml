@@ -2956,10 +2956,12 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                         </figure>
                                         
                                         <solution>
-                                            <p><m>A_{total}=6\cdot a^2</m></p>
-                                            <p><m>6\cdot x^2+36\cdot x+54=6\cdot a^2</m></p>
-                                            <p><m>6\cdot(x^2+6\cdot x+9)=6\cdot a^2</m></p>
-                                            <p><m>6\cdot(x+3)^2=6\cdot a^2</m></p>
+                                            <md>
+                                                <mrow>A_{total} \amp = 6\cdot a^2</mrow>
+                                                <mrow>6\cdot x^2+36\cdot x+54 \amp = 6\cdot a^2</mrow>
+                                                <mrow>6\cdot(x^2+6\cdot x+9) \amp = 6\cdot a^2</mrow>
+                                                <mrow>6\cdot(x+3)^2=6\cdot a^2 \amp </mrow>
+                                            </md>
                                             <p>Portanto, a aresta do cubo mede <m>x+3</m>.</p>
                                         </solution>
                                     <p></p>
