@@ -3220,6 +3220,8 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                         <li>Qual o custo para produzir 10 unidades?</li>
                         <li>Quantas unidades consigo construir com R$ 3950,00?</li>
                     </ol>
+                    <legend>Fonte: <xref ref="ref-11"/></legend>
+
                         <solution>
                             <ol marker="a">
                                 <li>
@@ -7619,7 +7621,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                         Acesso em: 12 dez. 2024.
                     </biblio>
 
-                    <biblio>
+                    <biblio xml:id="ref-11">
                         PREFEITURA DA CIDADE DO RIO DE JANEIRO. <em>Matemática 9° ano</em> ,2023. 
                         Disponível em: <url href="http://www.multirio.rj.gov.br/media/PDF/pdf_2547.pdf"
                         visual="www.multirio.rj.gov.br">www.multirio.rj.gov.br</url> 
