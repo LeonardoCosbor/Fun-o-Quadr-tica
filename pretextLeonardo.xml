@@ -2649,10 +2649,9 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                         <image width="50%" source="areatrianguloequilatero.png"/>
                                     </hint>
                                     <figure>
-                                        <caption halign="center">Chocolate Toblerone</caption>
+                                        <caption>Chocolate Toblerone</caption>
                                         <image width="50%" source="toblerone.png"/>
-                                        <legend halign="center"><url href="https://articulo.mercadolibre.com.mx/MLM-2070159107-chocolate-tblerone-original-grande-360g-y-1-blanco-de-100g-_JM" 
-                                        visual="Mercadolibre.com">Fonte: Mercadolibre.com</url></legend>
+                                        <legend>Fonte: <xref ref="ref-5"/></legend>
                                     </figure>
                                 <ol>
                                     <li>
@@ -7556,6 +7555,12 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                         Rocha, Felipe. <em>Lançamento Oblíquo e o Futebol</em>. Profes, 2016. Disponível em:
                         <url href="https://profes.com.br/felipes.rocha/blog/lancamento-obliquo-e-o-futebol" visual="www.profes.com.br">
                         www.profes.com.br</url>. Acesso em: 12 dez. 2024.
+                    </biblio>
+
+                    <biblio xml:id="ref-5">
+                        Tax Free-Heinemann. <em>Everyday Low Price: Toblerone.</em> Disponível em:
+                        <url href="https://https://www.taxfree-heinemann.dk/en/global/toblerone/toblerone-gold-360g/p/000000000001186771/" 
+                        visual="taxfree-heinemann.dk">Fonte: taxifree-heinemann.dk</url>. Acesso em: 11 dez. 2024.
                     </biblio>
             
         </section>
