@@ -1168,7 +1168,7 @@ var ptx_lunr_docs = [
   "type": "Seção",
   "number": "4",
   "title": "Referências",
-  "body": " Referências    The New York Times. Things to Do in Taipei . 16 mar. 2023. Disponível em: www.nytimes.com\/taipei . Acesso em: 11 dez. 2024.    GOMES, Henrique. Canal Educação: Exercícios de Vestibular . 2019.Disponível em: canaleducacao.tv . Acesso em: 11 dez. 2024.        "
+  "body": " Referências    The New York Times. Things to Do in Taipei . 16 mar. 2023. Disponível em: www.nytimes.com\/taipei . Acesso em: 11 dez. 2024.    GOMES, Henrique. Canal Educação: Exercícios de Vestibular . 2019.Disponível em: canaleducacao.tv . Acesso em: 11 dez. 2024.    PAULA, Michel Cambrainha de. Função Quadrática .Instituto Nacional de MAtemática Pura e Aplicada (IMPA-OS), 2022.    "
 }
 ]
 
