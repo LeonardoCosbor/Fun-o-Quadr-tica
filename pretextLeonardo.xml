@@ -7530,33 +7530,23 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
         <section xml:id="referencias">
             <title>Referências</title>
             
-            <ol>
-                <li xml:id="ref-1">
-                    <biblio>
+                    <biblio xml:id="ref-1">
                         The New York Times. <em>Things to Do in Taipei</em>. 16 mar. 2023. Disponível em: 
                         <url href="https://www.nytimes.com/interactive/2023/03/16/travel/things-to-do-taipei.html" 
                         visual="www.nytimes.com/taipei">www.nytimes.com/taipei</url>. Acesso em: 11 dez. 2024.
                     </biblio>
-                </li>
-            
 
-                <li xml:id="ref-2">
-                    <p>
+                    <biblio xml:id="ref-2">
                         Gomes, Henrique. <em>Canal Educação: Exercícios de Vestibular</em>. 2019.Disponível em: 
                         <url href="https://www.canaleducacao.tv/images/slides/36011_489b7d42c1fb71e9ce4db602d8d9f5c0.pdf"
                         visual="canaleducacao.tv">canaleducacao.tv</url>. Acesso em: 11 dez. 2024.
-                    </p>
-                </li>
+                    </biblio>
 
-                <li xml:id="ref-3">
-                    <p>
+                    <biblio xml:id="ref-3">
                         Paula, Michel Cambrainha de. <em>Função Quadrática</em>.Instituto Nacional de Matemática
                         Pura e Aplicada (IMPA-OS), 2022. Disponível em: <url href="https://mail.google.com/mail/u/0/#search/marcio?projector=1"
                         visual="livroaberto@impa.br">livroaberto@impa.br</url>. Acesso em: 11 dez. 2024.
-                    </p>
-                </li>
-            </ol>
-            
+                    </biblio>
             
         </section>
 
