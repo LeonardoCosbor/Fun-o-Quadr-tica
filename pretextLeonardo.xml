@@ -2737,8 +2737,10 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                             <p>
                                 Em um retângulo de altura x e base 2x, teremos o cálculo
                                 de sua área da seguinte maneira:
-                                <me>A=x\cdot2x</me>
-                                <me>A=2x^2</me>
+                                <md>
+                                    <mrow>A = \amp x\cdot2x</mrow>
+                                    <mrow>A = \amp 2x^2 </mrow>
+                                </md>
                             </p>
                             <p>
                                 <image width="50%" source="2x².png"/>
@@ -2749,8 +2751,10 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                             <p>
                                 Se aumentarmos a altura do triângulo em uma unidade,
                                 teremos:
-                                <me>A=(x+1)\cdot2x</me>
-                                <me>A=2x^2+2x</me>
+                                <md>
+                                    <mrow>A = \amp (x+1)\cdot2x</mrow>
+                                    <mrow>A = \amp 2x^2+2x</mrow>
+                                </md>
                             </p>
                             <p>
                                 <image width="30%" source="2x²+2x.png"/>
@@ -2760,9 +2764,11 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                         <sidebyside>
                             <p>
                                 Agora, se aumentarmos a base e a altura, simultânemente, teremos:
-                                <me>A=(x+1)\cdot(2x+1)</me>
-                                <me>A=2x^2+x+2x+1</me>
-                                <me>A=2x^2+3x+1</me>
+                                <md>
+                                    <mrow>A = \amp (x+1)\cdot(2x+1)</mrow>
+                                    <mrow>A = \amp 2x^2+x+2x+1 </mrow>
+                                    <mrow>A = \amp 2x^2+3x+1</mrow>
+                                </md>
                             </p>
                             <p>
                                 <image width="60%" source="2x²+3x+1.png"/>
