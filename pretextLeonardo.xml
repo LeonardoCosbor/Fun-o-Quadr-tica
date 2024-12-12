@@ -1808,6 +1808,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                             <p>Dada a fórmula <m>h=5t^2</m>, complete a tabela calculando
                             os valores de t tendo disponíveis os valores de h.</p>
                             <table>
+                                <title><m>h=5t^2</m></title>
                                 <tabular halign="center" top="minor" bottom="minor" right="minor" left="minor">
                                     <row>
                                         <cell>t</cell>
