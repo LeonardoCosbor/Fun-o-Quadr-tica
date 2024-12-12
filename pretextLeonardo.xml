@@ -2951,6 +2951,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                     <p>Calcule a aresta de um prisma de base quadrada cuja área total é 
                                     <m>6x^2+36x+54</m>.</p>
                                         <figure>
+                                            <title>Cubo de aresta "a"</title>
                                             <image width="50%" source="cuboIII.png"/>
                                         </figure>
                                         
