@@ -2786,8 +2786,10 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                         Dado um quadrado de lado x, temos que sua área é:
                         <sidebyside>
                             <p>
-                                <me>A=x \cdot x </me>
-                                <me>A= x^2</me>
+                                <md>
+                                    <mrow>A = \amp x \cdot x </mrow>
+                                    <mrow>A = \amp x^2 </mrow>
+                                </md>
                             </p>
                             <p>
                                 <image width="20%" source="quadrado.png"/>
@@ -2797,9 +2799,12 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                         Se aumentarmos y unidades em cada lado do quadrado, teremos:
                         <sidebyside>
                             <p>
-                                <me>A=(x+y) \cdot (x+y)</me>
-                                <me>A=(x+y)^2</me>
-                                <me>A=x^2+2xy+y^2</me>, um polinômio de três termos.
+                                <md>
+                                    <mrow>A = \amp (x+y) \cdot (x+y)</mrow>
+                                    <mrow>A = \amp (x+y)^2</mrow>
+                                    <mrow>A = \amp x^2+2xy+y^2</mrow>
+                                </md>
+                                , um polinômio de três termos.
                             </p>
                             <p>
                                 <image width="20%" source="quadradoII.png"/>
@@ -2809,9 +2814,12 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                         Agora, se diminuirmos y unidades nos lados do quadrado, teremos:
                         <sidebyside>
                             <p>
-                                <me>A=(x-y) \cdot (x-y)</me>
-                                <me>A=(x-y)^2</me>
-                                <me>A=x^2-2xy+y^2</me>, novamente um polinômio de três termos.
+                                <md>
+                                    <mrow>A = \amp (x-y) \cdot (x-y)</mrow>
+                                    <mrow>A = \amp (x-y)^2</mrow>
+                                    <mrow>A = \amp x^2-2xy+y^2</mrow> 
+                                </md>, novamente um polinômio de três termos. 
+                               
                             </p>
                             <p>
                                 <image width="20%" source="quadradoIII.png"/>
@@ -2821,9 +2829,12 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                         No entanto, se diminuirmos y unidades de um lado do quadrado e aumentarmos y unidades
                         no outro lado do quadrado, teremos:
                         <sidebyside>
-                            <p>
-                                <me>A=(x-y) \cdot (x+y)</me>
-                                <me>A=x^2-y^2</me>, um polinômio de três termos.
+                            <p> 
+                                <md>
+                                    <mrow>A = \amp (x-y) \cdot (x+y)</mrow>
+                                    <mrow>A = \amp x^2-y^2</mrow>
+                                </md>
+                                , um polinômio de três termos.
                             </p>
                             <p>
                                 <image width="20%" source="quadradoIV.png"/>
