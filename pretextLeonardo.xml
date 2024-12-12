@@ -1656,8 +1656,9 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                             encontrada pelo matemático e complete a tabela:</p>
                             <sidebyside>
                                 <figure>
-                                    <caption></caption>
-                                    <image source="campo.png"/>
+                                    <caption>Lançamento oblíquo e o futebol</caption>
+                                    <image source="futi.png"/>
+                                    <legend>Fonte: <xml:id ref="ref-4"/></legend>
                                 </figure>
 
                                     <table>
@@ -7545,6 +7546,12 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                     <biblio xml:id="ref-3">
                         Paula, Michel Cambrainha de. <em>Função Quadrática</em>.Instituto Nacional de Matemática
                         Pura e Aplicada (IMPA-OS), 2022.
+                    </biblio>
+
+                    <biblio xml:id="ref-4">
+                        Rocha, Felipe. <em>Lançamento Oblíquo e o Futebol</em>. Profes, 2016. Disponível em:
+                        <url href="https://profes.com.br/felipes.rocha/blog/lancamento-obliquo-e-o-futebol"/>. 
+                        Acesso em: 12 dez. 2024.
                     </biblio>
             
         </section>
