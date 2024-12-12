@@ -647,8 +647,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                         <figure halign="center">
                                             <caption halign="center">Taipei 101, Tailândia.</caption>
                                             <image width="30%" source="taipei101.png"/>
-                                            <legend>Fonte: <url href="https://www.nytimes.com/interactive/2023/03/16/travel/things-to-do-taipei.html"
-                                            visual="nytimes.com">nytimes.com</url></legend>
+                                            <legend>Fonte: <xref ref="ref-1"/></legend>
                                         </figure>
                                     </p>
                                 </sidebyside>
@@ -7533,11 +7532,11 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
             
             <ol>
                 <li xml:id="ref-1">
-                    <p>
+                    <biblio>
                         The New York Times. <em>Things to Do in Taipei</em>. 16 mar. 2023. Disponível em: 
                         <url href="https://www.nytimes.com/interactive/2023/03/16/travel/things-to-do-taipei.html" 
                         visual="www.nytimes.com/taipei">www.nytimes.com/taipei</url>. Acesso em: 11 dez. 2024.
-                    </p>
+                    </biblio>
                 </li>
             
 
