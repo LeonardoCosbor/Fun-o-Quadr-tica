@@ -2645,9 +2645,9 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                         <image width="50%" source="areatrianguloequilatero.png"/>
                                     </hint>
                                     <figure>
-                                        <caption>Chocolate Toblerone</caption>
+                                        <caption halign="center">Chocolate Toblerone</caption>
                                         <image width="50%" source="toblerone.png"/>
-                                        <legend><url href="https://articulo.mercadolibre.com.mx/MLM-2070159107-chocolate-tblerone-original-grande-360g-y-1-blanco-de-100g-_JM" 
+                                        <legend halign="center"><url href="https://articulo.mercadolibre.com.mx/MLM-2070159107-chocolate-tblerone-original-grande-360g-y-1-blanco-de-100g-_JM" 
                                         visual="Mercadolibre.com">Fonte: Mercadolibre.com</url></legend>
                                     </figure>
                                 <ol>
