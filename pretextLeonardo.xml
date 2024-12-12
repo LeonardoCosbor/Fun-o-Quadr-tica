@@ -7550,8 +7550,8 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
 
                     <biblio xml:id="ref-4">
                         Rocha, Felipe. <em>Lançamento Oblíquo e o Futebol</em>. Profes, 2016. Disponível em:
-                        <url href="https://profes.com.br/felipes.rocha/blog/lancamento-obliquo-e-o-futebol"/>. 
-                        Acesso em: 12 dez. 2024.
+                        <url href="https://profes.com.br/felipes.rocha/blog/lancamento-obliquo-e-o-futebol">
+                        &amp;www.profes.com.br&apos;</url>. Acesso em: 12 dez. 2024.
                     </biblio>
             
         </section>
