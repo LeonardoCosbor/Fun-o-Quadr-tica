@@ -3159,6 +3159,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                 <p>
                 Considere que Mário usará exatamente de 100 metros de tela para a construção do cercado,
                 logo a expressão que representa a área do cercado em termos de sua largura 𝒍 é:
+                <legend>Fonte: <xref ref="ref-9"/></legend>
                 <ol marker="a">
                     <li><m>100+2l</m></li>
                     <li><m>100l^2-2</m></li>
@@ -7590,7 +7591,6 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                         Gonçalves, Carlos Eduardo de Souza. <em>Tutor Brasil</em>, 2008. Disponível em:
                         <url href="https://www.tutorbrasil.com.br/forum/viewtopic.php?t=8518" visual="www.tutorbrasil.com.br">
                         www.tutorbrasil.com.br</url>. Acesso em: 11 dez. 2024. 
-
                     </biblio>
 
                     <biblio xml:id="ref-7">
@@ -7602,6 +7602,15 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                         <em>Passei Direto</em>, 2024. Disponível em:<url href="https://www.passeidireto.com/pergunta/137482715/38-uma-empresa-distribuidora-de-leite-vende-cada-litro-em-uma-embalagem-de-papel" 
                         visual="passeidireto.com">Fonte: passeidireto.com</url>. Acesso em 10 dez 2024.
                     </biblio>
+
+                    <biblio xml:id="ref-9">
+                        Gran Cursos Online. <em>Questões de Concursos: Matemática</em>, 2024. 
+                        Disponível em: <url href="https://questoes.grancursosonline.com.br/questoes-de-concursos/matematica-403825/3147343" 
+                        visual="https://questoes.grancursosonline.com.br">https://questoes.grancursosonline.com.br</url>.
+                        Acesso em: 12 dez. 2024.
+                    </biblio>
+
+
         </section>
 
 
