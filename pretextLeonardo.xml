@@ -3045,12 +3045,14 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                             volumes. Assim, encontramos o valor da altura do prisma de base triangular
                                             que o enuncido não fornece. Logo,chamando de <m>V_1</m> o volume do prisma de base quadrada
                                             e de <m>V_2</m> o volume do prisma de base triangular, temos:</p>
-                                            <p><m>V_1=V_2</m></p>
-                                            <p><m>10\cdot10\cdot12=\dfrac{10^2\cdot\sqrt3}{4}\cdot h</m></p>
-                                            <p><m>1200=\dfrac{100\cdot\sqrt3}{4}\cdot h</m></p>
-                                            <p><m>1200=25\cdot\sqrt3\cdot h</m></p>
-                                            <p><m>\dfrac{1200}{25\cdot\sqrt3}=h</m></p>
-                                            <p><m>h=28,2</m> cm.</p>
+                                            <md>
+                                                <mrow>V_1 = \amp V_2</mrow>
+                                                <mrow>10\cdot10\cdot12 = \amp \dfrac{10^2\cdot\sqrt3}{4}\cdot h</mrow>
+                                                <mrow>1200 = \amp \dfrac{100\cdot\sqrt3}{4}\cdot h</mrow>
+                                                <mrow>1200 = \amp 25\cdot\sqrt3\cdot h</mrow>
+                                                <mrow>\dfrac{1200}{25\cdot\sqrt3} = \amp h</mrow>
+                                                <mrow>h = \amp 28,2</mrow> cm.
+                                            </md>
                                             <p>Após encontrar o valor da altura do prisma de base triangular, vamos às áreas totais e descobrir
                                             qual embalagem gasta mais papel. Usando os mesmos índices do cálculo do volume, temos:
                                             </p>
