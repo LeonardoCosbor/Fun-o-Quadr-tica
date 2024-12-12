@@ -1658,6 +1658,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                             encontrada pelo matemático e complete a tabela:</p>
                             <sidebyside>
                                 <figure>
+                                    <caption></caption>
                                     <image source="campo.png"/>
                                 </figure>
 
@@ -7543,7 +7544,15 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
 
                 <li xml:id="ref-2">
                     <p>
-                        SILVA, João. <em>Introdução ao HTML</em>. 2. ed, São Paulo: Editora Web,2020.
+                        GOMES, Henrique. <em>Canal Educação: Exercícios de Vestibular</em>. 2019.Disponível em: 
+                        <url href="https://www.canaleducacao.tv/images/slides/36011_489b7d42c1fb71e9ce4db602d8d9f5c0.pdf"
+                        visual="canaleducacao.tv">canaleducacao.tv</url>. Acesso em: 11 dez. 2024.
+                    </p>
+                </li>
+
+                <li xml:id="ref-3">
+                    <p>
+                        
                     </p>
                 </li>
             </ol>
