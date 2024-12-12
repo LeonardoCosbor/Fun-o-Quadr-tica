@@ -2409,7 +2409,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                     </solution>
                             </li>
                             <li>
-                    Localize qual das figuras geométricas possui área igual a <m>96</m>m².
+                    Localize qual das figuras geométricas possui área igual a <m>96</m> m².
                    
                     <sidebyside>
                         <p>
@@ -2423,7 +2423,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                             </figure>
                         </p>
                         <p>
-                            <figure>
+                            <figure xml:id="triangulo">
                                 <image width="50%" source="triangulo.png"/>
                             </figure>
                         </p>
@@ -2433,8 +2433,8 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                             </figure>
                         </p>
                     </sidebyside>
-                                 <solution>
-                                    <p>Triângulo: <m>A=\dfrac{B\cdot h}{2}=\dfrac{16\cdot 12}{2}=\dfrac{192}{2}=96 m^2</m></p>
+                                <solution>
+                                    <p><xref ref="triangulo"/> Triângulo: <m>A=\dfrac{B\cdot h}{2}=\dfrac{16\cdot 12}{2}=\dfrac{192}{2}=96 m^2</m></p>
                                 </solution>
                             </li>
                             <p>
@@ -2463,17 +2463,17 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                 </figure>
                                 </p>
                                 <p>
-                                 <figure>
+                                <figure>
                                     <image width="40%" source="retanguloII.png"/>
                                 </figure>
                                 </p>
                                 <p>
-                                 <figure>
+                                <figure>
                                     <image width="40%" source="trianguloIII.png"/>
                                 </figure>
                                 </p>
                                 <p>
-                                 <figure>
+                                <figure>
                                     <image width="40%" source="trapezioII.png"/>
                                 </figure>
                                 </p>
@@ -2645,7 +2645,10 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                         <image width="50%" source="areatrianguloequilatero.png"/>
                                     </hint>
                                     <figure>
+                                        <caption>Chocolate Toblerone</caption>
                                         <image width="50%" source="toblerone.png"/>
+                                        <legend><url href="https://articulo.mercadolibre.com.mx/MLM-2070159107-chocolate-tblerone-original-grande-360g-y-1-blanco-de-100g-_JM" 
+                                        visual="Mercadolibre.com">Fonte: Mercadolibre.com</url></legend>
                                     </figure>
                                 <ol>
                                     <li>
