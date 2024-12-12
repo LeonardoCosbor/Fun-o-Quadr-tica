@@ -2089,7 +2089,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                             </solution>
                         </p>
                         <p>(d)
-                             
+            
                             <table>
                             <title>Situação(4)</title>
                             <tabular halign="center" left="minor" right="minor" bottom="minor" top="minor">
@@ -2163,8 +2163,9 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                             </p>
                 
                                 <figure>
-                                <caption>Sequência Especial</caption>
-                                <image source="padrao.png"/>
+                                    <caption>Sequência Especial</caption>
+                                    <image source="padrao.png"/>
+                                    <legend>Fonte: <xref ref="ref-3"/></legend>
                                 </figure>
                 
                             <p>
