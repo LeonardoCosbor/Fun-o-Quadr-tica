@@ -2992,6 +2992,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                     10 cm. Recortam-se dessa folha quadrados congruentes em 
                                     cada um dos cantos dessa folha, como na figura, formando-se uma
                                     superfície aberta de um paralelepípedo reto-retângulo:</p>
+                                    <legend>Fonte: <xref ref="ref-7"/></legend>
                                     <hint>
                                         <interactive width="100%" geogebra="mpenqbf4"/>
                                     </hint>
