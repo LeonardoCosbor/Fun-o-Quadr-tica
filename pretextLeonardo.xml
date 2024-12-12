@@ -1032,8 +1032,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                         </row>
                                     </tabular>
                                 </table>
-                                <legend>Fonte: <url href="https://www.canaleducacao.tv/images/slides/36011_489b7d42c1fb71e9ce4db602d8d9f5c0.pdf"
-                                visual="canaleducacao.tv">canaleducacao.tv</url></legend>
+                                <legend>Fonte: <xref ref="ref-2"/></legend>
                                 
                                 <solution>
                                     <p>Vamos criar mais uma coluna mostrando a diferença dos valores
