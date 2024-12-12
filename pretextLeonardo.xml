@@ -2918,6 +2918,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                 a expressão da área total deste sólido e siga a sua explicação para encontrar 
                                 a expressão pedida.  
                                 </p>
+                                <legend>Fonte: <xref ref="ref-6"/></legend>
                                     <hint>
                                         <figure>
                                             <image width="40%" source="paralelepipedo.png"/>
@@ -7578,6 +7579,13 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                         Tax Free-Heinemann. <em>Everyday Low Price: Toblerone.</em> Disponível em:
                         <url href="https://https://www.taxfree-heinemann.dk/en/global/toblerone/toblerone-gold-360g/p/000000000001186771/" 
                         visual="taxfree-heinemann.dk">Fonte: taxifree-heinemann.dk</url>. Acesso em: 11 dez. 2024.
+                    </biblio>
+
+                    <biblio xml:id="ref-6">
+                        Gonçalves, Carlos Eduardo de Souza. <em>Tutor Brasil</em>, 2008. Disponível em:
+                        <url href="https://www.tutorbrasil.com.br/forum/viewtopic.php?t=8518" visual="www.tutorbrasil.com.br">
+                        www.tutorbrasil.com.br</url>. Acesso em: 11 dez. 2024. 
+
                     </biblio>
             
         </section>
