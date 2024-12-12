@@ -1270,7 +1270,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                     <figure>
                         <image width="50%" source="padraoIII.png"/>
                         <caption>Sequência de blocos</caption>
-                        <legend>Fonte: Rostirolla, 2022</legend>
+                        <legend>Fonte: <xref ref="ref-3"/></legend>
                     </figure>    
                 <p>Esta imagem mostra uma sequência de três imagens que seguem um padrão quadrático.
                 Para entender melhor, veja a tabela que mostra a primeira linha enumerando as figuras 
