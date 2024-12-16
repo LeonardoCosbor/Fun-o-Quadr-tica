@@ -4018,7 +4018,6 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                         função quadrática. Mexa nos botões deslizantes do gráfico interativo até que a parábola 
                         coincida com a trajetória do projétil.
                         <interactive geogebra="nntgcjbg"/>
-                        <legend>Fonte: <xref ref="ref-18"/></legend>
                     </li>
             </ol>       
 
@@ -4445,10 +4444,12 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                 </p>
                 <p>Seja f uma função quadrática na forma <m>f(x)=a(x-m)^2+k</m>, com <m>a</m>,<m>m</m>,
                 <m>k</m> <m>\in\mathbb{R}</m>, abriremos o produto da diferença primeiro. Logo,</p>
-
-                    <me>f(x)=a\cdot(x^2-2mx+m^2)+k</me>
-                    <me>=ax^2-2amx+am^2+k</me>
-                    <me>=ax^2+(-2am)x+(am^2+k)</me>
+                    <md>
+                        <mrow> f(x)\amp =a\cdot(x^2-2mx+m^2)+k</mrow>
+                        <mrow> \amp =ax^2-2amx+am^2+k</mrow>
+                        <mrow> \amp =ax^2+(-2am)x+(am^2+k)</mrow>
+                    </md>
+                    
                 <p>Portanto, segue que os coeficientes da forma padrão são <m>a</m>, <m>b=-2am</m> e 
                 <m>c=am^2+k</m>.</p>
 
@@ -4478,7 +4479,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                             <p></p>
                                             <p>Usando <m>f(x)=ax^2-2amx+am^2+k</m>, temos que <m>a=1</m>,
                                             <m>m=2</m> e <m>k=-1</m>.  Logo</p>
-                                            <p><m>f(x)=1\cdotx^2-2\cdot1\cdot2\cdotx+1\cdot2^2+(-1)</m></p>
+                                            <p><m>f(x)=1\cdot x^2-2\cdot1\cdot2\cdot x+1\cdot2^2+(-1)</m></p>
                                             <p>Portanto, <m>f(x)=f(x)=x^2-4x+3</m></p>
                                         </solution>
                                 </li>

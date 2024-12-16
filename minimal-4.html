@@ -144,7 +144,7 @@ window.MathJax = {
 </li>
 <li class="toc-item toc-subsection">
 <div class="toc-title-box"><a href="minimal-4.html#minimal-4-7" class="internal"><span class="codenumber">2.6</span> <span class="title">Escrevendo a Função Quadrática na Forma Padrão</span></a></div>
-<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="minimal-4.html#minimal-4-7-14" class="internal"><span class="codenumber">2.6.1</span> <span class="title">Esboçando o Gráfico da Função Quadrática</span></a></div></li></ul>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="minimal-4.html#minimal-4-7-12" class="internal"><span class="codenumber">2.6.1</span> <span class="title">Esboçando o Gráfico da Função Quadrática</span></a></div></li></ul>
 </li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="minimal-4.html#minimal-4-8" class="internal"><span class="codenumber">2.7</span> <span class="title">Foco da Parábola</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="minimal-4.html#minimal-4-9" class="internal"><span class="codenumber">2.8</span> <span class="title">Exercícios</span></a></div></li>
@@ -228,7 +228,7 @@ window.MathJax = {
 </div></li>
 <li id="minimal-4-3-10-2"><div class="para" id="p-derived-minimal-4-3-10-2">Use o botão deslizantes do gráfico interativo e faça a parábola passar pelos três pontos. Observe as coordenadas de cada ponto e compare com os coeficientes da função quadrática. <iframe src="https://www.geogebra.org/material/iframe/id/fzesuedr/width/800/height/800/border/888888/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false" id="minimal-4-3-10-2-1" width="600" height="600"></iframe>
 </div></li>
-<li id="minimal-4-3-10-3"><div class="para" id="p-derived-minimal-4-3-10-3">Um canhão atira um projétil, desenhando uma trajetória parabólica, cujo gráfico pertence à função quadrática. Mexa nos botões deslizantes do gráfico interativo até que a parábola coincida com a trajetória do projétil. <iframe src="https://www.geogebra.org/material/iframe/id/nntgcjbg/width/800/height/800/border/888888/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false" id="minimal-4-3-10-3-1" width="600" height="600"></iframe> Fonte: <code class="code-inline tex2jax_ignore">[cross-reference to target(s) "ref-18" missing or not unique]</code>
+<li id="minimal-4-3-10-3"><div class="para" id="p-derived-minimal-4-3-10-3">Um canhão atira um projétil, desenhando uma trajetória parabólica, cujo gráfico pertence à função quadrática. Mexa nos botões deslizantes do gráfico interativo até que a parábola coincida com a trajetória do projétil. <iframe src="https://www.geogebra.org/material/iframe/id/nntgcjbg/width/800/height/800/border/888888/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false" id="minimal-4-3-10-3-1" width="600" height="600"></iframe>
 </div></li>
 </ol></section><section class="subsection" id="minimal-4-4"><h3 class="heading hide-type">
 <span class="type">Subseção</span><span class="space"> </span><span class="codenumber">2.3</span><span class="space"> </span><span class="title">Função Quadrática do tipo <span class="process-math">\(y=a(x-m)^2\)</span></span>
@@ -464,67 +464,59 @@ f(x)=-\left(x-\dfrac{3}{2}\right)^2+\dfrac{1}{4}
 </h3>
 <div class="para" id="minimal-4-7-2">Na subseção anterior, passamos uma função quadrática da forma padrão para a forma canônica. Agora, veremos como fazer o inverso, ou seja, passar a função quadrática escrita na forma canônica para a forma padrão.</div>
 <div class="para" id="minimal-4-7-3">Seja f uma função quadrática na forma <span class="process-math">\(f(x)=a(x-m)^2+k\text{,}\)</span> com <span class="process-math">\(a\text{,}\)</span><span class="process-math">\(m\text{,}\)</span> <span class="process-math">\(k\)</span> <span class="process-math">\(\in\mathbb{R}\text{,}\)</span> abriremos o produto da diferença primeiro. Logo,</div>
-<div class="displaymath process-math">
-\begin{equation*}
-f(x)=a\cdot(x^2-2mx+m^2)+k
-\end{equation*}
+<div class="displaymath process-math" id="minimal-4-7-4">
+\begin{align*}
+f(x)\amp =a\cdot(x^2-2mx+m^2)+k\\
+\amp =ax^2-2amx+am^2+k\\
+\amp =ax^2+(-2am)x+(am^2+k)
+\end{align*}
 </div>
-<div class="displaymath process-math">
-\begin{equation*}
-=ax^2-2amx+am^2+k
-\end{equation*}
+<div class="para" id="minimal-4-7-5">Portanto, segue que os coeficientes da forma padrão são <span class="process-math">\(a\text{,}\)</span> <span class="process-math">\(b=-2am\)</span> e <span class="process-math">\(c=am^2+k\text{.}\)</span>
 </div>
-<div class="displaymath process-math">
-\begin{equation*}
-=ax^2+(-2am)x+(am^2+k)
-\end{equation*}
-</div>
-<div class="para" id="minimal-4-7-7">Portanto, segue que os coeficientes da forma padrão são <span class="process-math">\(a\text{,}\)</span> <span class="process-math">\(b=-2am\)</span> e <span class="process-math">\(c=am^2+k\text{.}\)</span>
-</div>
-<div class="para" id="minimal-4-7-8">Note que não é muito complexo abrir o produto notável e muitas vezes poderemos optar por este método para resolver alguns exercícios em vez de decorar mais fórmulas para determinar coeficientes da forma padrão.</div>
-<div class="para" id="minimal-4-7-9">Veja o exemplo a seguir, onde transformamos a função quadrática da forma canônica para a forma padrão.</div>
-<div class="para" id="minimal-4-7-10"><em class="alert">Exemplo:</em></div>
-<div class="para logical" id="minimal-4-7-11"><ol class="decimal"><li id="minimal-4-7-11-1-1">
-<div class="para" id="minimal-4-7-11-1-1-1">Escreva a função a seguir na forma padrão:</div>
-<ol class="lower-alpha"><li id="minimal-4-7-11-1-1-2-1"><div class="para" id="p-derived-minimal-4-7-11-1-1-2-1">
-<span class="process-math">\(f(x)=(x-2)^2-1\)</span> <details id="minimal-4-7-11-1-1-2-1-2" class="solution solution-like born-hidden-knowl"><summary><span class="type">Solução</span><span class="period">.</span></summary><div class="solution solution-like">
-<div class="para" id="minimal-4-7-11-1-1-2-1-2-1">Abrindo o produto notável:</div> <div class="para" id="minimal-4-7-11-1-1-2-1-2-2"><span class="process-math">\(f(x)=x^2 -2\cdot x \cdot2 + 2^2 - 1 = x^2-4x+3\)</span></div> <div class="para" id="minimal-4-7-11-1-1-2-1-2-3">Portanto, <span class="process-math">\(f(x)=x^2-4x+3\text{.}\)</span>
-</div> <div class="para" id="minimal-4-7-11-1-1-2-1-2-4"></div> <div class="para" id="minimal-4-7-11-1-1-2-1-2-5">Usando <span class="process-math">\(f(x)=ax^2-2amx+am^2+k\text{,}\)</span> temos que <span class="process-math">\(a=1\text{,}\)</span> <span class="process-math">\(m=2\)</span> e <span class="process-math">\(k=-1\text{.}\)</span>  Logo</div> <div class="para" id="minimal-4-7-11-1-1-2-1-2-6"><span class="process-math">\(f(x)=1\cdotx^2-2\cdot1\cdot2\cdotx+1\cdot2^2+(-1)\)</span></div> <div class="para" id="minimal-4-7-11-1-1-2-1-2-7">Portanto, <span class="process-math">\(f(x)=f(x)=x^2-4x+3\)</span>
+<div class="para" id="minimal-4-7-6">Note que não é muito complexo abrir o produto notável e muitas vezes poderemos optar por este método para resolver alguns exercícios em vez de decorar mais fórmulas para determinar coeficientes da forma padrão.</div>
+<div class="para" id="minimal-4-7-7">Veja o exemplo a seguir, onde transformamos a função quadrática da forma canônica para a forma padrão.</div>
+<div class="para" id="minimal-4-7-8"><em class="alert">Exemplo:</em></div>
+<div class="para logical" id="minimal-4-7-9"><ol class="decimal"><li id="minimal-4-7-9-1-1">
+<div class="para" id="minimal-4-7-9-1-1-1">Escreva a função a seguir na forma padrão:</div>
+<ol class="lower-alpha"><li id="minimal-4-7-9-1-1-2-1"><div class="para" id="p-derived-minimal-4-7-9-1-1-2-1">
+<span class="process-math">\(f(x)=(x-2)^2-1\)</span> <details id="minimal-4-7-9-1-1-2-1-2" class="solution solution-like born-hidden-knowl"><summary><span class="type">Solução</span><span class="period">.</span></summary><div class="solution solution-like">
+<div class="para" id="minimal-4-7-9-1-1-2-1-2-1">Abrindo o produto notável:</div> <div class="para" id="minimal-4-7-9-1-1-2-1-2-2"><span class="process-math">\(f(x)=x^2 -2\cdot x \cdot2 + 2^2 - 1 = x^2-4x+3\)</span></div> <div class="para" id="minimal-4-7-9-1-1-2-1-2-3">Portanto, <span class="process-math">\(f(x)=x^2-4x+3\text{.}\)</span>
+</div> <div class="para" id="minimal-4-7-9-1-1-2-1-2-4"></div> <div class="para" id="minimal-4-7-9-1-1-2-1-2-5">Usando <span class="process-math">\(f(x)=ax^2-2amx+am^2+k\text{,}\)</span> temos que <span class="process-math">\(a=1\text{,}\)</span> <span class="process-math">\(m=2\)</span> e <span class="process-math">\(k=-1\text{.}\)</span>  Logo</div> <div class="para" id="minimal-4-7-9-1-1-2-1-2-6"><span class="process-math">\(f(x)=1\cdot x^2-2\cdot1\cdot2\cdot x+1\cdot2^2+(-1)\)</span></div> <div class="para" id="minimal-4-7-9-1-1-2-1-2-7">Portanto, <span class="process-math">\(f(x)=f(x)=x^2-4x+3\)</span>
 </div>
 </div></details>
 </div></li></ol>
 </li></ol></div>
-<div class="para" id="minimal-4-7-12"><em class="alert">Atividade</em></div>
-<ol class="decimal"><li id="minimal-4-7-13-1">
-<div class="para" id="minimal-4-7-13-1-1">Escreva as funções a seguir na forma padrão:</div>
+<div class="para" id="minimal-4-7-10"><em class="alert">Atividade</em></div>
+<ol class="decimal"><li id="minimal-4-7-11-1">
+<div class="para" id="minimal-4-7-11-1-1">Escreva as funções a seguir na forma padrão:</div>
 <ol class="lower-alpha">
-<li id="minimal-4-7-13-1-2-1"><div class="para" id="p-derived-minimal-4-7-13-1-2-1">
-<span class="process-math">\(f(x)=-\left(x-\dfrac{5}{2}\right)^2+\dfrac{1}{4}\)</span> <details id="minimal-4-7-13-1-2-1-2" class="solution solution-like born-hidden-knowl"><summary><span class="type">Solução</span><span class="period">.</span></summary><div class="solution solution-like">
-<div class="para" id="minimal-4-7-13-1-2-1-2-1"><span class="process-math">\(f(x)=-x^2+2\cdot x\cdot \dfrac{5}{2}-\left(\dfrac{5}{2}\right)^2+\dfrac{1}{4}=-x^2+5x-6\)</span></div> <div class="para" id="minimal-4-7-13-1-2-1-2-2">Portanto, <span class="process-math">\(f(x)=-x^2+5x-6\text{.}\)</span>
-</div> <div class="para" id="minimal-4-7-13-1-2-1-2-3"></div> <div class="para" id="minimal-4-7-13-1-2-1-2-4">Usando <span class="process-math">\(f(x)=ax^2-2amx+am^2+k\text{,}\)</span> temos que <span class="process-math">\(a=-1\text{,}\)</span> <span class="process-math">\(m=\dfrac{5}{2}\)</span> e <span class="process-math">\(k=\dfrac{1}{4}\text{.}\)</span>  Logo</div> <div class="para" id="minimal-4-7-13-1-2-1-2-5"><span class="process-math">\(f(x)=-1\cdot x^2-2\cdot (-1)\cdot \dfrac{5}{2}\cdot x+ (-1)\cdot \left(\dfrac{5}{2}\right)^2+\dfrac{1}{4}\)</span></div> <div class="para" id="minimal-4-7-13-1-2-1-2-6">Portanto, <span class="process-math">\(f(x)=-x^2+5x-6\)</span>
+<li id="minimal-4-7-11-1-2-1"><div class="para" id="p-derived-minimal-4-7-11-1-2-1">
+<span class="process-math">\(f(x)=-\left(x-\dfrac{5}{2}\right)^2+\dfrac{1}{4}\)</span> <details id="minimal-4-7-11-1-2-1-2" class="solution solution-like born-hidden-knowl"><summary><span class="type">Solução</span><span class="period">.</span></summary><div class="solution solution-like">
+<div class="para" id="minimal-4-7-11-1-2-1-2-1"><span class="process-math">\(f(x)=-x^2+2\cdot x\cdot \dfrac{5}{2}-\left(\dfrac{5}{2}\right)^2+\dfrac{1}{4}=-x^2+5x-6\)</span></div> <div class="para" id="minimal-4-7-11-1-2-1-2-2">Portanto, <span class="process-math">\(f(x)=-x^2+5x-6\text{.}\)</span>
+</div> <div class="para" id="minimal-4-7-11-1-2-1-2-3"></div> <div class="para" id="minimal-4-7-11-1-2-1-2-4">Usando <span class="process-math">\(f(x)=ax^2-2amx+am^2+k\text{,}\)</span> temos que <span class="process-math">\(a=-1\text{,}\)</span> <span class="process-math">\(m=\dfrac{5}{2}\)</span> e <span class="process-math">\(k=\dfrac{1}{4}\text{.}\)</span>  Logo</div> <div class="para" id="minimal-4-7-11-1-2-1-2-5"><span class="process-math">\(f(x)=-1\cdot x^2-2\cdot (-1)\cdot \dfrac{5}{2}\cdot x+ (-1)\cdot \left(\dfrac{5}{2}\right)^2+\dfrac{1}{4}\)</span></div> <div class="para" id="minimal-4-7-11-1-2-1-2-6">Portanto, <span class="process-math">\(f(x)=-x^2+5x-6\)</span>
 </div>
 </div></details>
 </div></li>
-<li id="minimal-4-7-13-1-2-2"><div class="para" id="p-derived-minimal-4-7-13-1-2-2">
-<span class="process-math">\(f(x)=\dfrac{1}{2}(x-4)^2-8\)</span> <details id="minimal-4-7-13-1-2-2-2" class="solution solution-like born-hidden-knowl"><summary><span class="type">Solução</span><span class="period">.</span></summary><div class="solution solution-like">
-<div class="para" id="minimal-4-7-13-1-2-2-2-1"><span class="process-math">\(f(x)=\dfrac{1}{2}\cdot (x^2-2\cdot x\cdot4+4^2)-8
+<li id="minimal-4-7-11-1-2-2"><div class="para" id="p-derived-minimal-4-7-11-1-2-2">
+<span class="process-math">\(f(x)=\dfrac{1}{2}(x-4)^2-8\)</span> <details id="minimal-4-7-11-1-2-2-2" class="solution solution-like born-hidden-knowl"><summary><span class="type">Solução</span><span class="period">.</span></summary><div class="solution solution-like">
+<div class="para" id="minimal-4-7-11-1-2-2-2-1"><span class="process-math">\(f(x)=\dfrac{1}{2}\cdot (x^2-2\cdot x\cdot4+4^2)-8
 =\dfrac{x^2}{2}-4x+8-8
-=\dfrac{x^2}{2}-4x\)</span></div> <div class="para" id="minimal-4-7-13-1-2-2-2-2">Portanto, <span class="process-math">\(f(x)=\dfrac{x^2}{2}-4x\text{.}\)</span>
-</div> <div class="para" id="minimal-4-7-13-1-2-2-2-3"></div> <div class="para" id="minimal-4-7-13-1-2-2-2-4">Usando <span class="process-math">\(f(x)=ax^2-2amx+am^2+k\text{,}\)</span> temos que <span class="process-math">\(a=\dfrac{1}{2}\text{,}\)</span> <span class="process-math">\(m=4\)</span> e <span class="process-math">\(k=-8\text{.}\)</span> Logo</div> <div class="para" id="minimal-4-7-13-1-2-2-2-5"><span class="process-math">\(f(x)=\dfrac{1}{2}\cdot x^2-2\cdot \dfrac{1}{2}\cdot 4\cdot x + \dfrac{1}{2}\cdot 4^2-8\)</span></div> <div class="para" id="minimal-4-7-13-1-2-2-2-6">Portanto, <span class="process-math">\(f(x)=\dfrac{x^2}{2}-4x\text{.}\)</span>
+=\dfrac{x^2}{2}-4x\)</span></div> <div class="para" id="minimal-4-7-11-1-2-2-2-2">Portanto, <span class="process-math">\(f(x)=\dfrac{x^2}{2}-4x\text{.}\)</span>
+</div> <div class="para" id="minimal-4-7-11-1-2-2-2-3"></div> <div class="para" id="minimal-4-7-11-1-2-2-2-4">Usando <span class="process-math">\(f(x)=ax^2-2amx+am^2+k\text{,}\)</span> temos que <span class="process-math">\(a=\dfrac{1}{2}\text{,}\)</span> <span class="process-math">\(m=4\)</span> e <span class="process-math">\(k=-8\text{.}\)</span> Logo</div> <div class="para" id="minimal-4-7-11-1-2-2-2-5"><span class="process-math">\(f(x)=\dfrac{1}{2}\cdot x^2-2\cdot \dfrac{1}{2}\cdot 4\cdot x + \dfrac{1}{2}\cdot 4^2-8\)</span></div> <div class="para" id="minimal-4-7-11-1-2-2-2-6">Portanto, <span class="process-math">\(f(x)=\dfrac{x^2}{2}-4x\text{.}\)</span>
 </div>
 </div></details>
 </div></li>
 </ol>
 </li></ol>
-<section class="subsection" id="minimal-4-7-14"><h4 class="heading hide-type">
+<section class="subsection" id="minimal-4-7-12"><h4 class="heading hide-type">
 <span class="type">Subseção</span><span class="space"> </span><span class="codenumber">2.6.1</span><span class="space"> </span><span class="title">Esboçando o Gráfico da Função Quadrática</span>
 </h4>
-<div class="para" id="minimal-4-7-14-2">Vamos construir o esboço de dois gráficos de função quadrática.</div>
-<ol class="decimal"><li id="minimal-4-7-14-3-1">
-<div class="para" id="minimal-4-7-14-3-1-1">Esboce o gráfico das funções quadráticas:</div>
+<div class="para" id="minimal-4-7-12-2">Vamos construir o esboço de dois gráficos de função quadrática.</div>
+<ol class="decimal"><li id="minimal-4-7-12-3-1">
+<div class="para" id="minimal-4-7-12-3-1-1">Esboce o gráfico das funções quadráticas:</div>
 <ol class="lower-alpha">
-<li id="minimal-4-7-14-3-1-2-1"><div class="para" id="p-derived-minimal-4-7-14-3-1-2-1">
-<span class="process-math">\(f(x)=-(x-2)^2+4\)</span> <details id="minimal-4-7-14-3-1-2-1-2" class="solution solution-like born-hidden-knowl"><summary><span class="type">Solução</span><span class="period">.</span></summary><div class="solution solution-like">Esta é uma função quadrática escrita na forma canônica, cujos valores de <span class="process-math">\(a=-1\)</span> indica a concavidade virada para baixo, <span class="process-math">\(m=2\)</span> indica o eixo de simetria coincidindo com a reta <span class="process-math">\(x=2\)</span> e <span class="process-math">\(V=(2,4)\)</span> o vértice da função indicando o ponto de máximo da parábola. Podemos utilizar ainda mais um valor numérico da função para ajudar no desenho da parábola. Já sabemos que <span class="process-math">\(f(2)=4\text{,}\)</span> é o vértice da paŕabola. Então, como x=2 é o eixo de simetria da parábola, então <span class="process-math">\(f(1)=f(3)\)</span> e <span class="process-math">\(f(0)=f(4)\text{.}\)</span> Temos então:<div class="displaymath process-math">
+<li id="minimal-4-7-12-3-1-2-1"><div class="para" id="p-derived-minimal-4-7-12-3-1-2-1">
+<span class="process-math">\(f(x)=-(x-2)^2+4\)</span> <details id="minimal-4-7-12-3-1-2-1-2" class="solution solution-like born-hidden-knowl"><summary><span class="type">Solução</span><span class="period">.</span></summary><div class="solution solution-like">Esta é uma função quadrática escrita na forma canônica, cujos valores de <span class="process-math">\(a=-1\)</span> indica a concavidade virada para baixo, <span class="process-math">\(m=2\)</span> indica o eixo de simetria coincidindo com a reta <span class="process-math">\(x=2\)</span> e <span class="process-math">\(V=(2,4)\)</span> o vértice da função indicando o ponto de máximo da parábola. Podemos utilizar ainda mais um valor numérico da função para ajudar no desenho da parábola. Já sabemos que <span class="process-math">\(f(2)=4\text{,}\)</span> é o vértice da paŕabola. Então, como x=2 é o eixo de simetria da parábola, então <span class="process-math">\(f(1)=f(3)\)</span> e <span class="process-math">\(f(0)=f(4)\text{.}\)</span> Temos então:<div class="displaymath process-math">
 \begin{equation*}
 f(1)=-(1-2)^2+4=-(-1)^2+4=-1+4=3
 \end{equation*}
@@ -546,8 +538,8 @@ f(4)=-(4-2)^2+4=-(2)^2+4=-4+4=0
 </div>Veja o gráfico cuja parábola passa pelos pontos (1,3), (3,3), (0,0), (4,0), o vértice (2,4), e concavidade virada para baixo. <div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="Parabola1.png" class="contained"></div>
 </div></details>
 </div></li>
-<li id="minimal-4-7-14-3-1-2-2"><div class="para" id="p-derived-minimal-4-7-14-3-1-2-2">
-<span class="process-math">\(g(x)=x^2-6x+5\)</span> <details id="minimal-4-7-14-3-1-2-2-2" class="solution solution-like born-hidden-knowl"><summary><span class="type">Solução</span><span class="period">.</span></summary><div class="solution solution-like">Esta é uma função quadrática escrita na forma padrão. Vamos escrevê-la na forma canônica. Seja <span class="process-math">\(a=1\text{,}\)</span> <span class="process-math">\(b=-6\)</span> e <span class="process-math">\(c=5\text{,}\)</span> temos que<div class="displaymath process-math">
+<li id="minimal-4-7-12-3-1-2-2"><div class="para" id="p-derived-minimal-4-7-12-3-1-2-2">
+<span class="process-math">\(g(x)=x^2-6x+5\)</span> <details id="minimal-4-7-12-3-1-2-2-2" class="solution solution-like born-hidden-knowl"><summary><span class="type">Solução</span><span class="period">.</span></summary><div class="solution solution-like">Esta é uma função quadrática escrita na forma padrão. Vamos escrevê-la na forma canônica. Seja <span class="process-math">\(a=1\text{,}\)</span> <span class="process-math">\(b=-6\)</span> e <span class="process-math">\(c=5\text{,}\)</span> temos que<div class="displaymath process-math">
 \begin{equation*}
 m=-\dfrac{b}{2a}=-\dfrac{(-6)}{2\cdot(1)}=3
 \end{equation*}
@@ -557,8 +549,8 @@ m=-\dfrac{b}{2a}=-\dfrac{(-6)}{2\cdot(1)}=3
 k=-\dfrac{\Delta}{4a}=-\dfrac{(-6)^2-4\cdot(1)\cdot(5)}{4\cdot(1)}=-4
 \end{equation*}
 </div>
-<div class="para" id="minimal-4-7-14-3-1-2-2-2-6">Logo, <span class="process-math">\(f(x)=(x-3)^2-4\text{.}\)</span>
-</div> <div class="para logical" id="minimal-4-7-14-3-1-2-2-2-7">
+<div class="para" id="minimal-4-7-12-3-1-2-2-2-6">Logo, <span class="process-math">\(f(x)=(x-3)^2-4\text{.}\)</span>
+</div> <div class="para logical" id="minimal-4-7-12-3-1-2-2-2-7">
 <div class="para">Obtendo a função quadrática na forma canônica, cujos valores de <span class="process-math">\(a=1\)</span> indica a concavidade virada para cima, <span class="process-math">\(m=3\)</span> indica o eixo de simetria coincidindo com a reta <span class="process-math">\(x=3\)</span> e <span class="process-math">\(V=(3,-4)\)</span> o vértice da função indicando o ponto de mínimo da parábola. Podemos utilizar ainda mais um valor numérico da função para ajudar no desenho da parábola. Já sabemos que <span class="process-math">\(f(3)=-4\text{,}\)</span> é o vértice da paŕabola. Então, como x=3 é o eixo de simetria da parábola, então <span class="process-math">\(f(2)=f(4)\)</span> e <span class="process-math">\(f(1)=f(5)\text{.}\)</span> Temos então:</div>
 <div class="displaymath process-math">
 \begin{equation*}
