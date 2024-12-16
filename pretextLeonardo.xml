@@ -4701,29 +4701,33 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                 <alert>Fogões Solares de Caixa:</alert> é o tipo mais comum de fogão solar, composto de caixa isolada, tampa transparente e um refletor dentro da 
                                 caixa para refletir a luz do sol, mantendo dentro do recipiente um ambiente propício para cozimento. 
                                 <figure>
-                                    <caption>Portal Solar, 2024</caption>
+                                    <caption>Fogão Solar de Caixa</caption>
                                     <image width="50%" source="fsc.png"/>
+                                    <legend>Fonte: <xref ref="ref-18"/></legend>
                                 </figure>
                             </li>
                             <li>
                                 <alert>Fogões Solares Parabólicos:</alert> usam refletores parabólicos para refletir a luz num único ponto (foco da parábola).  
                                 <figure>
-                                    <caption>Conceitos, 2024</caption>
+                                    <caption>Fogão Solar Parabólico</caption>
                                     <image width="50%" source="fspr.png"/>
+                                    <legend>Fonte: <xref ref="ref-19"/></legend>
                                 </figure>
                             </li>
                             <li>
                                 <alert>Fogões Solares Híbridos:</alert> combinam diversos tipos de tecnologia de aquecimento.       
                                 <figure>
-                                    <caption>Pleno Sol, 2014</caption>
+                                    <caption>Fogão Solar Híbrido</caption>
                                     <image width="50%" source="fsh.png"/>
+                                    <legend>Fonte: <xref ref="ref-20"/></legend>
                                 </figure>
                             </li>
                             <li>
-                                <alert>Fogões Solares Portáteis:</alert> projetados para serem compactos e fáceis de transportar.
+                                <alert>Fogão Solare Portátil:</alert> projetados para serem compactos e fáceis de transportar.
                                 <figure>
-                                    <caption>Ciclo Vivo, 2017</caption>
+                                    <caption>Fogão Solar Portátil</caption>
                                     <image width="50%" source="fspo.png"/>
+                                    <legend>Fonte: <xref ref="ref-21"/></legend>
                                 </figure>
                             </li>
                         </ul>
@@ -7666,6 +7670,34 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                         2024. Disponível em: 
                         <url href="https://www.realfurgoes.com.br/blog/frota-de-caminhoes-comprar-ou-alugar-uma-frota-para-minha-empresa/" 
                         visual="www.realfurgoes.com.br">www.realfurgoes.com.br</url>. Acesso em: 16 dez. 2024.
+                    </biblio>
+
+                    <biblio xml:id="ref-18">
+                        Waitman, Marinaldo. <em>Tema Simples: Geografia - Ensino Fundamental e Médio Real Furgões e Implementos Rdoviários</em>.
+                        2023. Disponível em: 
+                        <url href="http://atividadesdegeografia.blogspot.com/2013/08/tipos-de-fogoes-solares-existem-tres.html" 
+                        visual="www.atividadesdegeografia.com.br">www.atividadesdegeografia.com.br</url>. Acesso em: 16 dez. 2024.
+                    </biblio>
+                    
+                    <biblio xml:id="ref-19">
+                        Projeto Grupo Íkaros. <em>Forno Solar</em>. Wordpress, 2012.
+                        Disponível em: 
+                        <url href="https://grupoikaros.wordpress.com/forno-solar/" 
+                        visual="www.grupoikaros.wordpess.com/forno-solar/">www.grupoikaros.com/forno-solar</url>. Acesso em: 16 dez. 2024.
+                    </biblio>
+
+                    <biblio xml:id="ref-20">
+                        Nicolau. <em>Pleno Sol: Solar, Elétrica ou Combinando Solar/Elétrica Rápido e Econômico.</em>.
+                        2014. Disponível em: 
+                        <url href="https://plenosol.com/fornos-solares-2/modelos-fora-de-linha/forno-solar-hibrido-p-s-multiuso-24h-2014/" 
+                        visual="www.plenosol.com.br">www.plenosol.com.br</url>. Acesso em: 16 dez. 2024.
+                    </biblio>
+
+                    <biblio xml:id="ref-21">
+                        Souza, Marcia. <em>Fogão portátil é movido a energia solar</em>.
+                        Ciclo Vivo, 2017. Disponível em: 
+                        <url href="https://ciclovivo.com.br/inovacao/tecnologia/fogao-portatil-e-movido-a-energia-solar/" 
+                        visual="www.ciclovivo.com.br">www.ciclovido.com.br</url>. Acesso em: 16 dez. 2024.
                     </biblio>
         </section>
 
