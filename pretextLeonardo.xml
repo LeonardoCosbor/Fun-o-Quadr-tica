@@ -4842,9 +4842,9 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                     <li>
                         <p>Localize qual das retas representam o eixo de simetria da função 
                         quadrática desenhada no gráfico.</p>
-                        <figure>
+                        
                             <image width="50%" source="eixo.png"/>
-                        </figure>
+                        
                             <ol marker="a">
                                 <li>x=0</li>
                                 <li>x=2</li>
@@ -4854,9 +4854,9 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                             </ol>
                         <solution>
                             Alternativa c.
-                            <figure>
+                            
                                 <image width="50%" source="eixoII.png"/>
-                            </figure>
+                            
                         </solution>
                     </li>
 
