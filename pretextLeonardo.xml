@@ -156,31 +156,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
 
                 <p>
                 <sidebyside>
-                <table xml:id="Q1">
-                    <title>Queda Livre: Dados da <xref ref="QL"/></title>
-                    <tabular halign="center">
-                    <row header="yes" bottom="minor">
-                    <cell>Tempo<m>(s)</m></cell>
-                    <cell>Distância<m>(m)</m></cell>
-                    </row>
-                    <row>
-                        <cell>0</cell>
-                        <cell>0</cell>
-                    </row>
-                    <row>
-                        <cell>1</cell>
-                        <cell>1</cell>
-                    </row>
-                    <row>
-                        <cell>2</cell>
-                        <cell>4</cell>
-                    </row>
-                    <row>
-                        <cell>3</cell>
-                        <cell>9</cell>
-                    </row>
-                    </tabular>
-                </table> 
+                <p><xref ref="T1"/></p>
                 <table xml:id="Q2">
                     <title>Exemplo de Situação Linear</title>
                     <tabular halign="center">
