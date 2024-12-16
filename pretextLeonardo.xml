@@ -2321,6 +2321,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                 </tabular>
                             </table>
                                 <figure>
+                                    <caption>Área do Triângulo ABC Interativo</caption>
                                     <interactive width="50%" aspect="3:2" geogebra="ytsashkg" />
                                 </figure>
                         </sidebyside>
@@ -2348,6 +2349,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                 <p>Identifique qual das alternativas representa o cálculo da área do
                                 triângulo ABC</p>
                                 <figure>
+                                    <caption>Triângulo Isósceles ABC, de Altura Igual a 4 e Base Igual a 6</caption>
                                     <image width="50%" source="trianguloIV.png"/>
                                 </figure>
                                 <p>
