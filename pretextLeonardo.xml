@@ -3262,10 +3262,12 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                     </figure>
                                 </li>
                                 <li>
-                            O movimento que a garrafa faz até chegar ao fundo da lixeira, jogada por um 
-                            homem andando na rua, em queda livre.
+                            Homem lançando um objeto do alto de uma torre, e observando a relação de tempo
+                            e espaço percorrido pelo objeto.
                                     <figure>
+                                        <caption>Experimento de Galileu Galilei: Queda livre</caption>
                                         <image width="50%" source="quedagua.png"/>
+                                        <legend>Fonte: <xref ref="ref-16"/></legend>
                                     </figure>
                                 </li>
                                 <li>
@@ -7638,6 +7640,12 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                         PUC-RJ. <em>Vestibulares Estrategias: Cientistas brasileiros</em>. 2018. Disponível em: 
                         <url href="https://vestibulares.estrategia.com./public/questions/Cientistas-brasileiros50bbbd7b2d/" 
                         visual="www.vestibulares.estrategia.com.br">www.vestibulares.estrategia.com.br</url>. Acesso em: 16 dez. 2024.
+                    </biblio>
+
+                    <biblio xml:id="ref-16">
+                        Silva, Marco Aurelio da. <em>O Movimento de Queda Livre</em>. Brasil Ecola,   2018. Disponível em: 
+                        <url href="https://https://brasilescola.uol.com.br/fisica/o-movimento-queda-livre.htm." 
+                        visual="www.brasilescola.uol.com.br">www.brasilescola.uol.com.br</url>. Acesso em: 16 dez. 2024.
                     </biblio>
         </section>
 
