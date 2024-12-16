@@ -4927,9 +4927,9 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                     <video youtube="qFgj8iunPWo"/>
                                 </p>
                             </hint>
-                            Observe como no vídeo o professor usa <m>k=f(m)</m>, o que não está errado, pois 
+                            <p>Observe como no vídeo o professor usa <m>k=f(m)</m>, o que não está errado, pois 
                             <m>k</m> é a imagem do vértice da parábola quando <m>x=m</m>. Logo, podemos optar por esta
-                            forma de resolver. 
+                            forma de resolver.</p>
                             <ol>
                                 <li><m>y=x^2-5x+6</m>
                                     <solution>
@@ -4962,11 +4962,11 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
 
                                 <li><m>y=2x^2-4x+2</m>
                                     <solution>
-                                        <p>Seja <m>m=-\dfrac{b}{2a}</m>,  <m>k=\dfrac{4ac-b^2}{4a}</m> 
+                                        <p>Seja <m>m=-\dfrac{b}{2a}</m>,  <m>k=f(m)</m> 
                                             e <m>a=2</m>, <m>b=-4</m> e <m>c=2</m>, então</p>
-                                            <m>y=2\left(x-\dfrac{-4}{2\cdot2}\right)^2+\dfrac{4\cdot2\cdot2-(-4)^2}{4\cdot2}
-                                                =2\left(x+\dfrac{4}{4}\right)^2+\dfrac{(16-16)}{8}
-                                                =2(x+1)^2</m>
+                                            <me>m=left(\dfrac{-4}{2\cdot2}\right)=\left(\dfrac{4}{4}\right)=1</me> e 
+                                            <me>f(m)=2\cdot(m)^2-4\cdot(m)+2=2\cdot1^2-4\cdot1+2=2-4+2=0</me>
+                                            Portanto, <m>y=2(x-1)^2</m>.
                                     </solution>
                                 </li>
                             </ol>
