@@ -3264,7 +3264,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                 <li>
                             Homem lançando um objeto do alto de uma torre, e observando a relação de tempo
                             e espaço percorrido pelo objeto.
-                                    <figure>
+                                    <figure xml:id="quedagua">
                                         <caption>Experimento de Galileu Galilei: Queda livre</caption>
                                         <image width="50%" source="quedagua.png"/>
                                         <legend>Fonte: <xref ref="ref-16"/></legend>
@@ -3274,7 +3274,9 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                             O valor V, em reais, de um caminhão adquirido por R$ 100.000,00, t anos após sua compra, sabendo que todo ano a taxa de 
                             depreciação é de 20%.
                                     <figure>
+                                        <caption>Frota de caminhões enfileirados</caption>
                                         <image width="50%" source="caminhao.png"/>
+                                        <legend>Fonte: <xref ref="ref-17"/></legend>
                                     </figure>
                                 </li>
 
