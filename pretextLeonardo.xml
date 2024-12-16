@@ -3840,7 +3840,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                             <li><m>f(h+1)</m></li>
                         </ol>
                             <solution>
-                                 <ol marker="a">
+                                <ol marker="a">
                                     <li><p>f(h)</p>
                                         <p><m>f(h)=3(h)^2-4(h)+1</m></p>
                                     </li>
@@ -3900,7 +3900,8 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                 </p>
 
                 <figure>
-                    <image with="50%" source="parabola.png"/>
+                    <caption>Três elementos importantes das parábolas, gráfico da função quadrática</caption>
+                    <image with="50%" source="treselementos.png"/>
                 </figure>
 
                 <p>Faremos algumas simulações com um software matemático para tal
