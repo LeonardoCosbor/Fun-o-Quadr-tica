@@ -157,7 +157,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                 <p>
                 <sidebyside>
                 <table xml:id="Q1">
-                    <title>Queda Livre</title>
+                    <title>Queda Livre: Dados da <xref ref="QL"/></title>
                     <tabular halign="center">
                     <row header="yes" bottom="minor">
                     <cell>Tempo<m>(s)</m></cell>
