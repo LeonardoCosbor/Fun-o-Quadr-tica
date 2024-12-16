@@ -3282,7 +3282,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
 
                             </ol>
                                 <solution>
-                                    <p>Alternativa c. Queda livre é estudado no início do capítulo como uma aplicação 
+                                    <p>Alternativa c, <xref ref="quedagua"/>. Queda livre é estudado no início do capítulo como uma aplicação 
                                     de função quadrática.</p>
                                 </solution>
                         </li>
