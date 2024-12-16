@@ -3317,6 +3317,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                             fórmulas determina as alturas mostradas na imagem.
                             </p>
                                 <figure>
+                                    <caption>Jogador fazendo um arremesso da bola na cesta.</caption>
                                     <image width="70%" source="lançamento.png"/>
                                 </figure>
                                     <example>
