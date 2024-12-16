@@ -236,7 +236,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                 </p>
                 <solution>
                 <table xml:id="Q3">
-                    <title>Queda Livre</title>
+                    <title>Queda Livre: Dados da <xref ref="QL"/> com novos valores inseridos</title>
                     <tabular halign="center">
                     <row header="yes" bottom="minor">
                     <cell>Tempo<m>(s)</m></cell>
@@ -1102,45 +1102,11 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                 Veja:
                 </p>
                 <sidebyside>
+                <p>
+                    <xref ref="Q3"/>
+                </p>
                 <table>
-                    <title>Queda Livre</title>
-                    <tabular halign="center">
-                    <row header="yes" bottom="minor">
-                    <cell>Tempo<m>(s)</m></cell>
-                    <cell>Distância<m>(m)</m></cell>
-                    </row>
-                    <row>
-                        <cell>1</cell>
-                        <cell>1</cell>
-                    </row>
-                    <row>
-                        <cell>2</cell>
-                        <cell>4</cell>
-                    </row>
-                    <row>
-                        <cell>3</cell>
-                        <cell>9</cell>
-                    </row>
-                    <row>
-                        <cell>4</cell>
-                        <cell>16</cell>
-                    </row>
-                    <row>
-                        <cell>5</cell>
-                        <cell>25</cell>
-                    </row>
-                    <row>
-                        <cell>6</cell>
-                        <cell>36</cell>
-                    </row>
-                    <row>
-                        <cell>...</cell>
-                        <cell>...</cell>
-                    </row>
-                    </tabular>
-                </table> 
-                <table>
-                    <title>Queda Livre</title>
+                    <title>Queda Livre: Distâncias da <xref ref="Q3"/> escritas na forma de potência</title>
                     <tabular halign="center">
                     <row header="yes" bottom="minor" >
                     <cell>Tempo<m>(s)</m></cell>
