@@ -2977,7 +2977,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                     
                                     <figure>
                                         <caption>Etapas da atividade de transformar a forma retangular
-                                        de cartonia em um paralelepípedo reto-retângulo aberto</caption>
+                                        de cartolina em um paralelepípedo reto-retângulo aberto</caption>
                                         <image width="100%" source="cartolina.png"/>
                                     </figure>
                                     <ol>
@@ -3019,6 +3019,8 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                     (Considere <m>\sqrt3=1,7</m>)</p>
                                     <legend> Fonte: <xref ref="ref-8"/></legend>
                                     <figure>
+                                        <caption>Embalagens de caixas de leite. Prisma Reto de Base Quadrada e 
+                                        Primas Reto de Base Triangular, respectivamente.</caption>
                                         <image width="50%" source="leite.png"/>
                                     </figure>
                                         <solution>
@@ -3051,6 +3053,8 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                     da embalagem de perfume abaixo. Em seguida, determine qual a área lateral 
                                     desta embalagem se a medida do diâmetro for igual a 10 cm.</p>
                                         <figure>
+                                            <caption>Aparência da embalagem de perfume e suas dimensões, ou seja, diâmetro 
+                                            da base igual a <m>2x</m> e altura igual a <m>3x</m></caption>
                                             <image width="50%" source="cilindro.png"/>
                                         </figure>
 
