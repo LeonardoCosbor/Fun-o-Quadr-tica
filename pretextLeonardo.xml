@@ -3494,7 +3494,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                     <caption>Menino chutando a bola para cima, observando uma trajetória parabólica</caption>
                                     <image width="50%" source="altura.png"/>
                                 </figure>
-                            <p>Explique se é possível determinar esta altura e qual valor seriam o tempo e a altura.</p>
+                            <p>Explique se é possível determinar a altura máxima da bola e qual valor seriam o tempo e a altura.</p>
                                 <solution>
                                     <table>
                                         <title>Cálculo das alturas em metros, dados os valores dos tempos em segundos</title>
