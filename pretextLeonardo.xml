@@ -108,7 +108,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                 </p>
                 
                     <figure xml:id="QL">
-                        <caption halign="center">Queda livre</caption>
+                        <caption halign="center">Queda livre: Instante e Posição da Bola de Basquete</caption>
                         <image width="30%" source="tempobolaregua.png"/>
                     </figure>
                 
@@ -121,7 +121,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                 </p>
                 
                 <table xml:id="T1">
-                    <title halign="center">Queda Livre</title>
+                    <title halign="center">Queda Livre: Dados da Figura<xref ref="QL"/></title>
                     <tabular halign="center">
                     <row header="yes" bottom="minor">
                     <cell>Tempo<m>(s)</m></cell>
