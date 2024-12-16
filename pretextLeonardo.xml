@@ -4922,6 +4922,11 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
 
                     <li>
                         <p>Demonstre como escrever as funções quadráticas a seguir na forma canônima</p>
+                            <hint>
+                                <p>
+                                    <video youtube="qFgj8iunPWo"/>
+                                </p>
+                            </hint>
                             <ol>
                                 <li><m>y=x^2-5x+6</m>
                                     <solution>
