@@ -2974,10 +2974,10 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                     cada um dos cantos dessa folha, como na figura, formando-se uma
                                     superfície aberta de um paralelepípedo reto-retângulo:</p>
                                     <legend>Fonte: <xref ref="ref-7"/></legend>
-                                    <hint>
-                                        <interactive width="100%" geogebra="mpenqbf4"/>
-                                    </hint>
+                                    
                                     <figure>
+                                        <caption>Etapas da atividade de transformar a forma retangular
+                                        de cartonia em um paralelepípedo reto-retângulo aberto</caption>
                                         <image width="100%" source="cartolina.png"/>
                                     </figure>
                                     <ol>
