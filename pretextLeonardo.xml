@@ -1220,6 +1220,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                 </p>
                 <p>
                     <table>
+                        <caption>Sequência de Blocos: Número da Figura pela Quantidade de Quadrados</caption>
                         <tabular  top="major" halign="center" bottom="major" left="minor" right="minor" background-color="blue">
                             <row>
                                 <cell halign="left">Figura</cell>
@@ -1238,7 +1239,8 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                 </p>
                 <p>Então, podemos escrever os valores da segunda linha de outra maneira:</p>
                 <p>
-                     <table>
+                    <table>
+                        <caption>Sequência de Blocos: Número da Figura pela Quantidade de Quadrados Escrita na Forma de Potência</caption>
                         <tabular  top="major" halign="center" bottom="major" left="minor" right="minor" background-color="blue">
                             <row>
                                 <cell halign="left">Figura</cell>
@@ -1260,7 +1262,8 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                 de quadrados. 
                 </p>
                 <p>
-                   <table>
+                    <table>
+                        <caption>Sequência de Blocos: Quantidade de Quadrados em Função do Número da Figura</caption>
                         <tabular  top="major" halign="center" bottom="major" left="minor" right="minor" background-color="blue">
                             <row>
                                 <cell halign="left"><m>f</m></cell>
