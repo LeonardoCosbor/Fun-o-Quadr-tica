@@ -194,7 +194,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                 </p>
                 
                 <table xml:id="Q">
-                    <title>Queda Livre</title>
+                    <title>Queda Livre: Dados da <xref ref="QL"/>, situação não linear</title>
                     <tabular halign="center">
                     <row header="yes" bottom="minor">
                     <cell>Tempo<m>(s)</m></cell>
