@@ -4018,6 +4018,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                         função quadrática. Mexa nos botões deslizantes do gráfico interativo até que a parábola 
                         coincida com a trajetória do projétil.
                         <interactive geogebra="nntgcjbg"/>
+                        <legend>Fonte: <xref ref="ref-18"/></legend>
                     </li>
             </ol>       
 
@@ -4129,6 +4130,8 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                             atirado. Preencha a tabela informando quais valores de <m>a</m>, <m>m</m>
                             e <m>k</m>, a parábola acerta cada um dos pontos apresentados.
                             <table>
+                                <title>Valor dos parâmetros <m>a</m>, <m>m</m> e <m>k</m>, dependendo da 
+                                localização dos pontos P, Q, R e S.</title>
                                 <tabular top="minor" bottom="minor" right="minor" left="minor">
                                     <row>
                                         <cell>Ponto</cell>
