@@ -2479,6 +2479,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                             <p>Complete a tabela encontrando os valores da área do polígono para cada valor de x.</p>
                                             <p>
                                             <table>
+                                                <title>Área do Polígono Composto Roxo em Função do Valor da Unidade de Medida x</title>
                                                 <tabular top="minor" halign="center">
                                                     <row header="yes" bottom="minor">
                                                         <cell>x</cell>
@@ -2506,7 +2507,9 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                             <solution>
                                                 <p>
                                                 <table>
-                                                <tabular top="minor" halign="center">
+                                                <title>Área do Polígono Composto Roxo em Função do 
+                                                Valor da Unidade de Medida x</title>
+                                                    <tabular top="minor" halign="center">
                                                     <row header="yes" bottom="minor">
                                                         <cell>x</cell>
                                                         <cell>A</cell>
