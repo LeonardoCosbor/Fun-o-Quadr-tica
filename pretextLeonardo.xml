@@ -1610,7 +1610,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                 </figure>
 
                                     <table>
-                                        <title>Trajetória da bola</title>
+                                        <title>Altura da Bola em Função do Tempo</title>
                                         <tabular halign="center" left="minor" right="minor" bottom="minor" top="minor">
                                             <row>
                                                 <cell>x</cell>
@@ -1645,6 +1645,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                 <p>
                                 <solution>
                                     <table>
+                                        <title>Altura da Bola em Função do Tempo: Cálculos</title>
                                         <tabular halign="center" left="minor" right="minor" bottom="minor" top="minor">
                                             <row>
                                                 <cell>x</cell>
