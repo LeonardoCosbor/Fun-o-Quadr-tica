@@ -2545,6 +2545,11 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                         <hint>
                                             <image width="50%" source="cubo3x.png"/>
                                         </hint>
+                                        <hint>
+                                            <p>
+                                                <video youtube="HVaP8akjnaU">Área Total do Cubo</video>
+                                            </p>
+                                        </hint>
                                     <p>Para enxergar melhor a superfície do cubo, aumente o valor de i no recurso  interativo 
                                         do Geogebra.</p>
 
