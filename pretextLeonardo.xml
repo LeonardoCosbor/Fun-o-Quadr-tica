@@ -1220,7 +1220,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                 </p>
                 <p>
                     <table>
-                        <caption>Sequência de Blocos: Número da Figura pela Quantidade de Quadrados</caption>
+                        <title>Sequência de Blocos: Número da Figura pela Quantidade de Quadrados</title>
                         <tabular  top="major" halign="center" bottom="major" left="minor" right="minor" background-color="blue">
                             <row>
                                 <cell halign="left">Figura</cell>
@@ -1240,7 +1240,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                 <p>Então, podemos escrever os valores da segunda linha de outra maneira:</p>
                 <p>
                     <table>
-                        <caption>Sequência de Blocos: Número da Figura pela Quantidade de Quadrados Escrita na Forma de Potência</caption>
+                        <title>Sequência de Blocos: Número da Figura pela Quantidade de Quadrados Escrita na Forma de Potência</title>
                         <tabular  top="major" halign="center" bottom="major" left="minor" right="minor" background-color="blue">
                             <row>
                                 <cell halign="left">Figura</cell>
@@ -1263,7 +1263,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                 </p>
                 <p>
                     <table>
-                        <caption>Sequência de Blocos: Quantidade de Quadrados em Função do Número da Figura</caption>
+                        <title>Sequência de Blocos: Quantidade de Quadrados em Função do Número da Figura</title>
                         <tabular  top="major" halign="center" bottom="major" left="minor" right="minor" background-color="blue">
                             <row>
                                 <cell halign="left"><m>f</m></cell>
@@ -2110,7 +2110,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                             </p>
                 
                                 <figure>
-                                    <caption>Sequência Especial</caption>
+                                    <caption>Sequência Especial de Blocos</caption>
                                     <image source="padrao.png"/>
                                     <legend>Fonte: <xref ref="ref-3"/></legend>
                                 </figure>
