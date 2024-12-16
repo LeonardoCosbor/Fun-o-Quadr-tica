@@ -4927,6 +4927,9 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                     <video youtube="qFgj8iunPWo"/>
                                 </p>
                             </hint>
+                            Observe como no vídeo o professor usa <m>k=f(m)</m>, o que não está errado, pois 
+                            <m>k</m> é a imagem do vértice da parábola quando <m>x=m</m>. Logo, podemos optar por esta
+                            forma de resolver. 
                             <ol>
                                 <li><m>y=x^2-5x+6</m>
                                     <solution>
