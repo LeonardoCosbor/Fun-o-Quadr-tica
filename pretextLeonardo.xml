@@ -3054,7 +3054,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                     desta embalagem se a medida do diâmetro for igual a 10 cm.</p>
                                         <figure>
                                             <caption>Aparência da embalagem de perfume e suas dimensões, ou seja, diâmetro 
-                                            da base igual a <m>2x</m> e altura igual a <m>3x</m></caption>
+                                            da base igual a <m>2x</m> e altura igual a <m>3x</m>.</caption>
                                             <image width="50%" source="cilindro.png"/>
                                         </figure>
 
@@ -3242,10 +3242,12 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                         qual situação é um exemplo de aplicação de função quadrática.</p>
                             <ol marker="a">
                                 <li>
-                            O valor da corrida de taxi, em uma determinada cidade, cuja corrida vale R$4,50 mais R$1,50
+                            O valor da corrida de taxi, em uma determinada cidade, cuja corrida vale R$5,50 mais R$2,50
                             por quilômetro rodado. 
                                     <figure>
+                                        <caption>Mostorista acionando o taxímetro para iniciar a corrida.</caption>
                                         <image width="50%" source="taxi.png"/>
+                                        <legend>Fonte: <xref ref="ref-14"/></legend>
                                     </figure>
                                 </li>
                                 <li>
@@ -7621,6 +7623,12 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                     <biblio xml:id="ref-13"> 
                         Ferreto, Daniel. <em>Produtos Notáveis: Principais Casos.</em>
                         Youtube, 2024. Acesso em: 16 dez. 2024.
+                    </biblio>
+
+                    <biblio xml:id="ref-14">
+                        Prefeitura de Goiânia. <em>Matemática: O funcionamento de um taxímetro</em>. 2023. Disponível em: 
+                        <url href="https://sme.goiania.go.gov.br/conexaoescola/eaja/0-funcionamento-de-um-taximetro/" 
+                        visual="www.sme.goiania.go.gov.br">www.sme.goiania.go.gov.br</url>. Acesso em: 16 dez. 2024.
                     </biblio>
         </section>
 
