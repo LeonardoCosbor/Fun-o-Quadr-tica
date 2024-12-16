@@ -1827,6 +1827,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                             <p></p>
                             <p>
                                 <figure>
+                                    <caption>Sequência Padrão de Blocos</caption>
                                     <image width="50%" source="padraoII.png"/>
                                 </figure>
                             </p>
