@@ -4700,10 +4700,10 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                             <li>
                                 <alert>Fogões Solares de Caixa:</alert> é o tipo mais comum de fogão solar, composto de caixa isolada, tampa transparente e um refletor dentro da 
                                 caixa para refletir a luz do sol, mantendo dentro do recipiente um ambiente propício para cozimento. 
-                                <figure>
-                                    <caption>Fogão Solar de Caixa</caption>
+                                <figure halign="center">
+                                    <caption halign="center">Fogão Solar de Caixa</caption>
                                     <image width="50%" source="fsc.png"/>
-                                    <legend>Fonte: <xref ref="ref-18"/></legend>
+                                    <legend halign="center">Fonte: <xref ref="ref-18"/></legend>
                                 </figure>
                             </li>
                             <li>
@@ -7687,7 +7687,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                     </biblio>
 
                     <biblio xml:id="ref-20">
-                        Nicolau. <em>Pleno Sol: Solar, Elétrica ou Combinando Solar/Elétrica Rápido e Econômico.</em>.
+                        Nicolau. <em>Pleno Sol: Solar, Elétrica ou Combinando Solar/Elétrica Rápido e Econômico.</em>
                         2014. Disponível em: 
                         <url href="https://plenosol.com/fornos-solares-2/modelos-fora-de-linha/forno-solar-hibrido-p-s-multiuso-24h-2014/" 
                         visual="www.plenosol.com.br">www.plenosol.com.br</url>. Acesso em: 16 dez. 2024.
