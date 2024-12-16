@@ -4867,10 +4867,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                 <li><m>a=0</m></li>
                                 <li><m>a&gt;0</m></li>
                             </ol>
-                                <figure>
                                     <image width="100%" source="parabola3d.png"/>
-                                </figure>
-
                                 <solution>
                                     <p><image width="100%" source="4e.png"/></p>
                                 </solution>
