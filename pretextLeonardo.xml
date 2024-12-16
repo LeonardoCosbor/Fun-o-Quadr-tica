@@ -3379,6 +3379,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                             inicial de 20 metros por segundo. A altura h da bola em relação ao tempo t pode ser descrita pela 
                             fórmula: <m>h(t)=-2t^2+8t+2</m>.</p>
                             <figure>
+                                <caption>Jogador de vôlei fazendo treinamento em cima de uma cadeira</caption>
                                 <image width="80%" source="redevolei.png"/>
                             </figure>
                             <p>Associe cada informação abaixo à situação descrita, determinando:</p>
