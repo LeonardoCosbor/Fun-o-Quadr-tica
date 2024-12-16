@@ -2370,21 +2370,25 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                     <sidebyside>
                         <p>
                             <figure>
+                                <caption>Quadrado</caption>
                                 <image width="50%" source="quadradoV.png" />
                             </figure> 
                         </p>
                         <p>
                             <figure>
+                                <caption>Retângulo</caption>
                                 <image width="50%" source="retangulo.png"/>
                             </figure>
                         </p>
                         <p>
                             <figure xml:id="triangulo">
+                                <caption>Triângulo</caption>
                                 <image width="50%" source="triangulo.png"/>
                             </figure>
                         </p>
                         <p>
                             <figure>
+                                <caption>Trapézio</caption>
                                 <image width="50%" source="trapezio.png"/>
                             </figure>
                         </p>
