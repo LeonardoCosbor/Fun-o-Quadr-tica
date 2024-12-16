@@ -2271,7 +2271,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
 
                     <p>
                         <sidebyside>
-                            <table>
+                            <table xml:id="ABC">
                                 <title>Área do Triângulo ABC</title>
                                 <tabular halign="center">
                                 <row header="yes" bottom="minor" >
@@ -2666,8 +2666,9 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                             </li>
 
                             <li>
-                                <alert>Desafio</alert> Compare                                                                                                                                   as áreas sobreadas a seguir e selecione qual das figuras tem maior área.
+                                <alert>Desafio</alert> Compare as áreas sobreadas a seguir e selecione qual das figuras tem maior área.
                                 <figure>
+                                    <caption>Comparação da Área do Trapézio com a Área do Retângulo Sombreado</caption>
                                     <image width="70%" source="comparando.png"/>
                                 </figure>
 
@@ -2700,7 +2701,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                         </p>
                         
                         <p>
-                        Na <alert>tabela 1.29</alert> observamos que o termo quadrático aparece
+                        Como foi observado na <xml ref="ABC"/>, o termo quadrático aparece
                         quando aumentamos ao mesmo tempo as medidas da base e da altura do 
                         triângulo. 
                         </p>
