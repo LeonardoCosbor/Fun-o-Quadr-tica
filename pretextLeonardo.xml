@@ -156,7 +156,9 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
 
                 <p>
                 <sidebyside>
-                <p><xref ref="T1"/></p>
+                <p>
+                    <xref ref="T1"/>
+                </p>
                 <table xml:id="Q2">
                     <title>Exemplo de Situação Linear</title>
                     <tabular halign="center">
