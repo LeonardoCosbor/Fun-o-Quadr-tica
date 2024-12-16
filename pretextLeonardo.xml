@@ -2256,6 +2256,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                 </tabular>
                             </table>
                                 <figure>
+                                    <caption>Área do Triângulo ABC Interativo</caption>
                                     <interactive width="50%" geogebra="ytsashkg" />
                                 </figure>
                     </sidebyside>
