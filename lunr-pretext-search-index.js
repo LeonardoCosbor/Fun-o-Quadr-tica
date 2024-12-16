@@ -789,7 +789,7 @@ var ptx_lunr_docs = [
   "url": "minimal-3.html#minimal-3-5-19-1-5-2",
   "type": "Figura",
   "number": "1.86",
-  "title": "Cubo de aresta \"a\"",
+  "title": "",
   "body": " Cubo de aresta \"a\"   "
 },
 {
