@@ -3404,7 +3404,8 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                             temos:
                                             </p>
                                                 <table>
-                                                    <title>Altura (h) em função do Tempo (t)</title>
+                                                    <title>Altura (h) atingida pela bola em metros 
+                                                    em função do Tempo (t) medido em segundos</title>
                                                     <tabular halign="center">
                                                         <row>
                                                             <cell>t</cell>
