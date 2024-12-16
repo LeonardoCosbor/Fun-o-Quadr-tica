@@ -4995,15 +4995,19 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                     <p>Note que como o máximo ocorre no mês 8, então T(4)=105=T(12) em função da
                                         parábola ser simétrica ao vértice. Além disso, se T(1)=72, então, substituindo
                                         esses valores, temos
-                                        <me>a(4-8)^2+k=105</me>
-                                        <me>a(-4)^2+k=105</me>
-                                        <me>16a+k=105</me>
+                                        <md>
+                                            <mrow>a(4-8)^2+k \amp =105</mrow>
+                                            <mrow>a(-4)^2+k \amp =105</mrow>
+                                            <mrow>16a+k \amp =105</mrow>
+                                        </md>
                                     </p>
                                     <p>
                                         Analogamente, 
-                                        <me>a(1-8)^2+k=72</me>
-                                        <me>a(-7)^2+k=72</me>
-                                        <me>49a+k=72</me>
+                                        <md>
+                                            <mrow>a(1-8)^2+k \amp =72</mrow>
+                                            <mrow>a(-7)^2+k \amp =72</mrow>
+                                            <mrow>49a+k \amp =72</mrow>
+                                        </md>
                                     </p>
                                     <p>
                                         Isolando <m>k</m> na segunda  equação, temos que:
@@ -5011,16 +5015,21 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                     </p>
                                     <p>
                                         Substituindo na primeira equação, temos:
-                                        <me>16a+72-49a=105</me>
-                                        <me>-33a=33</me>
-                                        <me>a=\dfrac{33}{-33}</me>
-                                        <me>a=-1</me>
+                                        <md>
+                                            <mrow>16a+72-49a \amp =105</mrow>
+                                            <mrow>-33a \amp =33</mrow>
+                                            <mrow>a \amp =\dfrac{33}{-33}</mrow>
+                                            <mrow>a \amp =-1</mrow>
+                                        </md>
                                     </p>
                                     <p>
                                         Encontrando o valor de <m>k</m>, temos então:
-                                        <me>k=72-49\cdot(-1)</me>
-                                        <me>k=72+49</me>
-                                        <me>k=121</me>
+                                        <md>
+                                            <mrow>k \amp =72-49\cdot(-1)</mrow>
+                                            <mrow>k \amp =72+49</mrow>
+                                            <mrow>k \amp =121</mrow>
+                                        </md>
+                                        
                                     </p>
                                     <p>
                                         Portanto, <m>T(x)=-(x-8)^2+121</m>, <alert>alternativa b</alert>.
