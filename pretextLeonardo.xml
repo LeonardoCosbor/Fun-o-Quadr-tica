@@ -2848,9 +2848,14 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                 </tabular>
                             </p>
                         
-                        <p>Veja o vídeo explicativo a seguir que trata sobre o Produtos Notáveis:</p>
+                        <p>Veja o vídeo explicativo a seguir que trata sobre o Produtos Notáveis:
                             <video youtube="_3YQvVkbqn0">Produtos Notáveis: Principais Casos</video>
+                            <legend>Fonte: <xref ref="ref-13"/></legend>
+                        </p>
 
+                    <p>
+                        <alert>Atividades</alert>
+                    </p>
                         <p>
                             <ol>
                                 <li>
@@ -7607,10 +7612,12 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                     <biblio xml:id="ref-12"> 
                         Bezerra, Gis. <em>Área do Cubo: Como calcular a área da superfície do cubo.</em>
                         Youtube, 2024. Acesso em: 16 dez. 2024.
-
                     </biblio>
 
-
+                    <biblio xml:id="ref-13"> 
+                        Ferreto, Daniel. <em>Produtos Notáveis: Principais Casos.</em>
+                        Youtube, 2024. Acesso em: 16 dez. 2024.
+                    </biblio>
         </section>
 
 
