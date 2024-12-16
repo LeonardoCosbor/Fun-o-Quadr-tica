@@ -3498,7 +3498,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                 <solution>
                                     <table>
                                         <title>Cálculo das alturas em metros, dados os valores dos tempos em segundos</title>
-                                        <tabular>
+                                        <tabular halign="center">
                                             <row>
                                                 <cell>x(tempo)</cell>
                                                 <cell><m>h(altura)</m></cell>
