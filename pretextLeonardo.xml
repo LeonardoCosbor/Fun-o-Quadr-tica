@@ -4967,7 +4967,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                     <solution>
                                         <p>Seja <m>m=-\dfrac{b}{2a}</m>,  <m>k=f(m)</m> 
                                             e <m>a=2</m>, <m>b=-4</m> e <m>c=2</m>, então</p>
-                                            <me>m=left(\dfrac{-4}{2\cdot2}\right)=\left(\dfrac{4}{4}\right)=1</me> e 
+                                            <me>m=\left(\dfrac{-4}{2\cdot2}\right)=\left(\dfrac{4}{4}\right)=1</me> e 
                                             <me>f(m)=2\cdot(m)^2-4\cdot(m)+2=2\cdot1^2-4\cdot1+2=2-4+2=0</me>
                                             Portanto, <m>y=2(x-1)^2</m>.
                                     </solution>
