@@ -1118,7 +1118,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                     </row>
                     <row>
                         <cell>2</cell>
-                       <cell>2²</cell>
+                        <cell>2²</cell>
                     </row>
                     <row>
                         <cell>3</cell>
@@ -1156,7 +1156,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                 Observe:
                 </p>
                 <table>
-                    <title>Queda Livre</title>
+                    <title>Queda Livre: Conjectura da situação não linear mostrada na <xref ref="QL"/></title>
                     <tabular halign="center">
                     <row header="yes" bottom="minor" >
                     <cell>Tempo<m>(s)</m></cell>
