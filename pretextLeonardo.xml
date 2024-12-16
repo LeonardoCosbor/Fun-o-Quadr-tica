@@ -2596,6 +2596,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                             <li>
                                 <p><alert>Desafio</alert> Calcule a área lateral do sólido ABCDEFG em função da variável <m>x</m>:</p>
                                 <figure>
+                                    <caption>Sólido ABCDEFG: Prisma de Base Quadrada</caption>
                                     <image width="50%" source="cuboII.png" />
                                 </figure>
                                 <p>
@@ -2620,7 +2621,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                         <image width="50%" source="areatrianguloequilatero.png"/>
                                     </hint>
                                     <figure>
-                                        <caption>Chocolate Toblerone</caption>
+                                        <caption>Chocolate Toblerone: Prisma de Base Triângular</caption>
                                         <image width="50%" source="toblerone.png"/>
                                         <legend>Fonte: <xref ref="ref-5"/></legend>
                                     </figure>
