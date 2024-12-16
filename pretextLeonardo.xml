@@ -3398,13 +3398,14 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                         </solution>
                                     </li>
                                     <li>O instante em que a bola atinge o solo.
-                                         <solution background-color="#FFFFFF">
+                                        <solution>
                                             <p>Por aproximação, precisamos encontrar uma valor para t cujo h seja igual ou 
                                             aproximadamente zero. Logo, utilizando uma tabela para demonstrar estes cálculos,
                                             temos:
                                             </p>
                                                 <table>
-                                                    <tabular>
+                                                    <title>Altura (h) em função do Tempo (t)</title>
+                                                    <tabular halign="center">
                                                         <row>
                                                             <cell>t</cell>
                                                             <cell>h</cell>
