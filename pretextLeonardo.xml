@@ -3497,8 +3497,8 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                             <p>Explique se é possível determinar esta altura e qual valor seriam o tempo e a altura.</p>
                                 <solution>
                                     <table>
+                                        <title>Cálculo das alturas em metros, dados os valores dos tempos em segundos</title>
                                         <tabular>
-                                            <title>Cálculo de maior altura</title>
                                             <row>
                                                 <cell>x(tempo)</cell>
                                                 <cell><m>h(altura)</m></cell>
