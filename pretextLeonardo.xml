@@ -2548,6 +2548,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                         <hint>
                                             <p>
                                                 <video youtube="HVaP8akjnaU">Área Total do Cubo</video>
+                                                <legend>Fonte: <xref ref="ref-12"/></legend>
                                             </p>
                                         </hint>
                                     <p>Para enxergar melhor a superfície do cubo, aumente o valor de i no recurso  interativo 
@@ -7596,6 +7597,11 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                         Disponível em: <url href="http://www.multirio.rj.gov.br/media/PDF/pdf_2547.pdf"
                         visual="www.multirio.rj.gov.br">www.multirio.rj.gov.br</url> 
                         Acesso em: 12 dez. 2024.
+                    </biblio>
+
+                    <biblio xml:id="ref-12"> 
+                        Bezerra, Gis. <em>Área do Cubo: Como calcular a área da superfície do cubo.</em>
+                        Youtube, 2024. Acesso em: 16 dez. 2024.
 
                     </biblio>
 
