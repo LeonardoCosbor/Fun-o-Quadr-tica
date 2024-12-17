@@ -5953,17 +5953,24 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                         <m>f(x)=-x^2+4x-3</m>
                                         <solution>
                                             <p>Calculando o discriminante:</p>
-                                            <me>\Delta=b^2-4ac=(4)^2-4\cdot (-1)\cdot (-3)= 16-12 = 4.</me>
+                                            <md>
+                                                <mrow>\Delta \amp =b^2-4ac</mrow>
+                                                <mrow> \amp =(4)^2-4\cdot (-1)\cdot (-3)</mrow>
+                                                <mrow> \amp = 16-12</mrow>
+                                                <mrow> \amp = 4</mrow>
+                                            </md>
                                             Logo, temos que os valores de x são:
                                             <md>
-                                            <mrow>x=\dfrac{-b\pm\sqrt\Delta}{2a}</mrow>
+                                            <mrow> \amp x=\dfrac{-b\pm\sqrt\Delta}{2a}</mrow>
                                             <mrow>\Rightarrow \amp x=\dfrac{-4\pm\sqrt4}{2\cdot(-1)}</mrow>
-                                            <mrow>\Rightarrow x=\dfrac{-4\pm2}{-2}</mrow>
+                                            <mrow>\Rightarrow \amp x=\dfrac{-4\pm2}{-2}</mrow>
                                             \</md>
                                             Separando em dois casos:
-                                            <m>x_1=\dfrac{-4+2}{-2}=\dfrac{-2}{-2}=1</m>
+                                            <md>
+                                            <mrow>x_1 \amp =\dfrac{-4+2}{-2}=\dfrac{-2}{-2}=1</mrow>
                                             e
-                                            <m>x_2=\dfrac{-4-2}{-2}=\dfrac{-6}{-2}=3</m>
+                                            <mrow>x_2 \amp =\dfrac{-4-2}{-2}=\dfrac{-6}{-2}=3</mrow>
+                                            </md>
                                             Portanto, 1 e 3 são os zeros da função.
                                         </solution>
                                     </li>
