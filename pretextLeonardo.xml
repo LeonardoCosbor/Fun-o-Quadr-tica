@@ -5889,7 +5889,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                             </md>
                                             Logo, temos que os valores de x são:
                                             <md>
-                                            <mrow>x=\dfrac{-b\pm\sqrt\Delta}{2a}</mrow>
+                                            <mrow> \amp x=\dfrac{-b\pm\sqrt\Delta}{2a}</mrow>
                                             <mrow>\Rightarrow \amp x=\dfrac{-(12)\pm\sqrt0}{2\cdot(-1)}</mrow>
                                             <mrow>\Rightarrow \amp x=\dfrac{-12\pm0}{-2}</mrow>
                                             </md>
@@ -5913,16 +5913,28 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                     <m>f(x)=x^2+2x+2</m>
                                         <solution>
                                             <p>Calculando o discriminante:</p>
-                                            <me>\Delta=b^2-4ac=(2)^2-4\cdot 1\cdot 2= 4-8 = -4.</me>
+                                            <md>
+                                                <mrow>\Delta \amp =b^2-4ac</mrow>
+                                                <mrow> \amp =(2)^2-4\cdot 1\cdot 2</mrow>
+                                                <mrow> \amp = 4-8</mrow>
+                                                <mrow> \amp = -4</mrow>
+                                            </md>
                                             Logo, temos que os valores de x são:
                                             <md>
-                                            <mrow>x=\dfrac{-b\pm\sqrt\Delta}{2a}</mrow>
+                                            <mrow> \amp x=\dfrac{-b\pm\sqrt\Delta}{2a}</mrow>
                                             <mrow>\Rightarrow \amp x=\dfrac{-2\pm\sqrt-4}{2}</mrow>
                                             </md>
                                             Separando em dois casos:
-                                            <m>x_1=\dfrac{-2+2i}{2}=-1+i</m>
+                                            <md>
+                                                <mrow>x_1 \amp </mrow>
+                                                <mrow> \amp =\dfrac{-2+2i}{2}</mrow>
+                                                <mrow> \amp =-1+i</mrow>
+                                            </md>
                                             e
-                                            <m>x_2=\dfrac{-2-2i}{2}=-1-i</m>
+                                            <md>
+                                                <mrow>x_2 \amp =\dfrac{-2-2i}{2}</mrow>
+                                                <mrow> \amp =-1-i</mrow>
+                                            </md>
                                             Portanto, <m>-1+i</m> e <m>-1-i</m> são os zeros da função.
                                         </solution>
                                 </li>
