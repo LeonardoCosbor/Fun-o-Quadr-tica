@@ -6090,16 +6090,22 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                         <m>f(x)=2x^2-5x+3</m>
                                         <solution>
                                             <p>
-                                                <me>S=-\dfrac{b}{a}=-\dfrac{(-5)}{2}=\dfrac{5}{2}.</me>
-                                                <me>P=\dfrac{c}{a}=\dfrac{3}{2}</me>
+                                                <md>
+                                                <mrow>S \amp =-\dfrac{b}{a}=-\dfrac{(-5)}{2}=\dfrac{5}{2}.</mrow>
+                                                <mrow>P \amp =\dfrac{c}{a}=\dfrac{3}{2}</mrow>
+                                                </md>
                                                 Temos então que dois números que somados é igual a <m>\dfrac{5}{2}</m>
                                                 e multiplicados é igual a <m>\dfrac{3}{2}</m>. Logo,
-                                                <m>x_1+x_2=\dfrac{5}{2}</m> 
+                                                <md>
+                                                <mrow>x_1+x_2 \amp =\dfrac{5}{2}</mrow> 
                                                 e
-                                                <m>x_1\cdot x_2=\dfrac{3}{2}</m>.
+                                                <mrow>x_1\cdot x_2 \amp =\dfrac{3}{2}</mrow>.
+                                                </md>
                                                 Logo, temos que:
-                                                <m>1+\dfrac{3}{2}=\dfrac{2+3}{2}=\dfrac{5}{2}</m> e 
-                                                <m>1\cdot \dfrac{3}{2}=\dfrac{3}{2}.</m>
+                                                <md>
+                                                <mrow>1+\dfrac{3}{2} \amp =\dfrac{2+3}{2}=\dfrac{5}{2}</mrow> e 
+                                                <mrow>1\cdot \dfrac{3}{2} \amp =\dfrac{3}{2}.</mrow>
+                                                </md>
                                                 Portanto, 1 e <m>=\dfrac{3}{2}</m> são os zeros da função quadrática.
                                             </p>
                                         </solution>
@@ -6108,16 +6114,22 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                         <m>f(x)=-x^2+12x-36</m>
                                         <solution>
                                             <p>
-                                                <me>S=-\dfrac{b}{a}=-\dfrac{(12)}{-1}=12.</me>
-                                                <me>P=\dfrac{c}{a}=\dfrac{-36}{-1}=36</me>
+                                                <md>
+                                                <mrow>S \amp =-\dfrac{b}{a}=-\dfrac{(12)}{-1}=12.</mrow>
+                                                <mrow>P \amp =\dfrac{c}{a}=\dfrac{-36}{-1}=36.</mrow>
+                                                </md>
                                                 Temos então que dois números que somados é igual a 12 
                                                 e multiplicados é igual a 36. Logo,
-                                                <m>x_1+x_2=12</m> 
+                                                <md>
+                                                <mrow>x_1+x_2 \amp =12</mrow> 
                                                 e
-                                                <m>x_1\cdot x_2=36</m>
+                                                <mrow>x_1\cdot x_2 \amp =36</mrow>
+                                                </md>
                                                 Logo, temos que:
-                                                <m>6+6=12</m> e 
-                                                <m>6\cdot 6=36.</m>
+                                                <md>
+                                                <mrow>6+6 \amp =12</mrow> e 
+                                                <mrow>6\cdot 6 \amp =36.</mrow>
+                                                </md>
                                                 Portanto, 6 é o zero da função quadrática.
                                             </p>
                                         </solution>
