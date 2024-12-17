@@ -5149,13 +5149,15 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                         Logo, 
                         <me>f(-4)=(-4+1)^2-4=9-4=5</me>
                         Assim, para um valor de <m>x=-4</m> temos <m>y=5</m>. Veja outros valores:
-                        <me>f(-3)=(-3+1)^2-4=4-4=0</me>
-                        <me>f(-2)=(-2+1)^2-4=1-4=-3</me>
-                        <me>f(-1)=(-1+1)^2-4=0-4=-4</me>
-                        <me>f(0)=(0+1)^2-4=1-4=-3</me>
-                        <me>f(1)=(1+1)^2-4=4-4=0</me>
-                        <me>f(2)=(2+1)^2-4=9-4=5</me>
-                                        
+                        <md>
+                            <mrow>f(-3) \amp =(-3+1)^2-4=4-4=0</mrow>
+                            <mrow>f(-2) \amp =(-2+1)^2-4=1-4=-3</mrow>
+                            <mrow>f(-1) \amp =(-1+1)^2-4=0-4=-4</mrow>
+                            <mrow>f(0) \amp =(0+1)^2-4=1-4=-3</mrow>
+                            <mrow>f(1) \amp =(1+1)^2-4=4-4=0</mrow>
+                            <mrow>f(2) \amp =(2+1)^2-4=9-4=5</mrow>
+                        </md>
+                        
                     Note que temos algumas coincidências que podem ser explicadas pelo eixo de 
                     simetria da parábola que é <m>x=1</m>, cujos valores distintos de x que estão à mesma distância 
                     do eixo de simetria, quando substituidos na fórmula da função, têm como resultado
