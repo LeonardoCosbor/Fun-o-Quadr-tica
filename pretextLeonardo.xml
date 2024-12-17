@@ -6067,10 +6067,12 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                     o que implica dizer que o produto das raízes da equação <m>ax^2+bx+c=0</m> é dado por <m>\dfrac{c}{a}</m>.</p>
                                         <p>
                                             Sejam <m>x_1=\dfrac{-b-\sqrt\Delta}{2a}</m> e <m>x_2=\dfrac{-b+\sqrt\Delta}{2a}</m>, então
-                                            <me>x_1\cdot x_2=\left(\dfrac{-b-\sqrt\Delta}{2a}\right)\cdot \left(\dfrac{-b+\sqrt\Delta}{2a}\right)</me>
-                                            <me>\dfrac{b^2-\Delta}{4a^2}</me>
-                                            <me>\dfrac{b^2-b^2+4ac}{4a^2}</me>
-                                            <me>\dfrac{c}{a}</me>
+                                            <md>
+                                                <mrow>x_1\cdot x_2 \amp =\left(\dfrac{-b-\sqrt\Delta}{2a}\right)\cdot \left(\dfrac{-b+\sqrt\Delta}{2a}\right)</mrow>
+                                                <mrow> \amp \dfrac{b^2-\Delta}{4a^2}</mrow>
+                                                <mrow> \amp \dfrac{b^2-b^2+4ac}{4a^2}</mrow>
+                                                <mrow> \amp \dfrac{c}{a}</mrow>
+                                            </md>
                                             Portando, <m>x_1\cdot x_2=\dfrac{c}{a}</m>.
                                         </p>
                                     </li>
