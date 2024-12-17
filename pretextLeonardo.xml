@@ -5656,11 +5656,13 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                         <p>
                                             <m>f(x)=3x^2</m>
                                                 <solution>
-                                                    <me>3x^2=0</me>
-                                                    <me>\Rightarrow \amp x^2=0/3</me>
-                                                    <me>\Rightarrow \amp x^2=0</me>
-                                                    <me>\Rightarrow \amp x=\pm\sqrt0</me>
-                                                    <me>\Rightarrow \amp x=0</me>
+                                                    <md>
+                                                    <mrow> \amp 3x^2=0 </mrow>
+                                                    <mrow>\Rightarrow \amp x^2=0/3</mrow>
+                                                    <mrow>\Rightarrow \amp x^2=0</mrow>
+                                                    <mrow>\Rightarrow \amp x=\pm\sqrt0</mrow>
+                                                    <mrow>\Rightarrow \amp x=0</mrow>
+                                                    </md>
                                                     Portanto, 0 é o <alert>zero da função quadrática</alert>.
                                                 </solution>
                                         </p>
