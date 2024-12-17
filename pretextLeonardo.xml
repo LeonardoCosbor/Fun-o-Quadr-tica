@@ -5677,10 +5677,12 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                         <p>
                                             <m>f(x)=x^2-4</m>
                                                 <solution>
-                                                    <me>x^2-4=0</me>
-                                                    <me>\Rightarrow \amp x^2=4</me>
-                                                    <me>\Rightarrow \amp x=\pm\sqrt4</me>
-                                                    <me>\Rightarrow \amp x=\pm2</me>
+                                                    <md>
+                                                    <mrow> \amp x^2-4=0</mrow>
+                                                    <mrow>\Rightarrow \amp x^2=4</mrow>
+                                                    <mrow>\Rightarrow \amp x=\pm\sqrt4</mrow>
+                                                    <mrow>\Rightarrow \amp x=\pm2</mrow>
+                                                    </md>
                                                     Portanto, -2 e 2 são os <alert>zeros da função quadrática</alert>
                                                 </solution>
                                         </p>
