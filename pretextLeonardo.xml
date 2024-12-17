@@ -5307,7 +5307,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                         Seja a função <m>f(x)=-(x-3)^2+9</m>. Determine x sabendo que <m>f(x)=-16</m>.
                     </p>
                     <md>
-                    <mrow>-(x-3)^2+9=-16</mrow>
+                    <mrow> \amp -(x-3)^2+9=-16</mrow>
                     <mrow>\Rightarrow \amp (x-3)^2-9=16</mrow>
                     <mrow>\Rightarrow \amp (x-3)^2=16+9</mrow>
                     <mrow>\Rightarrow \amp (x-3)^2=25</mrow>
@@ -5318,14 +5318,14 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                     <sidebyside>
                         <p>
                             <md>
-                            <mrow>x-3=5</mrow>
+                            <mrow> \amp x-3=5</mrow>
                             <mrow>\Rightarrow \ amp x=5+3</mrow>
                             <mrow>\Rightarrow \ amp x=8</mrow>
                             </md>
                         </p>
                         <p>
                             <md>
-                            <mrow>x-3=-5</mrow>
+                            <mrow> \amp x-3=-5</mrow>
                             <mrow>\Rightarrow \amp x=-5+3</mrow>
                             <mrow>\Rightarrow \amp x=-2</mrow>
                             </md>
@@ -5348,24 +5348,24 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                     <solution>
                         <p>
                             <md>
-                            <mrow>3(x-2)^2=75</mrow>
-                            <mrow>\Rightarrow(x-2)^2=\dfrac{75}{3}</mrow>
-                            <mrow>\Rightarrow(x-2)^2=25</mrow>
-                            <mrow>\Rightarrow x-2=\pm\sqrt25</mrow>
-                            <mrow>\Rightarrow x-2=\pm5</mrow>
+                            <mrow> \amp 3(x-2)^2=75</mrow>
+                            <mrow>\Rightarrow \amp (x-2)^2=\dfrac{75}{3}</mrow>
+                            <mrow>\Rightarrow \amp (x-2)^2=25</mrow>
+                            <mrow>\Rightarrow \amp x-2=\pm\sqrt25</mrow>
+                            <mrow>\Rightarrow \amp x-2=\pm5</mrow>
                             </md>
                             Abrindo em dois casos:
                             <sidebyside>
                                 <p>
                                     <md>
-                                    <me>x-2=-5</me>
+                                    <me> \amp x-2=-5</me>
                                     <me>\Rightarrow \amp x=-5+2</me>
                                     <me>\Rightarrow \amp x=-3</me>
                                     </md>
                                 </p>
                                 <p>
                                     <md>
-                                    <mrow>x-2=5</mrow>
+                                    <mrow> \amp x-2=5</mrow>
                                     <mrow>\Rightarrow \amp x=5+2</mrow>
                                     <mrow>\Rightarrow \amp x=7</mrow>
                                     </md>    
@@ -5385,7 +5385,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                     <solution>
                         <p>
                             <md>
-                            <mrow>-\dfrac{1}{2}(x-2)^2-3=-3</mrow>
+                            <mrow> \amp -\dfrac{1}{2}(x-2)^2-3=-3</mrow>
                             <mrow>\Rightarrow \amp -\dfrac{1}{2}(x-2)^2=-3+3</mrow>
                             <mrow>\Rightarrow \amp -\dfrac{1}{2}(x-2)^2=0</mrow>
                             <mrow>\Rightarrow \amp (x-2)^2=\dfrac{0}{-\dfrac{1}{2}}</mrow>
@@ -5441,7 +5441,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                     <li>
                         Para <m>f(x)=(x+1)^2-4</m>, faremos <m>f(x)=0</m>. Logo,
                         <md>
-                        <mrow>(x+1)^2-4=0</mrow>
+                        <mrow> \amp (x+1)^2-4=0</mrow>
                         <mrow>\Rightarrow \amp (x+1)^2=4</mrow>
                         <mrow>\Rightarrow \amp x+1=\pm\sqrt4</mrow>
                         <mrow>\Rightarrow \amp x+1=\pm2</mrow>
@@ -5450,14 +5450,14 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                         <sidebyside>
                             <p>
                                 <md>
-                                <mrow>x+1=2</mrow>
+                                <mrow> \amp x+1=2</mrow>
                                 <mrow>\Rightarrow \amp x=2-1</mrow>
                                 <mrow>\Rightarrow \amp x=1</mrow>
                                 </md>
                             </p>
                             <p>
                                 <md>
-                                    <mrow>x+1=-2</mrow>
+                                    <mrow> \amp x+1=-2</mrow>
                                     <mrow>\Rightarrow \amp x=-2-1</mrow>
                                     <mrow>\Rightarrow \amp x=-2-1 \amp </mrow>
                                     <mrow>\Rightarrow \amp x=-3 </mrow>
@@ -5469,24 +5469,24 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                     <li>
                         Para <m>f(x)=-(x-3)^2+9</m>, faremos <m>f(x)=0</m>. Logo,
                         <md>
-                        <mrow>-(x-3)^2+9=0</mrow>
+                        <mrow> \amp -(x-3)^2+9=0</mrow>
                         <mrow>\Rightarrow \amp -(x-3)^2=-9 \cdot(-1)</mrow>
                         <mrow>\Rightarrow \amp (x-3)^2=9</mrow>
                         <mrow>\Rightarrow \amp x-3=\pm\sqrt9</mrow>
-                        <mrow>\Rightarrow x-3= \pm3</mrow>
+                        <mrow>\Rightarrow \amp x-3= \pm3</mrow>
                         </md>
                         Abrindo em 2 casos, temos que:
                         <sidebyside>
                             <p>
                                 <md>
-                                <mrow>x-3=3</mrow>
+                                <mrow> \amp x-3=3</mrow>
                                 <mrow>\Rightarrow \amp x=3+3</mrow>
                                 <mrow>\Rightarrow \amp x=6</mrow>
                                 </md>
                             </p>
                             <p>
                                 <md>
-                                <mrow>x-3=-3</mrow>
+                                <mrow> \amp x-3=-3</mrow>
                                 <mrow>\Rightarrow \amp x=-3+3</mrow>
                                 <mrow>\Rightarrow  \amp x=0</mrow>
                                 </md>
@@ -5497,7 +5497,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                     <li>
                         Para <m>f(x)=3\cdot(x-2)^2</m>, faremos <m>f(x)=0</m>. Logo,
                         <md>
-                        <mrow>3\cdot(x-2)^2= 0</mrow>
+                        <mrow> \amp 3\cdot(x-2)^2= 0</mrow>
                         <mrow>\Rightarrow \amp (x-2)^2=0</mrow>
                         <mrow>\Rightarrow \amp x-2=\pm\sqrt0</mrow>
                         <mrow>\Rightarrow \amp x-2=0</mrow>
@@ -5508,7 +5508,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                     <li>
                         Para <m>f(x)=-\dfrac{1}{2}(x-2)^2-3</m>, faremos <m>f(x)=0</m>. Logo,
                         <md>
-                            <mrow>-\dfrac{1}{2}(x-2)^2-3= 0</mrow>
+                            <mrow> \amp -\dfrac{1}{2}(x-2)^2-3= 0</mrow>
                             <mrow>\Rightarrow \amp -\dfrac{1}{2}(x-2)^2= 3</mrow>
                             <mrow>\Rightarrow \amp (x-2)^2= -6</mrow>
                             <mrow>\Rightarrow \amp x-2= \pm\sqrt-6</mrow>
@@ -5578,7 +5578,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                 <solution>
                                     <p>
                                     <md>
-                                        <mrow>g(x)=0</mrow>
+                                        <mrow> \amp g(x)=0</mrow>
                                         <mrow>\Rightarrow \amp -4(x-3)^2=0</mrow>
                                         <mrow>\Rightarrow \amp (x-3)^2=\dfrac{0}{-4}</mrow>
                                         <mrow>\Rightarrow \amp (x-3)^2=0</mrow>
@@ -5596,7 +5596,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                 <solution>
                                 <p>
                                     <md>
-                                    <mrow>h(x)=0</mrow>
+                                    <mrow> \amp h(x)=0</mrow>
                                     <mrow>\Rightarrow \amp -(x-3)^2-2=0</mrow>
                                     <mrow>\Rightarrow \amp -(x-3)^2=2</mrow>
                                     <mrow>\Rightarrow \amp (x-3)^2=\dfrac{2}{-1}</mrow>
