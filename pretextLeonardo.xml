@@ -5926,8 +5926,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                             </md>
                                             Separando em dois casos:
                                             <md>
-                                                <mrow>x_1 \amp </mrow>
-                                                <mrow> \amp =\dfrac{-2+2i}{2}</mrow>
+                                                <mrow>x_1 \amp =\dfrac{-2+2i}{2}</mrow>
                                                 <mrow> \amp =-1+i</mrow>
                                             </md>
                                             e
