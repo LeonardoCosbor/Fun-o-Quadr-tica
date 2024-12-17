@@ -5858,14 +5858,22 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                             </md>
                                             Logo, temos que os valores de x são:
                                             <md>
-                                            <mrow>x=\dfrac{-b\pm\sqrt\Delta}{2a}</mrow>
+                                            <mrow> \amp x=\dfrac{-b\pm\sqrt\Delta}{2a}</mrow>
                                             <mrow>\Rightarrow \amp x=\dfrac{-(-5)\pm\sqrt1}{2\cdot2}</mrow>
                                             <mrow>\Rightarrow \amp x=\dfrac{5\pm1}{4}</mrow>
                                             </md>
                                             Separando em dois casos:
-                                            <m>x_1=\dfrac{5+1}{4}=\dfrac{6}{4}=\dfrac{3}{2}</m>
+                                            <md>
+                                                <mrow>x_1 \amp =\dfrac{5+1}{4}</mrow>
+                                                <mrow> \amp =\dfrac{6}{4}</mrow>
+                                                <mrow> \amp =\dfrac{3}{2}</mrow>
+                                            </md>
                                             e
-                                            <m>x_2=\dfrac{5-1}{4}=\dfrac{4}{4}=1</m>
+                                            <md>
+                                                <mrow>x_2 \amp =\dfrac{5-1}{4}</mrow>
+                                                <mrow> \amp =\dfrac{4}{4}</mrow>
+                                                <mrow> \amp =1</mrow>
+                                            </md>
                                             Portanto, 1 e <m>=\dfrac{3}{2}</m> são os zeros da função.
                                         </solution>
                                 </li>
@@ -5873,7 +5881,12 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                     <m>f(x)=-x^2+12x-36</m>
                                         <solution>
                                             <p>Calculando o discriminante:</p>
-                                            <me>\Delta=b^2-4ac=(12)^2-4\cdot (-1)\cdot (-36)= 144-144 = 0.</me>
+                                            <md>
+                                                <mrow>\Delta \amp =b^2-4ac</mrow>
+                                                <mrow> \amp =(12)^2-4\cdot (-1)\cdot (-36)</mrow>
+                                                <mrow> \amp = 144-144</mrow>
+                                                <mrow> \amp = 0</mrow>
+                                            </md>
                                             Logo, temos que os valores de x são:
                                             <md>
                                             <mrow>x=\dfrac{-b\pm\sqrt\Delta}{2a}</mrow>
@@ -5881,9 +5894,18 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                             <mrow>\Rightarrow \amp x=\dfrac{-12\pm0}{-2}</mrow>
                                             </md>
                                             Separando em dois casos:
-                                            <m>x_1=\dfrac{-12+0}{-2}=\dfrac{-12}{-2}=6</m>
+                                            <md>
+                                                <mrow>x_1 \amp =\dfrac{-12+0}{-2}</mrow>
+                                                <mrow> \amp =\dfrac{-12}{-2}</mrow>
+                                                <mrow> \amp =6</mrow>
+                                            </md>
+                                            <m></m>
                                             e
-                                            <m>x_2=\dfrac{-12-0}{-2}=\dfrac{-12}{-2}=6</m>
+                                            <md>
+                                                <mrow>x_2 \amp =\dfrac{-12-0}{-2}</mrow>
+                                                <mrow> \amp =\dfrac{-12}{-2}</mrow>
+                                                <mrow> \amp =6</mrow>
+                                            </md>
                                             Portanto, 6 é o zero da função.
                                         </solution>
                                 </li>
