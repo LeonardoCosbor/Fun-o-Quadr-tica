@@ -5964,7 +5964,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                             <mrow> \amp x=\dfrac{-b\pm\sqrt\Delta}{2a}</mrow>
                                             <mrow>\Rightarrow \amp x=\dfrac{-4\pm\sqrt4}{2\cdot(-1)}</mrow>
                                             <mrow>\Rightarrow \amp x=\dfrac{-4\pm2}{-2}</mrow>
-                                            \</md>
+                                            </md>
                                             Separando em dois casos:
                                             <md>
                                             <mrow>x_1 \amp =\dfrac{-4+2}{-2}=\dfrac{-2}{-2}=1</mrow>
