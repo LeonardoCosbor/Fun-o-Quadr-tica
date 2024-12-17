@@ -6054,10 +6054,11 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                         ou seja, a soma das raízes da equação <m>ax^2+bx+c=0</m> é dada por <m>−\dfrac{b}{a}</m>.</p>
                                         <p>
                                             Sejam <m>x_1=\dfrac{-b-\sqrt\Delta}{2a}</m> e <m>x_2=\dfrac{-b+\sqrt\Delta}{2a}</m>, então
-                                            
-                                            <me>x_1+x_2=\dfrac{-b-\sqrt\Delta}{2a}+\dfrac{-b+\sqrt\Delta}{2a}</me>
-                                            <me>=\dfrac{-2b}{2a}</me>
-                                            <me>=-\dfrac{b}{a}</me>
+                                            <md>
+                                                <mrow>x_1+x_2 \amp =\dfrac{-b-\sqrt\Delta}{2a}+\dfrac{-b+\sqrt\Delta}{2a}</mrow>
+                                                <mrow> \amp =\dfrac{-2b}{2a}</mrow>
+                                                <mrow> \amp =-\dfrac{b}{a}</mrow>
+                                            </md>
                                             Portanto, <m>x_1+x_2=-\dfrac{b}{a}.</m>
                                         </p>
                                     </li>
