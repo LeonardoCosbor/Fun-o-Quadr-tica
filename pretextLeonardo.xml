@@ -4926,6 +4926,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                 <p>
                                     <video youtube="qFgj8iunPWo"/>
                                 </p>
+                                <legend>Fonte: <xref ref="ref-22"/></legend>
                                 <p> 
                                     Observe que no vídeo o professor usa <m>k=f(m)</m>, o que não está errado, pois 
                                     <m>k</m> é a imagem do vértice da parábola quando <m>x=m</m>. Logo, podemos optar por esta
@@ -5084,10 +5085,12 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                         possui seu ponto de mínimo no eixo x.</p>
                         <solution>
                             <p>Passando a função da forma padrão para a canônica, temos:</p>
-                            <me>f(x)=2\left(x-\dfrac{(-28)}{2\cdot2}\right)^2+\dfrac{4\cdot2\cdot98-28^2}{4\cdot2}</me>
-                            <me>f(x)=2\left(x-\dfrac{(-28)}{4}\right)^2+\dfrac{784-784}{8}</me>
-                            <me>f(x)=2(x+7)^2+0</me>
-                            <me>f(x)=2(x+7)^2</me>
+                            <md>
+                                <mrow>f(x) \amp =2\left(x-\dfrac{(-28)}{2\cdot2}\right)^2+\dfrac{4\cdot2\cdot98-28^2}{4\cdot2}</mrow>
+                                <mrow>f(x) \amp =2\left(x-\dfrac{(-28)}{4}\right)^2+\dfrac{784-784}{8}</mrow>
+                                <mrow>f(x) \amp =2(x+7)^2+0</mrow>
+                                <mrow>f(x) \amp =2(x+7)^2</mrow>
+                            </md>
                             <p>Note que função possui <m>k=0</m>. Isto quer dizer que o vértice da função não está nem acima
                             nem abaixo do eixo x. Portanto, a função quadrática <m>f(x)=2(x+7)^2</m> possui seu ponto de mínimo
                             sobre o eixo x.</p>
@@ -7715,6 +7718,11 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                         Ciclo Vivo, 2017. Disponível em: 
                         <url href="https://ciclovivo.com.br/inovacao/tecnologia/fogao-portatil-e-movido-a-energia-solar/" 
                         visual="www.ciclovivo.com.br">www.ciclovido.com.br</url>. Acesso em: 16 dez. 2024.
+                    </biblio>
+
+                    <biblio xml:id="ref-22"> 
+                        Feitosa, Ailton. <em>Escreva na forma canônica</em>. 
+                        Youtube, 2024. Acesso em: 16 dez. 2024.
                     </biblio>
         </section>
 
