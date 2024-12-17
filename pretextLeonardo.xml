@@ -5279,11 +5279,11 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                 </p>
                 <p>Vamos solucionar o problema resolvendo a equação <m>(x+1)^2-4=5</m>. Logo,
                     <md>
-                        <mrow>(x+1)^2-4= \amp 5</mrow>
-                        <mrow>\Rightarrow(x+1)^2= \amp 5+4</mrow>
-                        <mrow>\Rightarrow(x+1)^2= \amp 9</mrow>
-                        <mrow>\Rightarrow x+1= \amp \pm\sqrt9</mrow>
-                        <mrow>\Rightarrow x+1= \amp \pm3</mrow>
+                        <mrow> \amp (x+1)^2-4=5</mrow>
+                        <mrow>\Rightarrow \amp (x+1)^2=5+4</mrow>
+                        <mrow>\Rightarrow \amp (x+1)^2=9</mrow>
+                        <mrow>\Rightarrow \amp x+1=\pm\sqrt9</mrow>
+                        <mrow>\Rightarrow \amp x+1=\pm3</mrow>
                     </md>
                         Vamos abrir em duas duas possibilidades:
                     <sidebyside>
