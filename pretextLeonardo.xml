@@ -6013,7 +6013,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                             <md>
                                             <mrow> \amp x=\dfrac{-b\pm\sqrt\Delta}{2a}</mrow>
                                             <mrow>\Rightarrow \amp x=\dfrac{-5\pm\sqrt(-7)}{2\cdot2}</mrow>
-                                            <mrow>\Rightarrow x=\dfrac{-5\pm\sqrt7i}{4}</mrow>
+                                            <mrow>\Rightarrow \amp x=\dfrac{-5\pm\sqrt7i}{4}</mrow>
                                             </md>
                                             Separando em dois casos:
                                             <md>
