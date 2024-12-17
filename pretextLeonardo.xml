@@ -5978,17 +5978,24 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                         <m>g(x)=x^2-4x+4</m>
                                         <solution>
                                             <p>Calculando o discriminante:</p>
-                                            <me>\Delta=b^2-4ac=(-4)^2-4\cdot 1\cdot 4= 16-16 = 0.</me>
+                                            <md>
+                                            <mrow>\Delta \amp =b^2-4ac</mrow>
+                                            <mrow> \amp =(-4)^2-4\cdot 1\cdot 4</mrow>
+                                            <mrow> \amp = 16-16 </mrow>
+                                            <mrow> \amp = 0</mrow>
+                                            </md>
                                             Logo, temos que os valores de x são:
                                             <md>
-                                            <mrow>x=\dfrac{-b\pm\sqrt\Delta}{2a}</mrow>
+                                            <mrow> \amp x=\dfrac{-b\pm\sqrt\Delta}{2a}</mrow>
                                             <mrow>\Rightarrow \amp x=\dfrac{-(-4)\pm\sqrt0}{2\cdot1}</mrow>
                                             <mrow>\Rightarrow x=\dfrac{4\pm0}{2}</mrow>
                                             </md>
                                             Separando em dois casos:
-                                            <m>x_1=\dfrac{4+0}{2}=\dfrac{4}{2}=2</m>
+                                            <md>
+                                            <mrow>x_1 \amp =\dfrac{4+0}{2}=\dfrac{4}{2}=2</mrow>
                                             e
-                                            <m>x_2=\dfrac{4-0}{2}=\dfrac{4}{2}=2</m>
+                                            <mrow>x_2 \amp =\dfrac{4-0}{2}=\dfrac{4}{2}=2</mrow>
+                                            </md>
                                             Portanto, 2 é o zero da função.
                                         </solution>
                                     </li>
@@ -5996,17 +6003,24 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                         <m>h(x)=2x^2+5x+4</m>
                                         <solution>
                                             <p>Calculando o discriminante:</p>
-                                            <me>\Delta=b^2-4ac=(-5)^2-4\cdot 2\cdot 4= 25-32 = -7.</me>
+                                            <md>
+                                            <mrow>\Delta \amp =b^2-4ac</mrow>
+                                            <mrow> \amp =(-5)^2-4\cdot 2\cdot 4</mrow> 
+                                            <mrow> \amp = 25-32 </mrow>
+                                            <mrow> \amp = -7.</mrow>
+                                            </md>
                                             Logo, temos que os valores de x são:
                                             <md>
-                                            <mrow>x=\dfrac{-b\pm\sqrt\Delta}{2a}</mrow>
+                                            <mrow> \amp x=\dfrac{-b\pm\sqrt\Delta}{2a}</mrow>
                                             <mrow>\Rightarrow \amp x=\dfrac{-5\pm\sqrt(-7)}{2\cdot2}</mrow>
                                             <mrow>\Rightarrow x=\dfrac{-5\pm\sqrt7i}{4}</mrow>
                                             </md>
                                             Separando em dois casos:
-                                            <m>x_1=\dfrac{-5+\sqrt7i}{4}</m>
+                                            <md>
+                                            <mrow>x_1 \amp =\dfrac{-5+\sqrt7i}{4}</mrow>
                                             e
-                                            <m>x_2=\dfrac{-5-\sqrt7i}{4}</m>
+                                            <mrow>x_2 \amp =\dfrac{-5-\sqrt7i}{4}</mrow>
+                                            </md>
                                             Portanto, <m>\dfrac{-5+\sqrt7i}{4}</m> e 
                                             <m>x_2=\dfrac{-5-\sqrt7i}{4}</m> são as raízes complexas da função.
                                         </solution>
