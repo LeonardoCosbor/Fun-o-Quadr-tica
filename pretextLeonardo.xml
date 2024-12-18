@@ -5318,9 +5318,9 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                     <sidebyside>
                         <p>
                             <md>
-                            <mrow> \amp x-3=5</mrow>
-                            <mrow>\Rightarrow \ amp x=5+3</mrow>
-                            <mrow>\Rightarrow \ amp x=8</mrow>
+                            <mrow> \amp x-3=5 </mrow>
+                            <mrow>\Rightarrow \amp x=5+3 </mrow>
+                            <mrow>\Rightarrow \amp x=8 </mrow>
                             </md>
                         </p>
                         <p>
@@ -5413,17 +5413,17 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                     e 1 são os <alert>zeros da função quadrática</alert>.
                 </p>
                 <p>
-                    Analogamente, para o segundo exemplo (<xref ref="E1"/>), na função quadrática <m>f(x)=-(x-3)^2+9</m>,
+                    Analogamente, na função quadrática <m>f(x)=-(x-3)^2+9</m>,
                     para <m>x=0</m> e <m>x=6</m>, temos que <m>f(0)=0</m> e <m>f(6)=0</m>. Logo, 0 e 6 são os 
                     <alert>zeros da função quadrática</alert>.
                 </p>
                 <p>
-                    Da mesma forma, para o terceiro exemplo (<xref ref="A1"/>), na função quadrática <m>f(x)=3(x-2)^2</m>,
+                    Da mesma forma, na função quadrática <m>f(x)=3(x-2)^2</m>,
                     para <m>x=2</m>, temos que <m>f(2)=0</m>. Assim, 2 é o <alert>zero da função 
                     quadrática</alert>.
                 </p>
                 <p>
-                    Por fim, para o quarto exemplo (<xref ref="A2"/>), na função quadrática <m>f(x)=-\dfrac{1}{2}(x-2)^2-3</m>,
+                    Por fim, na função quadrática <m>f(x)=-\dfrac{1}{2}(x-2)^2-3</m>,
                     não é possível encontrar um valor de x tal que <m>f(x)=0</m>. Portanto, essa Função
                     não têm <alert>zeros</alert> reais.
                 </p>    
@@ -5834,7 +5834,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                             <theorem>
                                 <statement>
                                     <p>
-                                        Dada a função quadrática <m>f(x)=ax^2+bx+x</m>, seus zeros são dados
+                                        Dada a função quadrática <m>f(x)=ax^2+bx+c</m>, seus zeros são dados
                                         por <m>x=\dfrac{-b\pm\sqrt\Delta}{2a}</m>. O valor de <m>b^2-4ac</m> é
                                         chamado discriminante, <m>\Delta</m>, e a função tem duas raízes se 
                                         <m>\Delta&gt;0</m>, uma raíz (dupla) se <m>\Delta=0</m> e duas raízes 
@@ -6069,9 +6069,9 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                             Sejam <m>x_1=\dfrac{-b-\sqrt\Delta}{2a}</m> e <m>x_2=\dfrac{-b+\sqrt\Delta}{2a}</m>, então
                                             <md>
                                                 <mrow>x_1\cdot x_2 \amp =\left(\dfrac{-b-\sqrt\Delta}{2a}\right)\cdot \left(\dfrac{-b+\sqrt\Delta}{2a}\right)</mrow>
-                                                <mrow> \amp \dfrac{b^2-\Delta}{4a^2}</mrow>
-                                                <mrow> \amp \dfrac{b^2-b^2+4ac}{4a^2}</mrow>
-                                                <mrow> \amp \dfrac{c}{a}</mrow>
+                                                <mrow> \amp = \dfrac{b^2-\Delta}{4a^2}</mrow>
+                                                <mrow> \amp = \dfrac{b^2-b^2+4ac}{4a^2}</mrow>
+                                                <mrow> \amp = \dfrac{c}{a}</mrow>
                                             </md>
                                             Portando, <m>x_1\cdot x_2=\dfrac{c}{a}</m>.
                                         </p>
@@ -6222,17 +6222,23 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                         <m>h(x)=2x^2+5x+4</m>
                                         <solution>
                                             <p>
-                                                <me>S=-\dfrac{b}{a}=-\dfrac{5}{2}.</me>
-                                                <me>P=\dfrac{c}{a}=\dfrac{4}{2}=2</me>
+                                                <md>
+                                                <mrow>S \amp =-\dfrac{b}{a}=-\dfrac{5}{2}.</mrow>
+                                                <mrow>P \amp =\dfrac{c}{a}=\dfrac{4}{2}=2</mrow>
+                                                </md>
                                                 Temos então que dois números que somados seja igual a <m>-\dfrac{5}{2}</m>
                                                 e multiplicados seja igual a 4. Logo,
-                                                <m>x_1+x_2=-\dfrac{5}{2}</m> 
+                                                <md>
+                                                <mrow>x_1+x_2 \amp =-\dfrac{5}{2}</mrow> 
                                                 e
-                                                <m>x_1\cdot x_2=2</m>.
+                                                <mrow>x_1\cdot x_2 \amp =2</mrow>.
+                                                </md>
                                                 Logo, temos que:
-                                                <m>\dfrac{-5-\sqrt7i}{4}+\dfrac{-5+\sqrt7i}{4}=\dfrac{-10}{4}=-\dfrac{5}{2}</m> e 
-                                                <m>\left(\dfrac{-5-\sqrt7i}{4}\right)\cdot\left(\dfrac{-5+\sqrt7i}{4}\right)=\dfrac{(-5)^2-(\sqrt7i)^2}{16}=\dfrac{25+7}{16}=2.</m>
-                                                Portanto, <m>\dfrac{-5-\sqrt7i}{4}</m> e <m><m>\dfrac{-5+\sqrt7i}{4}</m></m> são os zeros da função quadrática.
+                                                <md>
+                                                <mrow>\dfrac{-5-\sqrt7i}{4}+\dfrac{-5+\sqrt7i}{4} \amp =\dfrac{-10}{4}=-\dfrac{5}{2}</mrow> e 
+                                                <mrow>\left(\dfrac{-5-\sqrt7i}{4}\right)\cdot\left(\dfrac{-5+\sqrt7i}{4}\right) \amp =\dfrac{(-5)^2-(\sqrt7i)^2}{16}=\dfrac{25+7}{16}=2.</mrow>
+                                                </md>
+                                                Portanto, <m>\dfrac{-5-\sqrt7i}{4}</m> e <m>\dfrac{-5+\sqrt7i}{4}</m> são os zeros da função quadrática.
                                             </p>
                                         </solution>
                                     </li>
@@ -7334,7 +7340,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                 <ol>
                     <li>
                         <p>
-                            O gráfico da função <m>y =-\dfrac{1}{200}x²+\dfrac{1}{5}x</m>,
+                            (UFPB) O gráfico da função <m>y =-\dfrac{1}{200}x²+\dfrac{1}{5}x</m>,
                             representado na figura a seguir, descreve a trajetória de um projétil,
                             lançado a partir da origem. Sabendo-se que x e y são dados em 
                             quilômetros, determine a altura máxima H deste projétil.
@@ -7343,7 +7349,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                             <solution>
                                 <p>
                                     Como a função quadrática etá na forma padrão, fica mais simples usar a 
-                                    fórmula do y do vértice da função, dada por <m>y_v=-dfrac{\Delta}{4a}</m>.
+                                    fórmula do y do vértice da função, dada por <m>y_v=-\dfrac{\Delta}{4a}</m>.
                                     Logo, temos que
                                     <md>
                                         <mrow>y_v= \amp-\dfrac{\Delta}{4a} </mrow>
@@ -7590,7 +7596,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                             Resolva o seguinte problema: 
                         </p>
                         <p>
-                            Oscar arremessa uma bola de basquete cujo centro segue uma trajetória
+                            (UFRJ) Oscar arremessa uma bola de basquete cujo centro segue uma trajetória
                             plana vertical de equação <m>y = -\dfrac{1}{7}x^2+\dfrac{8}{7}x+2</m>,
                             na qual os valores de x e y são dados em metros. Oscar acerta o arremesso
                             e o centro da bola passa pelo centro da cesta, que está a 3 m de altura. 
@@ -7628,14 +7634,16 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                         </p>
                             <solution>
                                 <p>
-                                    <me>\Delta&gt;0</me>
-                                    <me>(-8)^2-4\cdot1\cdot(3m-2)&gt;0</me>
-                                    <me>64-12m+8&gt;0</me>
-                                    <me>72-12m&gt;0</me>
-                                    <me>-12m&gt;-72</me>
-                                    <me>12m&lt;72</me>
-                                    <me>m&lt;\dfrac{72}{12}</me>
-                                    <me>m&lt;6</me>
+                                    <md>
+                                    <mrow>\Delta \amp &gt;0</mrow>
+                                    <mrow>(-8)^2-4\cdot1\cdot(3m-2) \amp &gt;0 </mrow>
+                                    <mrow>64-12m+8 \amp &gt;0</mrow>
+                                    <mrow>72-12m \amp &gt;0</mrow>
+                                    <mrow>-12m \amp &gt;-72</mrow>
+                                    <mrow>12m \amp &lt;72</mrow>
+                                    <mrow>m \amp &lt;\dfrac{72}{12}</mrow>
+                                    <mrow>m \amp &lt;6</mrow>
+                                    </md>
                                 </p>
                                 <p>
                                     Veja o gráfico interativo quando mudamos os valores de m
@@ -7687,6 +7695,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                                 <li>Qual foi a alturma máxima atingida pelo rojão?</li>
                             </ol>
                         </p>
+                        <legend>Fonte: <xref ref="ref-23"/></legend>
                             <solution>
                                 <p>
                                     Para saber se o rojão atirado por Pedro caiu antes ou depois
@@ -7849,6 +7858,13 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                     <biblio xml:id="ref-22"> 
                         Feitosa, Ailton. <em>Escreva na forma canônica</em>. 
                         Youtube, 2024. Acesso em: 16 dez. 2024.
+                    </biblio>
+
+                    <biblio xml:id="ref-23">
+                        <em>Passei Direto</em>.
+                        2024. Disponível em: 
+                        <url href="https://www.passeidireto.com/arquivo/68742350/0-apostila-funcoes" 
+                        visual="www.passeidireto.com">www.passeidireto.com</url>. Acesso em: 17 dez. 2024.
                     </biblio>
         </section>
 
