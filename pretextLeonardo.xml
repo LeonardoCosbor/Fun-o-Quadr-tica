@@ -92,7 +92,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
             <sidebyside>
                 <p>
                     <figure>
-                        <image width="30%" source="creative.png"/>
+                        <image source="creative.png"/>
                     </figure>
                 </p>
                 <p>Este trabalho está licenciado sob CC BY-NC-SA 4.0. 
