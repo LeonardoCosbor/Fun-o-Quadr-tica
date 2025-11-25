@@ -91,7 +91,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                 <p>Atribuição-NãoCommercial-CompartilhaIgual4.0</p>
             <sidebyside>
                 <p>
-                    <figure xml:id="creative">
+                    <figure>
                         <image width="30%" source="creaticecommons.jpg"/>
                     </figure>
                 </p>

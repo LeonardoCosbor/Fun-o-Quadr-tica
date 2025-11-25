@@ -10,9 +10,9 @@ var ptx_lunr_docs = [
   "body": "   Leonardo Costa de Borba    Márcio Rostirolla Adames   Universidade Technológica Federal do Paraná     Este é um ebook interativo e dinâmico para o ensino de função quadrática para o ensino médio. O material foi desenvolvido nos princípios do uso de tecnologia, da interatividade, da análise dos desempenhos dos estudantes em testes de larga escala e recomendações baseadas nesses testes. Do ponto de vista técnico, utilizamos uma linguagem de marcação chamada o PreTeXt, que tem os recursos necessários para produzir materiais interativos, integrando ferramentas como o Desmos e o GeoGebra. Para o desenvolvimento metodológico, levamos em conta os erros e acertos dos estudantes na Prova Paraná, recomendações baseadas nos resultados do PISA, e documentos oficiais como a BNCC e Matrizes de Referência do SAEB. Na produção do material, fomos inspirados nas Metologias Ativas e direcionados pela Taxonomia de Bloom.  Atribuição-NãoCommercial-CompartilhaIgual4.0        Este trabalho está licenciado sob CC BY-NC-SA 4.0. Para ver uma cópia desta licença, visite https:\/\/creativecommons.org\/licenses\/by-nc-sa\/4.0\/    "
 },
 {
-  "id": "creative",
+  "id": "minimal-2-2-3-1-1",
   "level": "2",
-  "url": "minimal-2.html#creative",
+  "url": "minimal-2.html#minimal-2-2-3-1-1",
   "type": "Figura",
   "number": "0.1",
   "title": "",
